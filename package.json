@@ -1,0 +1,24 @@
+{
+  "name": "aws-region-table-parser",
+  "version": "1.0.0",
+  "description": "read and parses aws region table html and returns a json object based on http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/",
+  "main": "index.js",
+  "author": "Balazs Buri",
+  "keywords": [
+    "aws",
+    "amazon",
+    "region table"
+  ],
+  "license" : "MIT",
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "request": "2.72.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/burib/aws-region-table-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/burib/aws-region-table-parser/issues"
+  }
+}
