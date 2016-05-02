@@ -1,4 +1,5 @@
 const regionNames = require('./aws-region-names.js');
+const serviceNames = require('./aws-service-names.js');
 const cheerio = require('cheerio');
 
 function parseAwsTable(html) {
@@ -20,7 +21,11 @@ function parseAwsTable(html) {
             regions.push(region.code || 'unknown');
           });
         } else {
-          const serviceName = coloumns.eq(0).find('a').eq(0).text().toLowerCase().trim().replace(/ /ig, '_').replace('amazon_', '').replace('aws_', '');
+          const serviceKey = coloumns.eq(0).find('a').eq(0).text().trim();
+          if (typeof serviceNames[serviceKey] === "undefined") {
+            console.log(serviceKey);
+          }
+          const serviceName = serviceNames[serviceKey] || serviceKey.toLowerCase().trim().replace(/ /ig, '_').replace('amazon_', '').replace('aws_', '');
           coloumns.each(function (coloumnIndex,coloumn) {
             if (coloumnIndex === 0) {
               services[serviceName] = services[serviceName] || {};
