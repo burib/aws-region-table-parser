@@ -23,6 +23,10 @@ module.exports = {
     'name': 'EU (Ireland)',
     'code': 'eu-west-1'
   },
+  'london' : {
+    'name': 'EU (London)',
+    'code': 'eu-west-2'
+  },
   'frankfurt' : {
     'name': 'EU (Frankfurt)',
     'code': 'eu-central-1'
