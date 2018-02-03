@@ -18,9 +18,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "apigateway": {
+    "api_gateway": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -38,9 +38,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "appstream_2.0": {
+    "appstream_2_0": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": true,
@@ -58,7 +58,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "athena": {
       "us-east-1": true,
@@ -78,9 +78,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "aurora_-_mysql-compatibe": {
+    "aurora_mysql-compatibe": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -89,7 +89,7 @@
       "sa-east-1": false,
       "amazonaws-us-gov": false
     },
-    "aurora_-_postgresql-compatible": {
+    "aurora_postgresql-compatible": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -107,7 +107,7 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "chime": {
       "us-east-1": true,
@@ -127,7 +127,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloud_directory": {
       "us-east-1": true,
@@ -147,7 +147,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloudsearch": {
       "us-east-1": true,
@@ -167,7 +167,7 @@
       "ap-northeast-2": true,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloudwatch": {
       "us-east-1": true,
@@ -187,9 +187,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "events": {
+    "cloudwatch_events": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -207,7 +207,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "cloudwatch_logs": {
       "us-east-1": true,
@@ -227,9 +227,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "cognito-identity": {
+    "cognito": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -247,7 +247,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "comprehend": {
       "us-east-1": true,
@@ -267,7 +267,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "connect": {
       "us-east-1": true,
@@ -287,7 +287,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "deeplens": {
       "us-east-1": true,
@@ -307,7 +307,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "dynamodb": {
       "us-east-1": true,
@@ -327,9 +327,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "dynamodb_accelerator_(dax)": {
+    "dynamodb_accelerator_dax": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": true,
@@ -347,9 +347,9 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "elastic_container_registry_(ecr)": {
+    "elastic_container_registry_ecr": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -367,9 +367,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "elastic_container_service_(ecs)": {
+    "elastic_container_service_ecs": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -387,7 +387,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "elasticache": {
       "us-east-1": true,
@@ -407,9 +407,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "ebs": {
+    "elastic_block_store_ebs": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -427,9 +427,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "ec2": {
+    "elastic_compute_cloud_ec2": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -447,9 +447,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "elastic_file_system_(efs)": {
+    "elastic_file_system_efs": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -467,9 +467,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "elastic-mapreduce": {
+    "elastic_mapreduce": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -487,9 +487,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "es": {
+    "elasticsearch_service": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -507,9 +507,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "elastictranscoder": {
+    "elastic_transcoder": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": true,
@@ -527,7 +527,7 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "fargate": {
       "us-east-1": true,
@@ -547,7 +547,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "freertos": {
       "us-east-1": true,
@@ -567,7 +567,7 @@
       "ap-northeast-2": true,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "gamelift": {
       "us-east-1": true,
@@ -587,7 +587,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "glacier": {
       "us-east-1": true,
@@ -607,7 +607,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "guardduty": {
       "us-east-1": true,
@@ -627,7 +627,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "inspector": {
       "us-east-1": true,
@@ -647,7 +647,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "kinesis_data_analytics": {
       "us-east-1": true,
@@ -667,7 +667,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "kinesis_data_firehose": {
       "us-east-1": true,
@@ -687,7 +687,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "kinesis_data_streams": {
       "us-east-1": true,
@@ -707,7 +707,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "kinesis_video_streams": {
       "us-east-1": true,
@@ -727,7 +727,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "lex": {
       "us-east-1": true,
@@ -747,7 +747,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "lightsail": {
       "us-east-1": true,
@@ -767,9 +767,9 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "machinelearning": {
+    "machine_learning": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": false,
@@ -787,7 +787,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "macie": {
       "us-east-1": true,
@@ -807,9 +807,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "mobileanalytics": {
+    "mobile_analytics": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": false,
@@ -827,7 +827,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "mq": {
       "us-east-1": true,
@@ -847,7 +847,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "neptune": {
       "us-east-1": true,
@@ -867,7 +867,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "pinpoint": {
       "us-east-1": true,
@@ -887,7 +887,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "polly": {
       "us-east-1": true,
@@ -907,7 +907,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "quicksight": {
       "us-east-1": true,
@@ -927,7 +927,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "redshift": {
       "us-east-1": true,
@@ -947,7 +947,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "rekognition_image": {
       "us-east-1": true,
@@ -967,7 +967,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "rekognition_video": {
       "us-east-1": true,
@@ -987,9 +987,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "rds": {
+    "relational_database_service_rds": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1007,7 +1007,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "route_53_auto_naming": {
       "us-east-1": true,
@@ -1027,7 +1027,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "sagemaker": {
       "us-east-1": true,
@@ -1047,7 +1047,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "simpledb": {
       "us-east-1": true,
@@ -1067,9 +1067,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "ses": {
+    "simple_email_service_ses": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": true,
@@ -1087,9 +1087,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "sns": {
+    "simple_notification_service_sns": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1107,9 +1107,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "sqs": {
+    "simple_queue_service_sqs": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1127,9 +1127,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "s3": {
+    "simple_storage_service_s3": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1147,9 +1147,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "swf": {
+    "simple_workflow_service_swf": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1167,7 +1167,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "transcribe": {
       "us-east-1": true,
@@ -1187,7 +1187,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "translate": {
       "us-east-1": true,
@@ -1207,9 +1207,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "vpc": {
+    "virtual_private_cloud_vpc": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1227,7 +1227,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "workdocs": {
       "us-east-1": true,
@@ -1247,7 +1247,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "workmail": {
       "us-east-1": true,
@@ -1267,7 +1267,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "workspaces": {
       "us-east-1": true,
@@ -1287,9 +1287,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "autoscaling": {
+    "auto_scaling": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1307,7 +1307,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "application_discovery_service": {
       "us-east-1": false,
@@ -1327,7 +1327,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "appsync": {
       "us-east-1": false,
@@ -1347,7 +1347,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "batch": {
       "us-east-1": true,
@@ -1367,9 +1367,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "certificate-manager": {
+    "certificate_manager": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1387,7 +1387,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloudformation": {
       "us-east-1": true,
@@ -1407,7 +1407,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "cloud9": {
       "us-east-1": true,
@@ -1427,7 +1427,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloudhsm": {
       "us-east-1": true,
@@ -1447,7 +1447,7 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloudhsm_classic": {
       "us-east-1": true,
@@ -1467,7 +1467,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "cloudtrail": {
       "us-east-1": true,
@@ -1487,7 +1487,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "codebuild": {
       "us-east-1": true,
@@ -1507,7 +1507,7 @@
       "ap-northeast-2": true,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "codecommit": {
       "us-east-1": true,
@@ -1527,7 +1527,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "codedeploy": {
       "us-east-1": true,
@@ -1547,7 +1547,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "codepipeline": {
       "us-east-1": true,
@@ -1567,7 +1567,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "codestar": {
       "us-east-1": true,
@@ -1587,7 +1587,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "config": {
       "us-east-1": true,
@@ -1607,7 +1607,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "database_migration_service": {
       "us-east-1": true,
@@ -1627,9 +1627,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "datapipeline": {
+    "data_pipeline": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": true,
@@ -1647,7 +1647,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "device_farm": {
       "us-east-1": false,
@@ -1667,9 +1667,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "directconnect": {
+    "direct_connect": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1687,9 +1687,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "ds": {
+    "directory_service": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1707,9 +1707,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "elasticbeanstalk": {
+    "elastic_beanstalk": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1727,7 +1727,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "elemental_mediaconvert": {
       "us-east-1": true,
@@ -1747,7 +1747,7 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "elemental_medialive": {
       "us-east-1": true,
@@ -1767,7 +1767,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "elemental_mediapackage": {
       "us-east-1": true,
@@ -1787,7 +1787,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "elemental_mediastore": {
       "us-east-1": true,
@@ -1807,7 +1807,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "elemental_mediatailor": {
       "us-east-1": true,
@@ -1827,7 +1827,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "glue": {
       "us-east-1": true,
@@ -1847,7 +1847,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "greengrass": {
       "us-east-1": true,
@@ -1867,7 +1867,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "iot_core": {
       "us-east-1": true,
@@ -1887,7 +1887,7 @@
       "ap-northeast-2": true,
       "ap-south-1": false,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "iot_1-click": {
       "us-east-1": true,
@@ -1903,7 +1903,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "iot_analytics": {
       "us-east-1": true,
@@ -1923,7 +1923,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "iot_device_management": {
       "us-east-1": true,
@@ -1938,7 +1938,7 @@
       "eu-west-2": true,
       "eu-west-3": false
     },
-    "kms": {
+    "key_management_service": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1956,7 +1956,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "lambda": {
       "us-east-1": true,
@@ -1976,7 +1976,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "managed_services": {
       "us-east-1": true,
@@ -1996,7 +1996,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "marketplace": {
       "us-east-1": true,
@@ -2016,7 +2016,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "migration_hub": {
       "us-east-1": false,
@@ -2036,7 +2036,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "mobile_hub": {
       "us-east-1": true,
@@ -2056,7 +2056,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "opsworks_stacks": {
       "us-east-1": true,
@@ -2076,7 +2076,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "opsworks_for_chef_automate": {
       "us-east-1": true,
@@ -2096,7 +2096,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "opsworks_for_puppet_enterprise": {
       "us-east-1": true,
@@ -2116,7 +2116,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "personal_health_dashboard": {
       "us-east-1": true,
@@ -2136,7 +2136,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "server_migration_service": {
       "us-east-1": true,
@@ -2156,9 +2156,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "servicecatalog": {
+    "service_catalog": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -2176,7 +2176,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "shield_standard": {
       "us-east-1": true,
@@ -2196,7 +2196,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "shield_advanced": {
       "us-east-1": true,
@@ -2216,7 +2216,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "single_sign-on": {
       "us-east-1": true,
@@ -2245,7 +2245,7 @@
       "ap-northeast-2": false,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "snowball_edge": {
       "us-east-1": true,
@@ -2265,7 +2265,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "snowmobile": {
       "us-east-1": true,
@@ -2285,7 +2285,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "step_functions": {
       "us-east-1": true,
@@ -2305,9 +2305,9 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "storagegateway": {
+    "storage_gateway": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -2325,7 +2325,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "sumerian": {
       "us-east-1": true,
@@ -2345,7 +2345,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false,
+      "cn-northwest-1": false,
       "undefined": false
     },
     "support": {
@@ -2366,7 +2366,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "systems_manager": {
       "us-east-1": true,
@@ -2386,7 +2386,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "waf": {
       "us-east-1": true,
@@ -2406,7 +2406,7 @@
       "ap-northeast-2": false,
       "ap-south-1": false,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "x-ray": {
       "us-east-1": true,
@@ -2426,9 +2426,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
-    "elb": {
+    "elastic_load_balancing": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -2446,9 +2446,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "importexport": {
+    "vm_importexport": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -2466,9 +2466,9 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
-    "aurora_-_mysql-compatible": {
+    "aurora_mysql-compatible": {
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
@@ -2479,7 +2479,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "unknown": false
+      "cn-northwest-1": false
     },
     "ec2_systems_manager": {
       "eu-west-1": true,
@@ -2492,7 +2492,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "unknown": true
+      "cn-northwest-1": true
     },
     "1-click": {
       "eu-west-1": true,
@@ -2507,7 +2507,138 @@
       "ap-northeast-2": true,
       "ap-south-1": false,
       "cn-north-1": true,
-      "unknown": false
+      "cn-northwest-1": false
     }
+  },
+  "serviceNames": {
+    "alexa_for_business": "Alexa for Business",
+    "api_gateway": "Amazon API Gateway",
+    "appstream_2_0": "Amazon AppStream 2.0",
+    "athena": "Amazon Athena",
+    "aurora_mysql-compatibe": "Amazon Aurora - MySQL-compatibe",
+    "aurora_postgresql-compatible": "Amazon Aurora - PostgreSQL-compatible",
+    "chime": "Amazon Chime",
+    "cloud_directory": "Amazon Cloud Directory",
+    "cloudsearch": "Amazon CloudSearch",
+    "cloudwatch": "Amazon CloudWatch",
+    "cloudwatch_events": "Amazon CloudWatch Events",
+    "cloudwatch_logs": "Amazon CloudWatch Logs",
+    "cognito": "Amazon Cognito",
+    "comprehend": "Amazon Comprehend",
+    "connect": "Amazon Connect",
+    "deeplens": "Amazon DeepLens",
+    "dynamodb": "Amazon DynamoDB",
+    "dynamodb_accelerator_dax": "Amazon DynamoDB Accelerator (DAX)",
+    "elastic_container_registry_ecr": "Amazon Elastic Container Registry (ECR)",
+    "elastic_container_service_ecs": "Amazon Elastic Container Service (ECS)",
+    "elasticache": "Amazon ElastiCache",
+    "elastic_block_store_ebs": "Amazon Elastic Block Store (EBS)",
+    "elastic_compute_cloud_ec2": "Amazon Elastic Compute Cloud (EC2)",
+    "elastic_file_system_efs": "Amazon Elastic File System (EFS)",
+    "elastic_mapreduce": "Amazon Elastic MapReduce",
+    "elasticsearch_service": "Amazon Elasticsearch Service",
+    "elastic_transcoder": "Amazon Elastic Transcoder",
+    "fargate": "Amazon Fargate",
+    "freertos": "Amazon FreeRTOS",
+    "gamelift": "Amazon GameLift",
+    "glacier": "Amazon Glacier",
+    "guardduty": "Amazon GuardDuty",
+    "inspector": "Amazon Inspector",
+    "kinesis_data_analytics": "Amazon Kinesis Data Analytics",
+    "kinesis_data_firehose": "Amazon Kinesis Data Firehose",
+    "kinesis_data_streams": "Amazon Kinesis Data Streams",
+    "kinesis_video_streams": "Amazon Kinesis Video Streams",
+    "lex": "Amazon Lex",
+    "lightsail": "Amazon Lightsail",
+    "machine_learning": "Amazon Machine Learning",
+    "macie": "Amazon Macie",
+    "mobile_analytics": "Amazon Mobile Analytics",
+    "mq": "Amazon MQ",
+    "neptune": "Amazon Neptune",
+    "pinpoint": "Amazon Pinpoint",
+    "polly": "Amazon Polly",
+    "quicksight": "Amazon QuickSight",
+    "redshift": "Amazon Redshift",
+    "rekognition_image": "Amazon Rekognition Image",
+    "rekognition_video": "Amazon Rekognition Video",
+    "relational_database_service_rds": "Amazon Relational Database Service (RDS)",
+    "route_53_auto_naming": "Amazon Route 53 Auto Naming",
+    "sagemaker": "Amazon Sagemaker",
+    "simpledb": "Amazon SimpleDB",
+    "simple_email_service_ses": "Amazon Simple Email Service (SES)",
+    "simple_notification_service_sns": "Amazon Simple Notification Service (SNS)",
+    "simple_queue_service_sqs": "Amazon Simple Queue Service (SQS)",
+    "simple_storage_service_s3": "Amazon Simple Storage Service (S3)",
+    "simple_workflow_service_swf": "Amazon Simple Workflow Service (SWF)",
+    "transcribe": "Amazon Transcribe",
+    "translate": "Amazon Translate",
+    "virtual_private_cloud_vpc": "Amazon Virtual Private Cloud (VPC)",
+    "workdocs": "Amazon WorkDocs",
+    "workmail": "Amazon WorkMail",
+    "workspaces": "Amazon WorkSpaces",
+    "auto_scaling": "Auto Scaling",
+    "application_discovery_service": "AWS Application Discovery Service",
+    "appsync": "AWS AppSync",
+    "batch": "AWS Batch",
+    "certificate_manager": "AWS Certificate Manager",
+    "cloudformation": "AWS CloudFormation",
+    "cloud9": "AWS Cloud9",
+    "cloudhsm": "AWS CloudHSM",
+    "cloudhsm_classic": "AWS CloudHSM Classic",
+    "cloudtrail": "AWS CloudTrail",
+    "codebuild": "AWS CodeBuild",
+    "codecommit": "AWS CodeCommit",
+    "codedeploy": "AWS CodeDeploy",
+    "codepipeline": "AWS CodePipeline",
+    "codestar": "AWS CodeStar",
+    "config": "AWS Config",
+    "database_migration_service": "AWS Database Migration Service",
+    "data_pipeline": "AWS Data Pipeline",
+    "device_farm": "AWS Device Farm",
+    "direct_connect": "AWS Direct Connect",
+    "directory_service": "AWS Directory Service",
+    "elastic_beanstalk": "AWS Elastic Beanstalk",
+    "elemental_mediaconvert": "AWS Elemental MediaConvert",
+    "elemental_medialive": "AWS Elemental MediaLive",
+    "elemental_mediapackage": "AWS Elemental MediaPackage",
+    "elemental_mediastore": "AWS Elemental MediaStore",
+    "elemental_mediatailor": "AWS Elemental MediaTailor",
+    "glue": "AWS Glue",
+    "greengrass": "AWS Greengrass",
+    "iot_core": "AWS IoT Core",
+    "iot_1-click": "AWS IoT 1-Click",
+    "iot_analytics": "AWS IoT Analytics",
+    "iot_device_management": "AWS IoT Device Management",
+    "key_management_service": "AWS Key Management Service",
+    "lambda": "AWS Lambda",
+    "managed_services": "AWS Managed Services",
+    "marketplace": "AWS Marketplace",
+    "migration_hub": "AWS Migration Hub",
+    "mobile_hub": "AWS Mobile Hub",
+    "opsworks_stacks": "AWS OpsWorks Stacks",
+    "opsworks_for_chef_automate": "AWS OpsWorks for Chef Automate",
+    "opsworks_for_puppet_enterprise": "AWS OpsWorks for Puppet Enterprise",
+    "personal_health_dashboard": "AWS Personal Health Dashboard",
+    "server_migration_service": "AWS Server Migration Service",
+    "service_catalog": "AWS Service Catalog",
+    "shield_standard": "AWS Shield Standard",
+    "shield_advanced": "AWS Shield Advanced",
+    "single_sign-on": "AWS Single Sign-On",
+    "snowball": "AWS Snowball",
+    "snowball_edge": "AWS Snowball Edge",
+    "snowmobile": "AWS Snowmobile",
+    "step_functions": "AWS Step Functions",
+    "storage_gateway": "AWS Storage Gateway",
+    "sumerian": "AWS Sumerian",
+    "support": "AWS Support",
+    "systems_manager": "AWS Systems Manager",
+    "waf": "AWS WAF",
+    "x-ray": "AWS X-Ray",
+    "elastic_load_balancing": "Elastic Load Balancing",
+    "vm_importexport": "VM Import/Export",
+    "aurora_mysql-compatible": "Amazon Aurora - MySQL-compatible",
+    "ec2_systems_manager": "Amazon EC2 Systems Manager",
+    "1-click": "AWS 1-Click",
+    "iot_device_manager": "AWS IoT Device Manager"
   }
 }
