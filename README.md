@@ -28,7 +28,7 @@ Example:
     },
     ...
    },
-   serviceNames: {
+   "serviceNames": {
       "lambda": "AWS Lambda"
    }
 }
