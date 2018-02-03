@@ -66,5 +66,9 @@ module.exports = {
   'beijing' : {
     'name': 'China (Beijing)',
     'code': 'cn-north-1'
+  },
+  'ningxia' : {
+    'name': 'China (Ningxia)',
+    'code': 'cn-northwest-1'
   }
 };
