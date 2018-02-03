@@ -15,5 +15,8 @@ module.exports = {
     });
 
     return promise;
-  }
+  },
+  getCachedData: function () {
+    return require('./data/parseddata.json')
+  } 
 };
