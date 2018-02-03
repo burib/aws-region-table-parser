@@ -3,6 +3,10 @@ module.exports = {
     'name': 'US East (N. Virginia)',
     'code': 'us-east-1'
   },
+  'ohio' : {
+    'name': 'US East (Ohio)',
+    'code': 'us-east-2'
+  },
   'oregon' : {
     'name': 'US West (Oregon)',
     'code': 'us-west-2'
@@ -10,6 +14,10 @@ module.exports = {
   'northern_california' : {
     'name': 'US West (N. California)',
     'code': 'us-west-1'
+  },
+  'montreal' : {
+    'name': 'Canada (Central)',
+    'code': 'ca-central-1'
   },
   'são_paulo' : {
     'name': 'South America (São Paulo)',
@@ -46,6 +54,10 @@ module.exports = {
   'seoul' : {
     'name': 'Asia Pacific (Seoul)',
     'code': 'ap-northeast-2'
+  },
+  'mumbai' : {
+    'name': 'Asia Pacific (Mumbai)',
+    'code': 'ap-south-1'
   },
   'beijing' : {
     'name': 'China (Beijing)',
