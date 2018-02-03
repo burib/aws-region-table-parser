@@ -1,5 +1,5 @@
 # aws-region-table-parser
-Currently AWS has no API to get query which service available in which region.  
+Currently AWS has no API to query which service available in which region.  
 This project scrapes their [Regional Product Services](http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) url and creates a serviceName to region map as a json object.
 
 Example:
