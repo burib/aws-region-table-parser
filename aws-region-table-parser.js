@@ -15,7 +15,7 @@ function parseAwsTable(html) {
 
         if (rowIndex === 0) {
           coloumns.each(function (coloumnIndex,coloumn) {
-            const parsedRegionName = $(coloumn).text().toLowerCase().trim().replace(/ /ig, '_').replace('*',''),
+            const parsedRegionName = $(coloumn).text().toLowerCase().trim().replace(/ /ig, '_').replace(/\*/ig,''),
             region = regionNames[parsedRegionName] || {};
             
             if (parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {

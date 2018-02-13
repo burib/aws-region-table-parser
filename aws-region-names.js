@@ -51,6 +51,10 @@ module.exports = {
     'name': 'Asia Pacific (Tokyo)',
     'code': 'ap-northeast-1'
   },
+  'osaka' : {
+    'name': 'Asia Pacific (Osaka-Local)',
+    'code': 'ap-northeast-3'
+  },
   'sydney' : {
     'name': 'Asia Pacific (Sydney)',
     'code': 'ap-southeast-2'
