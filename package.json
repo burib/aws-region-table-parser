@@ -15,9 +15,7 @@
     "request": "2.72.0"
   },
   "scripts": {
-    "start": "node generate-json.js",
-    "predeploy": "git config --global user.email 'circleci@burib.net' && git config --global user.name 'circleCI'",
-    "deploy" : "git add -A; timestamp=$(date \"+%F_%T\") && git commit -m \"$timestamp\"; npm version patch; git push --force; "
+    "start": "node generate-json.js"
   },
   "repository": {
     "type": "git",
