@@ -15,8 +15,8 @@
     "request": "2.72.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "generate": "node generate-json.js"
+    "start": "node generate-json.js",
+    "poststart" : "git add -A; timestamp=$(date \"+%c\") && git commit -m \"$timestamp\"; git push --force;"
   },
   "repository": {
     "type": "git",
