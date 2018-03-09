@@ -1,31 +1,40 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/node:latest
-    working_directory: ~/repo
-    steps:
-      - checkout
+workflows:
+  version: 2
+  nightly:
+     triggers:
+       - schedule:
+           cron: "0 0 * * *"
+           filters:
+             branches:
+               only:
+                 - master
+  jobs:
+    build:
+      docker:
+        - image: circleci/node:latest
+      working_directory: ~/repo
+      steps:
+        - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+        # Download and cache dependencies
+        - restore_cache:
+            keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
 
-      - add_ssh_keys:
-          fingerprints:
-            - "cf:be:ec:73:0c:b7:25:9e:12:5c:52:c5:0e:16:6e:03"
-            
-      - run: yarn install
+        - add_ssh_keys:
+            fingerprints:
+              - "cf:be:ec:73:0c:b7:25:9e:12:5c:52:c5:0e:16:6e:03"
 
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-      
-      - run: yarn start
-      - run: chmod +x ./scripts/deploy.sh && ./scripts/deploy.sh
+        - run: yarn install
+
+        - save_cache:
+            paths:
+              - node_modules
+            key: v1-dependencies-{{ checksum "package.json" }}
+        
+        - run: yarn start
+        - run: chmod +x ./scripts/deploy.sh && ./scripts/deploy.sh
 
 
