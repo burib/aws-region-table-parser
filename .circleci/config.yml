@@ -29,8 +29,16 @@ jobs:
 
 workflows:
   version: 2
-  build_and_test:
+  build_job:
     jobs:
       - build
-
-
+  nightly_build_job:
+    triggers:
+      - schedule:
+        cron: "16 06 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build
