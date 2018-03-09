@@ -14,6 +14,10 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
+      - add_ssh_keys:
+          fingerprints:
+            - "cf:be:ec:73:0c:b7:25:9e:12:5c:52:c5:0e:16:6e:03"
+            
       - run: yarn install
 
       - save_cache:
