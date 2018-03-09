@@ -6,7 +6,9 @@ git config user.email 'circleci@burib.net';
 git config user.name 'circleCI';
 git pull $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH;
 
-if git diff-index ./../data/ --name-status --exit-code HEAD;
+echo $PWD;
+
+if git diff-index ./data/ --name-status --exit-code HEAD;
 then
     echo "no changes";
 else
