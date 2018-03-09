@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node generate-json.js",
-    "poststart" : "git add -A; timestamp=$(date \"+%c\") && git commit -m \"$timestamp\"; git push --force;"
+    "poststart" : "git add -A; timestamp=$(date \"+%s\") && git commit -m \"$timestamp\"; git push --force;"
   },
   "repository": {
     "type": "git",
