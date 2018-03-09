@@ -1,5 +1,6 @@
 {
   "services": {
+    "circle_ci_deploy_test": {},
     "alexa_for_business": {
       "us-east-1": true,
       "us-east-2": true,
