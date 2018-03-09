@@ -39,5 +39,5 @@ https://github.com/burib/aws-region-table-parser-api
 
 #### How to Initiate a new Parsing
  ```bash 
-npm run generate
+npm start
 ```
