@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node generate-json.js",
-    "deploy" : "git add -A; timestamp=$(date \"+%F_%T\") && git commit -m \"$timestamp\"; npm version patch; git push --force; "
+    "deploy" : "git config --global user.email 'circleci@burib.net' && git config --global user.name 'circleCI' && git add -A; timestamp=$(date \"+%F_%T\") && git commit -m \"$timestamp\"; npm version patch; git push --force; "
   },
   "repository": {
     "type": "git",
