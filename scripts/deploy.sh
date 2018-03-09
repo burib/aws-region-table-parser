@@ -7,7 +7,7 @@ git config --global user.name 'circleCI';
 
 if [ -n "$(git status --porcelain)" ]; then
   	git add -A;
-	timestamp=$(date \"+%F_%T\");
+	timestamp=$(date "+%F_%T");
 	git commit -m "$timestamp";
 	npm version patch;
 	git push --force; 
