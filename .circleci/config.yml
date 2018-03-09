@@ -6,7 +6,6 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -30,16 +29,8 @@ jobs:
 
 workflows:
   version: 2
-  branch_deploy:
+  build_and_test:
     jobs:
       - build
-  nightly:
-     triggers:
-       - schedule:
-           cron: "0 0 * * *"
-           filters:
-             branches:
-               only:
-                 - master
 
 
