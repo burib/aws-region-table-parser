@@ -29,16 +29,16 @@ jobs:
 
 workflows:
   version: 2
-  build_job:
+  commit-workflow:
     jobs:
-      - build
-  nightly_build_job:
+      - build 
+  scheduled-workflow:
     triggers:
       - schedule:
-        cron: "16 06 * * *"
+          cron: "16 9 * * *"
           filters:
             branches:
-              only:
-                - master
+              only: master
+
     jobs:
       - build
