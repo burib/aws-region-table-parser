@@ -2,15 +2,15 @@
 set -x
 set -e
 
-git config --global user.email 'circleci@burib.net';
-git config --global user.name 'circleCI';
+git config user.email 'circleci@burib.net';
+git config user.name 'circleCI';
 
-if [ -n "$(git status --porcelain)" ]; then
+if [ -n "$(git diff --exit-code)" ]; then
   	git add -A;
-	timestamp=$(date "+%F_%T");
+	timestamp=$(date --utc "+%F_%T");
 	git commit -m "$timestamp";
 	npm version patch;
-	git push --force; 
+	git push $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH --force; 
 
 else
   echo "no changes";
