@@ -1593,8 +1593,8 @@
       "ap-southeast-2": false,
       "ap-northeast-2": false,
       "ap-south-1": false,
-      "cn-north-1": true,
-      "cn-northwest-1": true
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "codebuild": {
       "us-east-1": false,
