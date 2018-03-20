@@ -2,8 +2,8 @@
 set -x
 set -e
 
-git config user.email 'circleci@burib.net';
-git config user.name 'circleCI';
+git config user.email 'info@burib.net';
+git config user.name 'autobot';
 git pull $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH;
 
 BASEDIR=$(cd "$(dirname "$1")" && pwd)/$(basename "$1")
