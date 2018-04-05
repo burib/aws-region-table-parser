@@ -1973,6 +1973,15 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "firewall_manager": {
+      "us-east-1": false,
+      "us-east-2": false,
+      "us-west-2": false,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "amazonaws-us-gov": false
+    },
     "glue": {
       "us-east-1": false,
       "us-east-2": false,
@@ -2277,6 +2286,27 @@
       "cn-northwest-1": false
     },
     "personal_health_dashboard": {
+      "us-east-1": false,
+      "us-east-2": false,
+      "us-west-2": false,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "amazonaws-us-gov": false,
+      "eu-west-1": false,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "secrets_manager": {
       "us-east-1": false,
       "us-east-2": false,
       "us-west-2": false,
@@ -2776,6 +2806,7 @@
     "elemental_mediapackage": "AWS Elemental MediaPackage",
     "elemental_mediastore": "AWS Elemental MediaStore",
     "elemental_mediatailor": "AWS Elemental MediaTailor",
+    "firewall_manager": "AWS Firewall Manager",
     "glue": "AWS Glue",
     "greengrass": "AWS Greengrass",
     "iot_core": "AWS IoT Core",
@@ -2792,6 +2823,7 @@
     "opsworks_for_chef_automate": "AWS OpsWorks for Chef Automate",
     "opsworks_for_puppet_enterprise": "AWS OpsWorks for Puppet Enterprise",
     "personal_health_dashboard": "AWS Personal Health Dashboard",
+    "secrets_manager": "AWS Secrets Manager",
     "server_migration_service": "AWS Server Migration Service",
     "service_catalog": "AWS Service Catalog",
     "shield_standard": "AWS Shield Standard",
