@@ -17,7 +17,7 @@ function parseAwsTable(html) {
           coloumns.each(function (coloumnIndex,coloumn) {
             const parsedRegionName = $(coloumn).text().toLowerCase().trim().replace(/ /ig, '_').replace(/\*/ig,''),
             region = regionNames[parsedRegionName] || {};
-            
+
             if (parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
               console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
             } else {
@@ -33,8 +33,7 @@ function parseAwsTable(html) {
               services[serviceName] = services[serviceName] || {};
             } else {
               let regionName = regions[coloumnIndex];
-
-              services[serviceName][regionName] = $(coloumn).find('i.txt-green').length === 1;
+              services[serviceName][regionName] = $(coloumn).text() === '✓';
             }
 
             serviceNames[serviceName] = parsedServiceName;
