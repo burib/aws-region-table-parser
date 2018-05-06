@@ -780,7 +780,7 @@
     "lex": {
       "us-east-1": true,
       "us-east-2": false,
-      "us-west-2": true,
+      "us-west-2": false,
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
