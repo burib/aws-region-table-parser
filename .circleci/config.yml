@@ -56,9 +56,9 @@ workflows:
       - build
   publish-to-npm:
     jobs:
-      - npm_publish
-    filters:
-      branches:
-        ignore: /.*/
-      tags:
-        only: /v[0-9]+(\.[0-9]+)*/
+      - npm_publish:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /v[0-9]+(\.[0-9]+)*/
