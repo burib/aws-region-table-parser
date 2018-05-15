@@ -6,6 +6,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: cd ~/repo
       - run: npm publish
   build:
     docker:
