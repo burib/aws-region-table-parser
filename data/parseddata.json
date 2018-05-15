@@ -2840,7 +2840,6 @@
     "x-ray": "AWS X-Ray",
     "elastic_load_balancing": "Elastic Load Balancing",
     "vm_importexport": "VM Import/Export",
-    "1-click": "AWS 1-Click",
-    "test_auto_release": "test auto release"
+    "1-click": "AWS 1-Click"
   }
 }
