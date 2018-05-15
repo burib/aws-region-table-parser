@@ -1,5 +1,16 @@
 version: 2
 jobs:
+  npm_publish:
+    docker:
+      - image: circleci/node:latest
+    working_directory: ~/repo
+    steps:
+      - login_to_npm:
+          name: login to npm
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - publish_to_npm:
+          name: publish to npm
+          command: npm publish
   build:
     docker:
       - image: circleci/node:latest
@@ -16,14 +27,14 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "cf:be:ec:73:0c:b7:25:9e:12:5c:52:c5:0e:16:6e:03"
-            
+
       - run: yarn install
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      
+
       - run: yarn start
       - run: chmod +x ./scripts/deploy.sh && ./scripts/deploy.sh
 
@@ -31,12 +42,12 @@ workflows:
   version: 2
   commit-workflow:
     jobs:
-      - build 
+      - build
   scheduled-workflow:
     triggers:
       - schedule:
           # POSIX syntax: ## Minute [0,59] ## Hour [0,23] ## Day of the month [1,31] ## Month of the year [1,12] ## Day of the week ([0,6] with 0=Sunday)
-          # every day noon UTC. 
+          # every day noon UTC.
           cron: "0 12 * * *"
           filters:
             branches:
@@ -44,3 +55,11 @@ workflows:
 
     jobs:
       - build
+  publish-to-npm:
+    jobs:
+      - npm_publish
+    filters:
+      branches:
+        ignore: /.*/
+      tags:
+        only: /v[0-9]+(\.[0-9]+)*/

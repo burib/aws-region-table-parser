@@ -17,5 +17,5 @@ else
    	timestamp=$(date --utc "+%F_%T");
     git commit -m "$timestamp UTC";
     npm version patch;
-    git push $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH --force;
+    git push $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH --force --follow-tags;
 fi
