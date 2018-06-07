@@ -20,6 +20,7 @@ Amazon DynamoDB|true | true | true | true | true | true | true | true | true | t
 Amazon DynamoDB Accelerator (DAX)|true | true | true | true | false | true | false | true | false | false | false | true | true | false | true | false | true | false | false
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
+Amazon Elastic Container Service for Kubernetes (EKS)|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
