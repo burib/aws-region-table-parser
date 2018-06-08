@@ -45,7 +45,7 @@ Amazon Machine Learning|true | false | false | false | false | false | false | t
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false
-Amazon Neptune|true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Neptune|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
