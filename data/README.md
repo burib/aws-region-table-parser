@@ -5,7 +5,7 @@ Amazon API Gateway|true | true | true | true | true | true | true | true | true 
 Amazon AppStream 2.0|true | false | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 Amazon Athena|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Aurora - PostgreSQL-compatible|true | true | true | false | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
+Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Chime|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Cloud Directory|true | true | true | false | false | false | false | true | false | true | true | true | false | false | true | false | false | false | false
 Amazon CloudSearch|true | false | true | true | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
@@ -100,7 +100,7 @@ AWS Firewall Manager|true | false | true | false | false | false | false
 AWS Glue|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | false | false | false | true | false | true | false | false | false | false
 AWS IoT Core|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
-AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false
+AWS IoT 1-Click|true | true | true | false | false | false | false | true | true | true | true | false | true | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT Device Management|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
@@ -131,4 +131,3 @@ AWS WAF|true | true | true | true | false | false | false | true | true | false 
 AWS X-Ray|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS 1-Click|true | true | true | false

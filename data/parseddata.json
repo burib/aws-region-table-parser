@@ -109,7 +109,7 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
+      "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": false,
       "amazonaws-us-gov": false,
@@ -2095,6 +2095,10 @@
       "ca-central-1": false,
       "sa-east-1": false,
       "amazonaws-us-gov": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
       "ap-southeast-1": false,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -2721,12 +2725,6 @@
       "ap-south-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
-    },
-    "1-click": {
-      "eu-west-1": true,
-      "eu-central-1": true,
-      "eu-west-2": true,
-      "eu-west-3": false
     }
   },
   "serviceNames": {
@@ -2860,7 +2858,6 @@
     "waf": "AWS WAF",
     "x-ray": "AWS X-Ray",
     "elastic_load_balancing": "Elastic Load Balancing",
-    "vm_importexport": "VM Import/Export",
-    "1-click": "AWS 1-Click"
+    "vm_importexport": "VM Import/Export"
   }
 }
