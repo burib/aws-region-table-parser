@@ -36,7 +36,7 @@ Amazon Glacier|true | true | true | true | true | false | true | true | true | t
 Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
-Amazon Kinesis Data Firehose|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
+Amazon Kinesis Data Firehose|true | true | true | true | true | false | false | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | true | true | false | false | false | true | false | false | false | false | false | false
 Amazon Lex|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
@@ -75,7 +75,7 @@ AWS Batch|true | true | true | true | true | false | false | true | true | true 
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | true | false | false | false | true | false | false | false | false | false | false | false
-AWS CloudHSM|true | true | true | true | true | false | true | true | true | false | false | true | true | false | true | false | true | false | false
+AWS CloudHSM|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | false | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | true | true | false | false | true | true | false | true | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodeBuild|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
