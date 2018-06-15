@@ -5,7 +5,7 @@ Amazon API Gateway|true | true | true | true | true | true | true | true | true 
 Amazon AppStream 2.0|true | false | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 Amazon Athena|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
+Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Chime|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Cloud Directory|true | true | true | false | false | false | false | true | false | true | true | true | false | false | true | false | false | false | false
 Amazon CloudSearch|true | false | true | true | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
@@ -51,7 +51,7 @@ Amazon Polly|true | true | true | true | true | true | true | true | true | true
 Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
-Amazon Rekognition Video|true | true | true | false | false | false | false | true | false | false | false | false | true | false | true | false | false | false | false
+Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Route 53 Auto Naming|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Sagemaker|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
