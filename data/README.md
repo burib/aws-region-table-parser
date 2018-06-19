@@ -15,7 +15,7 @@ Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | t
 Amazon Cognito|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
 Amazon Comprehend|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false
-Amazon DeepLens|true | true | true | true | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
+Amazon DeepLens|true | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon DynamoDB Accelerator (DAX)|true | true | true | true | false | true | false | true | false | false | false | true | true | false | true | false | true | false | false
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
