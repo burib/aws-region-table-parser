@@ -2022,7 +2022,11 @@
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
-      "amazonaws-us-gov": false
+      "amazonaws-us-gov": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false
     },
     "glue": {
       "us-east-1": true,
