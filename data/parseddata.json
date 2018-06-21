@@ -1330,7 +1330,7 @@
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
-      "amazonaws-us-gov": false,
+      "amazonaws-us-gov": true,
       "eu-west-1": false,
       "eu-central-1": false,
       "eu-west-2": false,
