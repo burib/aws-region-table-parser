@@ -34,7 +34,7 @@ Amazon FreeRTOS|true | true | true | false | false | false | false | false | fal
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Inspector|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | true | true | false | false
+Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | false | false | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -61,7 +61,7 @@ Amazon Simple Notification Service (SNS)|true | true | true | true | true | true
 Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Sumerian|true | true | true | true | false | true | false | true | true | true | false | false | false | false | true | false | false | false | false
+Amazon Sumerian|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Transcribe|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Translate|true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
