@@ -88,7 +88,7 @@ AWS Database Migration Service|true | true | true | true | true | true | true | 
 AWS Data Pipeline|true | false | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaLive|true | false | true | false | false | false | false | true | false | false | false | true | true | false | true | true | false | false | false
