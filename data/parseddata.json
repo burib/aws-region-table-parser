@@ -40,7 +40,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "appstream_2_0": {
       "us-east-1": true,
@@ -928,7 +928,7 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
+      "us-west-1": true,
       "ca-central-1": false,
       "sa-east-1": false,
       "amazonaws-us-gov": false,
@@ -2194,7 +2194,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": true,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "managed_services": {
       "us-east-1": true,

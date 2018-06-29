@@ -1,7 +1,7 @@
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | amazonaws-us-gov | eu-west-1 | eu-central-1 | eu-west-2 | eu-west-3 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | cn-north-1 | cn-northwest-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
+Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 Amazon Athena|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
@@ -44,7 +44,7 @@ Amazon Lightsail|true | true | true | false | true | false | false | true | true
 Amazon Machine Learning|true | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon MQ|true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon MQ|true | true | true | true | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon Neptune|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
@@ -104,7 +104,7 @@ AWS IoT 1-Click|true | true | true | false | false | false | false | true | true
 AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT Device Management|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
+AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Managed Services|true | false | true | false | false | false | false | true | false | true | false | false | false | false | true | false | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
