@@ -36,7 +36,7 @@ Amazon Glacier|true | true | true | true | true | false | true | true | true | t
 Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
-Amazon Kinesis Data Firehose|true | true | true | true | true | false | false | true | true | false | false | true | true | false | true | true | false | false | false
+Amazon Kinesis Data Firehose|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | true | true | false | false | false | true | false | false | false | false | false | false
 Amazon Lex|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
@@ -53,8 +53,8 @@ Amazon Redshift|true | true | true | true | true | true | true | true | true | t
 Amazon Rekognition Image|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Route 53 Auto Naming|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
-Amazon Sagemaker|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
+Amazon Route 53 Auto Naming|true | true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
+Amazon Sagemaker|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | true | false | false | false
 Amazon SimpleDB|true | false | true | true | false | true | false | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -91,7 +91,7 @@ AWS Direct Connect|true | true | true | true | true | true | true | true | true 
 AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
-AWS Elemental MediaLive|true | false | true | false | false | false | false | true | false | false | false | true | true | false | true | true | false | false | false
+AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | false | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | false | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
@@ -119,10 +119,10 @@ AWS Service Catalog|true | true | true | true | true | true | false | true | tru
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Advanced|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS Single Sign-On|true | false | false | false | false | false | false
-AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | false | false
+AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false
 AWS Snowball Edge|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
-AWS Step Functions|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | false | false | false
+AWS Step Functions|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | false | false | false
 AWS Storage Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
