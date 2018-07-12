@@ -26,7 +26,7 @@ Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true 
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Auto Scaling|true | true | true | false | false | false | false | true | false | false | false | true | false | true | false | false | false | false | false
-Amazon Elastic File System (EFS)|true | true | true | true | false | false | false | true | true | false | false | false | false | false | true | true | false | false | false
+Amazon Elastic File System (EFS)|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
@@ -122,7 +122,7 @@ AWS Single Sign-On|true | false | false | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false
 AWS Snowball Edge|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
-AWS Step Functions|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | false | false | false
+AWS Step Functions|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Storage Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
