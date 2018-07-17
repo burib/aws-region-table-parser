@@ -30,7 +30,7 @@ Amazon Elastic File System (EFS)|true | true | true | true | false | false | fal
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
-Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | true | false | false | false
+Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
