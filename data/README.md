@@ -35,7 +35,7 @@ Amazon GameLift|true | true | true | true | true | true | false | true | true | 
 Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
-Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
+Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | true | true | false | false | false | true | false | false | false | false | false | false
@@ -93,7 +93,7 @@ AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | tr
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | false | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
-AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
+AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
 AWS Elemental MediaTailor|true | false | false | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
 AWS Fargate|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
 AWS Firewall Manager|true | false | true | false | false | false | false | true | false | false | false
