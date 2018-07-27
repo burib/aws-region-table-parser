@@ -33,7 +33,7 @@ Amazon Elastic Transcoder|true | false | true | true | false | false | false | t
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
+Amazon GuardDuty|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
@@ -71,7 +71,7 @@ Amazon WorkSpaces|true | false | true | false | true | true | false | true | tru
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | true | false | false
-AWS Batch|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Batch|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | true | false | false | false | true | false | false | false | false | false | false | false
