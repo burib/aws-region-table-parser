@@ -94,7 +94,7 @@ AWS Elemental MediaConvert|true | true | true | true | true | true | false | tru
 AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | false | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
-AWS Elemental MediaTailor|true | false | false | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
+AWS Elemental MediaTailor|true | false | true | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
 AWS Fargate|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 AWS Firewall Manager|true | false | true | false | false | false | false | true | false | false | false
 AWS Glue|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
