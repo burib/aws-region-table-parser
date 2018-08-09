@@ -91,7 +91,7 @@ AWS Direct Connect|true | true | true | true | true | true | true | true | true 
 AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
-AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
+AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaPackage|true | false | true | false | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
