@@ -103,7 +103,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "aurora_postgresql-compatible": {
       "us-east-1": true,
@@ -124,7 +124,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "chime": {
       "us-east-1": true,

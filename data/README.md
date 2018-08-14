@@ -4,8 +4,8 @@ Alexa for Business|true | false | false | false | false | false | false | false 
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 Amazon Athena|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
-Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
+Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true
+Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Chime|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Cloud Directory|true | true | true | false | false | false | false | true | false | true | true | true | false | false | true | false | false | false | false
 Amazon CloudSearch|true | false | true | true | false | true | false | true | true | false | false | true | true | false | true | true | false | false | false
