@@ -13,7 +13,7 @@ Amazon CloudWatch|true | true | true | true | true | true | true | true | true |
 Amazon CloudWatch Events|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Cognito|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
-Amazon Comprehend|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
+Amazon Comprehend|true | true | true | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -50,8 +50,8 @@ Amazon Pinpoint|true | false | false | false | false | false | false | false | f
 Amazon Polly|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Rekognition Image|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
-Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
+Amazon Rekognition Image|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
+Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Route 53 Auto Naming|true | true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Sagemaker|true | true | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
@@ -99,10 +99,10 @@ AWS Fargate|true | true | true | false | false | false | false | true | true | f
 AWS Firewall Manager|true | false | true | false | false | false | false | true | false | false | false
 AWS Glue|true | true | true | false | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | false | false | false | true | false | true | false | false | false | false
-AWS IoT Core|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
+AWS IoT Core|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | true | true | true | true | false | true | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
-AWS IoT Device Management|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | false | false | false
+AWS IoT Device Management|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Managed Services|true | false | true | false | false | false | false | true | false | true | false | false | false | false | true | false | false | false | false
