@@ -26,7 +26,7 @@ Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true 
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Auto Scaling|true | true | true | false | false | false | false | true | false | false | false | true | false | true | false | false | false | false | false
-Amazon Elastic File System (EFS)|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
+Amazon Elastic File System (EFS)|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
@@ -92,7 +92,7 @@ AWS Directory Service|true | true | true | true | true | true | false | true | t
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | true | false | false
-AWS Elemental MediaPackage|true | false | true | false | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
+AWS Elemental MediaPackage|true | false | true | true | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
 AWS Fargate|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
