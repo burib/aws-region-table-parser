@@ -32,7 +32,7 @@ Amazon Elasticsearch Service|true | true | true | true | true | true | true | tr
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
-Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false
@@ -114,6 +114,7 @@ AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Secrets Manager|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Serverless Application Repository|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Service Catalog|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
