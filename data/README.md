@@ -25,7 +25,7 @@ Amazon ElastiCache|true | true | true | true | true | true | true | true | true 
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Auto Scaling|true | true | true | false | false | false | false | true | false | false | false | true | false | true | false | false | false | false | false
+AWS Auto Scaling|true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false | false
 Amazon Elastic File System (EFS)|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
