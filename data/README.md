@@ -98,7 +98,7 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 AWS Firewall Manager|true | false | true | false | false | false | false | true | false | false | false
 AWS Glue|true | true | true | false | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
-AWS Greengrass|true | false | true | false | false | false | false | false | true | false | false | false | true | false | true | false | false | false | false
+AWS Greengrass|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS IoT Core|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | true | true | true | true | false | true | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
