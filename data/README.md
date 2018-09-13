@@ -78,13 +78,13 @@ AWS Cloud9|true | true | true | false | false | false | false | true | false | f
 AWS CloudHSM|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | false | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | true | true | false | false | true | true | false | true | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS CodeBuild|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
+AWS CodeBuild|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | true | true
 AWS CodeCommit|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS CodeDeploy|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodePipeline|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS CodeStar|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | false | false | false
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
+AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
