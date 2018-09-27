@@ -17,7 +17,6 @@ Amazon Comprehend|true | true | true | false | false | false | false | true | fa
 Amazon Connect|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon DynamoDB Accelerator (DAX)|true | true | true | true | false | true | false | true | false | false | false | true | true | false | true | false | true | false | false
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Container Service for Kubernetes (EKS)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
@@ -101,8 +100,8 @@ AWS Glue|true | true | true | false | true | false | false | true | true | true 
 AWS Greengrass|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS IoT Core|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | true | true | true | true | false | true | false | false | false | false | false | false
-AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
-AWS IoT Device Management|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | false | false | false
+AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
+AWS IoT Device Management|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Managed Services|true | false | true | false | false | false | false | true | false | true | false | false | false | false | true | false | false | false | false
