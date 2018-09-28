@@ -30,7 +30,7 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | false | false | false | false
-Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
+Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
@@ -52,7 +52,7 @@ Amazon Redshift|true | true | true | true | true | true | true | true | true | t
 Amazon Rekognition Image|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Route 53 Auto Naming|true | true | true | true | false | false | false | true | true | true | false | true | true | false | true | false | false | false | false
+Amazon Route 53 Auto Naming|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Sagemaker|true | true | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
 Amazon SimpleDB|true | false | true | true | false | true | false | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
