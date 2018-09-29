@@ -53,7 +53,7 @@ Amazon Rekognition Image|true | true | true | false | false | false | true | tru
 Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Route 53 Auto Naming|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Sagemaker|true | true | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
+Amazon Sagemaker|true | true | true | false | false | false | true | true | true | false | false | false | true | false | true | true | false | false | false
 Amazon SimpleDB|true | false | true | true | false | true | false | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
