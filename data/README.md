@@ -13,7 +13,7 @@ Amazon CloudWatch|true | true | true | true | true | true | true | true | true |
 Amazon CloudWatch Events|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Cognito|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
-Amazon Comprehend|true | true | true | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false
+Amazon Comprehend|true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
