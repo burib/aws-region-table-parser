@@ -101,6 +101,7 @@ AWS Greengrass|true | false | true | false | false | false | false | true | true
 AWS IoT Core|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | true | true | true | true | false | true | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
+AWS IoT Device Defender|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | false | false | false
 AWS IoT Device Management|true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
