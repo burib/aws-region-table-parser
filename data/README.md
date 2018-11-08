@@ -19,7 +19,7 @@ Amazon DeepLens|true | false | false | false | false | false | false | true | tr
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-Amazon Elastic Container Service for Kubernetes (EKS)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
+Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -29,12 +29,12 @@ Amazon Elastic File System (EFS)|true | true | true | true | false | false | fal
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
-Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | false | false | false | false
+Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | true | true | false | false
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | false
 Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
-Amazon Kinesis Data Analytics|true | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false
+Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | true | true | false | false | false | true | false | false | false | false | false | false
@@ -44,7 +44,7 @@ Amazon Machine Learning|true | false | false | false | false | false | false | t
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
-Amazon Neptune|true | true | true | false | false | false | false | true | false | true | false | false | false | false | false | false | false | false | false
+Amazon Neptune|true | true | true | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
@@ -91,10 +91,10 @@ AWS Directory Service|true | true | true | true | true | true | false | true | t
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | true | false | false
-AWS Elemental MediaPackage|true | false | true | true | false | true | false | true | true | false | true | true | true | false | true | true | false | false | false
+AWS Elemental MediaPackage|true | false | true | true | false | true | false | true | true | false | true | true | true | false | true | true | true | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | true | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
-AWS Fargate|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | false | false | false | false
+AWS Fargate|true | true | true | true | false | false | false | true | true | true | false | true | true | false | true | true | false | false | false
 AWS Firewall Manager|true | false | true | false | false | false | false | true | false | false | false
 AWS Glue|true | true | true | false | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
@@ -120,7 +120,7 @@ AWS Service Catalog|true | true | true | true | true | true | false | true | tru
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Advanced|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS Single Sign-On|true | false | false | false | false | false | false
-AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false
+AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | true
 AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Step Functions|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
