@@ -29,9 +29,9 @@ Amazon Elastic File System (EFS)|true | true | true | true | false | false | fal
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
-Amazon FreeRTOS|true | true | true | false | false | false | false | false | false | false | false | true | true | false | true | true | true | false | false
+Amazon FreeRTOS|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | false
-Amazon Glacier|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false
@@ -47,13 +47,13 @@ Amazon MQ|true | true | true | true | false | false | false | true | true | fals
 Amazon Neptune|true | true | true | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
+Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Rekognition Video|true | true | true | false | false | false | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Route 53 Auto Naming|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Sagemaker|true | true | true | false | false | false | true | true | true | false | false | false | true | false | true | true | false | false | false
+Amazon Sagemaker|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon SimpleDB|true | false | true | true | false | true | false | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -87,7 +87,7 @@ AWS Database Migration Service|true | true | true | true | true | true | true | 
 AWS Data Pipeline|true | false | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | true
+AWS Directory Service|true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConvert|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaLive|true | false | true | false | false | true | false | true | true | false | false | true | true | false | true | true | true | false | false
