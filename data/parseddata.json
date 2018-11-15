@@ -956,7 +956,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "quicksight": {
       "us-east-1": true,
