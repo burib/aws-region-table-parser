@@ -85,6 +85,7 @@ AWS CodeStar|true | true | true | true | true | false | false | true | true | tr
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
+AWS DataSync|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | true
@@ -113,6 +114,7 @@ AWS OpsWorks Stacks|true | true | true | true | false | true | false | true | tr
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | false
+AWS RoboMaker|true | false | true | false | false | false | false | true | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
