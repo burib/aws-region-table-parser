@@ -14,6 +14,7 @@ Amazon CloudWatch Events|true | true | true | true | true | true | true | true |
 Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Cognito|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
 Amazon Comprehend|true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon Comprehend Medical|true | true | true | false | false | false | false | true | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | true | true | true | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -24,11 +25,16 @@ Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | true | false | false | false
+Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | false | true | false | false | false
 Amazon Elastic File System (EFS)|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
+Amazon Elastic Graphics|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | false | false | false
+Amazon Elastic Inference|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | true | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | true | false | false | false | true | true | false | true | false | true | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
+Amazon FSx|true | true | true | false | false | false | false | true | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
@@ -41,6 +47,7 @@ Amazon Lex|true | false | true | false | false | false | false | true | false | 
 Amazon Lightsail|true | true | true | false | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
 Amazon Machine Learning|true | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Managed Blockchain|true | false | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon Neptune|true | true | true | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
@@ -51,8 +58,9 @@ Amazon Redshift|true | true | true | true | true | true | true | true | true | t
 Amazon Rekognition Image|true | true | true | false | false | false | false | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Rekognition Video|true | true | true | false | false | false | false | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Route 53 Auto Naming|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
-Amazon Sagemaker|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
+Amazon SageMaker|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
+Amazon SageMaker Ground Truth|true | true | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
+Amazon SageMaker Neo|true | true | true | false | false | false | false | true | false | false | false
 Amazon SimpleDB|true | false | true | true | false | true | false | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -72,6 +80,7 @@ AWS AppSync|true | true | true | false | false | false | false | true | true | f
 AWS Auto Scaling|true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
+AWS Cloud Map|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | true | false | false | false | true | false | false | false | false | false | false | false
 AWS CloudHSM|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | false | true | false | false
@@ -86,6 +95,7 @@ AWS Config|true | true | true | true | true | true | true | true | true | true |
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false
 AWS DataSync|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
+AWS DeepRacer|true | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Directory Service|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | true | true
@@ -118,6 +128,7 @@ AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | f
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | false
 AWS RoboMaker|true | false | true | false | false | false | false | true | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Security Hub|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Service Catalog|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
@@ -131,6 +142,7 @@ AWS Step Functions|true | true | true | true | true | false | true | true | true
 AWS Storage Gateway|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
+AWS Transit Gateway|true | true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS WAF|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
