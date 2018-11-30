@@ -1626,7 +1626,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": true,
+      "sa-east-1": false,
       "undefined": false,
       "eu-west-1": true,
       "eu-central-1": true,
@@ -2944,6 +2944,19 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "well-architected_tool": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "undefined": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false
+    },
     "x-ray": {
       "us-east-1": true,
       "us-east-2": true,
@@ -3154,6 +3167,7 @@
     "transit_gateway": "AWS Transit Gateway",
     "trusted_advisor": "AWS Trusted Advisor",
     "waf": "AWS WAF",
+    "well-architected_tool": "AWS Well-Architected Tool",
     "x-ray": "AWS X-Ray",
     "elastic_load_balancing": "Elastic Load Balancing",
     "vm_importexport": "VM Import/Export"

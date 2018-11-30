@@ -80,7 +80,7 @@ AWS AppSync|true | true | true | false | false | false | false | true | true | f
 AWS Auto Scaling|true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS Cloud Map|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
+AWS Cloud Map|true | true | true | true | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | true | false | false | false | true | false | false | false | false | false | false | false
 AWS CloudHSM|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | false | true | false | false
@@ -145,6 +145,7 @@ AWS Systems Manager|true | true | true | true | true | true | true | true | true
 AWS Transit Gateway|true | true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS WAF|true | true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
+AWS Well-Architected Tool|true | true | true | false | false | false | false | true | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
