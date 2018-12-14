@@ -50,7 +50,7 @@ Amazon Macie|true | false | true | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | false | false | false | true | true | false | false | true | true | false | true | true | false | false | false
-Amazon Neptune|true | true | true | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false
+Amazon Neptune|true | true | true | false | false | false | false | true | true | true | false | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Polly|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon QuickSight|true | true | true | false | false | false | false | true | false | false | false | true | true | false | true | false | false | false | false
@@ -78,7 +78,7 @@ Amazon WorkSpaces Application Manager|true | false | true | false | false | fals
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | true | false | false
 AWS Auto Scaling|true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false | false
-AWS Batch|true | true | true | true | true | true | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Batch|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Cloud Map|true | true | true | true | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -138,7 +138,7 @@ AWS Single Sign-On|true | false | false | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | false | true | true | true
 AWS Snowball Edge|true | true | true | true | false | true | false | true | true | true | true | true | true | false | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | true | false
-AWS Step Functions|true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Step Functions|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Storage Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
