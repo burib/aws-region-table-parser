@@ -21,7 +21,7 @@ Amazon DynamoDB|true | true | true | true | true | true | true | true | true | t
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false | false
+Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -77,7 +77,7 @@ Amazon WorkSpaces|true | false | true | false | true | true | false | true | tru
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | true | false | false | false | true | false | false | true | false | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | true | true | false | false | true | true | false | true | false | true | false | false
-AWS Auto Scaling|true | true | true | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false | false
+AWS Auto Scaling|true | true | true | true | true | false | false | true | false | true | false | true | true | false | true | true | true | false | false
 AWS Batch|true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Cloud Map|true | true | true | true | true | false | false | true | true | true | true | true | true | false | true | true | true | false | false
@@ -109,16 +109,16 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Firewall Manager|true | false | true | false | false | false | false | true | false | false | false
 AWS Global Accelerator|true | true | true | true | false | false | false | true | true | false | false | true | true | false | false | false | false | false | false
-AWS Glue|true | true | true | false | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS Glue|true | true | true | true | true | false | false | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | true | true | false | false | false | true | false | true | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | true | true | true | true | false | true | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | true | true | false | false | false | true | false | false | false | false | false | false
 AWS IoT Core|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
 AWS IoT Device Defender|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | false | false | false
-AWS IoT Device Management|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | false | false
+AWS IoT Device Management|true | true | true | false | false | false | false | true | true | true | false | true | true | false | true | true | true | true | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS Managed Services|true | false | true | false | false | false | false | true | false | true | false | false | false | false | true | false | false | false | false
+AWS Managed Services|true | false | true | false | false | false | false | true | true | true | false | true | false | false | true | false | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Mobile Hub|true | true | true | true | false | true | false | true | true | true | false | true | true | false | true | true | true | false | false
