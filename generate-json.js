@@ -11,7 +11,9 @@ awsRegionTableParser.get().then(function(servicesAndRegions) {
 
   const regions = services[0];
 
-  let READMEheader = `${services.length} Services, ${edgeLocations.length} Edge Locations, ${regionalEdgeCaches.length} Regional Edge Caches\n\n`;
+  let READMEheader = `### ${services.length} Services\n`;
+  READMEheader += `### ${edgeLocations.length} Edge Locations\n`;
+  READMEheader += `### ${regionalEdgeCaches.length} Regional Edge Caches\n\n`;
   READMEheader += `| | ${Object.keys(regions).join(' | ')} |\n`;
   READMEheader += `| ------------- | ${Object.keys(regions).fill('-------------').join(' | ')}|`;
   const READMErows = [];
