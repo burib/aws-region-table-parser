@@ -5,8 +5,14 @@ awsRegionTableParser.get().then(function(servicesAndRegions) {
   fs.writeFileSync('./data/parseddata.json', JSON.stringify(servicesAndRegions, null, 2), 'utf8');
 
   // TODO: clean this up
-  const regions = Object.values(servicesAndRegions.services)[0];
-  let READMEheader = `| | ${Object.keys(regions).join(' | ')} |\n`;
+  const services = Object.values(servicesAndRegions.services);
+  const edgeLocations = servicesAndRegions.edgeLocations;
+  const regionalEdgeCaches = servicesAndRegions.regionalEdgeCaches;
+
+  const regions = services[0];
+
+  let READMEheader = `${services.length} Services, ${edgeLocations.length} Edge Locations, ${regionalEdgeCaches.length} Regional Edge Caches\n\n`;
+  READMEheader += `| | ${Object.keys(regions).join(' | ')} |\n`;
   READMEheader += `| ------------- | ${Object.keys(regions).fill('-------------').join(' | ')}|`;
   const READMErows = [];
 

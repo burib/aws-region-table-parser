@@ -1,5 +1,18 @@
 const regionNames = require('./aws-region-names.js');
 const serviceNames = {};
+const locationsMap = {
+  edgeLocations: [],
+  regionalEdgeCaches: []
+};
+const transpose = array => array[0].map((_, c) => array.map(r => r[c]));
+const flatten = (array) => {
+  return array.reduce(
+    (acc, cur) => acc.concat(cur),
+    []
+  ).filter((item) => {
+    return item.length > 0;
+  });
+};
 const cheerio = require('cheerio');
 
 function parseAwsTable(html) {
@@ -15,7 +28,9 @@ function parseAwsTable(html) {
 
         if (rowIndex === 0) {
           coloumns.each(function (coloumnIndex,coloumn) {
-            const parsedRegionName = $(coloumn).text().toLowerCase().trim().replace(/ /ig, '_').replace(/\*/ig,''),
+            const parsedRegionName = $(coloumn).text().toLowerCase().trim()
+                .replace(/ /ig, '_')
+                .replace(/[()* ]/ig, ''),
             region = regionNames[parsedRegionName] || {};
 
             if (parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
@@ -41,15 +56,63 @@ function parseAwsTable(html) {
         }
       });
     } else {
-      //console.log('CDN Locations Table');
+      // Locations Table parsing
+      let edgeType = 'edgeLocations';
+      let rowIndex = 0;
+
+      $(this).find('tbody tr').each(function() {
+        const column = $(this);
+        const columnText = $(this).text().toLowerCase().trim();
+
+        if (columnText === 'regional edge caches') {
+          edgeType = 'regionalEdgeCaches';
+          rowIndex = 0;
+        }
+
+        const cells = column.find('td');
+
+        locationsMap[edgeType].push([]);
+        cells.each(function (cellIndex,cell) {
+          const cellText = $(cell).text().trim();
+          locationsMap[edgeType][rowIndex].push(cellText);
+        });
+
+        rowIndex++;
+      });
     }
   });
 
-  console.log('\x1b[32m%s\x1b[0m',  Object.keys(services).length + ' AWS Services found.');
+  locationsMap.edgeLocations.splice(0, 3); // remove the first 3 rows ( Edge Locations, North America..., United States... )
+  locationsMap.regionalEdgeCaches.shift(); // remove first item
+
+  locationsMap.edgeLocations = transpose(locationsMap.edgeLocations);
+  locationsMap.regionalEdgeCaches = transpose(locationsMap.regionalEdgeCaches);
+
+  const addCountryNameToUsLocations = (array) => {
+    return array.map((location) => {
+      if (location.match(/ \(.+?\)/ig)) {
+        return location.replace(/ \(.+?\)/ig, ', United States$&')
+      } else {
+        return location.length > 0 ? `${location}, United States` : ''
+      }
+    })
+  };
+
+  locationsMap.edgeLocations[0] = addCountryNameToUsLocations(locationsMap.edgeLocations[0]);
+  locationsMap.regionalEdgeCaches[0] = addCountryNameToUsLocations(locationsMap.regionalEdgeCaches[0]);
+
+  locationsMap.edgeLocations = flatten(locationsMap.edgeLocations);
+  locationsMap.regionalEdgeCaches = flatten(locationsMap.regionalEdgeCaches);
+
+  console.log('\x1b[32m%s\x1b[0m', locationsMap.edgeLocations.length + ' different AWS Edge Locations found.');
+  console.log('\x1b[32m%s\x1b[0m', locationsMap.regionalEdgeCaches.length + ' different AWS Regional Edge Cache Locations found.');
+  console.log('\x1b[32m%s\x1b[0m', Object.keys(services).length + ' AWS Services found.');
 
   return {
     services: services,
-    serviceNames: serviceNames
+    serviceNames: serviceNames,
+    edgeLocations: locationsMap.edgeLocations,
+    regionalEdgeCaches: locationsMap.regionalEdgeCaches
   };
 }
 

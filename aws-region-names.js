@@ -23,11 +23,11 @@ module.exports = {
     'name': 'South America (São Paulo)',
     'code': 'sa-east-1'
   },
-  'govcloud_(us-east)' : {
+  'govcloud_us-east' : {
     'name': 'GovCloud (US-East)',
     'code': 'us-gov-east-1'
   },
-  'govcloud_(us-west)' : {
+  'govcloud_us-west' : {
     'name': 'GovCloud (US-West)',
     'code': 'us-gov-west-1'
   },
