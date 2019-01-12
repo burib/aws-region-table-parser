@@ -26,7 +26,7 @@ Amazon DynamoDB|true | true | true | true | true | true | true | true | true | t
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false | false | false | false | false | true | true | false | false | true | true | true | false | true | false | false | false | false
+Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false | false | false | false | false | true | true | false | false | true | true | true | false | true | true | false | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -114,7 +114,7 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 AWS Global Accelerator|true | true | true | true | false | false | false | false | true | true | false | false | false | true | true | false | false | false | false | false | false
-AWS Glue|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
+AWS Glue|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | false | false | false | false
