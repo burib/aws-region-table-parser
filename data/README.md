@@ -1,6 +1,6 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 150 Services
+### 151 Services
 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-west-1 | eu-central-1 | eu-west-2 | eu-west-3 | eu-north-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | cn-north-1 | cn-northwest-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
@@ -83,6 +83,7 @@ Amazon WorkSpaces Application Manager|true | false | true | false | false | fals
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | true | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | false | true | false | false | true | true | false | true | true | true | false | false
+AWS Backup|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Cloud Map|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
