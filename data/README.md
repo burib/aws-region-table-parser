@@ -45,7 +45,7 @@ Amazon Glacier|true | true | true | true | true | true | true | true | true | tr
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | false | false | false | false | true | false | true | true | true | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false | false
-Amazon Kinesis Data Firehose|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
+Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | false | false | false | false
 Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
@@ -144,7 +144,7 @@ AWS Single Sign-On|true | false | false | false | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | false | true | true | true
 AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false
-AWS Step Functions|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
+AWS Step Functions|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Storage Gateway|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
