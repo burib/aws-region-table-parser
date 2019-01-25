@@ -1,6 +1,6 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 151 Services
+### 152 Services
 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-west-1 | eu-central-1 | eu-west-2 | eu-west-3 | eu-north-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | cn-north-1 | cn-northwest-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
@@ -32,7 +32,7 @@ Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true 
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | true | false | true | false | false | false | false
-Amazon Elastic File System (EFS)|true | true | true | true | false | false | true | false | true | true | false | false | false | true | true | false | true | true | false | false | false
+Amazon Elastic File System (EFS)|true | true | true | true | false | false | true | false | true | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon Elastic Graphics|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false
 Amazon Elastic Inference|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | true | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -73,12 +73,13 @@ Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
-Amazon Transcribe|true | true | true | false | true | false | false | false | true | false | false | false | false | false | false | false | true | false | false | false | false
+Amazon Transcribe|true | true | true | false | true | false | false | false | true | false | true | true | false | true | false | false | true | false | true | false | false
 Amazon Translate|true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
+Amazon WorkLink|true | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon WorkMail|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon WorkSpaces|true | false | true | false | true | true | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false
+Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | true | false | false | true | false | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | true | false | false
