@@ -1,9 +1,10 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 152 Services
+### 155 Services
 
-| | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-west-1 | eu-central-1 | eu-west-2 | eu-west-3 | eu-north-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | cn-north-1 | cn-northwest-1 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
+| | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
+|false | false | false | false | false | false | false | false
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false
@@ -39,7 +40,8 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | false | true | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
-Amazon FSx|true | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
@@ -63,6 +65,7 @@ Amazon Redshift|true | true | true | true | true | true | true | true | true | t
 Amazon Rekognition Image|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false
 Amazon Rekognition Video|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon Route 53 Resolver|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
 Amazon SageMaker|true | true | true | true | true | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false
 Amazon SageMaker Neo|true | true | true | false | false | false | false | false | true | false | false | false | false
@@ -149,7 +152,7 @@ AWS Step Functions|true | true | true | true | true | true | true | true | true 
 AWS Storage Gateway|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS Transit Gateway|true | true | true | true | false | false | false | false | true | false | false | false | false | false | false | false | false | false | true | false | false
+AWS Transit Gateway|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS WAF|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false
