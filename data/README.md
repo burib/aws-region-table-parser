@@ -18,7 +18,7 @@ Amazon CloudWatch|true | true | true | true | true | true | true | true | true |
 Amazon CloudWatch Events|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Cognito|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | true | false
-Amazon Comprehend|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | false | false | false
+Amazon Comprehend|true | true | true | false | true | false | false | false | true | true | false | false | false | true | false | false | true | false | false | false | false
 Amazon Comprehend Medical|true | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | true | false | true | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false
@@ -59,7 +59,7 @@ Amazon Mobile Analytics|true | false | false | false | false | false | false | f
 Amazon MQ|true | true | true | true | false | false | false | false | true | true | false | false | false | true | true | false | true | true | false | false | false
 Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false | false
-Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | true
+Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false
