@@ -76,7 +76,7 @@ Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
-Amazon Transcribe|true | true | true | false | true | false | false | false | true | false | true | true | false | true | false | false | true | false | true | false | false
+Amazon Transcribe|true | true | true | false | true | true | false | false | true | false | true | true | false | true | false | false | true | false | true | false | false
 Amazon Translate|true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
@@ -85,7 +85,7 @@ Amazon WorkMail|true | false | true | false | false | false | false | false | tr
 Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | true | false | false | true | false | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-AWS AppSync|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | true | false | false
+AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | true | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | false | true | false | false | true | true | false | true | true | true | false | false
 AWS Backup|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
