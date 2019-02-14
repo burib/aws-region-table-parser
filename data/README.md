@@ -7,7 +7,7 @@
 |false | false | false | false | false | false | false | false
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-Amazon AppStream 2.0|true | false | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false
+Amazon AppStream 2.0|true | false | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | true | false | false | false
 Amazon Athena|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true
 Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true
@@ -65,7 +65,7 @@ Amazon Redshift|true | true | true | true | true | true | true | true | true | t
 Amazon Rekognition Image|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false
 Amazon Rekognition Video|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Route 53 Resolver|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
+Amazon Route 53 Resolver|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon SageMaker|true | true | true | true | true | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false
 Amazon SageMaker Neo|true | true | true | false | false | false | false | false | true | false | false | false | false
@@ -85,7 +85,7 @@ Amazon WorkMail|true | false | true | false | false | false | false | false | tr
 Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | true | false | false | true | false | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | true | false | false
+AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | false | true | false | false | true | true | false | true | true | true | false | false
 AWS Backup|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
