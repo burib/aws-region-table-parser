@@ -152,7 +152,7 @@ AWS Step Functions|true | true | true | true | true | true | true | true | true 
 AWS Storage Gateway|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | false | false | false
+AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Transit Gateway|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS WAF|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
