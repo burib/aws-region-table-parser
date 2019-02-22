@@ -178,7 +178,7 @@
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": false,
