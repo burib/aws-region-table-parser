@@ -1125,7 +1125,7 @@
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
-      "eu-west-2": false,
+      "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "ap-southeast-1": true,
