@@ -3102,13 +3102,26 @@
     },
     "single_sign-on": {
       "us-east-1": true,
-      "us-east-2": false,
-      "us-west-2": false,
+      "us-east-2": true,
+      "us-west-2": true,
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
       "us-gov-west-1": false,
-      "us-gov-east-1": false
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "snowball": {
       "us-east-1": true,
@@ -3446,6 +3459,29 @@
       "ap-south-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
+    },
+    "vmware_cloud_on_aws": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": true,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     }
   },
   "serviceNames": {
@@ -3604,7 +3640,8 @@
     "well-architected_tool": "AWS Well-Architected Tool",
     "x-ray": "AWS X-Ray",
     "elastic_load_balancing": "Elastic Load Balancing",
-    "vm_importexport": "VM Import/Export"
+    "vm_importexport": "VM Import/Export",
+    "vmware_cloud_on_aws": "VMware Cloud on AWS"
   },
   "edgeLocations": [
     "Atlanta, GA, United States (5)",

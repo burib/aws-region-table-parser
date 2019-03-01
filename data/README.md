@@ -1,6 +1,6 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 156 Services
+### 157 Services
 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
@@ -144,7 +144,7 @@ AWS Server Migration Service|true | true | true | true | true | true | true | tr
 AWS Service Catalog|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
-AWS Single Sign-On|true | false | false | false | false | false | false | false
+AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | true | false | false | true | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | false | true | true | true
 AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false
@@ -160,3 +160,4 @@ AWS Well-Architected Tool|true | true | true | false | false | false | false | f
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
+VMware Cloud on AWS|true | true | true | true | false | false | false | true | true | true | true | false | false | false | true | false | true | false | false | false | false
