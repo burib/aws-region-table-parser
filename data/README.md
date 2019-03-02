@@ -77,7 +77,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 Amazon Transcribe|true | true | true | false | true | true | false | false | true | false | true | true | false | true | false | false | true | false | true | false | false
-Amazon Translate|true | true | true | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Translate|true | true | true | false | false | false | true | false | false | true | false | false | false | false | false | false | false | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
 Amazon WorkLink|true | true | true | false | false | false | false | false | true | false | false | false | false
