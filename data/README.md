@@ -143,7 +143,7 @@ AWS Serverless Application Repository|true | true | true | true | true | true | 
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Service Catalog|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
-AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
+AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | true | false | false | true | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | false | true | true | true
 AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | false | false | false | false
@@ -155,7 +155,7 @@ AWS Systems Manager|true | true | true | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Transit Gateway|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS WAF|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
+AWS WAF|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
