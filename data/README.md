@@ -8,7 +8,7 @@
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | true | false | false | false
-Amazon Athena|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false
+Amazon Athena|true | true | true | false | true | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon Chime|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -57,7 +57,7 @@ Amazon Macie|true | false | true | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false
-Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false
+Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | true | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
