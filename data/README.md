@@ -18,11 +18,11 @@ Amazon CloudWatch|true | true | true | true | true | true | true | true | true |
 Amazon CloudWatch Events|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Cognito|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | true | false
-Amazon Comprehend|true | true | true | false | true | false | false | false | true | true | false | false | false | true | false | false | true | false | false | false | false
+Amazon Comprehend|true | true | true | false | true | false | true | false | true | true | true | false | false | true | false | false | true | false | false | false | false
 Amazon Comprehend Medical|true | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | true | false | true | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false
-Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
@@ -40,8 +40,8 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | false | true | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
-Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | false | false | false | false
-Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false
+Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
@@ -155,7 +155,7 @@ AWS Systems Manager|true | true | true | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Transit Gateway|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS WAF|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false
+AWS WAF|true | true | true | true | false | false | true | false | true | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
