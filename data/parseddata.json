@@ -3419,7 +3419,7 @@
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
+      "eu-west-3": true,
       "eu-north-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
