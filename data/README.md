@@ -93,7 +93,7 @@ AWS Certificate Manager|true | true | true | true | true | true | true | true | 
 AWS Cloud Map|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false | false
-AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | false | false | true | true | false | true | false | true | false | false
+AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | false | true | true | false | false | false | true | true | false | true | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodeBuild|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | true | true
