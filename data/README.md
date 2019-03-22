@@ -1,6 +1,6 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 157 Services
+### 158 Services
 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
@@ -90,6 +90,7 @@ AWS Auto Scaling|true | true | true | true | true | false | false | false | true
 AWS Backup|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
+AWS Certificate Manager Private CA|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false
 AWS Cloud Map|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | false | true | false | false | false | false | true | false | false | false | false | false | false | false
