@@ -161,4 +161,4 @@ AWS Well-Architected Tool|true | true | true | false | false | false | false | f
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-VMware Cloud on AWS|true | true | true | true | false | false | false | true | true | true | true | false | false | false | true | false | true | false | false | false | false
+VMware Cloud on AWS|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | false | true | false | false | false | false
