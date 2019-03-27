@@ -142,7 +142,7 @@ AWS Secrets Manager|true | true | true | true | true | true | false | false | tr
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
-AWS Service Catalog|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false
+AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | true | false | false | true | false | false | false | false

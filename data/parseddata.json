@@ -3077,7 +3077,7 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
