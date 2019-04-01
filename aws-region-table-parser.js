@@ -1,5 +1,6 @@
 const regionNames = require('./aws-region-names.js');
 const serviceNames = {};
+const regionSummary = {};
 const locationsMap = {
   edgeLocations: [],
   regionalEdgeCaches: []
@@ -48,7 +49,11 @@ function parseAwsTable(html) {
               services[serviceName] = services[serviceName] || {};
             } else {
               let regionName = regions[coloumnIndex];
-              services[serviceName][regionName] = $(coloumn).text() === '✓';
+              let serviceInRegion = $(coloumn).text() === '✓';
+              services[serviceName][regionName] = serviceInRegion;
+              if (serviceInRegion) {
+                regionSummary[regionName] = regionSummary[regionName] + 1 || 0;
+              }
             }
 
             serviceNames[serviceName] = parsedServiceName;
@@ -109,6 +114,7 @@ function parseAwsTable(html) {
   console.log('\x1b[32m%s\x1b[0m', Object.keys(services).length + ' AWS Services found.');
 
   return {
+    regionSummary: regionSummary,
     services: services,
     serviceNames: serviceNames,
     edgeLocations: locationsMap.edgeLocations,
