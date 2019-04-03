@@ -111,7 +111,7 @@ AWS Device Farm|false | false | true | false | false | false | false | false | f
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Directory Service|true | true | true | true | true | true | true | false | true | true | true | false | false | true | true | false | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Elemental MediaConnect|true | false | true | true | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false
+AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | false | true | true | false | true | true | true | false | false
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | true | true | false | true | true | true | false | false
