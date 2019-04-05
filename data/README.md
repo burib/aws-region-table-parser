@@ -87,7 +87,7 @@ Amazon WorkSpaces Application Manager|true | false | true | false | false | fals
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | false | true | false | false | true | true | false | true | true | true | false | false
-AWS Backup|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
+AWS Backup|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false
