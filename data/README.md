@@ -1,6 +1,6 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 158 Services
+### 159 Services
 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
@@ -129,6 +129,7 @@ AWS IoT Device Defender|true | true | true | false | false | false | false | fal
 AWS IoT Device Management|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | true | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
+AWS License Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Managed Services|true | false | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -146,9 +147,9 @@ AWS Service Catalog|true | true | true | true | true | true | true | false | tru
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | true | false | false | true | false | false | false | false
-AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | false | true | true | true
-AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | false | false | false | false
-AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false
+AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true
+AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | false | false | false | false
+AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Step Functions|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Storage Gateway|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
