@@ -2,6 +2,33 @@
 ### 11 Regional Edge Caches
 ### 159 Services
 
+# Region Summary # 
+| Region | Services | 
+| ------ | --------: | 
+us-east-1 | 153 
+us-east-2 | 123 
+us-west-2 | 149 
+us-west-1 | 91 
+ca-central-1 | 81 
+sa-east-1 | 69 
+us-gov-west-1 | 70 
+us-gov-east-1 | 45 
+eu-west-1 | 145 
+eu-central-1 | 118 
+eu-west-2 | 99 
+eu-west-3 | 72 
+eu-north-1 | 50 
+ap-southeast-1 | 114 
+ap-northeast-1 | 124 
+ap-southeast-2 | 120 
+ap-northeast-2 | 98 
+ap-south-1 | 89 
+cn-north-1 | 46 
+cn-northwest-1 | 43 
+ap-northeast-3 | 27 
+
+
+# Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
 |false | false | false | false | false | false | false | false
