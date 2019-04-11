@@ -2,30 +2,30 @@
 ### 11 Regional Edge Caches
 ### 159 Services
 
-# Region Summary # 
-| Region | Services | 
-| ------ | --------: | 
-us-east-1 | 154 
-us-east-2 | 125 
-us-west-2 | 150 
-us-west-1 | 92 
-ca-central-1 | 81 
-sa-east-1 | 70 
-us-gov-west-1 | 70 
-us-gov-east-1 | 45 
-eu-west-1 | 146 
-eu-central-1 | 120 
-eu-west-2 | 101 
-eu-west-3 | 76 
-eu-north-1 | 55 
-ap-southeast-1 | 115 
-ap-northeast-1 | 126 
-ap-southeast-2 | 124 
-ap-northeast-2 | 101 
-ap-south-1 | 92 
-cn-north-1 | 46 
-cn-northwest-1 | 44 
-ap-northeast-3 | 30 
+### Region Summary # 
+| Region Code | Region Name | no. of Supported Services | 
+| ------ | -------- | -------- | 
+us-east-1 | US East (N. Virginia) | 155
+us-west-2 | US West (Oregon) | 151
+eu-west-1 | EU (Ireland) | 147
+ap-northeast-1 | Asia Pacific (Tokyo) | 127
+us-east-2 | US East (Ohio) | 126
+ap-southeast-2 | Asia Pacific (Sydney) | 125
+eu-central-1 | EU (Frankfurt) | 121
+ap-southeast-1 | Asia Pacific (Singapore) | 116
+eu-west-2 | EU (London) | 102
+ap-northeast-2 | Asia Pacific (Seoul) | 102
+us-west-1 | US West (N. California) | 93
+ap-south-1 | Asia Pacific (Mumbai) | 93
+ca-central-1 | Canada (Central) | 82
+eu-west-3 | EU (Paris) | 77
+sa-east-1 | South America (São Paulo) | 71
+us-gov-west-1 | GovCloud (US-West) | 71
+eu-north-1 | EU (Stockholm) | 56
+cn-north-1 | China (Beijing) | 47
+us-gov-east-1 | GovCloud (US-East) | 46
+cn-northwest-1 | China (Ningxia) | 45
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 31
 
 
 # Region and Service Table # 

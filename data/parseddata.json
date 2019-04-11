@@ -1,26 +1,110 @@
 {
   "regionSummary": {
-    "us-east-1": 154,
-    "us-east-2": 125,
-    "us-west-2": 150,
-    "us-west-1": 92,
-    "ca-central-1": 81,
-    "sa-east-1": 70,
-    "us-gov-west-1": 70,
-    "us-gov-east-1": 45,
-    "eu-west-1": 146,
-    "eu-central-1": 120,
-    "eu-west-2": 101,
-    "eu-west-3": 76,
-    "eu-north-1": 55,
-    "ap-southeast-1": 115,
-    "ap-northeast-1": 126,
-    "ap-southeast-2": 124,
-    "ap-northeast-2": 101,
-    "ap-south-1": 92,
-    "cn-north-1": 46,
-    "cn-northwest-1": 44,
-    "ap-northeast-3": 30
+    "us-east-1": {
+      "regionCode": "us-east-1",
+      "regionName": "US East (N. Virginia)",
+      "value": 155
+    },
+    "us-east-2": {
+      "regionCode": "us-east-2",
+      "regionName": "US East (Ohio)",
+      "value": 126
+    },
+    "us-west-2": {
+      "regionCode": "us-west-2",
+      "regionName": "US West (Oregon)",
+      "value": 151
+    },
+    "us-west-1": {
+      "regionCode": "us-west-1",
+      "regionName": "US West (N. California)",
+      "value": 93
+    },
+    "ca-central-1": {
+      "regionCode": "ca-central-1",
+      "regionName": "Canada (Central)",
+      "value": 82
+    },
+    "sa-east-1": {
+      "regionCode": "sa-east-1",
+      "regionName": "South America (São Paulo)",
+      "value": 71
+    },
+    "us-gov-west-1": {
+      "regionCode": "us-gov-west-1",
+      "regionName": "GovCloud (US-West)",
+      "value": 71
+    },
+    "us-gov-east-1": {
+      "regionCode": "us-gov-east-1",
+      "regionName": "GovCloud (US-East)",
+      "value": 46
+    },
+    "eu-west-1": {
+      "regionCode": "eu-west-1",
+      "regionName": "EU (Ireland)",
+      "value": 147
+    },
+    "eu-central-1": {
+      "regionCode": "eu-central-1",
+      "regionName": "EU (Frankfurt)",
+      "value": 121
+    },
+    "eu-west-2": {
+      "regionCode": "eu-west-2",
+      "regionName": "EU (London)",
+      "value": 102
+    },
+    "eu-west-3": {
+      "regionCode": "eu-west-3",
+      "regionName": "EU (Paris)",
+      "value": 77
+    },
+    "eu-north-1": {
+      "regionCode": "eu-north-1",
+      "regionName": "EU (Stockholm)",
+      "value": 56
+    },
+    "ap-southeast-1": {
+      "regionCode": "ap-southeast-1",
+      "regionName": "Asia Pacific (Singapore)",
+      "value": 116
+    },
+    "ap-northeast-1": {
+      "regionCode": "ap-northeast-1",
+      "regionName": "Asia Pacific (Tokyo)",
+      "value": 127
+    },
+    "ap-northeast-3": {
+      "regionCode": "ap-northeast-3",
+      "regionName": "Asia Pacific (Osaka-Local)",
+      "value": 31
+    },
+    "ap-southeast-2": {
+      "regionCode": "ap-southeast-2",
+      "regionName": "Asia Pacific (Sydney)",
+      "value": 125
+    },
+    "ap-northeast-2": {
+      "regionCode": "ap-northeast-2",
+      "regionName": "Asia Pacific (Seoul)",
+      "value": 102
+    },
+    "ap-south-1": {
+      "regionCode": "ap-south-1",
+      "regionName": "Asia Pacific (Mumbai)",
+      "value": 93
+    },
+    "cn-north-1": {
+      "regionCode": "cn-north-1",
+      "regionName": "China (Beijing)",
+      "value": 47
+    },
+    "cn-northwest-1": {
+      "regionCode": "cn-northwest-1",
+      "regionName": "China (Ningxia)",
+      "value": 45
+    }
   },
   "services": {
     "": {
