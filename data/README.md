@@ -5,27 +5,27 @@
 # Region Summary # 
 | Region | Services | 
 | ------ | --------: | 
-us-east-1 | 153 
-us-east-2 | 123 
-us-west-2 | 149 
-us-west-1 | 91 
+us-east-1 | 154 
+us-east-2 | 125 
+us-west-2 | 150 
+us-west-1 | 92 
 ca-central-1 | 81 
-sa-east-1 | 69 
+sa-east-1 | 70 
 us-gov-west-1 | 70 
 us-gov-east-1 | 45 
-eu-west-1 | 145 
-eu-central-1 | 118 
-eu-west-2 | 99 
-eu-west-3 | 72 
-eu-north-1 | 50 
-ap-southeast-1 | 114 
-ap-northeast-1 | 124 
-ap-southeast-2 | 120 
-ap-northeast-2 | 98 
-ap-south-1 | 89 
+eu-west-1 | 146 
+eu-central-1 | 120 
+eu-west-2 | 101 
+eu-west-3 | 76 
+eu-north-1 | 55 
+ap-southeast-1 | 115 
+ap-northeast-1 | 126 
+ap-southeast-2 | 124 
+ap-northeast-2 | 101 
+ap-south-1 | 92 
 cn-north-1 | 46 
-cn-northwest-1 | 43 
-ap-northeast-3 | 27 
+cn-northwest-1 | 44 
+ap-northeast-3 | 30 
 
 
 # Region and Service Table # 
