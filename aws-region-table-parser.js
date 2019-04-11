@@ -45,27 +45,29 @@ function parseAwsTable(html) {
           const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
           let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
 
-          coloumns.each(function (coloumnIndex,coloumn) {
-            if (coloumnIndex === 0) {
-              services[serviceName] = services[serviceName] || {};
-            } else {
-              let regionCode = regions[coloumnIndex];
-              let isServiceSupportedInRegion = $(coloumn).text() === '✓';
-              services[serviceName][regionCode] = isServiceSupportedInRegion;
+          if (parsedServiceName) {
+            coloumns.each(function (coloumnIndex,coloumn) {
+              if (coloumnIndex === 0) {
+                services[serviceName] = services[serviceName] || {};
+              } else {
+                let regionCode = regions[coloumnIndex];
+                let isServiceSupportedInRegion = $(coloumn).text() === '✓';
+                services[serviceName][regionCode] = isServiceSupportedInRegion;
 
-              regionSummary[regionCode] = regionSummary[regionCode] || {
-                    regionCode: regionCode,
-                    regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
-                    value: 0
-                  };
+                regionSummary[regionCode] = regionSummary[regionCode] || {
+                      regionCode: regionCode,
+                      regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
+                      value: 0
+                    };
 
-              if (isServiceSupportedInRegion) {
-                regionSummary[regionCode].value++;
+                if (isServiceSupportedInRegion) {
+                  regionSummary[regionCode].value++;
+                }
               }
-            }
 
-            serviceNames[serviceName] = parsedServiceName;
-          });
+              serviceNames[serviceName] = parsedServiceName;
+            });
+          }
         }
       });
     } else {
