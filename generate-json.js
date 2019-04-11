@@ -1,17 +1,23 @@
 var fs = require('fs');
 var awsRegionTableParser = require('./index.js');
 
+const sortArrayByProp = (array, prop, asc = true) => {
+  return array.sort((a, b) => {
+    return asc ? a[prop] - b[prop] : b[prop] - a[prop];
+  });
+};
+
 function generateRegionSummary(parseddata) {
-  const regionSummary = parseddata.regionSummary;
-  const regions = Object.keys(regionSummary);
-  let markdownTable =`# Region Summary # \n`;
-  markdownTable += `| Region | Services | \n`;
-  markdownTable += `| ------ | --------: | \n`;
-  Object.entries(regionSummary).forEach(entry => {
-    markdownTable += `${entry[0]} | ${entry[1]} \n`
+  const regionSummary = sortArrayByProp(Object.values(parseddata.regionSummary), 'value', false);
+
+  let markdownTable =`### Region Summary # \n`;
+  markdownTable += `| Region Code | Region Name | no. of Supported Services | \n`;
+  markdownTable += `| ------ | -------- | -------- | \n`;
+  regionSummary.forEach(region => {
+    markdownTable += `${region.regionCode} | ${region.regionName} | ${region.value}\n`
   });
 
-  markdownTable += `\n\n`
+  markdownTable += `\n\n`;
 
   return markdownTable;
 }

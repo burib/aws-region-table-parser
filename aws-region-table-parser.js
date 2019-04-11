@@ -5,6 +5,7 @@ const locationsMap = {
   edgeLocations: [],
   regionalEdgeCaches: []
 };
+
 const transpose = array => array[0].map((_, c) => array.map(r => r[c]));
 const flatten = (array) => {
   return array.reduce(
@@ -48,11 +49,18 @@ function parseAwsTable(html) {
             if (coloumnIndex === 0) {
               services[serviceName] = services[serviceName] || {};
             } else {
-              let regionName = regions[coloumnIndex];
-              let serviceInRegion = $(coloumn).text() === '✓';
-              services[serviceName][regionName] = serviceInRegion;
-              if (serviceInRegion) {
-                regionSummary[regionName] = regionSummary[regionName] + 1 || 0;
+              let regionCode = regions[coloumnIndex];
+              let isServiceSupportedInRegion = $(coloumn).text() === '✓';
+              services[serviceName][regionCode] = isServiceSupportedInRegion;
+
+              regionSummary[regionCode] = regionSummary[regionCode] || {
+                    regionCode: regionCode,
+                    regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
+                    value: 0
+                  };
+
+              if (isServiceSupportedInRegion) {
+                regionSummary[regionCode].value++;
               }
             }
 
