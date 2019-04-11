@@ -107,16 +107,6 @@
     }
   },
   "services": {
-    "": {
-      "us-east-1": false,
-      "us-east-2": false,
-      "us-west-2": false,
-      "us-west-1": false,
-      "ca-central-1": false,
-      "sa-east-1": false,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false
-    },
     "alexa_for_business": {
       "us-east-1": true,
       "us-east-2": false,
@@ -3654,7 +3644,6 @@
     }
   },
   "serviceNames": {
-    "": "",
     "alexa_for_business": "Alexa for Business",
     "api_gateway": "Amazon API Gateway",
     "appstream_2_0": "Amazon AppStream 2.0",
