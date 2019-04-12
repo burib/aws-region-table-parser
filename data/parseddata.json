@@ -3,17 +3,17 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 155
+      "value": 156
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 126
+      "value": 127
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 151
+      "value": 152
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -43,17 +43,17 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 147
+      "value": 148
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 121
+      "value": 122
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 102
+      "value": 103
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -68,12 +68,12 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 116
+      "value": 117
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 127
+      "value": 128
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -83,17 +83,17 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 125
+      "value": 126
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 102
+      "value": 103
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 93
+      "value": 94
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -1852,6 +1852,29 @@
       "ap-southeast-2": true,
       "ap-northeast-2": false,
       "ap-south-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "amplify_console": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -3723,6 +3746,7 @@
     "workmail": "Amazon WorkMail",
     "workspaces": "Amazon WorkSpaces",
     "workspaces_application_manager": "Amazon WorkSpaces Application Manager",
+    "amplify_console": "AWS Amplify Console",
     "application_discovery_service": "AWS Application Discovery Service",
     "appsync": "AWS AppSync",
     "auto_scaling": "AWS Auto Scaling",

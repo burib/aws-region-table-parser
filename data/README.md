@@ -1,22 +1,22 @@
 ### 66 Edge Locations
 ### 11 Regional Edge Caches
-### 158 Services
+### 159 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 155
-us-west-2 | US West (Oregon) | 151
-eu-west-1 | EU (Ireland) | 147
-ap-northeast-1 | Asia Pacific (Tokyo) | 127
-us-east-2 | US East (Ohio) | 126
-ap-southeast-2 | Asia Pacific (Sydney) | 125
-eu-central-1 | EU (Frankfurt) | 121
-ap-southeast-1 | Asia Pacific (Singapore) | 116
-eu-west-2 | EU (London) | 102
-ap-northeast-2 | Asia Pacific (Seoul) | 102
+us-east-1 | US East (N. Virginia) | 156
+us-west-2 | US West (Oregon) | 152
+eu-west-1 | EU (Ireland) | 148
+ap-northeast-1 | Asia Pacific (Tokyo) | 128
+us-east-2 | US East (Ohio) | 127
+ap-southeast-2 | Asia Pacific (Sydney) | 126
+eu-central-1 | EU (Frankfurt) | 122
+ap-southeast-1 | Asia Pacific (Singapore) | 117
+eu-west-2 | EU (London) | 103
+ap-northeast-2 | Asia Pacific (Seoul) | 103
+ap-south-1 | Asia Pacific (Mumbai) | 94
 us-west-1 | US West (N. California) | 93
-ap-south-1 | Asia Pacific (Mumbai) | 93
 ca-central-1 | Canada (Central) | 82
 eu-west-3 | EU (Paris) | 77
 sa-east-1 | South America (São Paulo) | 71
@@ -110,6 +110,7 @@ Amazon WorkLink|true | true | true | false | false | false | false | false | tru
 Amazon WorkMail|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | true | true | false | true | true | false | false | false
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | true | false | false | true | false | false | false | false
+AWS Amplify Console|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | false | true | false | false | true | true | false | true | true | true | false | false
