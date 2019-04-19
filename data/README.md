@@ -22,10 +22,10 @@ eu-west-3 | EU (Paris) | 77
 sa-east-1 | South America (São Paulo) | 71
 us-gov-west-1 | GovCloud (US-West) | 71
 eu-north-1 | EU (Stockholm) | 56
-cn-north-1 | China (Beijing) | 47
+cn-north-1 | China (Beijing) | 48
 us-gov-east-1 | GovCloud (US-East) | 46
-cn-northwest-1 | China (Ningxia) | 45
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 31
+cn-northwest-1 | China (Ningxia) | 46
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 32
 
 
 # Region and Service Table # 
@@ -171,7 +171,7 @@ AWS Security Hub|true | true | true | true | true | true | false | false | true 
 AWS Serverless Application Repository|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false
-AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false
+AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false
 AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | true | false | false | true | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true
