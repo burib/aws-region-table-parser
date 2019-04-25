@@ -23,7 +23,7 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 82
+      "value": 83
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
@@ -48,17 +48,17 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 122
+      "value": 123
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 103
+      "value": 104
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 77
+      "value": 78
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
@@ -83,17 +83,17 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 126
+      "value": 127
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 103
+      "value": 105
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 94
+      "value": 95
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -1689,7 +1689,7 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
       "eu-north-1": false,
@@ -1697,7 +1697,7 @@
       "ap-northeast-1": false,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
+      "ap-northeast-2": true,
       "ap-south-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -2674,21 +2674,21 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": true,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
-      "eu-west-2": false,
-      "eu-west-3": false,
+      "eu-west-2": true,
+      "eu-west-3": true,
       "eu-north-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },

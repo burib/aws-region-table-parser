@@ -10,15 +10,15 @@ us-west-2 | US West (Oregon) | 152
 eu-west-1 | EU (Ireland) | 148
 ap-northeast-1 | Asia Pacific (Tokyo) | 128
 us-east-2 | US East (Ohio) | 127
-ap-southeast-2 | Asia Pacific (Sydney) | 126
-eu-central-1 | EU (Frankfurt) | 122
+ap-southeast-2 | Asia Pacific (Sydney) | 127
+eu-central-1 | EU (Frankfurt) | 123
 ap-southeast-1 | Asia Pacific (Singapore) | 117
-eu-west-2 | EU (London) | 103
-ap-northeast-2 | Asia Pacific (Seoul) | 103
-ap-south-1 | Asia Pacific (Mumbai) | 94
+ap-northeast-2 | Asia Pacific (Seoul) | 105
+eu-west-2 | EU (London) | 104
+ap-south-1 | Asia Pacific (Mumbai) | 95
 us-west-1 | US West (N. California) | 93
-ca-central-1 | Canada (Central) | 82
-eu-west-3 | EU (Paris) | 77
+ca-central-1 | Canada (Central) | 83
+eu-west-3 | EU (Paris) | 78
 us-gov-west-1 | GovCloud (US-West) | 73
 sa-east-1 | South America (São Paulo) | 71
 eu-north-1 | EU (Stockholm) | 56
@@ -102,7 +102,7 @@ Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
-Amazon Transcribe|true | true | true | false | true | true | false | false | true | false | true | true | false | true | false | false | true | false | true | false | false
+Amazon Transcribe|true | true | true | false | true | true | false | false | true | true | true | true | false | true | false | false | true | true | true | false | false
 Amazon Translate|true | true | true | false | false | false | true | false | false | true | false | false | false | false | false | false | false | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
@@ -146,7 +146,7 @@ AWS Elemental MediaStore|true | false | true | false | false | false | false | f
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false
 AWS Fargate|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
-AWS Global Accelerator|true | true | true | true | false | false | false | false | true | true | false | false | false | true | true | false | false | false | false | false | false
+AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Glue|true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false
