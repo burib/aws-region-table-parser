@@ -67,6 +67,10 @@ module.exports = {
     'name': 'Asia Pacific (Sydney)',
     'code': 'ap-southeast-2'
   },
+  'hong_kong' : {
+    'name': 'Asia Pacific (Hong Kong)',
+    'code': 'ap-east-1'
+  },
   'seoul' : {
     'name': 'Asia Pacific (Seoul)',
     'code': 'ap-northeast-2'
