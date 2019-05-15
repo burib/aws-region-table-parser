@@ -19,7 +19,7 @@ ap-south-1 | Asia Pacific (Mumbai) | 99
 us-west-1 | US West (N. California) | 94
 ca-central-1 | Canada (Central) | 86
 eu-west-3 | EU (Paris) | 78
-us-gov-west-1 | GovCloud (US-West) | 76
+us-gov-west-1 | GovCloud (US-West) | 77
 sa-east-1 | South America (São Paulo) | 71
 eu-north-1 | EU (Stockholm) | 60
 us-gov-east-1 | GovCloud (US-East) | 51
@@ -103,7 +103,7 @@ Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-Amazon Transcribe|true | true | true | false | true | true | false | false | true | true | true | true | false | true | false | false | true | true | true | false | false | false
+Amazon Transcribe|true | true | true | false | true | true | true | false | true | true | true | true | false | true | false | false | true | true | true | false | false | false
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false

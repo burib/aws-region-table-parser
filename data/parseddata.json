@@ -33,7 +33,7 @@
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 76
+      "value": 77
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
@@ -1764,7 +1764,7 @@
       "us-west-1": false,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
