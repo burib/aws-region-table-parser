@@ -8,7 +8,7 @@
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 128
+      "value": 129
     },
     "us-west-2": {
       "regionCode": "us-west-2",
@@ -23,7 +23,7 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 86
+      "value": 87
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
@@ -48,7 +48,7 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 125
+      "value": 126
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
@@ -63,7 +63,7 @@
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 60
+      "value": 61
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -2190,7 +2190,7 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
@@ -2289,7 +2289,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -3055,10 +3055,10 @@
     },
     "managed_services": {
       "us-east-1": true,
-      "us-east-2": false,
+      "us-east-2": true,
       "us-west-2": true,
       "us-west-1": false,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
