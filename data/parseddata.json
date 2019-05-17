@@ -63,7 +63,7 @@
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 61
+      "value": 62
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -1097,7 +1097,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,

@@ -21,7 +21,7 @@ ca-central-1 | Canada (Central) | 87
 eu-west-3 | EU (Paris) | 78
 us-gov-west-1 | GovCloud (US-West) | 77
 sa-east-1 | South America (São Paulo) | 71
-eu-north-1 | EU (Stockholm) | 61
+eu-north-1 | EU (Stockholm) | 62
 us-gov-east-1 | GovCloud (US-East) | 51
 cn-north-1 | China (Beijing) | 48
 cn-northwest-1 | China (Ningxia) | 46
@@ -74,7 +74,7 @@ Amazon Glacier|true | true | true | true | true | true | true | true | true | tr
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | false | false | false | false | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
-Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | true | true
+Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | false | false | false | false | false
 Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
