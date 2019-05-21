@@ -1,4 +1,4 @@
-const url = 'http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/';
+const url = 'https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/';
 const parser = require('./aws-region-table-parser.js');
 const request = require('request');
 

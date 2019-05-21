@@ -21,7 +21,7 @@ function parseAwsTable(html) {
   const $ = cheerio.load(html);
   let services = {};
 
-  $('.aws-table').each(function(awsTableIndex) {
+  $('table').each(function(awsTableIndex) {
     let regions = [];
 
     if (awsTableIndex !== 3) {
@@ -102,6 +102,9 @@ function parseAwsTable(html) {
 
   locationsMap.edgeLocations = transpose(locationsMap.edgeLocations);
   locationsMap.regionalEdgeCaches = transpose(locationsMap.regionalEdgeCaches);
+
+  console.log(locationsMap.edgeLocations);
+  console.log(locationsMap.regionalEdgeCaches);
 
   const addCountryNameToUsLocations = (array) => {
     return array.map((location) => {
