@@ -103,9 +103,6 @@ function parseAwsTable(html) {
   locationsMap.edgeLocations = transpose(locationsMap.edgeLocations);
   locationsMap.regionalEdgeCaches = transpose(locationsMap.regionalEdgeCaches);
 
-  console.log(locationsMap.edgeLocations);
-  console.log(locationsMap.regionalEdgeCaches);
-
   const addCountryNameToUsLocations = (array) => {
     return array.map((location) => {
       if (location.match(/ \(.+?\)/ig)) {
