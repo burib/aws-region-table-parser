@@ -25,49 +25,50 @@ function parseAwsTable(html) {
     let regions = [];
 
     if (awsTableIndex !== 3) {
-      $(this).find('tbody tr').each(function(rowIndex) {
-        const coloumns = $(this).find('td');
+      $(this).find('tbody tr').each(function(rowIndex, row) {
+        const headers = $(row).find('th');
+        const coloumns = $(row).find('td');
 
-        if (rowIndex === 0) {
-          coloumns.each(function (coloumnIndex,coloumn) {
-            const parsedRegionName = $(coloumn).text().toLowerCase().trim()
-                .replace(/ /ig, '_')
-                .replace(/[()* ]/ig, ''),
-            region = regionNames[parsedRegionName] || {};
+        headers.each(function (coloumnIndex,coloumn) {
+          console.log($(coloumn).text());
+          const parsedRegionName = $(coloumn).text().toLowerCase().trim()
+              .replace(/ /ig, '_')
+              .replace(/[()* ]/ig, '');
+          const region = regionNames[parsedRegionName] || {};
 
-            if (parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
-              console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
-            } else {
-              regions.push(region.code);
-            }
-          });
-        } else {
-          const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
-          let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
 
-          if (parsedServiceName) {
-            coloumns.each(function (coloumnIndex,coloumn) {
-              if (coloumnIndex === 0) {
-                services[serviceName] = services[serviceName] || {};
-              } else {
-                let regionCode = regions[coloumnIndex];
-                let isServiceSupportedInRegion = $(coloumn).text() === '✓';
-                services[serviceName][regionCode] = isServiceSupportedInRegion;
-
-                regionSummary[regionCode] = regionSummary[regionCode] || {
-                      regionCode: regionCode,
-                      regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
-                      value: 0
-                    };
-
-                if (isServiceSupportedInRegion) {
-                  regionSummary[regionCode].value++;
-                }
-              }
-
-              serviceNames[serviceName] = parsedServiceName;
-            });
+          if (parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
+            console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
+          } else {
+            regions.push(region.code);
           }
+        });
+
+        const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
+        let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
+
+        if (parsedServiceName) {
+          coloumns.each(function (coloumnIndex,coloumn) {
+            if (coloumnIndex === 0) {
+              services[serviceName] = services[serviceName] || {};
+            } else {
+              let regionCode = regions[coloumnIndex];
+              let isServiceSupportedInRegion = $(coloumn).text() === '✓';
+              services[serviceName][regionCode] = isServiceSupportedInRegion;
+
+              regionSummary[regionCode] = regionSummary[regionCode] || {
+                    regionCode: regionCode,
+                    regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
+                    value: 0
+                  };
+
+              if (isServiceSupportedInRegion) {
+                regionSummary[regionCode].value++;
+              }
+            }
+
+            serviceNames[serviceName] = parsedServiceName;
+          });
         }
       });
     } else {
