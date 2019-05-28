@@ -1,16 +1,16 @@
 ### 62 Edge Locations
 ### 11 Regional Edge Caches
-### 167 Services
+### 168 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
 us-east-1 | US East (N. Virginia) | 161
-us-west-2 | US West (Oregon) | 157
+us-west-2 | US West (Oregon) | 158
 eu-west-1 | EU (Ireland) | 152
 ap-southeast-2 | Asia Pacific (Sydney) | 138
 ap-northeast-1 | Asia Pacific (Tokyo) | 137
-us-east-2 | US East (Ohio) | 133
+us-east-2 | US East (Ohio) | 134
 eu-central-1 | EU (Frankfurt) | 128
 ap-southeast-1 | Asia Pacific (Singapore) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 112
@@ -21,7 +21,7 @@ ca-central-1 | Canada (Central) | 88
 eu-west-3 | EU (Paris) | 81
 sa-east-1 | South America (São Paulo) | 76
 us-gov-west-1 | GovCloud (US-West) | 74
-eu-north-1 | EU (Stockholm) | 63
+eu-north-1 | EU (Stockholm) | 64
 us-gov-east-1 | GovCloud (US-East) | 50
 cn-north-1 | China (Beijing) | 49
 cn-northwest-1 | China (Ningxia) | 47
@@ -145,7 +145,7 @@ AWS Directory Service|true | true | true | true | true | true | true | true | tr
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | true | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -154,6 +154,7 @@ AWS Firewall Manager|true | true | true | false | false | false | false | false 
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
+AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Identity and Access Management (IAM)|false | false | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | true | true | false | true | true
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | false | false | false | false | false
