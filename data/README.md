@@ -8,23 +8,23 @@
 us-east-1 | US East (N. Virginia) | 161
 us-west-2 | US West (Oregon) | 158
 eu-west-1 | EU (Ireland) | 152
-ap-southeast-2 | Asia Pacific (Sydney) | 138
+ap-southeast-2 | Asia Pacific (Sydney) | 139
 ap-northeast-1 | Asia Pacific (Tokyo) | 137
 us-east-2 | US East (Ohio) | 134
 eu-central-1 | EU (Frankfurt) | 128
 ap-southeast-1 | Asia Pacific (Singapore) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 112
-eu-west-2 | EU (London) | 108
+eu-west-2 | EU (London) | 109
 ap-south-1 | Asia Pacific (Mumbai) | 102
 us-west-1 | US West (N. California) | 95
-ca-central-1 | Canada (Central) | 88
+ca-central-1 | Canada (Central) | 89
 eu-west-3 | EU (Paris) | 81
 sa-east-1 | South America (São Paulo) | 76
-us-gov-west-1 | GovCloud (US-West) | 74
+us-gov-west-1 | GovCloud (US-West) | 75
 eu-north-1 | EU (Stockholm) | 64
-us-gov-east-1 | GovCloud (US-East) | 50
+us-gov-east-1 | GovCloud (US-East) | 51
 cn-north-1 | China (Beijing) | 49
-cn-northwest-1 | China (Ningxia) | 47
+cn-northwest-1 | China (Ningxia) | 48
 ap-east-1 | Asia Pacific (Hong Kong) | 46
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 
@@ -35,7 +35,7 @@ ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | true | false | false | false | false
-Amazon Athena|true | true | true | false | true | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Chime|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -46,7 +46,7 @@ Amazon CloudWatch Events|true | true | true | true | true | true | true | true |
 Amazon CloudWatch Logs|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Cognito|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 Amazon Comprehend|true | true | true | false | true | false | true | false | true | true | true | false | false | true | false | false | true | false | false | false | false | false
-Amazon Comprehend Medical|true | true | true | false | false | false | false | false | true | false | false | false | false
+Amazon Comprehend Medical|true | true | true | false | true | false | false | false | true | false | true | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false
 Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | true | false | false | false | false
@@ -106,7 +106,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Textract|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Transcribe|true | true | true | false | true | true | false | false | true | true | true | true | false | true | false | false | true | true | true | false | false | false
+Amazon Transcribe|true | true | true | false | true | true | true | false | true | true | true | true | false | true | false | false | true | true | true | false | false | false
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -144,7 +144,7 @@ AWS Direct Connect|true | true | true | true | true | true | true | true | true 
 AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | true
 AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | true | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | true | false | true | true | false | false | false | false
@@ -198,5 +198,5 @@ AWS X-Ray|true | true | true | true | true | true | false | false | true | true 
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | false | true | false | false | false | false | false
-Amazon Comprehend Medical|false | false | false | false | false | false | false | false | false
+Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|false | false | false | false | false | false | false | false | false
