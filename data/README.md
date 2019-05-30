@@ -1,32 +1,32 @@
 ### 62 Edge Locations
 ### 11 Regional Edge Caches
-### 168 Services
+### 169 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 161
-us-west-2 | US West (Oregon) | 158
-eu-west-1 | EU (Ireland) | 152
-ap-southeast-2 | Asia Pacific (Sydney) | 139
-ap-northeast-1 | Asia Pacific (Tokyo) | 137
-us-east-2 | US East (Ohio) | 134
-eu-central-1 | EU (Frankfurt) | 128
-ap-southeast-1 | Asia Pacific (Singapore) | 125
-ap-northeast-2 | Asia Pacific (Seoul) | 112
-eu-west-2 | EU (London) | 109
-ap-south-1 | Asia Pacific (Mumbai) | 102
-us-west-1 | US West (N. California) | 95
-ca-central-1 | Canada (Central) | 89
-eu-west-3 | EU (Paris) | 81
-sa-east-1 | South America (São Paulo) | 76
-us-gov-west-1 | GovCloud (US-West) | 75
-eu-north-1 | EU (Stockholm) | 64
+us-east-1 | US East (N. Virginia) | 162
+us-west-2 | US West (Oregon) | 159
+eu-west-1 | EU (Ireland) | 153
+ap-southeast-2 | Asia Pacific (Sydney) | 140
+ap-northeast-1 | Asia Pacific (Tokyo) | 138
+us-east-2 | US East (Ohio) | 135
+eu-central-1 | EU (Frankfurt) | 129
+ap-southeast-1 | Asia Pacific (Singapore) | 126
+ap-northeast-2 | Asia Pacific (Seoul) | 113
+eu-west-2 | EU (London) | 110
+ap-south-1 | Asia Pacific (Mumbai) | 103
+us-west-1 | US West (N. California) | 96
+ca-central-1 | Canada (Central) | 90
+eu-west-3 | EU (Paris) | 82
+sa-east-1 | South America (São Paulo) | 77
+us-gov-west-1 | GovCloud (US-West) | 76
+eu-north-1 | EU (Stockholm) | 65
 us-gov-east-1 | GovCloud (US-East) | 51
 cn-north-1 | China (Beijing) | 49
 cn-northwest-1 | China (Ningxia) | 48
-ap-east-1 | Asia Pacific (Hong Kong) | 46
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
+ap-east-1 | Asia Pacific (Hong Kong) | 47
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
 # Region and Service Table # 
@@ -94,6 +94,7 @@ Amazon Rekognition Image|true | true | true | false | false | false | true | fal
 Amazon Rekognition Video|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon RDS Performance Insights|true | true | true | false | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+Amazon Route 53 Private DNS|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 Amazon Route 53 Resolver|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | true | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
