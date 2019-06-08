@@ -3,17 +3,17 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 162
+      "value": 163
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 135
+      "value": 136
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 159
+      "value": 160
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -33,37 +33,37 @@
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 76
+      "value": 79
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 52
+      "value": 54
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 153
+      "value": 154
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 129
+      "value": 130
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 110
+      "value": 112
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 82
+      "value": 83
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 65
+      "value": 67
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -78,12 +78,12 @@
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 35
+      "value": 34
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 140
+      "value": 141
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
@@ -93,7 +93,7 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 103
+      "value": 104
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -103,12 +103,12 @@
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 49
+      "value": 50
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 48
+      "value": 49
     }
   },
   "services": {
@@ -528,7 +528,7 @@
       "ap-southeast-1": false,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
+      "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": false,
       "ap-east-1": false,
@@ -759,7 +759,7 @@
       "ca-central-1": false,
       "sa-east-1": false,
       "us-gov-west-1": true,
-      "us-gov-east-1": false,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": false,
       "eu-west-2": false,
@@ -794,7 +794,7 @@
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -1074,7 +1074,7 @@
       "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
-      "eu-west-2": false,
+      "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "ap-southeast-1": false,
@@ -1124,7 +1124,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -1303,7 +1303,7 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
-    "managed_streaming_for_kafka": {
+    "managed_streaming_for_apache_kafka": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1313,9 +1313,9 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
-      "eu-west-2": false,
-      "eu-west-3": false,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
       "eu-north-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -1631,7 +1631,7 @@
       "eu-north-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
-      "ap-northeast-3": true,
+      "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
@@ -2817,7 +2817,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -3212,6 +3212,21 @@
       "cn-north-1": true,
       "cn-northwest-1": false
     },
+    "iot_events": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false
+    },
     "key_management_service": {
       "us-east-1": true,
       "us-east-2": true,
@@ -3233,8 +3248,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "lambda": {
       "us-east-1": true,
@@ -3483,7 +3498,7 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": false,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
@@ -3627,7 +3642,7 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
@@ -3843,8 +3858,8 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
@@ -4174,7 +4189,7 @@
     "machine_learning": "Amazon Machine Learning",
     "macie": "Amazon Macie",
     "managed_blockchain": "Amazon Managed Blockchain",
-    "managed_streaming_for_kafka": "Amazon Managed Streaming for Kafka",
+    "managed_streaming_for_apache_kafka": "Amazon Managed Streaming for Apache Kafka",
     "mobile_analytics": "Amazon Mobile Analytics",
     "mq": "Amazon MQ",
     "neptune": "Amazon Neptune",
@@ -4254,6 +4269,7 @@
     "iot_core": "AWS IoT Core",
     "iot_device_defender": "AWS IoT Device Defender",
     "iot_device_management": "AWS IoT Device Management",
+    "iot_events": "AWS IoT Events",
     "key_management_service": "AWS Key Management Service",
     "lambda": "AWS Lambda",
     "license_manager": "AWS License Manager",
