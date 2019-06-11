@@ -1,18 +1,18 @@
 ### 62 Edge Locations
 ### 11 Regional Edge Caches
-### 170 Services
+### 171 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 163
-us-west-2 | US West (Oregon) | 160
-eu-west-1 | EU (Ireland) | 154
+us-east-1 | US East (N. Virginia) | 164
+us-west-2 | US West (Oregon) | 161
+eu-west-1 | EU (Ireland) | 155
 ap-southeast-2 | Asia Pacific (Sydney) | 141
-ap-northeast-1 | Asia Pacific (Tokyo) | 138
-us-east-2 | US East (Ohio) | 136
+ap-northeast-1 | Asia Pacific (Tokyo) | 139
+us-east-2 | US East (Ohio) | 137
 eu-central-1 | EU (Frankfurt) | 130
-ap-southeast-1 | Asia Pacific (Singapore) | 126
+ap-southeast-1 | Asia Pacific (Singapore) | 127
 ap-northeast-2 | Asia Pacific (Seoul) | 113
 eu-west-2 | EU (London) | 112
 ap-south-1 | Asia Pacific (Mumbai) | 104
@@ -86,6 +86,7 @@ Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | f
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | true
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false

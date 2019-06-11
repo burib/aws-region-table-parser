@@ -3,17 +3,17 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 163
+      "value": 164
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 136
+      "value": 137
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 160
+      "value": 161
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -43,7 +43,7 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 154
+      "value": 155
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
@@ -68,12 +68,12 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 126
+      "value": 127
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 138
+      "value": 139
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -1395,6 +1395,30 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "personalize": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -4193,6 +4217,7 @@
     "mobile_analytics": "Amazon Mobile Analytics",
     "mq": "Amazon MQ",
     "neptune": "Amazon Neptune",
+    "personalize": "Amazon Personalize",
     "pinpoint": "Amazon Pinpoint",
     "polly": "Amazon Polly",
     "quicksight": "Amazon QuickSight",
