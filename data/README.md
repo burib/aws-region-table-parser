@@ -1,15 +1,15 @@
 ### 62 Edge Locations
 ### 11 Regional Edge Caches
-### 171 Services
+### 172 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 164
-us-west-2 | US West (Oregon) | 161
-eu-west-1 | EU (Ireland) | 155
-ap-southeast-2 | Asia Pacific (Sydney) | 141
-ap-northeast-1 | Asia Pacific (Tokyo) | 139
+us-east-1 | US East (N. Virginia) | 165
+us-west-2 | US West (Oregon) | 162
+eu-west-1 | EU (Ireland) | 156
+ap-southeast-2 | Asia Pacific (Sydney) | 142
+ap-northeast-1 | Asia Pacific (Tokyo) | 140
 us-east-2 | US East (Ohio) | 137
 eu-central-1 | EU (Frankfurt) | 130
 ap-southeast-1 | Asia Pacific (Singapore) | 127
@@ -18,13 +18,13 @@ eu-west-2 | EU (London) | 112
 ap-south-1 | Asia Pacific (Mumbai) | 104
 us-west-1 | US West (N. California) | 96
 ca-central-1 | Canada (Central) | 90
+us-gov-west-1 | GovCloud (US-West) | 83
 eu-west-3 | EU (Paris) | 83
-us-gov-west-1 | GovCloud (US-West) | 79
 sa-east-1 | South America (São Paulo) | 77
 eu-north-1 | EU (Stockholm) | 67
 us-gov-east-1 | GovCloud (US-East) | 54
-cn-north-1 | China (Beijing) | 50
-cn-northwest-1 | China (Ningxia) | 49
+cn-north-1 | China (Beijing) | 51
+cn-northwest-1 | China (Ningxia) | 50
 ap-east-1 | Asia Pacific (Hong Kong) | 47
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 
@@ -131,7 +131,7 @@ AWS Cloud9|true | true | true | false | false | false | false | false | true | t
 AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | false | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS CodeBuild|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | true | true
+AWS CodeBuild|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeDeploy|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
@@ -139,7 +139,7 @@ AWS CodeStar|true | true | true | true | true | false | false | false | false | 
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
-AWS DataSync|true | true | true | true | false | false | false | false | true | true | false | false | false | true | true | false | true | true | false | false | false | false
+AWS DataSync|true | true | true | true | false | false | true | false | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -164,11 +164,12 @@ AWS IoT Core|true | true | true | false | false | false | true | false | true | 
 AWS IoT Device Defender|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 AWS IoT Device Management|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Events|true | true | true | false | false | false | false | false | true | false | false | false | false
+AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Managed Services|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
-AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Mobile Hub|true | true | true | true | false | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
@@ -177,9 +178,9 @@ AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | f
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false
-AWS Secrets Manager|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Serverless Application Repository|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+AWS Serverless Application Repository|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
