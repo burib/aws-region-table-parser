@@ -39,9 +39,6 @@ Example:
 }
 ```
 
-### There is also an API, that you can use to run querys.
-https://github.com/burib/aws-region-table-parser-api
-
 #### How to Initiate a new Parsing
  ```bash 
 npm start
