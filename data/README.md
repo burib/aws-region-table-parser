@@ -11,21 +11,21 @@ eu-west-1 | EU (Ireland) | 156
 ap-southeast-2 | Asia Pacific (Sydney) | 142
 ap-northeast-1 | Asia Pacific (Tokyo) | 140
 us-east-2 | US East (Ohio) | 137
-eu-central-1 | EU (Frankfurt) | 130
-ap-southeast-1 | Asia Pacific (Singapore) | 127
-ap-northeast-2 | Asia Pacific (Seoul) | 113
-eu-west-2 | EU (London) | 112
+eu-central-1 | EU (Frankfurt) | 132
+ap-southeast-1 | Asia Pacific (Singapore) | 129
+eu-west-2 | EU (London) | 115
+ap-northeast-2 | Asia Pacific (Seoul) | 114
 ap-south-1 | Asia Pacific (Mumbai) | 104
-us-west-1 | US West (N. California) | 96
-ca-central-1 | Canada (Central) | 90
+us-west-1 | US West (N. California) | 98
+ca-central-1 | Canada (Central) | 91
 us-gov-west-1 | GovCloud (US-West) | 83
 eu-west-3 | EU (Paris) | 83
-sa-east-1 | South America (São Paulo) | 77
+sa-east-1 | South America (São Paulo) | 78
 eu-north-1 | EU (Stockholm) | 67
 us-gov-east-1 | GovCloud (US-East) | 54
 cn-north-1 | China (Beijing) | 51
 cn-northwest-1 | China (Ningxia) | 50
-ap-east-1 | Asia Pacific (Hong Kong) | 47
+ap-east-1 | Asia Pacific (Hong Kong) | 48
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 
 
@@ -73,7 +73,7 @@ Amazon GameLift|true | true | true | true | true | true | false | false | true |
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | false | false | true | false | true | true | true | false | false | false
-Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | true | false | false | false | false
+Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
@@ -84,15 +84,15 @@ Amazon Macie|true | false | true | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | false | true | true | false | true | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon MQ|true | true | true | true | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
+Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | true
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Rekognition Image|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false | false
-Amazon Rekognition Video|true | true | true | false | false | false | true | false | true | false | false | false | false | false | true | false | true | true | true | false | false | false
+Amazon Rekognition Image|true | true | true | true | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Rekognition Video|true | true | true | true | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon RDS Performance Insights|true | true | true | false | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Route 53 Private DNS|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | false | false
@@ -154,7 +154,7 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Identity and Access Management (IAM)|false | false | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | true | true | false | true | true
@@ -201,6 +201,6 @@ AWS Well-Architected Tool|true | true | true | false | false | false | false | f
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-VMware Cloud on AWS|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | false | true | false | false | false | false | false
+VMware Cloud on AWS|true | true | true | true | false | true | true | false | true | true | true | false | false | false | true | false | true | true | false | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|false | false | false | false | false | false | false | false | false
