@@ -18,8 +18,8 @@ ap-northeast-2 | Asia Pacific (Seoul) | 114
 ap-south-1 | Asia Pacific (Mumbai) | 104
 us-west-1 | US West (N. California) | 98
 ca-central-1 | Canada (Central) | 91
+eu-west-3 | EU (Paris) | 84
 us-gov-west-1 | GovCloud (US-West) | 83
-eu-west-3 | EU (Paris) | 83
 sa-east-1 | South America (São Paulo) | 78
 eu-north-1 | EU (Stockholm) | 67
 us-gov-east-1 | GovCloud (US-East) | 54
@@ -60,7 +60,7 @@ Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true 
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Elastic File System (EFS)|true | true | true | true | true | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Elastic File System (EFS)|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Elastic Graphics|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Elastic Inference|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | true | false | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
