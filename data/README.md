@@ -14,8 +14,8 @@ us-east-2 | US East (Ohio) | 137
 eu-central-1 | EU (Frankfurt) | 132
 ap-southeast-1 | Asia Pacific (Singapore) | 129
 eu-west-2 | EU (London) | 115
-ap-northeast-2 | Asia Pacific (Seoul) | 114
-ap-south-1 | Asia Pacific (Mumbai) | 104
+ap-northeast-2 | Asia Pacific (Seoul) | 115
+ap-south-1 | Asia Pacific (Mumbai) | 105
 us-west-1 | US West (N. California) | 98
 ca-central-1 | Canada (Central) | 91
 eu-west-3 | EU (Paris) | 84
@@ -168,7 +168,7 @@ AWS IoT Things Graph|true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false | false
-AWS Managed Services|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
+AWS Managed Services|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Mobile Hub|true | true | true | true | false | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
