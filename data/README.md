@@ -1,4 +1,4 @@
-### 62 Edge Locations
+### 63 Edge Locations
 ### 11 Regional Edge Caches
 ### 172 Services
 
