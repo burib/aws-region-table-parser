@@ -48,7 +48,7 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 132
+      "value": 131
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
@@ -58,12 +58,12 @@
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 84
+      "value": 85
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 67
+      "value": 68
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -631,7 +631,7 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
-    "elastic_container_service_for_kubernetes_eks": {
+    "elastic_kubernetes_service_eks": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1363,14 +1363,14 @@
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
+      "eu-west-3": true,
       "eu-north-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -1760,7 +1760,7 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": true,
+      "eu-central-1": false,
       "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
@@ -1769,7 +1769,7 @@
       "ap-northeast-3": false,
       "ap-southeast-2": false,
       "ap-northeast-2": false,
-      "ap-south-1": true,
+      "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -2769,7 +2769,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -4209,7 +4209,7 @@
     "ec2_auto_scaling": "Amazon EC2 Auto Scaling",
     "elastic_container_registry_ecr": "Amazon Elastic Container Registry (ECR)",
     "elastic_container_service_ecs": "Amazon Elastic Container Service (ECS)",
-    "elastic_container_service_for_kubernetes_eks": "Amazon Elastic Container Service for Kubernetes (EKS)",
+    "elastic_kubernetes_service_eks": "Amazon Elastic Kubernetes Service (EKS)",
     "elasticache": "Amazon ElastiCache",
     "elastic_block_store_ebs": "Amazon Elastic Block Store (EBS)",
     "elastic_compute_cloud_ec2": "Amazon Elastic Compute Cloud (EC2)",

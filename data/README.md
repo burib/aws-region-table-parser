@@ -11,17 +11,17 @@ eu-west-1 | EU (Ireland) | 156
 ap-southeast-2 | Asia Pacific (Sydney) | 142
 ap-northeast-1 | Asia Pacific (Tokyo) | 140
 us-east-2 | US East (Ohio) | 137
-eu-central-1 | EU (Frankfurt) | 132
+eu-central-1 | EU (Frankfurt) | 131
 ap-southeast-1 | Asia Pacific (Singapore) | 129
 eu-west-2 | EU (London) | 115
 ap-northeast-2 | Asia Pacific (Seoul) | 115
 ap-south-1 | Asia Pacific (Mumbai) | 105
 us-west-1 | US West (N. California) | 98
 ca-central-1 | Canada (Central) | 91
-eu-west-3 | EU (Paris) | 84
+eu-west-3 | EU (Paris) | 85
 us-gov-west-1 | GovCloud (US-West) | 83
 sa-east-1 | South America (São Paulo) | 78
-eu-north-1 | EU (Stockholm) | 67
+eu-north-1 | EU (Stockholm) | 68
 us-gov-east-1 | GovCloud (US-East) | 54
 cn-north-1 | China (Beijing) | 51
 cn-northwest-1 | China (Ningxia) | 50
@@ -54,7 +54,7 @@ Amazon DynamoDB|true | true | true | true | true | true | true | true | true | t
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-Amazon Elastic Container Service for Kubernetes (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false | false
+Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -84,7 +84,7 @@ Amazon Macie|true | false | true | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | false | true | true | false | true | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
+Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | true | false | false | false
@@ -101,7 +101,7 @@ Amazon SageMaker|true | true | true | true | true | false | true | false | true 
 Amazon SageMaker Ground Truth|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon SageMaker Neo|true | true | true | false | false | false | false | false | true | false | false | false | false
 Amazon SimpleDB|true | false | true | true | false | true | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | false | true | false | false | false
+Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -143,7 +143,7 @@ AWS DataSync|true | true | true | true | false | false | true | false | true | t
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | true | true
+AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | false | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | true
