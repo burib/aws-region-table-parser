@@ -98,7 +98,7 @@
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 48
+      "value": 49
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -4087,7 +4087,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },

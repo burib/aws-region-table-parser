@@ -25,7 +25,7 @@ eu-north-1 | EU (Stockholm) | 68
 us-gov-east-1 | GovCloud (US-East) | 54
 cn-north-1 | China (Beijing) | 51
 cn-northwest-1 | China (Ningxia) | 50
-ap-east-1 | Asia Pacific (Hong Kong) | 48
+ap-east-1 | Asia Pacific (Hong Kong) | 49
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 
 
@@ -198,7 +198,7 @@ AWS Transit Gateway|true | true | true | true | true | false | true | true | tru
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | false | false | true | false | true | true | true | false | true | true | true | false | true | true | false | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | true | false | false | false | false | false
-AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | false | true | true | false | true | true | true | false | false | false | true | false | true | true | false | false | false | false
