@@ -11,18 +11,18 @@ eu-west-1 | EU (Ireland) | 156
 ap-southeast-2 | Asia Pacific (Sydney) | 142
 ap-northeast-1 | Asia Pacific (Tokyo) | 140
 us-east-2 | US East (Ohio) | 137
-eu-central-1 | EU (Frankfurt) | 131
-ap-southeast-1 | Asia Pacific (Singapore) | 129
+eu-central-1 | EU (Frankfurt) | 133
+ap-southeast-1 | Asia Pacific (Singapore) | 130
 eu-west-2 | EU (London) | 115
 ap-northeast-2 | Asia Pacific (Seoul) | 115
-ap-south-1 | Asia Pacific (Mumbai) | 105
+ap-south-1 | Asia Pacific (Mumbai) | 106
 us-west-1 | US West (N. California) | 98
-ca-central-1 | Canada (Central) | 91
-eu-west-3 | EU (Paris) | 85
-us-gov-west-1 | GovCloud (US-West) | 83
+ca-central-1 | Canada (Central) | 92
+eu-west-3 | EU (Paris) | 86
+us-gov-west-1 | GovCloud (US-West) | 84
 sa-east-1 | South America (São Paulo) | 78
 eu-north-1 | EU (Stockholm) | 68
-us-gov-east-1 | GovCloud (US-East) | 54
+us-gov-east-1 | GovCloud (US-East) | 55
 cn-north-1 | China (Beijing) | 51
 cn-northwest-1 | China (Ningxia) | 50
 ap-east-1 | Asia Pacific (Hong Kong) | 49
@@ -67,8 +67,8 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
-Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
+Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
+Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
@@ -151,7 +151,7 @@ AWS Elemental MediaLive|true | false | true | false | false | true | false | fal
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Fargate|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
@@ -201,6 +201,6 @@ AWS Well-Architected Tool|true | true | true | false | false | false | false | f
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-VMware Cloud on AWS|true | true | true | true | false | true | true | false | true | true | true | false | false | false | true | false | true | true | false | false | false | false
+VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|false | false | false | false | false | false | false | false | false
