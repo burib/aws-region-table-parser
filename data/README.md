@@ -5,27 +5,27 @@
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 165
-us-west-2 | US West (Oregon) | 162
+us-east-1 | US East (N. Virginia) | 166
+us-west-2 | US West (Oregon) | 163
 eu-west-1 | EU (Ireland) | 156
 ap-southeast-2 | Asia Pacific (Sydney) | 142
 ap-northeast-1 | Asia Pacific (Tokyo) | 140
-us-east-2 | US East (Ohio) | 137
-eu-central-1 | EU (Frankfurt) | 133
-ap-southeast-1 | Asia Pacific (Singapore) | 130
+us-east-2 | US East (Ohio) | 138
+eu-central-1 | EU (Frankfurt) | 134
+ap-southeast-1 | Asia Pacific (Singapore) | 132
 eu-west-2 | EU (London) | 115
 ap-northeast-2 | Asia Pacific (Seoul) | 115
 ap-south-1 | Asia Pacific (Mumbai) | 106
-us-west-1 | US West (N. California) | 98
-ca-central-1 | Canada (Central) | 92
+us-west-1 | US West (N. California) | 99
+ca-central-1 | Canada (Central) | 93
 eu-west-3 | EU (Paris) | 86
 us-gov-west-1 | GovCloud (US-West) | 84
 sa-east-1 | South America (São Paulo) | 78
-eu-north-1 | EU (Stockholm) | 68
-us-gov-east-1 | GovCloud (US-East) | 55
+eu-north-1 | EU (Stockholm) | 70
+us-gov-east-1 | GovCloud (US-East) | 54
+ap-east-1 | Asia Pacific (Hong Kong) | 51
 cn-north-1 | China (Beijing) | 51
 cn-northwest-1 | China (Ningxia) | 50
-ap-east-1 | Asia Pacific (Hong Kong) | 49
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 
 
@@ -52,6 +52,7 @@ Amazon DeepLens|true | false | false | false | false | false | false | false | t
 Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | true | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon EC2 Spot Instances|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false | false
@@ -67,8 +68,8 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
-Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
+Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false | false
+Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
@@ -122,7 +123,7 @@ AWS App Mesh|true | true | true | false | false | false | false | false | true |
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Backup|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | false | false | false | false
-AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
@@ -157,7 +158,6 @@ AWS Global Accelerator|true | true | true | true | true | false | false | false 
 AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-AWS Identity and Access Management (IAM)|false | false | false | false | false | true | true | true | true | false | true | true | false | true | true | true | true | true | true | false | true | true
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Core|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
@@ -179,7 +179,7 @@ AWS Personal Health Dashboard|true | true | true | true | true | true | false | 
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
-AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
