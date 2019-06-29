@@ -9,23 +9,23 @@ us-east-1 | US East (N. Virginia) | 166
 us-west-2 | US West (Oregon) | 163
 eu-west-1 | EU (Ireland) | 156
 ap-southeast-2 | Asia Pacific (Sydney) | 142
-ap-northeast-1 | Asia Pacific (Tokyo) | 140
+ap-northeast-1 | Asia Pacific (Tokyo) | 141
 us-east-2 | US East (Ohio) | 138
 eu-central-1 | EU (Frankfurt) | 134
-ap-southeast-1 | Asia Pacific (Singapore) | 132
-eu-west-2 | EU (London) | 115
-ap-northeast-2 | Asia Pacific (Seoul) | 115
+ap-southeast-1 | Asia Pacific (Singapore) | 133
+eu-west-2 | EU (London) | 116
+ap-northeast-2 | Asia Pacific (Seoul) | 116
 ap-south-1 | Asia Pacific (Mumbai) | 106
-us-west-1 | US West (N. California) | 99
-ca-central-1 | Canada (Central) | 93
+us-west-1 | US West (N. California) | 100
+ca-central-1 | Canada (Central) | 94
 eu-west-3 | EU (Paris) | 86
 us-gov-west-1 | GovCloud (US-West) | 84
 sa-east-1 | South America (São Paulo) | 78
-eu-north-1 | EU (Stockholm) | 70
-us-gov-east-1 | GovCloud (US-East) | 54
+eu-north-1 | EU (Stockholm) | 72
+us-gov-east-1 | GovCloud (US-East) | 55
+cn-north-1 | China (Beijing) | 52
 ap-east-1 | Asia Pacific (Hong Kong) | 51
-cn-north-1 | China (Beijing) | 51
-cn-northwest-1 | China (Ningxia) | 50
+cn-northwest-1 | China (Ningxia) | 51
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
 
 
@@ -75,7 +75,7 @@ Amazon Glacier|true | true | true | true | true | true | true | true | true | tr
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | false | false | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
-Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true | true
+Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -86,7 +86,7 @@ Amazon Managed Blockchain|true | false | false | false | false | false | false |
 Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | false | true | true | false | true | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Neptune|true | true | true | false | false | false | false | false | true | true | true | false | true | true | true | false | true | true | true | false | false | false
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | true
@@ -122,7 +122,7 @@ AWS Application Discovery Service|false | false | true | false | false | false |
 AWS App Mesh|true | true | true | false | false | false | false | false | true | false | true | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
-AWS Backup|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | false | true | false | false | false | false | false
+AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
@@ -155,7 +155,7 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false | false
@@ -167,7 +167,7 @@ AWS IoT Events|true | true | true | false | false | false | false | false | true
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 AWS Managed Services|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
