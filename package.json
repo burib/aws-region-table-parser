@@ -1,6 +1,6 @@
 {
   "name": "aws-region-table-parser",
-  "version": "1.5.26",
+  "version": "1.5.27",
   "description": "read and parses aws region table html and returns a json object based on http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/",
   "main": "index.js",
   "author": "Balazs Buri",
