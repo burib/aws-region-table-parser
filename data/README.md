@@ -22,7 +22,7 @@ eu-west-3 | EU (Paris) | 86
 us-gov-west-1 | GovCloud (US-West) | 84
 sa-east-1 | South America (São Paulo) | 78
 eu-north-1 | EU (Stockholm) | 72
-us-gov-east-1 | GovCloud (US-East) | 55
+us-gov-east-1 | GovCloud (US-East) | 56
 cn-north-1 | China (Beijing) | 52
 ap-east-1 | Asia Pacific (Hong Kong) | 51
 cn-northwest-1 | China (Ningxia) | 51
@@ -132,7 +132,7 @@ AWS Cloud9|true | true | true | false | false | false | false | false | true | t
 AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | false | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS CodeBuild|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | true | true
+AWS CodeBuild|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeDeploy|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
