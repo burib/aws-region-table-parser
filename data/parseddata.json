@@ -3,32 +3,32 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 166
+      "value": 167
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 138
+      "value": 139
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 163
+      "value": 164
     },
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 100
+      "value": 101
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 94
+      "value": 95
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 78
+      "value": 79
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -43,22 +43,22 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 156
+      "value": 157
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 134
+      "value": 135
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 116
+      "value": 117
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 86
+      "value": 87
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
@@ -68,32 +68,32 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 133
+      "value": 134
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 141
+      "value": 142
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 34
+      "value": 35
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 142
+      "value": 143
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 116
+      "value": 117
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 106
+      "value": 107
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -4115,6 +4115,30 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
+    "service_quotas": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": true,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "vm_importexport": {
       "us-east-1": true,
       "us-east-2": true,
@@ -4355,6 +4379,7 @@
     "well-architected_tool": "AWS Well-Architected Tool",
     "x-ray": "AWS X-Ray",
     "elastic_load_balancing": "Elastic Load Balancing",
+    "service_quotas": "Service Quotas",
     "vm_importexport": "VM Import/Export",
     "vmware_cloud_on_aws": "VMware Cloud on AWS",
     "comprehend medical": "Amazon Comprehend Medical",

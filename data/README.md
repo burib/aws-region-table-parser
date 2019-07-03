@@ -1,32 +1,32 @@
 ### 63 Edge Locations
 ### 11 Regional Edge Caches
-### 172 Services
+### 173 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 166
-us-west-2 | US West (Oregon) | 163
-eu-west-1 | EU (Ireland) | 156
-ap-southeast-2 | Asia Pacific (Sydney) | 142
-ap-northeast-1 | Asia Pacific (Tokyo) | 141
-us-east-2 | US East (Ohio) | 138
-eu-central-1 | EU (Frankfurt) | 134
-ap-southeast-1 | Asia Pacific (Singapore) | 133
-eu-west-2 | EU (London) | 116
-ap-northeast-2 | Asia Pacific (Seoul) | 116
-ap-south-1 | Asia Pacific (Mumbai) | 106
-us-west-1 | US West (N. California) | 100
-ca-central-1 | Canada (Central) | 94
-eu-west-3 | EU (Paris) | 86
+us-east-1 | US East (N. Virginia) | 167
+us-west-2 | US West (Oregon) | 164
+eu-west-1 | EU (Ireland) | 157
+ap-southeast-2 | Asia Pacific (Sydney) | 143
+ap-northeast-1 | Asia Pacific (Tokyo) | 142
+us-east-2 | US East (Ohio) | 139
+eu-central-1 | EU (Frankfurt) | 135
+ap-southeast-1 | Asia Pacific (Singapore) | 134
+eu-west-2 | EU (London) | 117
+ap-northeast-2 | Asia Pacific (Seoul) | 117
+ap-south-1 | Asia Pacific (Mumbai) | 107
+us-west-1 | US West (N. California) | 101
+ca-central-1 | Canada (Central) | 95
+eu-west-3 | EU (Paris) | 87
 us-gov-west-1 | GovCloud (US-West) | 84
-sa-east-1 | South America (São Paulo) | 78
+sa-east-1 | South America (São Paulo) | 79
 eu-north-1 | EU (Stockholm) | 72
 us-gov-east-1 | GovCloud (US-East) | 56
 cn-north-1 | China (Beijing) | 52
 ap-east-1 | Asia Pacific (Hong Kong) | 51
 cn-northwest-1 | China (Ningxia) | 51
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 34
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
 # Region and Service Table # 
@@ -200,6 +200,7 @@ AWS WAF|true | true | true | true | false | false | true | false | true | true |
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | true | false | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | true | true | true | true | false | false | false
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
