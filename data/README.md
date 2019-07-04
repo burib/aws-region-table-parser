@@ -1,6 +1,6 @@
 ### 63 Edge Locations
 ### 11 Regional Edge Caches
-### 173 Services
+### 174 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
@@ -8,18 +8,18 @@
 us-east-1 | US East (N. Virginia) | 167
 us-west-2 | US West (Oregon) | 164
 eu-west-1 | EU (Ireland) | 157
-ap-southeast-2 | Asia Pacific (Sydney) | 143
-ap-northeast-1 | Asia Pacific (Tokyo) | 142
-us-east-2 | US East (Ohio) | 139
-eu-central-1 | EU (Frankfurt) | 135
-ap-southeast-1 | Asia Pacific (Singapore) | 134
-eu-west-2 | EU (London) | 117
-ap-northeast-2 | Asia Pacific (Seoul) | 117
-ap-south-1 | Asia Pacific (Mumbai) | 107
-us-west-1 | US West (N. California) | 101
+ap-northeast-1 | Asia Pacific (Tokyo) | 144
+ap-southeast-2 | Asia Pacific (Sydney) | 144
+us-east-2 | US East (Ohio) | 140
+eu-central-1 | EU (Frankfurt) | 136
+ap-southeast-1 | Asia Pacific (Singapore) | 135
+eu-west-2 | EU (London) | 118
+ap-northeast-2 | Asia Pacific (Seoul) | 118
+ap-south-1 | Asia Pacific (Mumbai) | 108
+us-west-1 | US West (N. California) | 102
 ca-central-1 | Canada (Central) | 95
 eu-west-3 | EU (Paris) | 87
-us-gov-west-1 | GovCloud (US-West) | 84
+us-gov-west-1 | GovCloud (US-West) | 85
 sa-east-1 | South America (São Paulo) | 79
 eu-north-1 | EU (Stockholm) | 72
 us-gov-east-1 | GovCloud (US-East) | 56
@@ -109,7 +109,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Textract|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Transcribe|true | true | true | false | true | true | true | false | true | true | true | true | false | true | false | false | true | true | true | false | false | false
+Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | true | false | false | true | true | true | false | false | false
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -156,14 +156,14 @@ AWS Fargate|true | true | true | true | true | false | true | true | true | true
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
-AWS Greengrass|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
+AWS Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Core|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Device Defender|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 AWS IoT Device Management|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
-AWS IoT Events|true | true | true | false | false | false | false | false | true | false | false | false | false
+AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
@@ -204,4 +204,5 @@ Service Quotas|true | true | true | true | true | true | false | false | true | 
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
-Amazon SageMaker Neo|false | false | false | false | false | false | false | false | false
+Amazon SageMaker Neo|false | true | false | false | false | false | false | false | false
+AWS IoT Event|false | true | false | true | false | false | false | false | false
