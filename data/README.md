@@ -15,12 +15,12 @@ eu-central-1 | EU (Frankfurt) | 136
 ap-southeast-1 | Asia Pacific (Singapore) | 135
 eu-west-2 | EU (London) | 118
 ap-northeast-2 | Asia Pacific (Seoul) | 118
-ap-south-1 | Asia Pacific (Mumbai) | 108
+ap-south-1 | Asia Pacific (Mumbai) | 110
 us-west-1 | US West (N. California) | 102
-ca-central-1 | Canada (Central) | 95
-eu-west-3 | EU (Paris) | 87
+ca-central-1 | Canada (Central) | 97
+eu-west-3 | EU (Paris) | 89
 us-gov-west-1 | GovCloud (US-West) | 85
-sa-east-1 | South America (São Paulo) | 79
+sa-east-1 | South America (São Paulo) | 81
 eu-north-1 | EU (Stockholm) | 72
 us-gov-east-1 | GovCloud (US-East) | 56
 cn-north-1 | China (Beijing) | 52
@@ -184,7 +184,7 @@ AWS Serverless Application Repository|true | true | true | true | true | true | 
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Shield Advanced|true | true | true | true | false | false | false | false | true | true | true | false | true | true | true | false | true | true | false | false | false | false
+AWS Shield Advanced|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | true | false | false | true | false | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true
 AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | false | false | false | false | false
@@ -196,7 +196,7 @@ AWS Systems Manager|true | true | true | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Transit Gateway|true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS WAF|true | true | true | true | false | false | true | false | true | true | true | false | true | true | true | false | true | true | false | false | false | false
+AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | true | false | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
