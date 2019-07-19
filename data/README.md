@@ -16,11 +16,11 @@ ap-southeast-1 | Asia Pacific (Singapore) | 135
 eu-west-2 | EU (London) | 120
 ap-northeast-2 | Asia Pacific (Seoul) | 118
 ap-south-1 | Asia Pacific (Mumbai) | 111
-us-west-1 | US West (N. California) | 105
+us-west-1 | US West (N. California) | 106
 ca-central-1 | Canada (Central) | 100
 eu-west-3 | EU (Paris) | 91
 us-gov-west-1 | GovCloud (US-West) | 85
-sa-east-1 | South America (São Paulo) | 83
+sa-east-1 | South America (São Paulo) | 84
 eu-north-1 | EU (Stockholm) | 74
 us-gov-east-1 | GovCloud (US-East) | 56
 cn-north-1 | China (Beijing) | 53
@@ -155,7 +155,7 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Glue|true | true | true | true | true | false | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Glue|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | false | false | false | false | false | false | false
@@ -168,7 +168,7 @@ AWS IoT Things Graph|true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS Managed Services|true | true | true | false | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Managed Services|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Mobile Hub|true | true | true | true | false | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false

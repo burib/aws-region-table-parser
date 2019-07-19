@@ -18,7 +18,7 @@
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 105
+      "value": 106
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
@@ -28,7 +28,7 @@
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 83
+      "value": 84
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -3050,7 +3050,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
@@ -3351,7 +3351,7 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
+      "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
