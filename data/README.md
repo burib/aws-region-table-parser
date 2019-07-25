@@ -10,13 +10,13 @@ us-west-2 | US West (Oregon) | 164
 eu-west-1 | EU (Ireland) | 157
 ap-northeast-1 | Asia Pacific (Tokyo) | 144
 ap-southeast-2 | Asia Pacific (Sydney) | 144
-us-east-2 | US East (Ohio) | 140
-eu-central-1 | EU (Frankfurt) | 136
-ap-southeast-1 | Asia Pacific (Singapore) | 135
-eu-west-2 | EU (London) | 121
+us-east-2 | US East (Ohio) | 141
+eu-central-1 | EU (Frankfurt) | 137
+ap-southeast-1 | Asia Pacific (Singapore) | 136
+eu-west-2 | EU (London) | 122
 ap-northeast-2 | Asia Pacific (Seoul) | 118
 ap-south-1 | Asia Pacific (Mumbai) | 111
-us-west-1 | US West (N. California) | 106
+us-west-1 | US West (N. California) | 108
 ca-central-1 | Canada (Central) | 100
 eu-west-3 | EU (Paris) | 91
 us-gov-west-1 | GovCloud (US-West) | 85
@@ -68,8 +68,8 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon FSx for Windows File Server|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
-Amazon FSx for Lustre|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
+Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
+Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
@@ -177,7 +177,7 @@ AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS RoboMaker|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false
+AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
@@ -197,7 +197,7 @@ AWS Transfer for SFTP|true | true | true | true | true | false | false | false |
 AWS Transit Gateway|true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
-AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | true | false | false | false | false | false
+AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false | true | false | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | true | true | true | true | false | false | false
