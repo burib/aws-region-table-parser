@@ -19,12 +19,12 @@ ap-south-1 | Asia Pacific (Mumbai) | 111
 us-west-1 | US West (N. California) | 108
 ca-central-1 | Canada (Central) | 100
 eu-west-3 | EU (Paris) | 91
+sa-east-1 | South America (São Paulo) | 85
 us-gov-west-1 | GovCloud (US-West) | 85
-sa-east-1 | South America (São Paulo) | 84
 eu-north-1 | EU (Stockholm) | 75
 us-gov-east-1 | GovCloud (US-East) | 56
+ap-east-1 | Asia Pacific (Hong Kong) | 53
 cn-north-1 | China (Beijing) | 53
-ap-east-1 | Asia Pacific (Hong Kong) | 52
 cn-northwest-1 | China (Ningxia) | 51
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
@@ -72,7 +72,7 @@ Amazon FSx for Windows File Server|true | true | true | true | false | false | f
 Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | true | false | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true
@@ -194,7 +194,7 @@ AWS Storage Gateway|true | true | true | true | true | true | true | false | tru
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Transit Gateway|true | true | true | true | true | false | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false | true | false | false | false | false | false
