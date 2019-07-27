@@ -19,11 +19,11 @@ ap-south-1 | Asia Pacific (Mumbai) | 111
 us-west-1 | US West (N. California) | 108
 ca-central-1 | Canada (Central) | 100
 eu-west-3 | EU (Paris) | 91
-sa-east-1 | South America (São Paulo) | 85
+sa-east-1 | South America (São Paulo) | 86
 us-gov-west-1 | GovCloud (US-West) | 85
 eu-north-1 | EU (Stockholm) | 75
 us-gov-east-1 | GovCloud (US-East) | 56
-ap-east-1 | Asia Pacific (Hong Kong) | 53
+ap-east-1 | Asia Pacific (Hong Kong) | 54
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 51
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -125,7 +125,7 @@ AWS Auto Scaling|true | true | true | true | true | true | true | true | true | 
 AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS Certificate Manager Private CA|true | true | true | true | true | false | false | false | true | true | true | true | true | true | true | false | true | true | true | false | false | false
+AWS Certificate Manager Private CA|true | true | true | true | true | false | false | false | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | false | true | true | false | false | false | true | true | false | false | false | false | false | false | false
@@ -168,7 +168,7 @@ AWS IoT Things Graph|true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS Managed Services|true | true | true | true | true | false | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Managed Services|true | true | true | true | true | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Mobile Hub|true | true | true | true | false | true | false | false | true | true | true | false | false | true | true | false | true | true | true | false | false | false
