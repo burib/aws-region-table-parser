@@ -51,6 +51,10 @@ module.exports = {
     'name': 'EU (Stockholm)',
     'code': 'eu-north-1'
   },
+  'bahrain': {
+    'name': 'Middle East (Bahrain)',
+    'code': 'me-south-1'
+  },
   'singapore' : {
     'name': 'Asia Pacific (Singapore)',
     'code': 'ap-southeast-1'
