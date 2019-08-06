@@ -22,8 +22,8 @@ eu-west-3 | EU (Paris) | 92
 sa-east-1 | South America (São Paulo) | 87
 us-gov-west-1 | GovCloud (US-West) | 86
 eu-north-1 | EU (Stockholm) | 77
+ap-east-1 | Asia Pacific (Hong Kong) | 58
 us-gov-east-1 | GovCloud (US-East) | 57
-ap-east-1 | Asia Pacific (Hong Kong) | 57
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 51
 me-south-1 | Middle East (Bahrain) | 47
@@ -181,7 +181,7 @@ AWS Personal Health Dashboard|true | true | true | true | true | true | false | 
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
