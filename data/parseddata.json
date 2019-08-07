@@ -38,7 +38,7 @@
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 57
+      "value": 59
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -1741,7 +1741,7 @@
       "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": true,
-      "us-gov-east-1": false,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
@@ -3713,6 +3713,16 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "privatelink": {
+      "us-east-1": false,
+      "us-east-2": false,
+      "us-west-2": false,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": true
+    },
     "resource_access_manager_ram": {
       "us-east-1": true,
       "us-east-2": true,
@@ -4568,6 +4578,7 @@
     "opsworks_for_chef_automate": "AWS OpsWorks for Chef Automate",
     "opsworks_for_puppet_enterprise": "AWS OpsWorks for Puppet Enterprise",
     "personal_health_dashboard": "AWS Personal Health Dashboard",
+    "privatelink": "AWS PrivateLink",
     "resource_access_manager_ram": "AWS Resource Access Manager (RAM)",
     "robomaker": "AWS RoboMaker",
     "secrets_manager": "AWS Secrets Manager",

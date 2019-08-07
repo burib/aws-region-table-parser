@@ -1,6 +1,6 @@
 ### 63 Edge Locations
 ### 11 Regional Edge Caches
-### 175 Services
+### 176 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
@@ -22,8 +22,8 @@ eu-west-3 | EU (Paris) | 92
 sa-east-1 | South America (São Paulo) | 87
 us-gov-west-1 | GovCloud (US-West) | 86
 eu-north-1 | EU (Stockholm) | 77
+us-gov-east-1 | GovCloud (US-East) | 59
 ap-east-1 | Asia Pacific (Hong Kong) | 58
-us-gov-east-1 | GovCloud (US-East) | 57
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 51
 me-south-1 | Middle East (Bahrain) | 47
@@ -98,7 +98,7 @@ Amazon Rekognition Image|true | true | true | true | false | false | true | fals
 Amazon Rekognition Video|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon RDS Performance Insights|true | true | true | false | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | true | false | false
-Amazon Route 53 Private DNS|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
+Amazon Route 53 Private DNS|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 Amazon Route 53 Resolver|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
@@ -178,6 +178,7 @@ AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | t
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
+AWS PrivateLink|false | false | false | false | false | false | false | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
