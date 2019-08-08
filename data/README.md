@@ -22,8 +22,8 @@ eu-west-3 | EU (Paris) | 92
 sa-east-1 | South America (São Paulo) | 87
 us-gov-west-1 | GovCloud (US-West) | 86
 eu-north-1 | EU (Stockholm) | 77
+ap-east-1 | Asia Pacific (Hong Kong) | 60
 us-gov-east-1 | GovCloud (US-East) | 59
-ap-east-1 | Asia Pacific (Hong Kong) | 58
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 51
 me-south-1 | Middle East (Bahrain) | 47
@@ -154,7 +154,7 @@ AWS Elemental MediaLive|true | false | true | false | false | true | false | fal
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | true | false | false
 AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
@@ -197,7 +197,7 @@ AWS Storage Gateway|true | true | true | true | true | true | true | false | tru
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false | false | true | false | false | false | false | false
