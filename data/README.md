@@ -1,16 +1,16 @@
 ### 63 Edge Locations
 ### 11 Regional Edge Caches
-### 176 Services
+### 177 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 168
-us-west-2 | US West (Oregon) | 165
-eu-west-1 | EU (Ireland) | 158
-ap-northeast-1 | Asia Pacific (Tokyo) | 145
+us-east-1 | US East (N. Virginia) | 169
+us-west-2 | US West (Oregon) | 166
+eu-west-1 | EU (Ireland) | 159
+ap-northeast-1 | Asia Pacific (Tokyo) | 146
 ap-southeast-2 | Asia Pacific (Sydney) | 145
-us-east-2 | US East (Ohio) | 142
+us-east-2 | US East (Ohio) | 143
 eu-central-1 | EU (Frankfurt) | 138
 ap-southeast-1 | Asia Pacific (Singapore) | 137
 eu-west-2 | EU (London) | 123
@@ -18,15 +18,15 @@ ap-northeast-2 | Asia Pacific (Seoul) | 121
 ap-south-1 | Asia Pacific (Mumbai) | 112
 us-west-1 | US West (N. California) | 109
 ca-central-1 | Canada (Central) | 101
-eu-west-3 | EU (Paris) | 92
+eu-west-3 | EU (Paris) | 93
 sa-east-1 | South America (São Paulo) | 87
 us-gov-west-1 | GovCloud (US-West) | 86
-eu-north-1 | EU (Stockholm) | 77
+eu-north-1 | EU (Stockholm) | 78
 ap-east-1 | Asia Pacific (Hong Kong) | 60
 us-gov-east-1 | GovCloud (US-East) | 59
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 51
-me-south-1 | Middle East (Bahrain) | 47
+me-south-1 | Middle East (Bahrain) | 48
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -162,14 +162,15 @@ AWS Ground Station|false | true | true | false | false | false | false | false |
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | true | false
-AWS IoT Device Defender|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+AWS IoT Device Defender|true | true | true | true | true | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | true | false
 AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false
 AWS IoT Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+AWS Lake Formation|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
+AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Managed Services|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
