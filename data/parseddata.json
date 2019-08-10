@@ -33,12 +33,12 @@
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 86
+      "value": 87
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 59
+      "value": 61
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -3205,7 +3205,7 @@
       "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": true,
-      "us-gov-east-1": false,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
@@ -3571,7 +3571,7 @@
       "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": true,
-      "us-gov-east-1": false,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
@@ -3745,7 +3745,7 @@
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": true
     },
     "resource_access_manager_ram": {
