@@ -1,4 +1,4 @@
-# aws-region-table-parser
+# aws-region-table-parser [![CircleCI](https://circleci.com/gh/burib/aws-region-table-parser.svg?style=svg)](https://circleci.com/gh/burib/aws-region-table-parser)
 Currently AWS has no API to query which service available in which region.  
 This project scrapes their [Regional Product Services](http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) url and creates a serviceName to region map as a [json object](https://github.com/burib/aws-region-table-parser/blob/master/data/parseddata.json). ( runs every day at 12:00 UTC noon )
 
