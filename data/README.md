@@ -1,4 +1,4 @@
-### 63 Edge Locations
+### 64 Edge Locations
 ### 11 Regional Edge Caches
 ### 177 Services
 
@@ -26,7 +26,7 @@ us-gov-east-1 | GovCloud (US-East) | 61
 ap-east-1 | Asia Pacific (Hong Kong) | 60
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 51
-me-south-1 | Middle East (Bahrain) | 48
+me-south-1 | Middle East (Bahrain) | 49
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -125,7 +125,7 @@ AWS App Mesh|true | true | true | false | false | false | false | false | true |
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
-AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false

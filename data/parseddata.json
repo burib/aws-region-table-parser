@@ -68,7 +68,7 @@
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 48
+      "value": 49
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -2413,7 +2413,7 @@
       "eu-west-2": true,
       "eu-west-3": true,
       "eu-north-1": true,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -4685,6 +4685,7 @@
     "Vienna, Austria",
     "Warsaw, Poland",
     "Zurich, Switzerland (2)",
+    "Tel Aviv, Israel",
     "Chennai, India (2)",
     "Hong Kong SAR, China (3)",
     "Hyderabad, India (4)",
