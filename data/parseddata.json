@@ -23,17 +23,17 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 101
+      "value": 102
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 87
+      "value": 89
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 87
+      "value": 88
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
@@ -48,22 +48,22 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 138
+      "value": 140
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 123
+      "value": 124
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 93
+      "value": 95
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 78
+      "value": 81
     },
     "me-south-1": {
       "regionCode": "me-south-1",
@@ -73,7 +73,7 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 137
+      "value": 138
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
@@ -93,17 +93,17 @@
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 121
+      "value": 122
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 112
+      "value": 114
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 60
+      "value": 63
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -113,7 +113,7 @@
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 51
+      "value": 53
     }
   },
   "services": {
@@ -1195,15 +1195,15 @@
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-west-3": true,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -1229,7 +1229,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
     },
@@ -1490,7 +1490,7 @@
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
-      "us-gov-west-1": false,
+      "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
@@ -1789,8 +1789,33 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
+      "me-south-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "sagemaker_ground_truth": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": true,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
@@ -1804,31 +1829,6 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
-    },
-    "sagemaker_ground_truth": {
-      "us-east-1": true,
-      "us-east-2": true,
-      "us-west-2": true,
-      "us-west-1": false,
-      "ca-central-1": false,
-      "sa-east-1": false,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false,
-      "eu-west-1": true,
-      "eu-central-1": false,
-      "eu-west-2": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
-      "me-south-1": false,
-      "ap-southeast-1": false,
-      "ap-northeast-1": true,
-      "ap-northeast-3": false,
-      "ap-southeast-2": true,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -3107,7 +3107,7 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
@@ -3320,7 +3320,7 @@
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": true,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "iot_device_defender": {
       "us-east-1": true,
@@ -3370,7 +3370,7 @@
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": true,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "iot_events": {
       "us-east-1": true,
@@ -4119,7 +4119,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": false
     },
@@ -4179,14 +4179,14 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
