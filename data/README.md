@@ -11,9 +11,9 @@ eu-west-1 | EU (Ireland) | 159
 ap-northeast-1 | Asia Pacific (Tokyo) | 146
 ap-southeast-2 | Asia Pacific (Sydney) | 145
 us-east-2 | US East (Ohio) | 143
-eu-central-1 | EU (Frankfurt) | 140
+eu-central-1 | EU (Frankfurt) | 141
 ap-southeast-1 | Asia Pacific (Singapore) | 138
-eu-west-2 | EU (London) | 124
+eu-west-2 | EU (London) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 122
 ap-south-1 | Asia Pacific (Mumbai) | 114
 us-west-1 | US West (N. California) | 109
@@ -21,7 +21,7 @@ ca-central-1 | Canada (Central) | 102
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 88
-eu-north-1 | EU (Stockholm) | 81
+eu-north-1 | EU (Stockholm) | 83
 ap-east-1 | Asia Pacific (Hong Kong) | 63
 us-gov-east-1 | GovCloud (US-East) | 61
 cn-north-1 | China (Beijing) | 53
@@ -70,8 +70,8 @@ Amazon Elasticsearch Service|true | true | true | true | true | true | true | tr
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
-Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
+Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
+Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
@@ -92,7 +92,7 @@ Amazon Neptune|true | true | true | false | false | false | true | false | true 
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
-Amazon QuickSight|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
+Amazon QuickSight|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Rekognition Video|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false

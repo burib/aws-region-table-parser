@@ -48,12 +48,12 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 140
+      "value": 141
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 124
+      "value": 125
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -63,7 +63,7 @@
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 81
+      "value": 83
     },
     "me-south-1": {
       "regionCode": "me-south-1",
@@ -1046,7 +1046,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -1071,7 +1071,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -1593,8 +1593,8 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
-      "eu-west-2": false,
+      "eu-central-1": true,
+      "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
