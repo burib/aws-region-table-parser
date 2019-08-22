@@ -23,7 +23,7 @@ sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 88
 eu-north-1 | EU (Stockholm) | 83
 ap-east-1 | Asia Pacific (Hong Kong) | 63
-us-gov-east-1 | GovCloud (US-East) | 61
+us-gov-east-1 | GovCloud (US-East) | 62
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
 me-south-1 | Middle East (Bahrain) | 49
@@ -88,7 +88,7 @@ Amazon Managed Blockchain|true | false | false | false | false | false | false |
 Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | false | false | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon Neptune|true | true | true | false | false | false | true | false | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
+Amazon Neptune|true | true | true | false | false | false | true | true | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
