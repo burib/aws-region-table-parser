@@ -21,7 +21,7 @@ ca-central-1 | Canada (Central) | 102
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 88
-eu-north-1 | EU (Stockholm) | 83
+eu-north-1 | EU (Stockholm) | 84
 ap-east-1 | Asia Pacific (Hong Kong) | 63
 us-gov-east-1 | GovCloud (US-East) | 62
 cn-north-1 | China (Beijing) | 53
@@ -148,7 +148,7 @@ AWS Device Farm|false | false | true | false | false | false | false | false | f
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false | true | true | true | false | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
 AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | false | true | true | false | true | true | true | false | false | false
