@@ -21,7 +21,7 @@ ca-central-1 | Canada (Central) | 102
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 88
-eu-north-1 | EU (Stockholm) | 84
+eu-north-1 | EU (Stockholm) | 85
 ap-east-1 | Asia Pacific (Hong Kong) | 63
 us-gov-east-1 | GovCloud (US-East) | 62
 cn-north-1 | China (Beijing) | 53
@@ -131,7 +131,7 @@ AWS Certificate Manager Private CA|true | true | true | true | true | false | tr
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
-AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | false | false | true | true | false | true | true | true | true | false | false
+AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodeBuild|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
