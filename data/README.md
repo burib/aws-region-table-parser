@@ -17,7 +17,7 @@ eu-west-2 | EU (London) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 122
 ap-south-1 | Asia Pacific (Mumbai) | 114
 us-west-1 | US West (N. California) | 109
-ca-central-1 | Canada (Central) | 102
+ca-central-1 | Canada (Central) | 103
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 88
@@ -189,7 +189,7 @@ AWS Server Migration Service|true | true | true | true | true | true | true | tr
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Shield Advanced|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Single Sign-On|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | false | false | true | false | false | false | false | false
+AWS Single Sign-On|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | false | false | true | false | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true
 AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | false | false | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true
