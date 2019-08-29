@@ -8,14 +8,14 @@
 us-east-1 | US East (N. Virginia) | 169
 us-west-2 | US West (Oregon) | 166
 eu-west-1 | EU (Ireland) | 159
-ap-northeast-1 | Asia Pacific (Tokyo) | 146
-ap-southeast-2 | Asia Pacific (Sydney) | 145
+ap-northeast-1 | Asia Pacific (Tokyo) | 147
+ap-southeast-2 | Asia Pacific (Sydney) | 146
 us-east-2 | US East (Ohio) | 143
-eu-central-1 | EU (Frankfurt) | 141
+eu-central-1 | EU (Frankfurt) | 142
 ap-southeast-1 | Asia Pacific (Singapore) | 138
 eu-west-2 | EU (London) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 122
-ap-south-1 | Asia Pacific (Mumbai) | 114
+ap-south-1 | Asia Pacific (Mumbai) | 115
 us-west-1 | US West (N. California) | 109
 ca-central-1 | Canada (Central) | 103
 eu-west-3 | EU (Paris) | 95
@@ -60,7 +60,7 @@ Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | fal
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | true | false | false | false
 Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Elastic File System (EFS)|true | true | true | true | true | false | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Elastic Graphics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
