@@ -14,16 +14,16 @@ us-east-2 | US East (Ohio) | 143
 eu-central-1 | EU (Frankfurt) | 142
 ap-southeast-1 | Asia Pacific (Singapore) | 138
 eu-west-2 | EU (London) | 125
-ap-northeast-2 | Asia Pacific (Seoul) | 122
+ap-northeast-2 | Asia Pacific (Seoul) | 123
 ap-south-1 | Asia Pacific (Mumbai) | 115
-us-west-1 | US West (N. California) | 109
+us-west-1 | US West (N. California) | 110
 ca-central-1 | Canada (Central) | 103
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 88
-eu-north-1 | EU (Stockholm) | 85
+eu-north-1 | EU (Stockholm) | 86
+us-gov-east-1 | GovCloud (US-East) | 64
 ap-east-1 | Asia Pacific (Hong Kong) | 63
-us-gov-east-1 | GovCloud (US-East) | 62
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
 me-south-1 | Middle East (Bahrain) | 49
@@ -53,7 +53,7 @@ Amazon DeepLens|true | false | false | false | false | false | false | false | t
 Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | true | false | false | false | false | true | false | true | true | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon EC2 Spot Instances|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon EC2 Spot Instances|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | false | true | true | false | true | true | true | true | false | false
@@ -155,7 +155,7 @@ AWS Elemental MediaPackage|true | false | true | true | false | true | false | f
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | true | false | false
-AWS Firewall Manager|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
+AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -180,7 +180,7 @@ AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS PrivateLink|false | false | false | false | false | false | true | true
-AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
