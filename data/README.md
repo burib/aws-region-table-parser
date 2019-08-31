@@ -20,13 +20,13 @@ us-west-1 | US West (N. California) | 110
 ca-central-1 | Canada (Central) | 103
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
-us-gov-west-1 | GovCloud (US-West) | 88
+us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 86
-us-gov-east-1 | GovCloud (US-East) | 64
+us-gov-east-1 | GovCloud (US-East) | 65
 ap-east-1 | Asia Pacific (Hong Kong) | 63
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
-me-south-1 | Middle East (Bahrain) | 49
+me-south-1 | Middle East (Bahrain) | 50
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -142,7 +142,7 @@ AWS CodeStar|true | true | true | true | true | false | false | false | false | 
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
-AWS DataSync|true | true | true | true | false | false | true | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
+AWS DataSync|true | true | true | true | false | false | true | false | true | true | false | false | false | true | true | true | false | true | true | false | false | false | false
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -178,7 +178,7 @@ AWS Mobile Hub|true | true | true | true | false | true | false | false | true |
 AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Personal Health Dashboard|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
+AWS Personal Health Dashboard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS PrivateLink|false | false | false | false | false | false | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false

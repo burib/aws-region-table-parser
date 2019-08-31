@@ -33,12 +33,12 @@
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 88
+      "value": 89
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 64
+      "value": 65
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -68,7 +68,7 @@
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 49
+      "value": 50
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -2838,7 +2838,7 @@
       "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -3720,8 +3720,8 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
