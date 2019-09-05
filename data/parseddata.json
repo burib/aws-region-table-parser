@@ -38,7 +38,7 @@
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 65
+      "value": 66
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -68,7 +68,7 @@
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 50
+      "value": 51
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -697,7 +697,7 @@
       "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": true,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -3856,7 +3856,7 @@
       "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": true,
-      "us-gov-east-1": false,
+      "us-gov-east-1": true,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
@@ -4686,6 +4686,7 @@
     "Warsaw, Poland",
     "Zurich, Switzerland (2)",
     "Tel Aviv, Israel",
+    "Lisbon, Portugal",
     "Chennai, India (2)",
     "Hong Kong SAR, China (3)",
     "Hyderabad, India (4)",

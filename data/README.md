@@ -1,4 +1,4 @@
-### 64 Edge Locations
+### 65 Edge Locations
 ### 11 Regional Edge Caches
 ### 177 Services
 
@@ -22,11 +22,11 @@ eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 86
-us-gov-east-1 | GovCloud (US-East) | 65
+us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 63
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
-me-south-1 | Middle East (Bahrain) | 50
+me-south-1 | Middle East (Bahrain) | 51
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -56,7 +56,7 @@ Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | 
 Amazon EC2 Spot Instances|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | false | true | true | false | true | true | true | true | false | false
+Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | true | true | true | false | true | true | true | true | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -184,7 +184,7 @@ AWS Resource Access Manager (RAM)|true | true | true | true | true | false | tru
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
-AWS Serverless Application Repository|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Serverless Application Repository|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
