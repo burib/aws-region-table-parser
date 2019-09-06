@@ -26,7 +26,7 @@ us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 63
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
-me-south-1 | Middle East (Bahrain) | 51
+me-south-1 | Middle East (Bahrain) | 52
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -157,7 +157,7 @@ AWS Elemental MediaTailor|true | false | true | false | false | false | false | 
 AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | true | false | false
 AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false
