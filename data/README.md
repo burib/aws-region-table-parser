@@ -16,14 +16,14 @@ ap-southeast-1 | Asia Pacific (Singapore) | 138
 eu-west-2 | EU (London) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 123
 ap-south-1 | Asia Pacific (Mumbai) | 115
-us-west-1 | US West (N. California) | 110
-ca-central-1 | Canada (Central) | 103
+us-west-1 | US West (N. California) | 111
+ca-central-1 | Canada (Central) | 104
 eu-west-3 | EU (Paris) | 95
 sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 89
-eu-north-1 | EU (Stockholm) | 86
+eu-north-1 | EU (Stockholm) | 87
 us-gov-east-1 | GovCloud (US-East) | 66
-ap-east-1 | Asia Pacific (Hong Kong) | 63
+ap-east-1 | Asia Pacific (Hong Kong) | 64
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
 me-south-1 | Middle East (Bahrain) | 52
@@ -97,7 +97,7 @@ Amazon Redshift|true | true | true | true | true | true | true | true | true | t
 Amazon Rekognition Image|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Rekognition Video|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon RDS Performance Insights|true | true | true | false | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | true | false | false
+Amazon RDS Performance Insights|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Route 53 Private DNS|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 Amazon Route 53 Resolver|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
@@ -191,7 +191,7 @@ AWS Shield Standard|true | true | true | true | true | true | true | true | true
 AWS Shield Advanced|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Single Sign-On|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | false | false | true | false | false | false | false | false
 AWS Snowball|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true
-AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | false | false | false | false
+AWS Snowball Edge|true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | false | false
 AWS Snowmobile|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | false | true | true
 AWS Step Functions|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Storage Gateway|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | false
