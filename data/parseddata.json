@@ -3,17 +3,17 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 169
+      "value": 170
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 143
+      "value": 144
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 166
+      "value": 167
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -43,7 +43,7 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 159
+      "value": 160
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
@@ -68,7 +68,7 @@
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 52
+      "value": 53
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -78,7 +78,7 @@
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 147
+      "value": 148
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -1582,6 +1582,31 @@
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": true
+    },
+    "quantum_ledger_database_qldb": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "quicksight": {
       "us-east-1": true,
@@ -4212,7 +4237,7 @@
       "eu-west-2": true,
       "eu-west-3": true,
       "eu-north-1": false,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -4517,6 +4542,7 @@
     "personalize": "Amazon Personalize",
     "pinpoint": "Amazon Pinpoint",
     "polly": "Amazon Polly",
+    "quantum_ledger_database_qldb": "Amazon Quantum Ledger Database (QLDB)",
     "quicksight": "Amazon QuickSight",
     "redshift": "Amazon Redshift",
     "rekognition_image": "Amazon Rekognition Image",

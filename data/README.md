@@ -1,16 +1,16 @@
 ### 65 Edge Locations
 ### 11 Regional Edge Caches
-### 177 Services
+### 178 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 169
-us-west-2 | US West (Oregon) | 166
-eu-west-1 | EU (Ireland) | 159
-ap-northeast-1 | Asia Pacific (Tokyo) | 147
+us-east-1 | US East (N. Virginia) | 170
+us-west-2 | US West (Oregon) | 167
+eu-west-1 | EU (Ireland) | 160
+ap-northeast-1 | Asia Pacific (Tokyo) | 148
 ap-southeast-2 | Asia Pacific (Sydney) | 146
-us-east-2 | US East (Ohio) | 143
+us-east-2 | US East (Ohio) | 144
 eu-central-1 | EU (Frankfurt) | 142
 ap-southeast-1 | Asia Pacific (Singapore) | 138
 eu-west-2 | EU (London) | 125
@@ -24,9 +24,9 @@ us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 87
 us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 64
+me-south-1 | Middle East (Bahrain) | 53
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
-me-south-1 | Middle East (Bahrain) | 52
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -92,6 +92,7 @@ Amazon Neptune|true | true | true | false | false | false | true | true | true |
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
+Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
@@ -198,7 +199,7 @@ AWS Storage Gateway|true | true | true | true | true | true | true | false | tru
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | true | false | false
+AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false | false | true | false | false | false | false | false
