@@ -24,7 +24,7 @@ us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 87
 us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 64
-me-south-1 | Middle East (Bahrain) | 53
+me-south-1 | Middle East (Bahrain) | 54
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -74,7 +74,7 @@ Amazon FSx for Windows File Server|true | true | true | true | false | false | f
 Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 Amazon Glacier|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | true | false | false | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
