@@ -16,14 +16,14 @@ ap-southeast-1 | Asia Pacific (Singapore) | 138
 eu-west-2 | EU (London) | 125
 ap-northeast-2 | Asia Pacific (Seoul) | 123
 ap-south-1 | Asia Pacific (Mumbai) | 115
-us-west-1 | US West (N. California) | 111
-ca-central-1 | Canada (Central) | 104
-eu-west-3 | EU (Paris) | 95
-sa-east-1 | South America (São Paulo) | 89
+us-west-1 | US West (N. California) | 112
+ca-central-1 | Canada (Central) | 105
+eu-west-3 | EU (Paris) | 96
+sa-east-1 | South America (São Paulo) | 90
 us-gov-west-1 | GovCloud (US-West) | 89
-eu-north-1 | EU (Stockholm) | 87
+eu-north-1 | EU (Stockholm) | 88
 us-gov-east-1 | GovCloud (US-East) | 66
-ap-east-1 | Asia Pacific (Hong Kong) | 64
+ap-east-1 | Asia Pacific (Hong Kong) | 65
 me-south-1 | Middle East (Bahrain) | 54
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
@@ -69,7 +69,7 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
-Amazon FreeRTOS|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
@@ -162,7 +162,7 @@ AWS Glue|true | true | true | true | true | true | true | true | true | true | t
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false
-AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
+AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS IoT Device Defender|true | true | true | true | true | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
 AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false
