@@ -13,7 +13,7 @@ ap-southeast-2 | Asia Pacific (Sydney) | 146
 us-east-2 | US East (Ohio) | 144
 eu-central-1 | EU (Frankfurt) | 142
 ap-southeast-1 | Asia Pacific (Singapore) | 138
-eu-west-2 | EU (London) | 125
+eu-west-2 | EU (London) | 126
 ap-northeast-2 | Asia Pacific (Seoul) | 123
 ap-south-1 | Asia Pacific (Mumbai) | 115
 us-west-1 | US West (N. California) | 112
@@ -23,7 +23,7 @@ sa-east-1 | South America (São Paulo) | 90
 us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 88
 us-gov-east-1 | GovCloud (US-East) | 66
-ap-east-1 | Asia Pacific (Hong Kong) | 65
+ap-east-1 | Asia Pacific (Hong Kong) | 66
 me-south-1 | Middle East (Bahrain) | 54
 cn-north-1 | China (Beijing) | 53
 cn-northwest-1 | China (Ningxia) | 53
@@ -152,7 +152,7 @@ AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | tr
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
 AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | true | false | true | true | false | true | true | true | false | false | false
-AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | false | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | true | false | false
@@ -164,7 +164,7 @@ AWS IoT 1-Click|true | true | true | false | false | false | false | false | tru
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS IoT Device Defender|true | true | true | true | true | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
+AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false
 AWS IoT Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
