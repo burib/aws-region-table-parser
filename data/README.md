@@ -19,7 +19,7 @@ ap-south-1 | Asia Pacific (Mumbai) | 115
 us-west-1 | US West (N. California) | 112
 ca-central-1 | Canada (Central) | 105
 eu-west-3 | EU (Paris) | 96
-sa-east-1 | South America (São Paulo) | 90
+sa-east-1 | South America (São Paulo) | 89
 us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 88
 us-gov-east-1 | GovCloud (US-East) | 66
@@ -124,7 +124,7 @@ AWS Amplify Console|true | true | true | false | false | false | false | false |
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS App Mesh|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-AWS Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Auto Scaling|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
