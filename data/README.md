@@ -5,28 +5,28 @@
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 170
-us-west-2 | US West (Oregon) | 167
-eu-west-1 | EU (Ireland) | 160
-ap-northeast-1 | Asia Pacific (Tokyo) | 148
-ap-southeast-2 | Asia Pacific (Sydney) | 146
-us-east-2 | US East (Ohio) | 144
-eu-central-1 | EU (Frankfurt) | 142
-ap-southeast-1 | Asia Pacific (Singapore) | 138
-eu-west-2 | EU (London) | 126
-ap-northeast-2 | Asia Pacific (Seoul) | 123
-ap-south-1 | Asia Pacific (Mumbai) | 115
-us-west-1 | US West (N. California) | 112
-ca-central-1 | Canada (Central) | 105
-eu-west-3 | EU (Paris) | 96
-sa-east-1 | South America (São Paulo) | 89
+us-east-1 | US East (N. Virginia) | 171
+us-west-2 | US West (Oregon) | 168
+eu-west-1 | EU (Ireland) | 161
+ap-northeast-1 | Asia Pacific (Tokyo) | 149
+ap-southeast-2 | Asia Pacific (Sydney) | 147
+us-east-2 | US East (Ohio) | 145
+eu-central-1 | EU (Frankfurt) | 143
+ap-southeast-1 | Asia Pacific (Singapore) | 139
+eu-west-2 | EU (London) | 127
+ap-northeast-2 | Asia Pacific (Seoul) | 124
+ap-south-1 | Asia Pacific (Mumbai) | 116
+us-west-1 | US West (N. California) | 113
+ca-central-1 | Canada (Central) | 106
+eu-west-3 | EU (Paris) | 97
+sa-east-1 | South America (São Paulo) | 90
 us-gov-west-1 | GovCloud (US-West) | 89
 eu-north-1 | EU (Stockholm) | 88
 us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 66
 me-south-1 | Middle East (Bahrain) | 54
-cn-north-1 | China (Beijing) | 53
-cn-northwest-1 | China (Ningxia) | 53
+cn-north-1 | China (Beijing) | 54
+cn-northwest-1 | China (Ningxia) | 54
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -180,7 +180,7 @@ AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | t
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS PrivateLink|false | false | false | false | false | false | true | true
+AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
