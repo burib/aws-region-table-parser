@@ -20,7 +20,7 @@ us-west-1 | US West (N. California) | 113
 ca-central-1 | Canada (Central) | 106
 eu-west-3 | EU (Paris) | 97
 sa-east-1 | South America (São Paulo) | 90
-us-gov-west-1 | GovCloud (US-West) | 89
+us-gov-west-1 | GovCloud (US-West) | 90
 eu-north-1 | EU (Stockholm) | 88
 us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 66
@@ -163,7 +163,7 @@ AWS Ground Station|false | true | true | false | false | false | false | false |
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
-AWS IoT Device Defender|true | true | true | true | true | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS IoT Device Defender|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false
 AWS IoT Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
