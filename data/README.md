@@ -24,7 +24,7 @@ us-gov-west-1 | GovCloud (US-West) | 90
 eu-north-1 | EU (Stockholm) | 88
 us-gov-east-1 | GovCloud (US-East) | 66
 ap-east-1 | Asia Pacific (Hong Kong) | 66
-me-south-1 | Middle East (Bahrain) | 54
+me-south-1 | Middle East (Bahrain) | 56
 cn-north-1 | China (Beijing) | 54
 cn-northwest-1 | China (Ningxia) | 54
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -162,9 +162,9 @@ AWS Glue|true | true | true | true | true | true | true | true | true | true | t
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | false | true | false | false | false | false | false | false | false
 AWS IoT Analytics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false
-AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
+AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS IoT Device Defender|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
+AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false
 AWS IoT Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
