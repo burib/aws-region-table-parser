@@ -18,17 +18,17 @@
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 113
+      "value": 114
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 106
+      "value": 107
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 90
+      "value": 91
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -48,37 +48,37 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 143
+      "value": 144
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 127
+      "value": 128
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 97
+      "value": 98
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 88
+      "value": 91
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 56
+      "value": 57
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 139
+      "value": 140
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 149
+      "value": 150
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -88,22 +88,22 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 147
+      "value": 148
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 124
+      "value": 126
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 116
+      "value": 118
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 66
+      "value": 68
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -1421,14 +1421,14 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -1862,16 +1862,16 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
-      "ca-central-1": false,
-      "sa-east-1": false,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
-      "eu-west-2": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
       "me-south-1": false
     },
     "simpledb": {
@@ -2512,15 +2512,15 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
-      "me-south-1": false,
+      "eu-north-1": true,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -4329,7 +4329,7 @@
       "eu-north-1": false,
       "me-south-1": false,
       "ap-southeast-1": false,
-      "ap-northeast-1": false,
+      "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": false,
@@ -4475,13 +4475,13 @@
       "cn-northwest-1": false
     },
     "sagemaker neo": {
-      "ap-southeast-1": false,
+      "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
-      "ap-east-1": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },

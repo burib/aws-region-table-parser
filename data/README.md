@@ -8,23 +8,23 @@
 us-east-1 | US East (N. Virginia) | 171
 us-west-2 | US West (Oregon) | 168
 eu-west-1 | EU (Ireland) | 161
-ap-northeast-1 | Asia Pacific (Tokyo) | 149
-ap-southeast-2 | Asia Pacific (Sydney) | 147
+ap-northeast-1 | Asia Pacific (Tokyo) | 150
+ap-southeast-2 | Asia Pacific (Sydney) | 148
 us-east-2 | US East (Ohio) | 145
-eu-central-1 | EU (Frankfurt) | 143
-ap-southeast-1 | Asia Pacific (Singapore) | 139
-eu-west-2 | EU (London) | 127
-ap-northeast-2 | Asia Pacific (Seoul) | 124
-ap-south-1 | Asia Pacific (Mumbai) | 116
-us-west-1 | US West (N. California) | 113
-ca-central-1 | Canada (Central) | 106
-eu-west-3 | EU (Paris) | 97
-sa-east-1 | South America (São Paulo) | 90
+eu-central-1 | EU (Frankfurt) | 144
+ap-southeast-1 | Asia Pacific (Singapore) | 140
+eu-west-2 | EU (London) | 128
+ap-northeast-2 | Asia Pacific (Seoul) | 126
+ap-south-1 | Asia Pacific (Mumbai) | 118
+us-west-1 | US West (N. California) | 114
+ca-central-1 | Canada (Central) | 107
+eu-west-3 | EU (Paris) | 98
+sa-east-1 | South America (São Paulo) | 91
+eu-north-1 | EU (Stockholm) | 91
 us-gov-west-1 | GovCloud (US-West) | 90
-eu-north-1 | EU (Stockholm) | 88
+ap-east-1 | Asia Pacific (Hong Kong) | 68
 us-gov-east-1 | GovCloud (US-East) | 66
-ap-east-1 | Asia Pacific (Hong Kong) | 66
-me-south-1 | Middle East (Bahrain) | 56
+me-south-1 | Middle East (Bahrain) | 57
 cn-north-1 | China (Beijing) | 54
 cn-northwest-1 | China (Ningxia) | 54
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -85,7 +85,7 @@ Amazon Lightsail|true | true | true | false | true | false | false | false | tru
 Amazon Machine Learning|true | false | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | false | false | false | false | false
+Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Neptune|true | true | true | false | false | false | true | true | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
@@ -103,7 +103,7 @@ Amazon Route 53 Private DNS|true | true | true | true | true | true | true | tru
 Amazon Route 53 Resolver|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-Amazon SageMaker Neo|true | true | true | false | false | false | false | false | true | false | false | false | false | false
+Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | false
 Amazon SimpleDB|true | false | true | true | false | true | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -129,7 +129,7 @@ AWS Backup|true | true | true | true | true | false | false | false | true | tru
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
-AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
@@ -202,12 +202,12 @@ AWS Transfer for SFTP|true | true | true | true | true | true | false | false | 
 AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false | false | true | false | false | false | false | false
+AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | true | false | true | false | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | true | true | true | true | false | false | false
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
-Amazon SageMaker Neo|false | true | false | false | false | false | false | false | false
+Amazon SageMaker Neo|true | true | false | true | true | true | true | false | false
 AWS IoT Event|false | true | false | true | false | false | false | false | false
