@@ -1,30 +1,30 @@
 ### 65 Edge Locations
 ### 11 Regional Edge Caches
-### 178 Services
+### 179 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 171
-us-west-2 | US West (Oregon) | 168
-eu-west-1 | EU (Ireland) | 161
-ap-northeast-1 | Asia Pacific (Tokyo) | 150
-ap-southeast-2 | Asia Pacific (Sydney) | 148
-us-east-2 | US East (Ohio) | 145
-eu-central-1 | EU (Frankfurt) | 144
-ap-southeast-1 | Asia Pacific (Singapore) | 140
-eu-west-2 | EU (London) | 128
-ap-northeast-2 | Asia Pacific (Seoul) | 126
-ap-south-1 | Asia Pacific (Mumbai) | 118
-us-west-1 | US West (N. California) | 114
-ca-central-1 | Canada (Central) | 107
-eu-west-3 | EU (Paris) | 98
-sa-east-1 | South America (São Paulo) | 91
-eu-north-1 | EU (Stockholm) | 91
+us-east-1 | US East (N. Virginia) | 172
+us-west-2 | US West (Oregon) | 169
+eu-west-1 | EU (Ireland) | 162
+ap-northeast-1 | Asia Pacific (Tokyo) | 151
+ap-southeast-2 | Asia Pacific (Sydney) | 149
+us-east-2 | US East (Ohio) | 146
+eu-central-1 | EU (Frankfurt) | 145
+ap-southeast-1 | Asia Pacific (Singapore) | 141
+eu-west-2 | EU (London) | 129
+ap-northeast-2 | Asia Pacific (Seoul) | 127
+ap-south-1 | Asia Pacific (Mumbai) | 119
+us-west-1 | US West (N. California) | 115
+ca-central-1 | Canada (Central) | 108
+eu-west-3 | EU (Paris) | 100
+eu-north-1 | EU (Stockholm) | 93
+sa-east-1 | South America (São Paulo) | 92
 us-gov-west-1 | GovCloud (US-West) | 90
 ap-east-1 | Asia Pacific (Hong Kong) | 68
 us-gov-east-1 | GovCloud (US-East) | 66
-me-south-1 | Middle East (Bahrain) | 57
+me-south-1 | Middle East (Bahrain) | 58
 cn-north-1 | China (Beijing) | 54
 cn-northwest-1 | China (Ningxia) | 54
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -129,6 +129,7 @@ AWS Backup|true | true | true | true | true | false | false | false | true | tru
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS Chatbot|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
@@ -155,7 +156,7 @@ AWS Elemental MediaLive|true | false | true | false | false | true | false | fal
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | true | false | false
+AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
