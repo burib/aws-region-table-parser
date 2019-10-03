@@ -18,13 +18,13 @@ ap-northeast-2 | Asia Pacific (Seoul) | 127
 ap-south-1 | Asia Pacific (Mumbai) | 119
 us-west-1 | US West (N. California) | 115
 ca-central-1 | Canada (Central) | 108
-eu-west-3 | EU (Paris) | 100
-eu-north-1 | EU (Stockholm) | 93
+eu-west-3 | EU (Paris) | 99
 sa-east-1 | South America (São Paulo) | 92
-us-gov-west-1 | GovCloud (US-West) | 90
-ap-east-1 | Asia Pacific (Hong Kong) | 68
-us-gov-east-1 | GovCloud (US-East) | 66
-me-south-1 | Middle East (Bahrain) | 58
+eu-north-1 | EU (Stockholm) | 92
+us-gov-west-1 | GovCloud (US-West) | 89
+ap-east-1 | Asia Pacific (Hong Kong) | 67
+us-gov-east-1 | GovCloud (US-East) | 65
+me-south-1 | Middle East (Bahrain) | 57
 cn-north-1 | China (Beijing) | 54
 cn-northwest-1 | China (Ningxia) | 54
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -124,7 +124,7 @@ AWS Amplify Console|true | true | true | false | false | false | false | false |
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS App Mesh|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-AWS Auto Scaling|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Auto Scaling|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
