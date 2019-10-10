@@ -25,8 +25,8 @@ us-gov-west-1 | GovCloud (US-West) | 89
 ap-east-1 | Asia Pacific (Hong Kong) | 67
 us-gov-east-1 | GovCloud (US-East) | 65
 me-south-1 | Middle East (Bahrain) | 58
-cn-north-1 | China (Beijing) | 54
-cn-northwest-1 | China (Ningxia) | 54
+cn-north-1 | China (Beijing) | 56
+cn-northwest-1 | China (Ningxia) | 56
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -112,7 +112,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Textract|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | false | false | true | true | true | false | false | false
+Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | false | false | true | true | true | false | true | true
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -156,7 +156,7 @@ AWS Elemental MediaLive|true | false | true | false | false | true | false | fal
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
