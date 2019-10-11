@@ -16,17 +16,17 @@ ap-southeast-1 | Asia Pacific (Singapore) | 141
 eu-west-2 | EU (London) | 130
 ap-northeast-2 | Asia Pacific (Seoul) | 128
 ap-south-1 | Asia Pacific (Mumbai) | 119
-us-west-1 | US West (N. California) | 115
-ca-central-1 | Canada (Central) | 109
+us-west-1 | US West (N. California) | 116
+ca-central-1 | Canada (Central) | 110
 eu-west-3 | EU (Paris) | 100
-sa-east-1 | South America (São Paulo) | 92
+sa-east-1 | South America (São Paulo) | 93
 eu-north-1 | EU (Stockholm) | 92
 us-gov-west-1 | GovCloud (US-West) | 89
-ap-east-1 | Asia Pacific (Hong Kong) | 67
+ap-east-1 | Asia Pacific (Hong Kong) | 68
 us-gov-east-1 | GovCloud (US-East) | 65
 me-south-1 | Middle East (Bahrain) | 58
-cn-north-1 | China (Beijing) | 56
-cn-northwest-1 | China (Ningxia) | 56
+cn-north-1 | China (Beijing) | 57
+cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 
 
@@ -85,7 +85,7 @@ Amazon Lightsail|true | true | true | false | true | false | false | false | tru
 Amazon Machine Learning|true | false | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Managed Streaming for Apache Kafka|true | true | true | false | false | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Neptune|true | true | true | false | false | false | true | true | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
@@ -126,7 +126,7 @@ AWS App Mesh|true | true | true | false | false | false | false | false | true |
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
-AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Chatbot|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
