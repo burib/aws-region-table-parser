@@ -21,9 +21,9 @@ ca-central-1 | Canada (Central) | 110
 eu-west-3 | EU (Paris) | 100
 sa-east-1 | South America (São Paulo) | 93
 eu-north-1 | EU (Stockholm) | 92
-us-gov-west-1 | GovCloud (US-West) | 89
-ap-east-1 | Asia Pacific (Hong Kong) | 68
-us-gov-east-1 | GovCloud (US-East) | 65
+us-gov-west-1 | GovCloud (US-West) | 91
+ap-east-1 | Asia Pacific (Hong Kong) | 69
+us-gov-east-1 | GovCloud (US-East) | 67
 me-south-1 | Middle East (Bahrain) | 58
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
@@ -35,7 +35,7 @@ ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-Amazon AppStream 2.0|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
+Amazon AppStream 2.0|true | false | true | false | false | false | true | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
@@ -100,7 +100,7 @@ Amazon Rekognition Video|true | true | true | true | false | false | true | fals
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon RDS Performance Insights|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Route 53 Private DNS|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-Amazon Route 53 Resolver|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Route 53 Resolver|true | true | true | true | true | false | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | false
@@ -184,7 +184,7 @@ AWS Personal Health Dashboard|true | true | true | true | true | true | true | t
 AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
-AWS Secrets Manager|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
