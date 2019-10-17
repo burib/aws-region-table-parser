@@ -28,7 +28,7 @@
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 93
+      "value": 94
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -689,7 +689,7 @@
       "us-west-2": true,
       "us-west-1": false,
       "ca-central-1": false,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,

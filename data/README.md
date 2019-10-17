@@ -19,7 +19,7 @@ ap-south-1 | Asia Pacific (Mumbai) | 119
 us-west-1 | US West (N. California) | 116
 ca-central-1 | Canada (Central) | 110
 eu-west-3 | EU (Paris) | 100
-sa-east-1 | South America (São Paulo) | 93
+sa-east-1 | South America (São Paulo) | 94
 eu-north-1 | EU (Stockholm) | 92
 us-gov-west-1 | GovCloud (US-West) | 91
 ap-east-1 | Asia Pacific (Hong Kong) | 69
@@ -56,7 +56,7 @@ Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | 
 Amazon EC2 Spot Instances|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | false | false | false | true | true | true | false | true | true | true | true | false | true | true | true | true | false | false
+Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | true | false | false | true | true | true | false | true | true | true | true | false | true | true | true | true | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
