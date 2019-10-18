@@ -1,18 +1,18 @@
 ### 65 Edge Locations
 ### 11 Regional Edge Caches
-### 179 Services
+### 180 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 172
-us-west-2 | US West (Oregon) | 169
-eu-west-1 | EU (Ireland) | 162
-ap-northeast-1 | Asia Pacific (Tokyo) | 151
+us-east-1 | US East (N. Virginia) | 173
+us-west-2 | US West (Oregon) | 170
+eu-west-1 | EU (Ireland) | 163
+ap-northeast-1 | Asia Pacific (Tokyo) | 152
 ap-southeast-2 | Asia Pacific (Sydney) | 149
-us-east-2 | US East (Ohio) | 146
+us-east-2 | US East (Ohio) | 147
 eu-central-1 | EU (Frankfurt) | 145
-ap-southeast-1 | Asia Pacific (Singapore) | 142
+ap-southeast-1 | Asia Pacific (Singapore) | 143
 eu-west-2 | EU (London) | 130
 ap-northeast-2 | Asia Pacific (Seoul) | 128
 ap-south-1 | Asia Pacific (Mumbai) | 119
@@ -24,7 +24,7 @@ eu-north-1 | EU (Stockholm) | 92
 us-gov-west-1 | GovCloud (US-West) | 91
 ap-east-1 | Asia Pacific (Hong Kong) | 69
 us-gov-east-1 | GovCloud (US-East) | 67
-me-south-1 | Middle East (Bahrain) | 58
+me-south-1 | Middle East (Bahrain) | 59
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -69,6 +69,7 @@ Amazon Elastic MapReduce|true | true | true | true | true | true | true | true |
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+Amazon Forecast|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
@@ -128,7 +129,7 @@ AWS Auto Scaling|true | true | true | true | true | false | false | false | true
 AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Chatbot|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
