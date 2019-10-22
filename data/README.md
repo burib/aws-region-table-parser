@@ -1,6 +1,6 @@
 ### 65 Edge Locations
 ### 11 Regional Edge Caches
-### 180 Services
+### 179 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
@@ -10,15 +10,15 @@ us-west-2 | US West (Oregon) | 170
 eu-west-1 | EU (Ireland) | 163
 ap-northeast-1 | Asia Pacific (Tokyo) | 152
 ap-southeast-2 | Asia Pacific (Sydney) | 149
-us-east-2 | US East (Ohio) | 147
+us-east-2 | US East (Ohio) | 148
 eu-central-1 | EU (Frankfurt) | 145
 ap-southeast-1 | Asia Pacific (Singapore) | 143
-eu-west-2 | EU (London) | 130
-ap-northeast-2 | Asia Pacific (Seoul) | 128
+eu-west-2 | EU (London) | 131
+ap-northeast-2 | Asia Pacific (Seoul) | 129
 ap-south-1 | Asia Pacific (Mumbai) | 119
 us-west-1 | US West (N. California) | 116
 ca-central-1 | Canada (Central) | 110
-eu-west-3 | EU (Paris) | 100
+eu-west-3 | EU (Paris) | 101
 sa-east-1 | South America (São Paulo) | 94
 eu-north-1 | EU (Stockholm) | 92
 us-gov-west-1 | GovCloud (US-West) | 91
@@ -153,7 +153,7 @@ AWS Directory Service|true | true | true | true | true | true | true | true | tr
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
-AWS Elemental MediaLive|true | false | true | false | false | true | false | false | true | true | false | false | true | false | true | true | false | true | true | true | false | false | false
+AWS Elemental MediaLive|true | true | true | false | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -167,7 +167,7 @@ AWS IoT Analytics|true | true | true | false | false | false | false | false | t
 AWS IoT Core|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS IoT Device Defender|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS IoT Device Management|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false
+AWS IoT Events|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | true | false | false | false | false
 AWS IoT Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | true | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -212,4 +212,3 @@ VM Import/Export|true | true | true | true | true | true | true | true | true | 
 VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|true | true | false | true | true | true | true | false | false
-AWS IoT Event|false | true | false | true | false | false | false | false | false
