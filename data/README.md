@@ -12,8 +12,8 @@ ap-northeast-1 | Asia Pacific (Tokyo) | 152
 ap-southeast-2 | Asia Pacific (Sydney) | 149
 us-east-2 | US East (Ohio) | 148
 eu-central-1 | EU (Frankfurt) | 145
-ap-southeast-1 | Asia Pacific (Singapore) | 143
-eu-west-2 | EU (London) | 131
+ap-southeast-1 | Asia Pacific (Singapore) | 144
+eu-west-2 | EU (London) | 132
 ap-northeast-2 | Asia Pacific (Seoul) | 129
 ap-south-1 | Asia Pacific (Mumbai) | 119
 us-west-1 | US West (N. California) | 116
@@ -112,7 +112,7 @@ Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon Textract|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Textract|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | false | false | false | false | false | false | false | false
 Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | false | false | true | true | true | false | true | true
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
