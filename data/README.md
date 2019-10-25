@@ -15,16 +15,16 @@ eu-central-1 | EU (Frankfurt) | 145
 ap-southeast-1 | Asia Pacific (Singapore) | 144
 eu-west-2 | EU (London) | 132
 ap-northeast-2 | Asia Pacific (Seoul) | 129
-ap-south-1 | Asia Pacific (Mumbai) | 119
+ap-south-1 | Asia Pacific (Mumbai) | 120
 us-west-1 | US West (N. California) | 116
 ca-central-1 | Canada (Central) | 110
-eu-west-3 | EU (Paris) | 101
-sa-east-1 | South America (São Paulo) | 94
-eu-north-1 | EU (Stockholm) | 92
+eu-west-3 | EU (Paris) | 102
+sa-east-1 | South America (São Paulo) | 95
+eu-north-1 | EU (Stockholm) | 94
 us-gov-west-1 | GovCloud (US-West) | 91
-ap-east-1 | Asia Pacific (Hong Kong) | 69
+ap-east-1 | Asia Pacific (Hong Kong) | 71
 us-gov-east-1 | GovCloud (US-East) | 67
-me-south-1 | Middle East (Bahrain) | 59
+me-south-1 | Middle East (Bahrain) | 62
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -70,7 +70,7 @@ Amazon Elasticsearch Service|true | true | true | true | true | true | true | tr
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Forecast|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
-Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
@@ -126,7 +126,7 @@ AWS Application Discovery Service|false | false | true | false | false | false |
 AWS App Mesh|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-AWS Backup|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
+AWS Backup|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
@@ -140,7 +140,7 @@ AWS CloudTrail|true | true | true | true | true | true | true | true | true | tr
 AWS CodeBuild|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeDeploy|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeStar|true | true | true | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
@@ -185,7 +185,7 @@ AWS Personal Health Dashboard|true | true | true | true | true | true | true | t
 AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
-AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
