@@ -1,4 +1,4 @@
-### 65 Edge Locations
+### 69 Edge Locations
 ### 11 Regional Edge Caches
 ### 179 Services
 
@@ -22,7 +22,7 @@ eu-west-3 | EU (Paris) | 102
 sa-east-1 | South America (São Paulo) | 95
 eu-north-1 | EU (Stockholm) | 94
 us-gov-west-1 | GovCloud (US-West) | 91
-ap-east-1 | Asia Pacific (Hong Kong) | 71
+ap-east-1 | Asia Pacific (Hong Kong) | 72
 us-gov-east-1 | GovCloud (US-East) | 67
 me-south-1 | Middle East (Bahrain) | 62
 cn-north-1 | China (Beijing) | 57
@@ -149,7 +149,7 @@ AWS DataSync|true | true | true | true | true | false | true | false | true | tr
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false | true | true | true | false | true | true
+AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false | true | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true

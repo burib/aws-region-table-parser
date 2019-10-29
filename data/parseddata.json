@@ -103,7 +103,7 @@
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 71
+      "value": 72
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -3018,7 +3018,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
     },
@@ -4736,7 +4736,7 @@
     "Hillsboro, OR, United States (2)",
     "Houston, TX, United States (4)",
     "Jacksonville, FL, United States",
-    "Los Angeles, CA, United States (5)",
+    "Los Angeles, CA, United States (4)",
     "Miami, FL, United States (3)",
     "Minneapolis, MN, United States",
     "New York, NY, United States (3)",
@@ -4752,12 +4752,15 @@
     "Montreal, QC, United States",
     "Toronto, ON, United States (2)",
     "São Paulo, Brazil (2)",
+    "Bogota, Colombia",
+    "Buenos Aires, Argentina",
+    "Santiago, Chile",
     "Berlin, Germany (2)",
     "Cape Town, South Africa",
     "Copenhagen, Denmark",
     "Dubai, United Arab Emirates",
     "Dublin, Ireland",
-    "Frankfurt, Germany (8)",
+    "Frankfurt, Germany (10)",
     "Fujairah, United Arab Emirates",
     "Helsinki, Finland",
     "Johannesburg, South Africa",
@@ -4777,6 +4780,7 @@
     "Zurich, Switzerland (2)",
     "Tel Aviv, Israel",
     "Lisbon, Portugal",
+    "Brussels, Belgium",
     "Chennai, India (2)",
     "Hong Kong SAR, China (4)",
     "Hyderabad, India (4)",
@@ -4791,7 +4795,7 @@
     "Singapore (3)",
     "Sydney, Australia (2)",
     "Taipei, Taiwan (3)",
-    "Tokyo, Japan (12)"
+    "Tokyo, Japan (16)"
   ],
   "regionalEdgeCaches": [
     "Northern Virginia, United States",
