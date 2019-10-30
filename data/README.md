@@ -24,7 +24,7 @@ eu-north-1 | EU (Stockholm) | 94
 us-gov-west-1 | GovCloud (US-West) | 91
 ap-east-1 | Asia Pacific (Hong Kong) | 72
 us-gov-east-1 | GovCloud (US-East) | 67
-me-south-1 | Middle East (Bahrain) | 62
+me-south-1 | Middle East (Bahrain) | 63
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -104,7 +104,7 @@ Amazon Route 53 Private DNS|true | true | true | true | true | true | true | tru
 Amazon Route 53 Resolver|true | true | true | true | true | false | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | false
+Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | true
 Amazon SimpleDB|true | false | true | true | false | true | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true

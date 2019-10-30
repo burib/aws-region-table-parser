@@ -68,7 +68,7 @@
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 62
+      "value": 63
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -1897,7 +1897,7 @@
       "eu-west-2": true,
       "eu-west-3": true,
       "eu-north-1": true,
-      "me-south-1": false
+      "me-south-1": true
     },
     "simpledb": {
       "us-east-1": true,
