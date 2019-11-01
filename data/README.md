@@ -17,14 +17,14 @@ eu-west-2 | EU (London) | 132
 ap-northeast-2 | Asia Pacific (Seoul) | 129
 ap-south-1 | Asia Pacific (Mumbai) | 120
 us-west-1 | US West (N. California) | 116
-ca-central-1 | Canada (Central) | 110
+ca-central-1 | Canada (Central) | 111
 eu-west-3 | EU (Paris) | 102
 sa-east-1 | South America (São Paulo) | 95
 eu-north-1 | EU (Stockholm) | 94
 us-gov-west-1 | GovCloud (US-West) | 91
 ap-east-1 | Asia Pacific (Hong Kong) | 72
 us-gov-east-1 | GovCloud (US-East) | 67
-me-south-1 | Middle East (Bahrain) | 63
+me-south-1 | Middle East (Bahrain) | 64
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -89,7 +89,7 @@ Amazon Managed Blockchain|true | false | false | false | false | false | false |
 Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon Neptune|true | true | true | false | false | false | true | true | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
+Amazon Neptune|true | true | true | false | true | false | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | false | false
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true

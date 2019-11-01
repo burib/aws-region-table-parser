@@ -23,7 +23,7 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 110
+      "value": 111
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
@@ -68,7 +68,7 @@
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 63
+      "value": 64
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -1513,7 +1513,7 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": false,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
@@ -1522,7 +1522,7 @@
       "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": true,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
