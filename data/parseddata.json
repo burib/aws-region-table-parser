@@ -43,22 +43,22 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 163
+      "value": 164
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 145
+      "value": 147
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 132
+      "value": 133
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 102
+      "value": 104
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
@@ -88,7 +88,7 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 149
+      "value": 150
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
@@ -98,7 +98,7 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 120
+      "value": 121
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -545,7 +545,7 @@
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
+      "eu-west-3": true,
       "eu-north-1": false,
       "me-south-1": false,
       "ap-southeast-1": true,
@@ -1934,7 +1934,7 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
@@ -1942,9 +1942,9 @@
       "ap-southeast-1": false,
       "ap-northeast-1": false,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
+      "ap-southeast-2": true,
       "ap-northeast-2": false,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -2359,9 +2359,9 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
+      "eu-west-3": true,
       "eu-north-1": false,
       "me-south-1": false,
       "ap-southeast-1": true,
@@ -2808,9 +2808,9 @@
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
-      "eu-west-1": false,
+      "eu-west-1": true,
       "eu-central-1": true,
-      "eu-west-2": false,
+      "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,

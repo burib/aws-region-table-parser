@@ -7,18 +7,18 @@
 | ------ | -------- | -------- | 
 us-east-1 | US East (N. Virginia) | 173
 us-west-2 | US West (Oregon) | 170
-eu-west-1 | EU (Ireland) | 163
+eu-west-1 | EU (Ireland) | 164
 ap-northeast-1 | Asia Pacific (Tokyo) | 152
-ap-southeast-2 | Asia Pacific (Sydney) | 149
+ap-southeast-2 | Asia Pacific (Sydney) | 150
 us-east-2 | US East (Ohio) | 148
-eu-central-1 | EU (Frankfurt) | 145
+eu-central-1 | EU (Frankfurt) | 147
 ap-southeast-1 | Asia Pacific (Singapore) | 144
-eu-west-2 | EU (London) | 132
+eu-west-2 | EU (London) | 133
 ap-northeast-2 | Asia Pacific (Seoul) | 129
-ap-south-1 | Asia Pacific (Mumbai) | 120
+ap-south-1 | Asia Pacific (Mumbai) | 121
 us-west-1 | US West (N. California) | 116
 ca-central-1 | Canada (Central) | 111
-eu-west-3 | EU (Paris) | 102
+eu-west-3 | EU (Paris) | 104
 sa-east-1 | South America (São Paulo) | 95
 eu-north-1 | EU (Stockholm) | 94
 us-gov-west-1 | GovCloud (US-West) | 91
@@ -50,7 +50,7 @@ Amazon Comprehend|true | true | true | false | true | false | true | false | tru
 Amazon Comprehend Medical|true | true | true | false | true | false | false | false | true | false | true | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
+Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Spot Instances|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -106,7 +106,7 @@ Amazon SageMaker|true | true | true | true | true | true | true | false | true |
 Amazon SageMaker Ground Truth|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | true
 Amazon SimpleDB|true | false | true | true | false | true | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
-Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Simple Email Service (SES)|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Simple Notification Service (SNS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -123,7 +123,7 @@ Amazon WorkSpaces|true | false | true | false | true | true | true | false | tru
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | true | false | false | false | false | false
 AWS Amplify Console|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-AWS App Mesh|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | true | false | true | true | true | false | false | false
+AWS App Mesh|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Backup|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
@@ -141,7 +141,7 @@ AWS CodeBuild|true | true | true | true | true | true | true | true | true | tru
 AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeDeploy|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS CodeStar|true | true | true | true | true | false | false | false | false | true | false | false | false | false | true | true | false | true | true | false | false | false | false
+AWS CodeStar|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
