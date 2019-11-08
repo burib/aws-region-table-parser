@@ -22,9 +22,9 @@ eu-west-3 | EU (Paris) | 104
 sa-east-1 | South America (São Paulo) | 95
 eu-north-1 | EU (Stockholm) | 94
 us-gov-west-1 | GovCloud (US-West) | 91
-ap-east-1 | Asia Pacific (Hong Kong) | 72
+ap-east-1 | Asia Pacific (Hong Kong) | 73
 us-gov-east-1 | GovCloud (US-East) | 67
-me-south-1 | Middle East (Bahrain) | 64
+me-south-1 | Middle East (Bahrain) | 66
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
@@ -78,7 +78,7 @@ Amazon Glacier|true | true | true | true | true | true | true | true | true | tr
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | true | false | false | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
+Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -113,7 +113,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Textract|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | false | false | false | false | false | false | false | false
-Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | false | false | true | true | true | false | true | true
+Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | false | true | true | true | true | true | true
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
