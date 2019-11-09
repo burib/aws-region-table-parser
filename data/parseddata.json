@@ -3,107 +3,107 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 173
+      "value": 174
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 148
+      "value": 149
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 170
+      "value": 171
     },
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 116
+      "value": 117
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 111
+      "value": 112
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 95
+      "value": 98
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 91
+      "value": 92
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 67
+      "value": 68
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 164
+      "value": 165
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 147
+      "value": 148
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 133
+      "value": 134
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 104
+      "value": 105
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 94
+      "value": 96
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 66
+      "value": 67
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 144
+      "value": 145
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 152
+      "value": 153
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 35
+      "value": 36
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 150
+      "value": 151
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 129
+      "value": 130
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 121
+      "value": 122
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 73
+      "value": 74
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -2399,6 +2399,31 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "artifact": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
+      "me-south-1": true,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": true,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "auto_scaling": {
       "us-east-1": true,
       "us-east-2": true,
@@ -2505,7 +2530,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
       "eu-west-1": true,
@@ -3253,14 +3278,14 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -4638,6 +4663,7 @@
     "application_discovery_service": "AWS Application Discovery Service",
     "app_mesh": "AWS App Mesh",
     "appsync": "AWS AppSync",
+    "artifact": "AWS Artifact",
     "auto_scaling": "AWS Auto Scaling",
     "backup": "AWS Backup",
     "batch": "AWS Batch",

@@ -1,33 +1,33 @@
 ### 69 Edge Locations
 ### 11 Regional Edge Caches
-### 179 Services
+### 180 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 173
-us-west-2 | US West (Oregon) | 170
-eu-west-1 | EU (Ireland) | 164
-ap-northeast-1 | Asia Pacific (Tokyo) | 152
-ap-southeast-2 | Asia Pacific (Sydney) | 150
-us-east-2 | US East (Ohio) | 148
-eu-central-1 | EU (Frankfurt) | 147
-ap-southeast-1 | Asia Pacific (Singapore) | 144
-eu-west-2 | EU (London) | 133
-ap-northeast-2 | Asia Pacific (Seoul) | 129
-ap-south-1 | Asia Pacific (Mumbai) | 121
-us-west-1 | US West (N. California) | 116
-ca-central-1 | Canada (Central) | 111
-eu-west-3 | EU (Paris) | 104
-sa-east-1 | South America (São Paulo) | 95
-eu-north-1 | EU (Stockholm) | 94
-us-gov-west-1 | GovCloud (US-West) | 91
-ap-east-1 | Asia Pacific (Hong Kong) | 73
-us-gov-east-1 | GovCloud (US-East) | 67
-me-south-1 | Middle East (Bahrain) | 66
+us-east-1 | US East (N. Virginia) | 174
+us-west-2 | US West (Oregon) | 171
+eu-west-1 | EU (Ireland) | 165
+ap-northeast-1 | Asia Pacific (Tokyo) | 153
+ap-southeast-2 | Asia Pacific (Sydney) | 151
+us-east-2 | US East (Ohio) | 149
+eu-central-1 | EU (Frankfurt) | 148
+ap-southeast-1 | Asia Pacific (Singapore) | 145
+eu-west-2 | EU (London) | 134
+ap-northeast-2 | Asia Pacific (Seoul) | 130
+ap-south-1 | Asia Pacific (Mumbai) | 122
+us-west-1 | US West (N. California) | 117
+ca-central-1 | Canada (Central) | 112
+eu-west-3 | EU (Paris) | 105
+sa-east-1 | South America (São Paulo) | 98
+eu-north-1 | EU (Stockholm) | 96
+us-gov-west-1 | GovCloud (US-West) | 92
+ap-east-1 | Asia Pacific (Hong Kong) | 74
+us-gov-east-1 | GovCloud (US-East) | 68
+me-south-1 | Middle East (Bahrain) | 67
 cn-north-1 | China (Beijing) | 57
 cn-northwest-1 | China (Ningxia) | 57
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 35
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
 
 
 # Region and Service Table # 
@@ -125,11 +125,12 @@ AWS Amplify Console|true | true | true | false | false | false | false | false |
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS App Mesh|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+AWS Artifact|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS Auto Scaling|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Backup|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS Certificate Manager Private CA|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Certificate Manager Private CA|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Chatbot|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -159,7 +160,7 @@ AWS Elemental MediaStore|true | false | true | false | false | false | false | f
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
-AWS Global Accelerator|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS Global Accelerator|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS IoT 1-Click|true | true | true | false | false | false | false | false | true | true | true | true | false | false | false | true | false | false | false | false | false | false | false
