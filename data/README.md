@@ -1,25 +1,25 @@
 ### 69 Edge Locations
 ### 11 Regional Edge Caches
-### 180 Services
+### 181 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 174
-us-west-2 | US West (Oregon) | 171
-eu-west-1 | EU (Ireland) | 165
-ap-northeast-1 | Asia Pacific (Tokyo) | 153
-ap-southeast-2 | Asia Pacific (Sydney) | 151
-us-east-2 | US East (Ohio) | 149
-eu-central-1 | EU (Frankfurt) | 148
-ap-southeast-1 | Asia Pacific (Singapore) | 145
-eu-west-2 | EU (London) | 134
-ap-northeast-2 | Asia Pacific (Seoul) | 130
+us-east-1 | US East (N. Virginia) | 175
+us-west-2 | US West (Oregon) | 172
+eu-west-1 | EU (Ireland) | 166
+ap-northeast-1 | Asia Pacific (Tokyo) | 154
+ap-southeast-2 | Asia Pacific (Sydney) | 152
+us-east-2 | US East (Ohio) | 150
+eu-central-1 | EU (Frankfurt) | 149
+ap-southeast-1 | Asia Pacific (Singapore) | 146
+eu-west-2 | EU (London) | 135
+ap-northeast-2 | Asia Pacific (Seoul) | 132
 ap-south-1 | Asia Pacific (Mumbai) | 122
-us-west-1 | US West (N. California) | 117
+us-west-1 | US West (N. California) | 118
 ca-central-1 | Canada (Central) | 112
 eu-west-3 | EU (Paris) | 105
-sa-east-1 | South America (São Paulo) | 98
+sa-east-1 | South America (São Paulo) | 99
 eu-north-1 | EU (Stockholm) | 96
 us-gov-west-1 | GovCloud (US-West) | 92
 ap-east-1 | Asia Pacific (Hong Kong) | 74
@@ -94,7 +94,7 @@ Amazon Personalize|true | true | true | false | false | false | false | false | 
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
 Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
-Amazon QuickSight|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | false | false | false | false | false
+Amazon QuickSight|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Rekognition Video|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
@@ -144,6 +144,7 @@ AWS CodeDeploy|true | true | true | true | true | true | true | true | true | tr
 AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeStar|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Config|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
+AWS Data Exchange|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS DataSync|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | true | false | true | true | false | false | false | false
@@ -158,7 +159,7 @@ AWS Elemental MediaLive|true | true | true | false | false | true | false | fals
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Fargate|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
+AWS Fargate|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Global Accelerator|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false

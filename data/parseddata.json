@@ -3,22 +3,22 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 174
+      "value": 175
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 149
+      "value": 150
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 171
+      "value": 172
     },
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 117
+      "value": 118
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
@@ -28,7 +28,7 @@
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 98
+      "value": 99
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -43,17 +43,17 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 165
+      "value": 166
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 148
+      "value": 149
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 134
+      "value": 135
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -73,12 +73,12 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 145
+      "value": 146
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 153
+      "value": 154
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -88,12 +88,12 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 151
+      "value": 152
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 130
+      "value": 132
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
@@ -1652,7 +1652,7 @@
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
+      "ap-northeast-2": true,
       "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
@@ -2874,6 +2874,31 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
+    "data exchange": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "database_migration_service": {
       "us-east-1": true,
       "us-east-2": true,
@@ -3228,7 +3253,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
       "eu-west-1": true,
@@ -4682,6 +4707,7 @@
     "codepipeline": "AWS CodePipeline",
     "codestar": "AWS CodeStar",
     "config": "AWS Config",
+    "data exchange": "AWS Data Exchange",
     "database_migration_service": "AWS Database Migration Service",
     "data_pipeline": "AWS Data Pipeline",
     "datasync": "AWS DataSync",
