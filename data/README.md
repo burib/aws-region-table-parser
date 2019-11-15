@@ -15,12 +15,12 @@ eu-central-1 | EU (Frankfurt) | 149
 ap-southeast-1 | Asia Pacific (Singapore) | 146
 eu-west-2 | EU (London) | 135
 ap-northeast-2 | Asia Pacific (Seoul) | 132
-ap-south-1 | Asia Pacific (Mumbai) | 122
+ap-south-1 | Asia Pacific (Mumbai) | 123
 us-west-1 | US West (N. California) | 118
-ca-central-1 | Canada (Central) | 112
-eu-west-3 | EU (Paris) | 105
-sa-east-1 | South America (São Paulo) | 99
-eu-north-1 | EU (Stockholm) | 96
+ca-central-1 | Canada (Central) | 113
+eu-west-3 | EU (Paris) | 106
+sa-east-1 | South America (São Paulo) | 100
+eu-north-1 | EU (Stockholm) | 97
 us-gov-west-1 | GovCloud (US-West) | 92
 ap-east-1 | Asia Pacific (Hong Kong) | 74
 us-gov-east-1 | GovCloud (US-East) | 68
@@ -160,7 +160,7 @@ AWS Elemental MediaPackage|true | false | true | true | false | true | false | f
 AWS Elemental MediaStore|true | false | true | false | false | false | false | false | true | true | false | false | true | false | false | true | false | true | true | false | false | false | false
 AWS Elemental MediaTailor|true | false | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Fargate|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS Firewall Manager|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
+AWS Firewall Manager|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Global Accelerator|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Glue|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Ground Station|false | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
