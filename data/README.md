@@ -25,8 +25,8 @@ us-gov-west-1 | GovCloud (US-West) | 92
 ap-east-1 | Asia Pacific (Hong Kong) | 75
 us-gov-east-1 | GovCloud (US-East) | 68
 me-south-1 | Middle East (Bahrain) | 68
+cn-northwest-1 | China (Ningxia) | 58
 cn-north-1 | China (Beijing) | 57
-cn-northwest-1 | China (Ningxia) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
 
 
@@ -119,7 +119,7 @@ Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | tru
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon WorkLink|true | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon WorkMail|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
+Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | true
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | true | false | false | false | false | false
 AWS Amplify Console|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false

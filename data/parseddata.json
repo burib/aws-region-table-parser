@@ -113,7 +113,7 @@
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 57
+      "value": 58
     }
   },
   "services": {
@@ -2272,7 +2272,7 @@
       "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "workspaces_application_manager": {
       "us-east-1": true,
