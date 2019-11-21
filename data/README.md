@@ -9,22 +9,22 @@ us-east-1 | US East (N. Virginia) | 175
 us-west-2 | US West (Oregon) | 172
 eu-west-1 | EU (Ireland) | 166
 ap-northeast-1 | Asia Pacific (Tokyo) | 154
-ap-southeast-2 | Asia Pacific (Sydney) | 152
+ap-southeast-2 | Asia Pacific (Sydney) | 154
 us-east-2 | US East (Ohio) | 150
-eu-central-1 | EU (Frankfurt) | 149
-ap-southeast-1 | Asia Pacific (Singapore) | 146
+eu-central-1 | EU (Frankfurt) | 150
+ap-southeast-1 | Asia Pacific (Singapore) | 148
 eu-west-2 | EU (London) | 135
-ap-northeast-2 | Asia Pacific (Seoul) | 132
-ap-south-1 | Asia Pacific (Mumbai) | 123
+ap-northeast-2 | Asia Pacific (Seoul) | 133
+ap-south-1 | Asia Pacific (Mumbai) | 125
 us-west-1 | US West (N. California) | 118
 ca-central-1 | Canada (Central) | 113
 eu-west-3 | EU (Paris) | 106
-sa-east-1 | South America (São Paulo) | 100
-eu-north-1 | EU (Stockholm) | 98
+sa-east-1 | South America (São Paulo) | 102
+eu-north-1 | EU (Stockholm) | 100
 us-gov-west-1 | GovCloud (US-West) | 92
-ap-east-1 | Asia Pacific (Hong Kong) | 75
-us-gov-east-1 | GovCloud (US-East) | 68
-me-south-1 | Middle East (Bahrain) | 68
+ap-east-1 | Asia Pacific (Hong Kong) | 77
+us-gov-east-1 | GovCloud (US-East) | 69
+me-south-1 | Middle East (Bahrain) | 69
 cn-northwest-1 | China (Ningxia) | 58
 cn-north-1 | China (Beijing) | 57
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
@@ -62,7 +62,7 @@ Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true 
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | true | false | false | false
 Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Elastic File System (EFS)|true | true | true | true | true | false | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Elastic File System (EFS)|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Elastic Graphics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Elastic Inference|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | true | false | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -93,7 +93,7 @@ Amazon Neptune|true | true | true | false | true | false | true | true | true | 
 Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
-Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
+Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Rekognition Image|true | true | true | true | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
@@ -147,7 +147,7 @@ AWS Config|true | true | true | true | true | true | true | true | true | true |
 AWS Data Exchange|true | true | true | true | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
-AWS DataSync|true | true | true | true | true | false | true | false | true | true | true | true | false | true | true | true | false | true | true | false | false | false | false
+AWS DataSync|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -173,7 +173,7 @@ AWS IoT Events|true | true | true | false | false | false | false | false | true
 AWS IoT Greengrass|true | true | true | false | false | false | true | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 AWS IoT Things Graph|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | true | false | false | false | false
 AWS Key Management Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Lake Formation|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
+AWS Lake Formation|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 AWS Lambda|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Managed Services|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
