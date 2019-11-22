@@ -8,16 +8,16 @@
 us-east-1 | US East (N. Virginia) | 175
 us-west-2 | US West (Oregon) | 172
 eu-west-1 | EU (Ireland) | 166
-ap-northeast-1 | Asia Pacific (Tokyo) | 154
+ap-northeast-1 | Asia Pacific (Tokyo) | 155
 ap-southeast-2 | Asia Pacific (Sydney) | 154
+eu-central-1 | EU (Frankfurt) | 152
 us-east-2 | US East (Ohio) | 150
-eu-central-1 | EU (Frankfurt) | 150
-ap-southeast-1 | Asia Pacific (Singapore) | 148
+ap-southeast-1 | Asia Pacific (Singapore) | 149
 eu-west-2 | EU (London) | 135
 ap-northeast-2 | Asia Pacific (Seoul) | 133
 ap-south-1 | Asia Pacific (Mumbai) | 125
 us-west-1 | US West (N. California) | 118
-ca-central-1 | Canada (Central) | 113
+ca-central-1 | Canada (Central) | 114
 eu-west-3 | EU (Paris) | 106
 sa-east-1 | South America (São Paulo) | 102
 eu-north-1 | EU (Stockholm) | 100
@@ -56,11 +56,11 @@ Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | 
 Amazon EC2 Spot Instances|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | false | true | false | false | true | true | true | false | true | true | true | true | false | true | true | true | true | false | false
+Amazon Elastic Kubernetes Service (EKS)|true | true | true | false | true | true | false | false | true | true | true | false | true | true | true | true | false | true | true | true | true | false | false
 Amazon ElastiCache|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Block Store (EBS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | true | false | false | false
+Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Elastic File System (EFS)|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Elastic Graphics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -113,7 +113,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Textract|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | false | false | false | false | false | false | false | false
-Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | false | false | true | true | true | true | true | true
+Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | true | true | true | true | true | true
 Amazon Translate|true | true | true | false | true | false | true | false | false | true | false | false | false | false | true | true | false | false | true | true | false | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon WorkDocs|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | false | false | false | false
@@ -122,7 +122,7 @@ Amazon WorkMail|true | false | true | false | false | false | false | false | tr
 Amazon WorkSpaces|true | false | true | false | true | true | true | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | true
 Amazon WorkSpaces Application Manager|true | false | true | false | false | false | false | false | true | false | false | false | false | false | true | false | false | true | false | false | false | false | false
 AWS Amplify Console|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
-AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+AWS Application Discovery Service|false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS App Mesh|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Artifact|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
@@ -178,7 +178,7 @@ AWS Lambda|true | true | true | true | true | true | true | true | true | true |
 AWS License Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Managed Services|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Marketplace|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS Migration Hub|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+AWS Migration Hub|false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Mobile Hub|true | true | true | true | false | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
