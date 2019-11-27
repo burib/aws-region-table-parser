@@ -18,12 +18,12 @@
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 118
+      "value": 120
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 114
+      "value": 115
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
@@ -48,27 +48,27 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 152
+      "value": 153
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 135
+      "value": 137
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 106
+      "value": 107
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 100
+      "value": 101
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 69
+      "value": 71
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -88,12 +88,12 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 154
+      "value": 155
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 133
+      "value": 134
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
@@ -103,7 +103,7 @@
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 77
+      "value": 79
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -2128,24 +2128,24 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
+      "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": false,
       "eu-central-1": true,
-      "eu-west-2": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
+      "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -3311,14 +3311,14 @@
       "eu-west-2": true,
       "eu-west-3": true,
       "eu-north-1": true,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -3361,7 +3361,7 @@
       "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
-      "me-south-1": false,
+      "me-south-1": true,
       "ap-southeast-1": false,
       "ap-northeast-1": false,
       "ap-northeast-3": false,
@@ -3601,14 +3601,14 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
-      "ca-central-1": false,
+      "us-west-1": true,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
-      "eu-west-2": false,
+      "eu-central-1": true,
+      "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
@@ -3616,7 +3616,7 @@
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
+      "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
@@ -4781,24 +4781,24 @@
   "edgeLocations": [
     "Ashburn, VA, United States (6)",
     "Boston, MA, United States (3)",
-    "Chicago, IL, United States (7)",
+    "Chicago, IL, United States (6)",
     "Dallas/Fort Worth, TX, United States (6)",
     "Denver, CO, United States (2)",
     "Hayward, CA, United States",
-    "Hillsboro, OR, United States (2)",
+    "Hillsboro, OR, United States (3)",
     "Houston, TX, United States (4)",
     "Jacksonville, FL, United States",
-    "Los Angeles, CA, United States (4)",
-    "Miami, FL, United States (3)",
+    "Los Angeles, CA, United States (5)",
+    "Miami, FL, United States (4)",
     "Minneapolis, MN, United States",
-    "New York, NY, United States (3)",
-    "Newark, NJ, United States (5)",
+    "New York, NY, United States (2)",
+    "Newark, NJ, United States (7)",
     "Palo Alto, CA, United States",
     "Phoenix, AZ, United States (2)",
-    "Philadelphia, PA, United States",
+    "Philadelphia, PA, United States (2)",
     "Salt Lake City, UT, United States",
     "San Jose, CA, United States (2)",
-    "Seattle, WA, United States (4)",
+    "Seattle, WA, United States (3)",
     "South Bend, IN, United States",
     "Canada, United States",
     "Montreal, QC, United States",
@@ -4820,7 +4820,7 @@
     "Madrid, Spain (2)",
     "Manchester, England (2)",
     "Marseille, France",
-    "Milan, Italy",
+    "Milan, Italy (3)",
     "Munich, Germany (2)",
     "Oslo, Norway",
     "Palermo, Italy",
@@ -4833,19 +4833,20 @@
     "Tel Aviv, Israel",
     "Lisbon, Portugal",
     "Brussels, Belgium",
+    "Rome, Italy",
     "Chennai, India (2)",
     "Hong Kong SAR, China (4)",
     "Hyderabad, India (4)",
-    "Kuala Lumpur, Malaysia",
+    "Kuala Lumpur, Malaysia (2)",
     "Manila, The Philippines",
     "Melbourne, Australia",
-    "Mumbai, India (2)",
-    "New Delhi, India (5)",
+    "Mumbai, India (3)",
+    "New Delhi, India (4)",
     "Osaka, Japan",
     "Perth, Australia",
     "Seoul, Korea (4)",
-    "Singapore (3)",
-    "Sydney, Australia (2)",
+    "Singapore (4)",
+    "Sydney, Australia (4)",
     "Taipei, Taiwan (3)",
     "Tokyo, Japan (16)"
   ],
