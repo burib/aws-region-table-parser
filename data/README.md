@@ -1,18 +1,18 @@
 ### 70 Edge Locations
 ### 11 Regional Edge Caches
-### 181 Services
+### 183 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 175
-us-west-2 | US West (Oregon) | 172
-eu-west-1 | EU (Ireland) | 166
-ap-northeast-1 | Asia Pacific (Tokyo) | 155
+us-east-1 | US East (N. Virginia) | 177
+us-west-2 | US West (Oregon) | 173
+eu-west-1 | EU (Ireland) | 167
+ap-northeast-1 | Asia Pacific (Tokyo) | 157
 ap-southeast-2 | Asia Pacific (Sydney) | 155
 eu-central-1 | EU (Frankfurt) | 153
-us-east-2 | US East (Ohio) | 150
-ap-southeast-1 | Asia Pacific (Singapore) | 149
+us-east-2 | US East (Ohio) | 152
+ap-southeast-1 | Asia Pacific (Singapore) | 150
 eu-west-2 | EU (London) | 137
 ap-northeast-2 | Asia Pacific (Seoul) | 134
 ap-south-1 | Asia Pacific (Mumbai) | 125
@@ -20,7 +20,7 @@ us-west-1 | US West (N. California) | 120
 ca-central-1 | Canada (Central) | 115
 eu-west-3 | EU (Paris) | 107
 sa-east-1 | South America (São Paulo) | 102
-eu-north-1 | EU (Stockholm) | 101
+eu-north-1 | EU (Stockholm) | 102
 us-gov-west-1 | GovCloud (US-West) | 92
 ap-east-1 | Asia Pacific (Hong Kong) | 79
 me-south-1 | Middle East (Bahrain) | 71
@@ -50,6 +50,7 @@ Amazon Comprehend|true | true | true | false | true | false | true | false | tru
 Amazon Comprehend Medical|true | true | true | false | true | false | false | false | true | false | true | false | false | false
 Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Detective (preview)|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
 Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -85,6 +86,7 @@ Amazon Lex|true | false | true | false | false | false | false | false | true | 
 Amazon Lightsail|true | true | true | false | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Machine Learning|true | false | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Managed Apache Cassandra Service|true | true | false | false | false | false | false | false | false | false | false | false | true | false | true | true | false | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
