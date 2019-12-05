@@ -3,117 +3,117 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 177
+      "value": 189
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 152
+      "value": 160
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 173
+      "value": 184
     },
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 120
+      "value": 124
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 115
+      "value": 119
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 102
+      "value": 105
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 92
+      "value": 94
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 69
+      "value": 71
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 167
+      "value": 176
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 153
+      "value": 158
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 137
+      "value": 141
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 107
+      "value": 110
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 102
+      "value": 105
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 71
+      "value": 73
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 150
+      "value": 153
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 157
+      "value": 161
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 36
+      "value": 38
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 155
+      "value": 161
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 134
+      "value": 137
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 125
+      "value": 127
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 79
+      "value": 81
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 57
+      "value": 59
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 58
+      "value": 60
     }
   },
   "services": {
@@ -217,6 +217,31 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "augmented_ai_a2i": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": false,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": false,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "aurora_mysql-compatible": {
       "us-east-1": true,
       "us-east-2": true,
@@ -269,23 +294,23 @@
     },
     "chime": {
       "us-east-1": true,
-      "us-east-2": false,
-      "us-west-2": false,
-      "us-west-1": false,
-      "ca-central-1": false,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
-      "eu-west-1": false,
-      "eu-central-1": false,
-      "eu-west-2": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
       "me-south-1": false,
-      "ap-southeast-1": false,
-      "ap-northeast-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
+      "ap-southeast-2": true,
       "ap-northeast-2": false,
       "ap-south-1": false,
       "ap-east-1": false,
@@ -416,6 +441,31 @@
       "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
+    },
+    "codeguru_preview": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "cognito": {
       "us-east-1": true,
@@ -609,6 +659,31 @@
       "cn-northwest-1": true
     },
     "ec2_auto_scaling": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
+      "me-south-1": true,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": true,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
+    },
+    "ec2_image_builder": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -858,6 +933,31 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "elastic_compute_cloud_ec2_inf1_instances": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": false,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "elastic_file_system_efs": {
       "us-east-1": true,
       "us-east-2": true,
@@ -1058,6 +1158,31 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "fraud_detector": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": false,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": false,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "freertos": {
       "us-east-1": true,
       "us-east-2": true,
@@ -1229,6 +1354,31 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "kendra": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -1733,6 +1883,31 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
+    "rekognition_custom_labels": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "rekognition_image": {
       "us-east-1": true,
       "us-east-2": true,
@@ -2173,6 +2348,31 @@
       "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
+    },
+    "transcribe_medical": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": true,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": false,
+      "eu-central-1": false,
+      "eu-west-2": true,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "translate": {
       "us-east-1": true,
@@ -2899,6 +3099,31 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "compute_optimizer": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": true,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "config": {
       "us-east-1": true,
       "us-east-2": true,
@@ -3597,6 +3822,31 @@
       "cn-north-1": true,
       "cn-northwest-1": false
     },
+    "iot_sitewise_preview": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "iot_things_graph": {
       "us-east-1": true,
       "us-east-2": false,
@@ -3892,6 +4142,31 @@
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "outposts": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
       "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
@@ -4547,6 +4822,31 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
+    "end-of-support_migration_program_for_windows_server": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
+      "eu-west-1": true,
+      "eu-central-1": true,
+      "eu-west-2": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
+      "me-south-1": true,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": true,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
+    },
     "service_quotas": {
       "us-east-1": true,
       "us-east-2": true,
@@ -4650,6 +4950,7 @@
     "api_gateway": "Amazon API Gateway",
     "appstream_2_0": "Amazon AppStream 2.0",
     "athena": "Amazon Athena",
+    "augmented_ai_a2i": "Amazon Augmented AI (A2I)",
     "aurora_mysql-compatible": "Amazon Aurora - MySQL-compatible",
     "aurora_postgresql-compatible": "Amazon Aurora - PostgreSQL-compatible",
     "chime": "Amazon Chime",
@@ -4658,6 +4959,7 @@
     "cloudwatch": "Amazon CloudWatch",
     "cloudwatch_events": "Amazon CloudWatch Events",
     "cloudwatch_logs": "Amazon CloudWatch Logs",
+    "codeguru_preview": "Amazon CodeGuru (preview)",
     "cognito": "Amazon Cognito",
     "comprehend": "Amazon Comprehend",
     "comprehend_medical": "Amazon Comprehend Medical",
@@ -4667,6 +4969,7 @@
     "documentdb_with_mongodb_compatibility": "Amazon DocumentDB (with MongoDB compatibility)",
     "dynamodb": "Amazon DynamoDB",
     "ec2_auto_scaling": "Amazon EC2 Auto Scaling",
+    "ec2_image_builder": "Amazon EC2 Image Builder",
     "ec2_spot_instances": "Amazon EC2 Spot Instances",
     "elastic_container_registry_ecr": "Amazon Elastic Container Registry (ECR)",
     "elastic_container_service_ecs": "Amazon Elastic Container Service (ECS)",
@@ -4676,6 +4979,7 @@
     "elastic_compute_cloud_ec2": "Amazon Elastic Compute Cloud (EC2)",
     "elastic_compute_cloud_ec2_a1_instances": "Amazon Elastic Compute Cloud (EC2) A1 Instances",
     "elastic_compute_cloud_ec2_c5n_instances": "Amazon Elastic Compute Cloud (EC2) C5n Instances",
+    "elastic_compute_cloud_ec2_inf1_instances": "Amazon Elastic Compute Cloud (EC2) Inf1 Instances",
     "elastic_file_system_efs": "Amazon Elastic File System (EFS)",
     "elastic_graphics": "Amazon Elastic Graphics",
     "elastic_inference": "Amazon Elastic Inference",
@@ -4684,6 +4988,7 @@
     "elastic_transcoder": "Amazon Elastic Transcoder",
     "eventbridge": "Amazon EventBridge",
     "forecast": "Amazon Forecast",
+    "fraud_detector": "Amazon Fraud Detector",
     "freertos": "Amazon FreeRTOS",
     "fsx_for_windows_file_server": "Amazon FSx for Windows File Server",
     "fsx_for_lustre": "Amazon FSx for Lustre",
@@ -4691,6 +4996,7 @@
     "glacier": "Amazon Glacier",
     "guardduty": "Amazon GuardDuty",
     "inspector": "Amazon Inspector",
+    "kendra": "Amazon Kendra",
     "kinesis_data_analytics": "Amazon Kinesis Data Analytics",
     "kinesis_data_firehose": "Amazon Kinesis Data Firehose",
     "kinesis_data_streams": "Amazon Kinesis Data Streams",
@@ -4711,6 +5017,7 @@
     "quantum_ledger_database_qldb": "Amazon Quantum Ledger Database (QLDB)",
     "quicksight": "Amazon QuickSight",
     "redshift": "Amazon Redshift",
+    "rekognition_custom_labels": "Amazon Rekognition Custom Labels",
     "rekognition_image": "Amazon Rekognition Image",
     "rekognition_video": "Amazon Rekognition Video",
     "relational_database_service_rds": "Amazon Relational Database Service (RDS)",
@@ -4729,6 +5036,7 @@
     "sumerian": "Amazon Sumerian",
     "textract": "Amazon Textract",
     "transcribe": "Amazon Transcribe",
+    "transcribe_medical": "Amazon Transcribe Medical",
     "translate": "Amazon Translate",
     "virtual_private_cloud_vpc": "Amazon Virtual Private Cloud (VPC)",
     "workdocs": "Amazon WorkDocs",
@@ -4758,6 +5066,7 @@
     "codedeploy": "AWS CodeDeploy",
     "codepipeline": "AWS CodePipeline",
     "codestar": "AWS CodeStar",
+    "compute_optimizer": "AWS Compute Optimizer",
     "config": "AWS Config",
     "data exchange": "AWS Data Exchange",
     "database_migration_service": "AWS Database Migration Service",
@@ -4786,6 +5095,7 @@
     "iot_device_management": "AWS IoT Device Management",
     "iot_events": "AWS IoT Events",
     "iot_greengrass": "AWS IoT Greengrass",
+    "iot_sitewise_preview": "AWS IoT SiteWise (preview)",
     "iot_things_graph": "AWS IoT Things Graph",
     "key_management_service": "AWS Key Management Service",
     "lake_formation": "AWS Lake Formation",
@@ -4798,6 +5108,7 @@
     "opsworks_stacks": "AWS OpsWorks Stacks",
     "opsworks_for_chef_automate": "AWS OpsWorks for Chef Automate",
     "opsworks_for_puppet_enterprise": "AWS OpsWorks for Puppet Enterprise",
+    "outposts": "AWS Outposts",
     "personal_health_dashboard": "AWS Personal Health Dashboard",
     "privatelink": "AWS PrivateLink",
     "resource_access_manager_ram": "AWS Resource Access Manager (RAM)",
@@ -4824,6 +5135,7 @@
     "well-architected_tool": "AWS Well-Architected Tool",
     "x-ray": "AWS X-Ray",
     "elastic_load_balancing": "Elastic Load Balancing",
+    "end-of-support_migration_program_for_windows_server": "End-of-Support Migration Program for Windows Server",
     "service_quotas": "Service Quotas",
     "vm_importexport": "VM Import/Export",
     "vmware_cloud_on_aws": "VMware Cloud on AWS",
