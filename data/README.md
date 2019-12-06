@@ -1,11 +1,11 @@
 ### 70 Edge Locations
 ### 11 Regional Edge Caches
-### 195 Services
+### 197 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 189
+us-east-1 | US East (N. Virginia) | 190
 us-west-2 | US West (Oregon) | 184
 eu-west-1 | EU (Ireland) | 176
 ap-northeast-1 | Asia Pacific (Tokyo) | 161
@@ -25,9 +25,9 @@ us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 81
 me-south-1 | Middle East (Bahrain) | 73
 us-gov-east-1 | GovCloud (US-East) | 71
-cn-northwest-1 | China (Ningxia) | 60
-cn-north-1 | China (Beijing) | 59
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 38
+cn-northwest-1 | China (Ningxia) | 59
+cn-north-1 | China (Beijing) | 58
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
 # Region and Service Table # 
@@ -56,7 +56,7 @@ Amazon Detective (preview)|true | true | true | false | false | false | false | 
 Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon EC2 Image Builder|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
+Amazon EC2 Image Builder|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon EC2 Spot Instances|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elastic Container Registry (ECR)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Container Service (ECS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
@@ -159,6 +159,7 @@ AWS Data Exchange|true | true | true | true | false | false | false | false | t
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS DataSync|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS DeepCompose|true | false | false | false | false | false | false | false
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -226,5 +227,6 @@ End-of-Support Migration Program for Windows Server|true | true | true | true | 
 Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | true | true | true | true | false | false | false
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+AWS DeepComposer|false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|true | true | false | true | true | true | true | false | false
