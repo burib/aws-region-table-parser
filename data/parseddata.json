@@ -23,12 +23,12 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 119
+      "value": 120
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 105
+      "value": 106
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -48,7 +48,7 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 158
+      "value": 159
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
@@ -613,7 +613,7 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": false,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
@@ -4238,7 +4238,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
       "eu-west-1": true,
@@ -4767,7 +4767,7 @@
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": false,
       "eu-north-1": false,

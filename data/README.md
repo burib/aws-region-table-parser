@@ -11,15 +11,15 @@ eu-west-1 | EU (Ireland) | 176
 ap-northeast-1 | Asia Pacific (Tokyo) | 161
 ap-southeast-2 | Asia Pacific (Sydney) | 161
 us-east-2 | US East (Ohio) | 160
-eu-central-1 | EU (Frankfurt) | 158
+eu-central-1 | EU (Frankfurt) | 159
 ap-southeast-1 | Asia Pacific (Singapore) | 153
 eu-west-2 | EU (London) | 141
 ap-northeast-2 | Asia Pacific (Seoul) | 137
 ap-south-1 | Asia Pacific (Mumbai) | 127
 us-west-1 | US West (N. California) | 124
-ca-central-1 | Canada (Central) | 119
+ca-central-1 | Canada (Central) | 120
 eu-west-3 | EU (Paris) | 110
-sa-east-1 | South America (São Paulo) | 105
+sa-east-1 | South America (São Paulo) | 106
 eu-north-1 | EU (Stockholm) | 105
 us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 81
@@ -53,7 +53,7 @@ Amazon Comprehend Medical|true | true | true | false | true | false | false | fa
 Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Detective (preview)|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
-Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | false | false | false | false
+Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | false | false | false | false
 Amazon DynamoDB|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Auto Scaling|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon EC2 Image Builder|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
@@ -199,7 +199,7 @@ AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | f
 AWS Outposts|true | true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | true | true | false | false | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
 AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-AWS Resource Access Manager (RAM)|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Resource Access Manager (RAM)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
@@ -220,7 +220,7 @@ AWS Transfer for SFTP|true | true | true | true | true | true | false | false | 
 AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | false | true | false | false | false | false | true | false | true | false | false | false | false | false
+AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 End-of-Support Migration Program for Windows Server|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
