@@ -8,15 +8,15 @@
 us-east-1 | US East (N. Virginia) | 190
 us-west-2 | US West (Oregon) | 184
 eu-west-1 | EU (Ireland) | 176
+ap-southeast-2 | Asia Pacific (Sydney) | 162
 ap-northeast-1 | Asia Pacific (Tokyo) | 161
-ap-southeast-2 | Asia Pacific (Sydney) | 161
 us-east-2 | US East (Ohio) | 160
 eu-central-1 | EU (Frankfurt) | 159
 ap-southeast-1 | Asia Pacific (Singapore) | 153
 eu-west-2 | EU (London) | 141
 ap-northeast-2 | Asia Pacific (Seoul) | 137
 ap-south-1 | Asia Pacific (Mumbai) | 127
-us-west-1 | US West (N. California) | 124
+us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 120
 eu-west-3 | EU (Paris) | 110
 sa-east-1 | South America (São Paulo) | 106
@@ -121,7 +121,7 @@ Amazon Simple Queue Service (SQS)|true | true | true | true | true | true | true
 Amazon Simple Storage Service (S3)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-Amazon Textract|true | true | true | false | false | false | false | false | true | false | true | false | false | false | true | false | false | false | false | false | false | false | false
+Amazon Textract|true | true | true | true | false | false | false | false | true | false | true | false | false | false | true | false | false | true | false | false | false | false | false
 Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | true | true | true | true | true | true
 Amazon Transcribe Medical|true | true | true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false
 Amazon Translate|true | true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
