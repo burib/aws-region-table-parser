@@ -31,13 +31,16 @@ function parseAwsTable(html) {
 
         headers.each(function (coloumnIndex,coloumn) {
           console.log($(coloumn).text());
+          let region = null;
           const parsedRegionName = $(coloumn).text().toLowerCase().trim()
               .replace(/ /ig, '_')
-              .replace(/[()* ]/ig, '');
-          const region = regionNames[parsedRegionName] || {};
+              .replace(/[()* ]/ig, '').trim();
 
+          if (parsedRegionName.length > 0) {
+            region = regionNames[parsedRegionName] || {};
+          }
 
-          if (parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
+          if (!parsedRegionName || parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
             console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
           } else {
             regions.push(region.code);
@@ -54,16 +57,19 @@ function parseAwsTable(html) {
             } else {
               let regionCode = regions[coloumnIndex];
               let isServiceSupportedInRegion = $(coloumn).text() === '✓';
-              services[serviceName][regionCode] = isServiceSupportedInRegion;
 
-              regionSummary[regionCode] = regionSummary[regionCode] || {
-                    regionCode: regionCode,
-                    regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
-                    value: 0
-                  };
+              if (regionCode) {
+                services[serviceName][regionCode] = isServiceSupportedInRegion;
 
-              if (isServiceSupportedInRegion) {
-                regionSummary[regionCode].value++;
+                regionSummary[regionCode] = regionSummary[regionCode] || {
+                  regionCode: regionCode,
+                  regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
+                  value: 0
+                };
+
+                if (isServiceSupportedInRegion) {
+                  regionSummary[regionCode].value++;
+                }
               }
             }
 
