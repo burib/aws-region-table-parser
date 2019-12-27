@@ -1,6 +1,6 @@
 ### 70 Edge Locations
 ### 11 Regional Edge Caches
-### 197 Services
+### 196 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
@@ -8,25 +8,25 @@
 us-east-1 | US East (N. Virginia) | 190
 us-west-2 | US West (Oregon) | 184
 eu-west-1 | EU (Ireland) | 176
-ap-southeast-2 | Asia Pacific (Sydney) | 162
+ap-southeast-2 | Asia Pacific (Sydney) | 165
 ap-northeast-1 | Asia Pacific (Tokyo) | 161
 us-east-2 | US East (Ohio) | 160
 eu-central-1 | EU (Frankfurt) | 159
 ap-southeast-1 | Asia Pacific (Singapore) | 153
-eu-west-2 | EU (London) | 141
-ap-northeast-2 | Asia Pacific (Seoul) | 137
-ap-south-1 | Asia Pacific (Mumbai) | 127
+eu-west-2 | EU (London) | 142
+ap-northeast-2 | Asia Pacific (Seoul) | 138
+ap-south-1 | Asia Pacific (Mumbai) | 129
 us-west-1 | US West (N. California) | 125
-ca-central-1 | Canada (Central) | 120
-eu-west-3 | EU (Paris) | 110
-sa-east-1 | South America (São Paulo) | 106
-eu-north-1 | EU (Stockholm) | 105
+ca-central-1 | Canada (Central) | 123
+eu-west-3 | EU (Paris) | 111
+sa-east-1 | South America (São Paulo) | 108
+eu-north-1 | EU (Stockholm) | 108
 us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 81
 me-south-1 | Middle East (Bahrain) | 73
-us-gov-east-1 | GovCloud (US-East) | 71
-cn-northwest-1 | China (Ningxia) | 60
-cn-north-1 | China (Beijing) | 58
+us-gov-east-1 | GovCloud (US-East) | 72
+cn-northwest-1 | China (Ningxia) | 61
+cn-north-1 | China (Beijing) | 59
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
@@ -84,11 +84,11 @@ Amazon Glacier|true | true | true | true | true | true | true | true | true | tr
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | true | false | false | true | false | true | true | true | false | false | false
 Amazon Kendra|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Kinesis Data Analytics|true | true | true | false | false | false | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+Amazon Kinesis Data Analytics|true | true | true | false | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false
-Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
+Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | true | false | false | false | false | false
 Amazon Lightsail|true | true | true | false | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Machine Learning|true | false | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -96,9 +96,9 @@ Amazon Managed Apache Cassandra Service|true | true | false | false | false | fa
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon MQ|true | true | true | true | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon MQ|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Neptune|true | true | true | false | true | false | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | false | false
-Amazon Personalize|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
+Amazon Personalize|true | true | true | false | true | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
 Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
@@ -110,7 +110,7 @@ Amazon Rekognition Video|true | true | true | true | false | false | true | fals
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon RDS Performance Insights|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Route 53 Private DNS|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-Amazon Route 53 Resolver|true | true | true | true | true | false | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Route 53 Resolver|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | true
@@ -122,7 +122,7 @@ Amazon Simple Storage Service (S3)|true | true | true | true | true | true | tru
 Amazon Simple Workflow Service (SWF)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Sumerian|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Textract|true | true | true | true | false | false | false | false | true | false | true | false | false | false | true | false | false | true | false | false | false | false | false
-Amazon Transcribe|true | true | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | true | true | true | true | true | true
+Amazon Transcribe|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | true | true | true
 Amazon Transcribe Medical|true | true | true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false
 Amazon Translate|true | true | true | true | true | false | true | false | false | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Virtual Private Cloud (VPC)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -144,7 +144,7 @@ AWS Certificate Manager Private CA|true | true | true | true | true | true | tru
 AWS Chatbot|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Cloud9|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
+AWS Cloud9|true | true | true | false | true | false | false | false | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
 AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS CloudHSM Classic|true | true | true | true | true | false | true | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -159,11 +159,11 @@ AWS Data Exchange|true | true | true | true | false | false | false | false | t
 AWS Database Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Data Pipeline|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | true | false | false | false | false | false
 AWS DataSync|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
-AWS DeepCompose|true | false | false | false | false | false | false | false
+AWS DeepComposer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS DeepRacer|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Device Farm|false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | false | true | false | true | true | false | true | true | true | true | true | true
+AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
@@ -201,7 +201,7 @@ AWS Personal Health Dashboard|true | true | true | true | true | true | true | t
 AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
-AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Serverless Application Repository|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
@@ -227,6 +227,5 @@ End-of-Support Migration Program for Windows Server|true | true | true | true | 
 Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | true | true | true | true | false | false | false
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
-AWS DeepComposer|false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|true | true | false | true | true | true | true | false | false
