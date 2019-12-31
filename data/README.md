@@ -25,8 +25,8 @@ us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 81
 me-south-1 | Middle East (Bahrain) | 73
 us-gov-east-1 | GovCloud (US-East) | 72
-cn-northwest-1 | China (Ningxia) | 61
-cn-north-1 | China (Beijing) | 59
+cn-northwest-1 | China (Ningxia) | 62
+cn-north-1 | China (Beijing) | 60
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
@@ -197,7 +197,7 @@ AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | t
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS Outposts|true | true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | true | true | false | false | false | false
-AWS Personal Health Dashboard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
+AWS Personal Health Dashboard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
