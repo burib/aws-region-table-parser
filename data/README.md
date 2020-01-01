@@ -19,7 +19,7 @@ ap-south-1 | Asia Pacific (Mumbai) | 129
 us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 123
 eu-west-3 | EU (Paris) | 111
-sa-east-1 | South America (São Paulo) | 108
+sa-east-1 | South America (São Paulo) | 110
 eu-north-1 | EU (Stockholm) | 108
 us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 81
@@ -38,8 +38,8 @@ Amazon API Gateway|true | true | true | true | true | true | true | true | true 
 Amazon AppStream 2.0|true | false | true | false | false | false | true | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Augmented AI (A2I)|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Aurora - MySQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
-Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
+Amazon Aurora - MySQL-compatible|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
+Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Chime|true | true | true | true | true | false | false | false | true | true | true | true | true | false | true | true | false | true | false | false | false | false | false
 Amazon Cloud Directory|true | true | true | false | true | false | true | false | true | false | true | true | false | false | true | false | false | true | false | false | false | false | false
 Amazon CloudSearch|true | false | true | true | false | true | false | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
