@@ -25,8 +25,8 @@ us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 81
 me-south-1 | Middle East (Bahrain) | 73
 us-gov-east-1 | GovCloud (US-East) | 72
-cn-northwest-1 | China (Ningxia) | 62
-cn-north-1 | China (Beijing) | 60
+cn-northwest-1 | China (Ningxia) | 63
+cn-north-1 | China (Beijing) | 61
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
@@ -76,7 +76,7 @@ Amazon Elastic Transcoder|true | false | true | true | false | false | false | f
 Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Forecast|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Fraud Detector|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon FSx for Windows File Server|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon FSx for Lustre|true | true | true | true | false | false | false | false | true | true | true | false | true | false | true | true | false | true | false | false | false | false | false
 Amazon GameLift|true | true | true | true | true | true | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false

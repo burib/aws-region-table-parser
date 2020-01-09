@@ -108,12 +108,12 @@
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 60
+      "value": 61
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 62
+      "value": 63
     }
   },
   "services": {
@@ -1205,8 +1205,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "fsx_for_windows_file_server": {
       "us-east-1": true,
