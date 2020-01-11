@@ -93,7 +93,7 @@
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 138
+      "value": 139
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
@@ -103,7 +103,7 @@
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 81
+      "value": 82
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -2054,7 +2054,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -4791,7 +4791,7 @@
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
+      "ap-northeast-2": true,
       "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
@@ -5197,11 +5197,15 @@
     "Bogota, Colombia",
     "Buenos Aires, Argentina",
     "Santiago, Chile",
+    "Amsterdam, The Netherlands (2)",
     "Berlin, Germany (2)",
+    "Bucharest, Romania",
+    "Budapest, Hungary",
     "Cape Town, South Africa",
     "Copenhagen, Denmark",
     "Dubai, United Arab Emirates",
     "Dublin, Ireland",
+    "Dusseldorf, Germany",
     "Frankfurt, Germany (10)",
     "Fujairah, United Arab Emirates",
     "Helsinki, Finland",
@@ -5212,10 +5216,12 @@
     "Marseille, France",
     "Milan, Italy (3)",
     "Munich, Germany (2)",
+    "Nairobi, Kenya",
     "Oslo, Norway",
     "Palermo, Italy",
     "Paris, France (5)",
     "Prague, Czech Republic",
+    "Sofia, Bulgaria",
     "Stockholm, Sweden (3)",
     "Vienna, Austria",
     "Warsaw, Poland",

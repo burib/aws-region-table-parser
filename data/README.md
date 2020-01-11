@@ -1,4 +1,4 @@
-### 70 Edge Locations
+### 76 Edge Locations
 ### 11 Regional Edge Caches
 ### 196 Services
 
@@ -14,7 +14,7 @@ us-east-2 | US East (Ohio) | 160
 eu-central-1 | EU (Frankfurt) | 159
 ap-southeast-1 | Asia Pacific (Singapore) | 153
 eu-west-2 | EU (London) | 142
-ap-northeast-2 | Asia Pacific (Seoul) | 138
+ap-northeast-2 | Asia Pacific (Seoul) | 139
 ap-south-1 | Asia Pacific (Mumbai) | 129
 us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 123
@@ -22,7 +22,7 @@ eu-west-3 | EU (Paris) | 111
 sa-east-1 | South America (São Paulo) | 110
 eu-north-1 | EU (Stockholm) | 108
 us-gov-west-1 | GovCloud (US-West) | 94
-ap-east-1 | Asia Pacific (Hong Kong) | 81
+ap-east-1 | Asia Pacific (Hong Kong) | 82
 me-south-1 | Middle East (Bahrain) | 73
 us-gov-east-1 | GovCloud (US-East) | 72
 cn-northwest-1 | China (Ningxia) | 63
@@ -110,7 +110,7 @@ Amazon Rekognition Video|true | true | true | true | false | false | true | fals
 Amazon Relational Database Service (RDS)|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon RDS Performance Insights|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Route 53 Private DNS|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-Amazon Route 53 Resolver|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+Amazon Route 53 Resolver|true | true | true | true | true | false | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon SageMaker|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon SageMaker Ground Truth|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon SageMaker Neo|true | true | true | true | true | true | false | false | true | true | true | true | true | true
@@ -220,7 +220,7 @@ AWS Transfer for SFTP|true | true | true | true | true | true | false | false | 
 AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | true | true | false | false | false | false | true | false | true | false | false | false | false | false
+AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | true | true | false | false | false | false | true | false | true | true | false | false | false | false
 AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 End-of-Support Migration Program for Windows Server|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
