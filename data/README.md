@@ -20,13 +20,13 @@ us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 123
 eu-west-3 | EU (Paris) | 111
 sa-east-1 | South America (São Paulo) | 110
-eu-north-1 | EU (Stockholm) | 108
+eu-north-1 | EU (Stockholm) | 109
 us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 82
 me-south-1 | Middle East (Bahrain) | 73
 us-gov-east-1 | GovCloud (US-East) | 72
-cn-northwest-1 | China (Ningxia) | 63
-cn-north-1 | China (Beijing) | 61
+cn-northwest-1 | China (Ningxia) | 65
+cn-north-1 | China (Beijing) | 63
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
@@ -73,7 +73,7 @@ Amazon Elastic Inference|true | true | true | false | false | false | false | fa
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Elasticsearch Service|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Transcoder|true | false | true | true | false | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
-Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+Amazon EventBridge|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 Amazon Forecast|true | true | true | false | false | false | false | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false
 Amazon Fraud Detector|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon FreeRTOS|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
@@ -217,11 +217,11 @@ AWS Storage Gateway|true | true | true | true | true | true | true | false | tru
 AWS Support|true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | true | true | true
 AWS Systems Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Transfer for SFTP|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | false | true | true | true | true | false | false
+AWS Transit Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Trusted Advisor|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS WAF|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Well-Architected Tool|true | true | true | false | false | false | false | false | true | true | true | false | false | false | false | true | false | true | true | false | false | false | false
-AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS X-Ray|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 Elastic Load Balancing|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 End-of-Support Migration Program for Windows Server|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | true | true | true | true | false | false | false
