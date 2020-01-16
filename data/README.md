@@ -18,12 +18,12 @@ ap-northeast-2 | Asia Pacific (Seoul) | 139
 ap-south-1 | Asia Pacific (Mumbai) | 129
 us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 123
-eu-west-3 | EU (Paris) | 111
+eu-west-3 | EU (Paris) | 112
 sa-east-1 | South America (São Paulo) | 110
 eu-north-1 | EU (Stockholm) | 109
 us-gov-west-1 | GovCloud (US-West) | 94
-ap-east-1 | Asia Pacific (Hong Kong) | 82
-me-south-1 | Middle East (Bahrain) | 73
+ap-east-1 | Asia Pacific (Hong Kong) | 84
+me-south-1 | Middle East (Bahrain) | 75
 us-gov-east-1 | GovCloud (US-East) | 72
 cn-northwest-1 | China (Ningxia) | 65
 cn-north-1 | China (Beijing) | 63
@@ -36,7 +36,7 @@ ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | true | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
-Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Augmented AI (A2I)|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
@@ -84,7 +84,7 @@ Amazon Glacier|true | true | true | true | true | true | true | true | true | tr
 Amazon GuardDuty|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Inspector|true | true | true | true | false | false | true | true | true | true | true | false | true | false | false | true | false | true | true | true | false | false | false
 Amazon Kendra|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Kinesis Data Analytics|true | true | true | false | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+Amazon Kinesis Data Analytics|true | true | true | false | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false
@@ -100,7 +100,7 @@ Amazon MQ|true | true | true | true | true | true | false | false | true | true 
 Amazon Neptune|true | true | true | false | true | false | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | false | false
 Amazon Personalize|true | true | true | false | true | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
-Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
+Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon QuickSight|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
 Amazon Redshift|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
