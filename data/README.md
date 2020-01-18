@@ -18,15 +18,15 @@ ap-northeast-2 | Asia Pacific (Seoul) | 139
 ap-south-1 | Asia Pacific (Mumbai) | 129
 us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 123
+sa-east-1 | South America (São Paulo) | 112
 eu-west-3 | EU (Paris) | 112
-sa-east-1 | South America (São Paulo) | 110
 eu-north-1 | EU (Stockholm) | 109
 us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 84
 me-south-1 | Middle East (Bahrain) | 75
 us-gov-east-1 | GovCloud (US-East) | 72
-cn-northwest-1 | China (Ningxia) | 65
-cn-north-1 | China (Beijing) | 63
+cn-northwest-1 | China (Ningxia) | 68
+cn-north-1 | China (Beijing) | 64
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
@@ -36,7 +36,7 @@ ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 Alexa for Business|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon API Gateway|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon AppStream 2.0|true | false | true | false | false | false | true | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
-Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+Amazon Athena|true | true | true | false | true | false | true | true | true | true | true | true | false | false | true | true | false | true | true | true | false | false | true
 Amazon Augmented AI (A2I)|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Aurora - MySQL-compatible|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Aurora - PostgreSQL-compatible|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
@@ -97,7 +97,7 @@ Amazon Managed Blockchain|true | false | false | false | false | false | false |
 Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
-Amazon Neptune|true | true | true | false | true | false | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | false | false
+Amazon Neptune|true | true | true | false | true | false | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | false | true
 Amazon Personalize|true | true | true | false | true | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
@@ -145,8 +145,8 @@ AWS Chatbot|true | true | true | true | true | true | false | false | true | tru
 AWS Cloud Map|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CloudFormation|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Cloud9|true | true | true | false | true | false | false | false | true | true | true | false | true | false | true | true | false | true | true | true | false | false | false
-AWS CloudHSM|true | true | true | true | true | false | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
-AWS CloudHSM Classic|true | true | true | true | true | false | true | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
+AWS CloudHSM|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+AWS CloudHSM Classic|true | true | true | true | true | true | true | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodeBuild|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
@@ -203,7 +203,7 @@ AWS Resource Access Manager (RAM)|true | true | true | true | true | true | true
 AWS RoboMaker|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | false | false | false | false | false | false
 AWS Secrets Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Security Hub|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
-AWS Serverless Application Repository|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Serverless Application Repository|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
 AWS Server Migration Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | true | true
 AWS Service Catalog|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Shield Standard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true

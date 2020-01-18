@@ -28,7 +28,7 @@
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 110
+      "value": 112
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -108,12 +108,12 @@
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 63
+      "value": 64
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 65
+      "value": 68
     }
   },
   "services": {
@@ -215,7 +215,7 @@
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "augmented_ai_a2i": {
       "us-east-1": true,
@@ -1731,7 +1731,7 @@
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-northwest-1": true
     },
     "personalize": {
       "us-east-1": true,
@@ -2905,7 +2905,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
@@ -2930,7 +2930,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": false,
       "eu-west-1": true,
@@ -4369,8 +4369,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "server_migration_service": {
       "us-east-1": true,
