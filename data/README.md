@@ -9,21 +9,21 @@ us-east-1 | US East (N. Virginia) | 190
 us-west-2 | US West (Oregon) | 184
 eu-west-1 | EU (Ireland) | 176
 ap-southeast-2 | Asia Pacific (Sydney) | 165
+us-east-2 | US East (Ohio) | 161
 ap-northeast-1 | Asia Pacific (Tokyo) | 161
-us-east-2 | US East (Ohio) | 160
 eu-central-1 | EU (Frankfurt) | 159
-ap-southeast-1 | Asia Pacific (Singapore) | 153
-eu-west-2 | EU (London) | 142
-ap-northeast-2 | Asia Pacific (Seoul) | 139
-ap-south-1 | Asia Pacific (Mumbai) | 129
+ap-southeast-1 | Asia Pacific (Singapore) | 155
+eu-west-2 | EU (London) | 144
+ap-northeast-2 | Asia Pacific (Seoul) | 140
+ap-south-1 | Asia Pacific (Mumbai) | 130
 us-west-1 | US West (N. California) | 125
-ca-central-1 | Canada (Central) | 123
-sa-east-1 | South America (São Paulo) | 112
-eu-west-3 | EU (Paris) | 112
-eu-north-1 | EU (Stockholm) | 109
+ca-central-1 | Canada (Central) | 125
+eu-west-3 | EU (Paris) | 114
+sa-east-1 | South America (São Paulo) | 113
+eu-north-1 | EU (Stockholm) | 111
 us-gov-west-1 | GovCloud (US-West) | 94
-ap-east-1 | Asia Pacific (Hong Kong) | 84
-me-south-1 | Middle East (Bahrain) | 75
+ap-east-1 | Asia Pacific (Hong Kong) | 86
+me-south-1 | Middle East (Bahrain) | 76
 us-gov-east-1 | GovCloud (US-East) | 72
 cn-northwest-1 | China (Ningxia) | 68
 cn-north-1 | China (Beijing) | 64
@@ -87,7 +87,7 @@ Amazon Kendra|true | false | true | false | false | false | false | false | true
 Amazon Kinesis Data Analytics|true | true | true | false | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Kinesis Data Firehose|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Kinesis Data Streams|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-Amazon Kinesis Video Streams|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | true | false | true | false | false | false | false | false
+Amazon Kinesis Video Streams|true | true | true | false | true | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | true | false | false
 Amazon Lex|true | false | true | false | false | false | false | false | true | false | false | false | false | false | false | false | false | true | false | false | false | false | false
 Amazon Lightsail|true | true | true | false | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 Amazon Machine Learning|true | false | false | false | false | false | false | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
@@ -196,7 +196,7 @@ AWS Mobile Hub|true | true | true | true | false | true | false | false | true |
 AWS OpsWorks Stacks|true | true | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS OpsWorks for Chef Automate|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS OpsWorks for Puppet Enterprise|true | true | true | true | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
-AWS Outposts|true | true | true | true | false | false | false | false | true | true | false | false | false | false | false | true | false | true | true | false | false | false | false
+AWS Outposts|true | true | true | true | true | false | false | false | true | true | true | true | true | true | true | true | false | true | true | false | true | false | false
 AWS Personal Health Dashboard|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS PrivateLink|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Resource Access Manager (RAM)|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
@@ -226,6 +226,6 @@ Elastic Load Balancing|true | true | true | true | true | true | true | true | t
 End-of-Support Migration Program for Windows Server|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 Service Quotas|true | true | true | true | true | true | false | false | true | true | true | true | false | false | true | true | true | true | true | true | false | false | false
 VM Import/Export|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
-VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
+VMware Cloud on AWS|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Comprehend Medical|false | false | false | true | false | false | false | false | false
 Amazon SageMaker Neo|true | true | false | true | true | true | true | false | false
