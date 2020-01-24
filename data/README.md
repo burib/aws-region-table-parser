@@ -14,7 +14,7 @@ ap-northeast-1 | Asia Pacific (Tokyo) | 161
 eu-central-1 | EU (Frankfurt) | 159
 ap-southeast-1 | Asia Pacific (Singapore) | 155
 eu-west-2 | EU (London) | 144
-ap-northeast-2 | Asia Pacific (Seoul) | 140
+ap-northeast-2 | Asia Pacific (Seoul) | 141
 ap-south-1 | Asia Pacific (Mumbai) | 130
 us-west-1 | US West (N. California) | 125
 ca-central-1 | Canada (Central) | 125
@@ -23,7 +23,7 @@ sa-east-1 | South America (São Paulo) | 113
 eu-north-1 | EU (Stockholm) | 111
 us-gov-west-1 | GovCloud (US-West) | 94
 ap-east-1 | Asia Pacific (Hong Kong) | 86
-me-south-1 | Middle East (Bahrain) | 76
+me-south-1 | Middle East (Bahrain) | 77
 us-gov-east-1 | GovCloud (US-East) | 72
 cn-northwest-1 | China (Ningxia) | 68
 cn-north-1 | China (Beijing) | 64
@@ -94,11 +94,11 @@ Amazon Machine Learning|true | false | false | false | false | false | false | f
 Amazon Macie|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Managed Apache Cassandra Service|true | true | false | false | false | false | false | false | false | false | false | false | true | false | true | true | false | false | false | false | false | false | false
 Amazon Managed Blockchain|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
+Amazon Managed Streaming for Apache Kafka|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 Amazon Mobile Analytics|true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon MQ|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 Amazon Neptune|true | true | true | false | true | false | true | true | true | true | true | false | true | true | true | true | false | true | true | true | false | false | true
-Amazon Personalize|true | true | true | false | true | false | false | false | true | false | false | false | false | false | true | true | false | true | false | true | false | false | false
+Amazon Personalize|true | true | true | false | true | false | false | false | true | false | false | false | false | false | true | true | false | true | true | true | false | false | false
 Amazon Pinpoint|true | false | true | false | false | false | false | false | true | true | false | false | false | false | false | false | false | true | false | true | false | false | false
 Amazon Polly|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | true
 Amazon Quantum Ledger Database (QLDB)|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | true | false | false | false | false
