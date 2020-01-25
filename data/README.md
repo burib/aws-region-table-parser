@@ -13,7 +13,7 @@ us-east-2 | US East (Ohio) | 161
 ap-northeast-1 | Asia Pacific (Tokyo) | 161
 eu-central-1 | EU (Frankfurt) | 159
 ap-southeast-1 | Asia Pacific (Singapore) | 155
-eu-west-2 | EU (London) | 144
+eu-west-2 | EU (London) | 145
 ap-northeast-2 | Asia Pacific (Seoul) | 141
 ap-south-1 | Asia Pacific (Mumbai) | 130
 us-west-1 | US West (N. California) | 125
@@ -21,10 +21,10 @@ ca-central-1 | Canada (Central) | 125
 eu-west-3 | EU (Paris) | 114
 sa-east-1 | South America (São Paulo) | 113
 eu-north-1 | EU (Stockholm) | 111
-us-gov-west-1 | GovCloud (US-West) | 94
-ap-east-1 | Asia Pacific (Hong Kong) | 86
+us-gov-west-1 | GovCloud (US-West) | 95
+ap-east-1 | Asia Pacific (Hong Kong) | 87
 me-south-1 | Middle East (Bahrain) | 77
-us-gov-east-1 | GovCloud (US-East) | 72
+us-gov-east-1 | GovCloud (US-East) | 73
 cn-northwest-1 | China (Ningxia) | 68
 cn-north-1 | China (Beijing) | 64
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
@@ -50,7 +50,7 @@ Amazon CodeGuru (preview)|true | true | true | false | false | false | false | f
 Amazon Cognito|true | true | true | false | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | true | false
 Amazon Comprehend|true | true | true | false | true | false | true | false | true | true | true | false | false | false | true | false | false | true | false | false | false | false | false
 Amazon Comprehend Medical|true | true | true | false | true | false | false | false | true | false | true | false | false | false
-Amazon Connect|true | false | true | false | false | false | false | false | false | true | false | false | false | false | false | true | false | true | false | false | false | false | false
+Amazon Connect|true | false | true | false | false | false | false | false | false | true | true | false | false | false | false | true | false | true | false | false | false | false | false
 Amazon DeepLens|true | false | false | false | false | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Detective (preview)|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | false | false | false | false | false
 Amazon DocumentDB (with MongoDB compatibility)|true | true | true | false | true | false | false | false | true | true | true | true | false | false | true | true | false | true | true | false | false | false | false
@@ -136,7 +136,7 @@ AWS Application Discovery Service|false | false | true | false | false | false |
 AWS App Mesh|true | true | true | false | false | false | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
 AWS AppSync|true | true | true | false | false | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Artifact|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
-AWS Auto Scaling|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
+AWS Auto Scaling|true | true | true | true | true | false | true | true | true | true | true | false | false | false | true | true | false | true | true | true | false | false | false
 AWS Backup|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS Batch|true | true | true | true | true | true | false | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 AWS Certificate Manager|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | false
@@ -165,7 +165,7 @@ AWS Device Farm|false | false | true | false | false | false | false | false | f
 AWS Direct Connect|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS Directory Service|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
 AWS Elastic Beanstalk|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
-AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS Elemental MediaConnect|true | true | true | true | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | true | false | false
 AWS Elemental MediaConvert|true | true | true | true | true | true | true | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | true
 AWS Elemental MediaLive|true | true | true | false | false | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS Elemental MediaPackage|true | false | true | true | false | true | false | false | true | true | true | true | false | false | true | true | false | true | true | true | false | false | false
