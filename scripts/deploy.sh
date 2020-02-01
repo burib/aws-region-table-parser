@@ -8,7 +8,7 @@ git pull $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH;
 
 BASEDIR=$(cd "$(dirname "$1")" && pwd)/$(basename "$1")
 
-if [[ -z $(git status ${BASEDIR}data/ -s) ]]
+if [[ -z $(git status ${BASEDIR}data/parseddata.json -s) ]]
 then
   echo "no changes in data directory.";
 else
