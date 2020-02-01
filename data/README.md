@@ -22,11 +22,11 @@ eu-west-3 | EU (Paris) | 114
 sa-east-1 | South America (São Paulo) | 113
 eu-north-1 | EU (Stockholm) | 111
 us-gov-west-1 | GovCloud (US-West) | 95
-ap-east-1 | Asia Pacific (Hong Kong) | 87
-me-south-1 | Middle East (Bahrain) | 77
+ap-east-1 | Asia Pacific (Hong Kong) | 88
+me-south-1 | Middle East (Bahrain) | 78
 us-gov-east-1 | GovCloud (US-East) | 73
-cn-northwest-1 | China (Ningxia) | 68
-cn-north-1 | China (Beijing) | 64
+cn-northwest-1 | China (Ningxia) | 69
+cn-north-1 | China (Beijing) | 65
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
@@ -67,7 +67,7 @@ Amazon Elastic Compute Cloud (EC2)|true | true | true | true | true | true | tru
 Amazon Elastic Compute Cloud (EC2) A1 Instances|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | true | false | false | false
 Amazon Elastic Compute Cloud (EC2) C5n Instances|true | true | true | false | false | false | true | true | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false
 Amazon Elastic Compute Cloud (EC2) Inf1 Instances|true | false | true | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false | false
-Amazon Elastic File System (EFS)|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
+Amazon Elastic File System (EFS)|true | true | true | true | true | true | true | false | true | true | true | true | true | true | true | true | false | true | true | true | true | true | true
 Amazon Elastic Graphics|true | true | true | false | false | false | false | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 Amazon Elastic Inference|true | true | true | false | false | false | false | false | true | false | false | false | false | false | false | true | false | false | true | false | false | false | false
 Amazon Elastic MapReduce|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
@@ -149,7 +149,7 @@ AWS CloudHSM|true | true | true | true | true | true | true | false | true | tru
 AWS CloudHSM Classic|true | true | true | true | true | true | true | false | true | true | false | false | false | false | true | true | false | true | false | false | false | false | false
 AWS CloudTrail|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodeBuild|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | true | true | true
-AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
+AWS CodeCommit|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | false | true | true | true | true | false | false
 AWS CodeDeploy|true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true | true
 AWS CodePipeline|true | true | true | true | true | true | false | false | true | true | true | true | true | false | true | true | false | true | true | true | false | false | false
 AWS CodeStar|true | true | true | true | true | false | false | false | true | true | true | false | false | false | true | true | false | true | true | false | false | false | false
