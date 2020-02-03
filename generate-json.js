@@ -8,7 +8,7 @@ const sortArrayByProp = (array, prop, asc = true) => {
   });
 };
 
-async function generateRegionSummary(parseddata) {
+async function generateRegionSummaryMarkdown(parseddata) {
   const regionSummary = sortArrayByProp(Object.values(parseddata.regionSummary), 'value', false);
   const chartConfig = {
     "type": "bar",
@@ -63,7 +63,7 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
   let READMEheader = `### ${edgeLocations.length} Edge Locations\n`;
   READMEheader += `### ${regionalEdgeCaches.length} Regional Edge Caches\n`;
   READMEheader += `### ${services.length} Services\n\n`;
-  READMEheader += await generateRegionSummary(servicesAndRegions);
+  READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
   READMEheader += `# Region and Service Table # \n`
   READMEheader += `| | ${Object.keys(regions).join(' | ')} |\n`;
   READMEheader += `| ------------- | ${Object.keys(regions).fill('-------------').join(' | ')}|`;
@@ -71,7 +71,7 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
 
   for (var value in servicesAndRegions.services) {
     const longServiceName = servicesAndRegions.serviceNames[value];
-    const row = `${longServiceName}|${Object.values(servicesAndRegions.services[value]).join(' | ')}`;
+    const row = `${longServiceName}|${Object.values(servicesAndRegions.services[value]).map(value => value ? ':white_check_mark:' : ':x:').join(' | ')}`;
 
     READMErows.push(row);
   }
