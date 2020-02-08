@@ -43,7 +43,7 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 176
+      "value": 177
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
@@ -53,7 +53,7 @@
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 145
+      "value": 144
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -2358,9 +2358,9 @@
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
-      "eu-west-1": false,
+      "eu-west-1": true,
       "eu-central-1": false,
-      "eu-west-2": true,
+      "eu-west-2": false,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
