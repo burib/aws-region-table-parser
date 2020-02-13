@@ -58,12 +58,12 @@
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 114
+      "value": 115
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 111
+      "value": 112
     },
     "me-south-1": {
       "regionCode": "me-south-1",
@@ -205,7 +205,7 @@
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -4634,7 +4634,7 @@
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
+      "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
       "ap-southeast-1": true,
