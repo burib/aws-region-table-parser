@@ -28,7 +28,7 @@
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 113
+      "value": 114
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -63,12 +63,12 @@
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 112
+      "value": 113
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 79
+      "value": 80
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -2605,15 +2605,15 @@
       "us-west-2": true,
       "us-west-1": false,
       "ca-central-1": false,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
       "eu-west-3": true,
-      "eu-north-1": false,
-      "me-south-1": false,
+      "eu-north-1": true,
+      "me-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
