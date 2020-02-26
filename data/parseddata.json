@@ -3,17 +3,17 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 190
+      "value": 191
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 161
+      "value": 162
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 184
+      "value": 185
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -43,7 +43,7 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 177
+      "value": 178
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
@@ -3149,6 +3149,31 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
+    "control_tower": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-west-1": true,
+      "eu-central-1": false,
+      "eu-west-2": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "data exchange": {
       "us-east-1": true,
       "us-east-2": true,
@@ -5093,6 +5118,7 @@
     "codestar": "AWS CodeStar",
     "compute_optimizer": "AWS Compute Optimizer",
     "config": "AWS Config",
+    "control_tower": "AWS Control Tower",
     "data exchange": "AWS Data Exchange",
     "database_migration_service": "AWS Database Migration Service",
     "data_pipeline": "AWS Data Pipeline",
