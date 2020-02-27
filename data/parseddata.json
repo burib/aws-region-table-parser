@@ -58,12 +58,12 @@
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 115
+      "value": 116
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 113
+      "value": 114
     },
     "me-south-1": {
       "regionCode": "me-south-1",
@@ -98,7 +98,7 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 131
+      "value": 132
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -4809,15 +4809,15 @@
       "eu-west-1": true,
       "eu-central-1": true,
       "eu-west-2": true,
-      "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-west-3": true,
+      "eu-north-1": true,
       "me-south-1": false,
       "ap-southeast-1": false,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
