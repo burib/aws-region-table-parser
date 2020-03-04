@@ -16,21 +16,21 @@ ap-southeast-1 | Asia Pacific (Singapore) | 155
 eu-west-2 | EU (London) | 144
 ap-northeast-2 | Asia Pacific (Seoul) | 142
 ap-south-1 | Asia Pacific (Mumbai) | 132
-us-west-1 | US West (N. California) | 125
+us-west-1 | US West (N. California) | 126
 ca-central-1 | Canada (Central) | 125
+sa-east-1 | South America (São Paulo) | 116
 eu-west-3 | EU (Paris) | 116
-sa-east-1 | South America (São Paulo) | 115
 eu-north-1 | EU (Stockholm) | 114
 us-gov-west-1 | GovCloud (US-West) | 97
-ap-east-1 | Asia Pacific (Hong Kong) | 89
-me-south-1 | Middle East (Bahrain) | 81
+ap-east-1 | Asia Pacific (Hong Kong) | 90
+me-south-1 | Middle East (Bahrain) | 82
 us-gov-east-1 | GovCloud (US-East) | 78
 cn-northwest-1 | China (Ningxia) | 71
 cn-north-1 | China (Beijing) | 67
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
-<img src='https://quickchart.io/chart/render/f-1d96b543-9bb2-4f73-92dc-3a09cee4db33'>
+<img src='https://quickchart.io/chart/render/f-989bc258-8e12-40f8-853c-60e3d5d4ad82'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-west-1 | eu-central-1 | eu-west-2 | eu-west-3 | eu-north-1 | me-south-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -38,7 +38,7 @@ ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 Alexa for Business|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
 Amazon API Gateway|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon AppStream 2.0|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x:
-Amazon Athena|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark:
+Amazon Athena|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark:
 Amazon Augmented AI (A2I)|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
 Amazon Aurora - MySQL-compatible|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark:
 Amazon Aurora - PostgreSQL-compatible|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark:
