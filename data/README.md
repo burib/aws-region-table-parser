@@ -7,30 +7,30 @@
 | ------ | -------- | -------- | 
 us-east-1 | US East (N. Virginia) | 191
 us-west-2 | US West (Oregon) | 185
-eu-west-1 | EU (Ireland) | 178
-ap-southeast-2 | Asia Pacific (Sydney) | 165
+eu-west-1 | EU (Ireland) | 179
+ap-southeast-2 | Asia Pacific (Sydney) | 166
 ap-northeast-1 | Asia Pacific (Tokyo) | 163
 us-east-2 | US East (Ohio) | 162
-eu-central-1 | EU (Frankfurt) | 159
+eu-central-1 | EU (Frankfurt) | 160
 ap-southeast-1 | Asia Pacific (Singapore) | 156
-eu-west-2 | EU (London) | 144
-ap-northeast-2 | Asia Pacific (Seoul) | 142
-ap-south-1 | Asia Pacific (Mumbai) | 132
+eu-west-2 | EU (London) | 145
+ap-northeast-2 | Asia Pacific (Seoul) | 143
+ap-south-1 | Asia Pacific (Mumbai) | 133
 us-west-1 | US West (N. California) | 126
-ca-central-1 | Canada (Central) | 125
-eu-west-3 | EU (Paris) | 118
+ca-central-1 | Canada (Central) | 126
+eu-west-3 | EU (Paris) | 119
 sa-east-1 | South America (São Paulo) | 116
 eu-north-1 | EU (Stockholm) | 115
 us-gov-west-1 | GovCloud (US-West) | 97
-ap-east-1 | Asia Pacific (Hong Kong) | 91
-me-south-1 | Middle East (Bahrain) | 84
+ap-east-1 | Asia Pacific (Hong Kong) | 92
+me-south-1 | Middle East (Bahrain) | 85
 us-gov-east-1 | GovCloud (US-East) | 79
 cn-northwest-1 | China (Ningxia) | 73
 cn-north-1 | China (Beijing) | 69
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
-<img src='https://quickchart.io/chart/render/f-ff87f9b0-78ef-4af6-b88f-c0577158bdc6'>
+<img src='https://quickchart.io/chart/render/f-3da38e56-4d14-4cff-a804-d9f90b15914a'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-west-1 | eu-central-1 | eu-west-2 | eu-west-3 | eu-north-1 | me-south-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -94,7 +94,7 @@ Amazon Lex|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x:
 Amazon Lightsail|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 Amazon Machine Learning|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
 Amazon Macie|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
-Amazon Managed Apache Cassandra Service|:white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
+Amazon Managed Apache Cassandra Service|:white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 Amazon Managed Blockchain|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
 Amazon Managed Streaming for Apache Kafka|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 Amazon Mobile Analytics|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
