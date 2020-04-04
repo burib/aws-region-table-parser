@@ -108,12 +108,12 @@
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 69
+      "value": 70
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 73
+      "value": 74
     }
   },
   "services": {
@@ -3819,8 +3819,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "iot_device_management": {
       "us-east-1": true,
