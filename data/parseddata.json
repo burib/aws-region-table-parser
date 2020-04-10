@@ -108,7 +108,7 @@
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 70
+      "value": 71
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
@@ -3694,7 +3694,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
+      "cn-north-1": true,
       "cn-northwest-1": true
     },
     "ground_station": {
