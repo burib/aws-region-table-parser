@@ -108,12 +108,12 @@
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 71
+      "value": 73
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 74
+      "value": 75
     }
   },
   "services": {
@@ -214,7 +214,7 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
+      "cn-north-1": true,
       "cn-northwest-1": true
     },
     "augmented_ai_a2i": {
@@ -1655,8 +1655,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "mobile_analytics": {
       "us-east-1": true,
