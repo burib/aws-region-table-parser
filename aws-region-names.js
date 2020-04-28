@@ -39,6 +39,10 @@ module.exports = {
     'name': 'EU (London)',
     'code': 'eu-west-2'
   },
+  'milan' : {
+    'name': 'EU (Milan)',
+    'code': 'eu-south-1'
+  },
   'paris' : {
     'name': 'EU (Paris)',
     'code': 'eu-west-3'
