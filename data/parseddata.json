@@ -13,7 +13,7 @@
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 188
+      "value": 189
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -898,7 +898,7 @@
     "fraud_detector": {
       "us-east-1": true,
       "us-east-2": false,
-      "us-west-2": false,
+      "us-west-2": true,
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
