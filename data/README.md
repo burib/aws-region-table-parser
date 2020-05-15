@@ -5,26 +5,26 @@
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 193
+us-east-1 | US East (N. Virginia) | 194
 us-west-2 | US West (Oregon) | 189
 ap-southeast-2 | Asia Pacific (Sydney) | 174
+ap-northeast-1 | Asia Pacific (Tokyo) | 167
 us-east-2 | US East (Ohio) | 166
-ap-northeast-1 | Asia Pacific (Tokyo) | 166
 ap-southeast-1 | Asia Pacific (Singapore) | 164
 ap-northeast-2 | Asia Pacific (Seoul) | 149
 ap-south-1 | Asia Pacific (Mumbai) | 136
 ca-central-1 | Canada (Central) | 132
-us-west-1 | US West (N. California) | 130
-sa-east-1 | South America (São Paulo) | 122
+us-west-1 | US West (N. California) | 131
+sa-east-1 | South America (São Paulo) | 123
 us-gov-west-1 | GovCloud (US-West) | 105
-ap-east-1 | Asia Pacific (Hong Kong) | 99
+ap-east-1 | Asia Pacific (Hong Kong) | 100
 us-gov-east-1 | GovCloud (US-East) | 83
 cn-northwest-1 | China (Ningxia) | 76
 cn-north-1 | China (Beijing) | 74
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
 
 
-<img src='https://quickchart.io/chart/render/f-5ee9886e-8e0e-4611-8c3a-4a14c837e9fa'>
+<img src='https://quickchart.io/chart/render/f-1c918657-6bd5-4079-974c-e7e6267495ac'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -142,7 +142,7 @@ AWS Certificate Manager Private CA|:white_check_mark: | :white_check_mark: | :wh
 AWS Chatbot|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS Cloud Map|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS CloudFormation|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-AWS Cloud9|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
+AWS Cloud9|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS CloudHSM|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS CloudHSM Classic|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 AWS CloudTrail|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -191,7 +191,7 @@ AWS Lambda|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white
 AWS License Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Managed Services|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS Marketplace|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-AWS Migration Hub|:x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
+AWS Migration Hub|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 AWS Mobile Hub|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS OpsWorks Stacks|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS OpsWorks for Chef Automate|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
