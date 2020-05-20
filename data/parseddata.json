@@ -8,7 +8,7 @@
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 166
+      "value": 167
     },
     "us-west-2": {
       "regionCode": "us-west-2",
@@ -43,7 +43,7 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 164
+      "value": 165
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
@@ -58,7 +58,7 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 174
+      "value": 175
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
@@ -897,17 +897,17 @@
     },
     "fraud_detector": {
       "us-east-1": true,
-      "us-east-2": false,
+      "us-east-2": true,
       "us-west-2": true,
       "us-west-1": false,
       "ca-central-1": false,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
-      "ap-southeast-1": false,
+      "ap-southeast-1": true,
       "ap-northeast-1": false,
       "ap-northeast-3": false,
-      "ap-southeast-2": false,
+      "ap-southeast-2": true,
       "ap-northeast-2": false,
       "ap-south-1": false,
       "ap-east-1": false,

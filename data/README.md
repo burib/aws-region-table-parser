@@ -7,10 +7,10 @@
 | ------ | -------- | -------- | 
 us-east-1 | US East (N. Virginia) | 194
 us-west-2 | US West (Oregon) | 189
-ap-southeast-2 | Asia Pacific (Sydney) | 174
+ap-southeast-2 | Asia Pacific (Sydney) | 175
+us-east-2 | US East (Ohio) | 167
 ap-northeast-1 | Asia Pacific (Tokyo) | 167
-us-east-2 | US East (Ohio) | 166
-ap-southeast-1 | Asia Pacific (Singapore) | 164
+ap-southeast-1 | Asia Pacific (Singapore) | 165
 ap-northeast-2 | Asia Pacific (Seoul) | 149
 ap-south-1 | Asia Pacific (Mumbai) | 136
 ca-central-1 | Canada (Central) | 132
@@ -24,7 +24,7 @@ cn-north-1 | China (Beijing) | 74
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
 
 
-<img src='https://quickchart.io/chart/render/f-1c918657-6bd5-4079-974c-e7e6267495ac'>
+<img src='https://quickchart.io/chart/render/f-75a3217c-4920-4a10-8b1b-5c7fff0b3dc7'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -72,7 +72,7 @@ Amazon Elasticsearch Service|:white_check_mark: | :white_check_mark: | :white_ch
 Amazon Elastic Transcoder|:white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x:
 Amazon EventBridge|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Forecast|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
-Amazon Fraud Detector|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
+Amazon Fraud Detector|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 FreeRTOS|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon FSx for Windows File Server|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x:
 Amazon FSx for Lustre|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x:
