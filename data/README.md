@@ -1,30 +1,30 @@
 ### 76 Edge Locations
 ### 11 Regional Edge Caches
-### 199 Services
+### 201 Services
 
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 194
-us-west-2 | US West (Oregon) | 189
-ap-southeast-2 | Asia Pacific (Sydney) | 175
-us-east-2 | US East (Ohio) | 167
-ap-northeast-1 | Asia Pacific (Tokyo) | 167
-ap-southeast-1 | Asia Pacific (Singapore) | 165
-ap-northeast-2 | Asia Pacific (Seoul) | 149
-ap-south-1 | Asia Pacific (Mumbai) | 136
-ca-central-1 | Canada (Central) | 132
-us-west-1 | US West (N. California) | 131
-sa-east-1 | South America (São Paulo) | 123
-us-gov-west-1 | GovCloud (US-West) | 105
-ap-east-1 | Asia Pacific (Hong Kong) | 100
-us-gov-east-1 | GovCloud (US-East) | 83
+us-east-1 | US East (N. Virginia) | 196
+us-west-2 | US West (Oregon) | 191
+ap-southeast-2 | Asia Pacific (Sydney) | 177
+us-east-2 | US East (Ohio) | 169
+ap-northeast-1 | Asia Pacific (Tokyo) | 169
+ap-southeast-1 | Asia Pacific (Singapore) | 167
+ap-northeast-2 | Asia Pacific (Seoul) | 151
+ap-south-1 | Asia Pacific (Mumbai) | 138
+us-west-1 | US West (N. California) | 133
+ca-central-1 | Canada (Central) | 133
+sa-east-1 | South America (São Paulo) | 125
+us-gov-west-1 | GovCloud (US-West) | 107
+ap-east-1 | Asia Pacific (Hong Kong) | 101
+us-gov-east-1 | GovCloud (US-East) | 84
 cn-northwest-1 | China (Ningxia) | 76
 cn-north-1 | China (Beijing) | 74
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
-<img src='https://quickchart.io/chart/render/f-75a3217c-4920-4a10-8b1b-5c7fff0b3dc7'>
+<img src='https://quickchart.io/chart/render/f-541c9ae7-9cac-4dce-9819-4311c43be64d'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -142,6 +142,7 @@ AWS Certificate Manager Private CA|:white_check_mark: | :white_check_mark: | :wh
 AWS Chatbot|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS Cloud Map|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS CloudFormation|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS CloudFormation StackSets|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS Cloud9|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS CloudHSM|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS CloudHSM Classic|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
@@ -200,6 +201,7 @@ AWS Outposts|:white_check_mark: | :white_check_mark: | :white_check_mark: | :whi
 AWS Personal Health Dashboard|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS PrivateLink|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Resource Access Manager (RAM)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
+AWS Resource Groups|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS RoboMaker|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
 AWS Secrets Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Security Hub|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
