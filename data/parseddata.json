@@ -68,7 +68,7 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 138
+      "value": 140
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -947,7 +947,7 @@
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -966,7 +966,7 @@
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
