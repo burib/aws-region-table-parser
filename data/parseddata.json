@@ -3,17 +3,17 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 196
+      "value": 197
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 169
+      "value": 170
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 191
+      "value": 192
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -23,12 +23,12 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 134
+      "value": 136
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 125
+      "value": 126
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -43,12 +43,12 @@
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 167
+      "value": 168
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 169
+      "value": 170
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -58,7 +58,7 @@
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 177
+      "value": 178
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
@@ -68,22 +68,22 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 141
+      "value": 142
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 101
+      "value": 102
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 74
+      "value": 75
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 76
+      "value": 77
     }
   },
   "services": {
@@ -938,7 +938,7 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": true,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
@@ -957,7 +957,7 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": true,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
@@ -2070,7 +2070,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
       "ap-southeast-1": true,
@@ -2079,9 +2079,9 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "backup": {
       "us-east-1": true,
@@ -2310,6 +2310,25 @@
       "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
+    },
+    "codeartifact": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": false,
+      "ap-south-1": true,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "codebuild": {
       "us-east-1": true,
@@ -3990,6 +4009,7 @@
     "cloudhsm": "AWS CloudHSM",
     "cloudhsm_classic": "AWS CloudHSM Classic",
     "cloudtrail": "AWS CloudTrail",
+    "codeartifact": "AWS CodeArtifact",
     "codebuild": "AWS CodeBuild",
     "codecommit": "AWS CodeCommit",
     "codedeploy": "AWS CodeDeploy",
