@@ -17,14 +17,14 @@ ca-central-1 | Canada (Central) | 136
 us-west-1 | US West (N. California) | 133
 sa-east-1 | South America (São Paulo) | 126
 us-gov-west-1 | GovCloud (US-West) | 107
-ap-east-1 | Asia Pacific (Hong Kong) | 102
+ap-east-1 | Asia Pacific (Hong Kong) | 103
 us-gov-east-1 | GovCloud (US-East) | 84
 cn-northwest-1 | China (Ningxia) | 77
 cn-north-1 | China (Beijing) | 75
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
-<img src='https://quickchart.io/chart/render/f-e2c520d3-876e-423e-b37e-86dba95c4eb4'>
+<img src='https://quickchart.io/chart/render/f-58e59644-6a92-4472-8faf-7b33fe9e79d0'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -208,7 +208,7 @@ AWS Secrets Manager|:white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Security Hub|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS Serverless Application Repository|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark:
 AWS Server Migration Service|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark:
-AWS Service Catalog|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
+AWS Service Catalog|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS Shield Standard|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Shield Advanced|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
 AWS Single Sign-On|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
