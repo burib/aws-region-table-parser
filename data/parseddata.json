@@ -3,7 +3,7 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 197
+      "value": 198
     },
     "us-east-2": {
       "regionCode": "us-east-2",
@@ -13,7 +13,7 @@
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 192
+      "value": 193
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -3563,6 +3563,25 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "snowcone": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
     "snowmobile": {
       "us-east-1": true,
       "us-east-2": true,
@@ -4075,6 +4094,7 @@
     "shield_advanced": "AWS Shield Advanced",
     "single_sign-on": "AWS Single Sign-On",
     "snowball": "AWS Snowball",
+    "snowcone": "AWS Snowcone",
     "snowmobile": "AWS Snowmobile",
     "step_functions": "AWS Step Functions",
     "storage_gateway": "AWS Storage Gateway",
