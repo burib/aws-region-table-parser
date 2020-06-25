@@ -3,7 +3,7 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 200
+      "value": 201
     },
     "us-east-2": {
       "regionCode": "us-east-2",
@@ -13,7 +13,7 @@
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 195
+      "value": 196
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -23,12 +23,12 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 138
+      "value": 139
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 128
+      "value": 129
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -68,12 +68,12 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 144
+      "value": 145
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 106
+      "value": 107
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
@@ -1027,6 +1027,16 @@
       "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
+    },
+    "honeycode": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false
     },
     "inspector": {
       "us-east-1": true,
@@ -3284,7 +3294,7 @@
       "us-west-2": true,
       "us-west-1": true,
       "ca-central-1": true,
-      "sa-east-1": false,
+      "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
       "ap-southeast-1": true,
@@ -3292,7 +3302,7 @@
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -3758,7 +3768,7 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": true,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
@@ -3768,7 +3778,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -3998,6 +4008,7 @@
     "gamelift": "Amazon GameLift",
     "glacier": "Amazon Glacier",
     "guardduty": "Amazon GuardDuty",
+    "honeycode": "Amazon Honeycode",
     "inspector": "Amazon Inspector",
     "kendra": "Amazon Kendra",
     "kinesis_data_analytics": "Amazon Kinesis Data Analytics",
