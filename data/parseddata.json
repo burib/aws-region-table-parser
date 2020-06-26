@@ -3,7 +3,7 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 201
+      "value": 200
     },
     "us-east-2": {
       "regionCode": "us-east-2",
@@ -1029,7 +1029,7 @@
       "cn-northwest-1": false
     },
     "honeycode": {
-      "us-east-1": true,
+      "us-east-1": false,
       "us-east-2": false,
       "us-west-2": true,
       "us-west-1": false,
