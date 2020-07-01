@@ -8,7 +8,7 @@
 us-east-1 | US East (N. Virginia) | 200
 us-west-2 | US West (Oregon) | 196
 ap-southeast-2 | Asia Pacific (Sydney) | 180
-ap-northeast-1 | Asia Pacific (Tokyo) | 173
+ap-northeast-1 | Asia Pacific (Tokyo) | 174
 us-east-2 | US East (Ohio) | 172
 ap-southeast-1 | Asia Pacific (Singapore) | 171
 ap-northeast-2 | Asia Pacific (Seoul) | 153
@@ -24,7 +24,7 @@ cn-north-1 | China (Beijing) | 76
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 39
 
 
-<img src='https://quickchart.io/chart/render/f-b65c1226-62d3-4f5b-85f6-1df687dadb36'>
+<img src='https://quickchart.io/chart/render/f-f2aa863e-4a4a-401f-b2c3-ab0dc5fbbe62'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -86,7 +86,7 @@ Amazon Kinesis Data Analytics|:white_check_mark: | :white_check_mark: | :white_c
 Amazon Kinesis Data Firehose|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Kinesis Data Streams|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Kinesis Video Streams|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
-Amazon Lex|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
+Amazon Lex|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 Amazon Lightsail|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 Amazon Machine Learning|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x:
 Amazon Macie|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
