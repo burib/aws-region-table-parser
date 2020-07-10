@@ -1,6 +1,6 @@
 {
   "name": "aws-region-table-parser",
-  "version": "1.8.75",
+  "version": "1.8.76",
   "description": "read and parses aws region table html and returns a json object based on http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/",
   "main": "index.js",
   "author": "Balazs Buri",
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "cheerio": "0.20.0",
+    "cheerio": "1.0.0-rc.3",
     "request": "2.88.2"
   },
   "scripts": {

@@ -6,12 +6,14 @@ const locationsMap = {
   regionalEdgeCaches: []
 };
 
-const transpose = array => array[0].map((_, c) => array.map(r => r[c]));
+const transpose = (array = []) => {
+  return (array && array[0]) ? array[0].map((_, c) => array.map(r => r[c])) : [];
+};
 const flatten = (array) => {
   return array.reduce(
     (acc, cur) => acc.concat(cur),
     []
-  ).filter((item) => {
+  ).filter((item = '') => {
     return item.length > 0;
   });
 };
@@ -24,57 +26,63 @@ function parseAwsTable(html) {
   $('table').each(function(awsTableIndex) {
     let regions = [];
 
-    if (awsTableIndex !== 3) {
-      $(this).find('tbody tr').each(function(rowIndex, row) {
-        const headers = $(row).find('th');
-        const coloumns = $(row).find('td');
+    const isServiceTable = $(this).text().toLowerCase().includes('services offered');
+    // TODO: do a better check if table is AWS Edge Network Locations table.
+    if (isServiceTable) {
+      $(this).find('tr').each(function(rowIndex, row) {
+        // first <tr> always has the Region Name
+        const coloumns = $(row).find('th').length > 0 ? $(row).find('th') : $(row).find('td');
+        if (rowIndex === 0) {
 
-        headers.each(function (coloumnIndex,coloumn) {
-          console.log($(coloumn).text());
-          let region = null;
-          const parsedRegionName = $(coloumn).text().toLowerCase().trim()
+          coloumns.each(function (coloumnIndex, coloumn) {
+            let region = null;
+            const parsedRegionName = $(coloumn).text().toLowerCase().trim()
               .replace(/ /ig, '_')
               .replace(/[()* ]/ig, '').trim();
 
-          if (parsedRegionName.length > 0) {
-            region = regionNames[parsedRegionName] || {};
-          }
-
-          if (!parsedRegionName || parsedRegionName !== 'services_offered:' && typeof region.code === 'undefined') {
-            console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
-          } else {
-            regions.push(region.code);
-          }
-        });
-
-        const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
-        let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
-
-        if (parsedServiceName) {
-          coloumns.each(function (coloumnIndex,coloumn) {
-            if (coloumnIndex === 0) {
-              services[serviceName] = services[serviceName] || {};
-            } else {
-              let regionCode = regions[coloumnIndex];
-              let isServiceSupportedInRegion = $(coloumn).text() === '✓';
-
-              if (regionCode) {
-                services[serviceName][regionCode] = isServiceSupportedInRegion;
-
-                regionSummary[regionCode] = regionSummary[regionCode] || {
-                  regionCode: regionCode,
-                  regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
-                  value: 0
-                };
-
-                if (isServiceSupportedInRegion) {
-                  regionSummary[regionCode].value++;
-                }
-              }
+            if (parsedRegionName.length > 0) {
+              region = regionNames[parsedRegionName] || {};
             }
 
-            serviceNames[serviceName] = parsedServiceName;
+            if (!region.code && !parsedRegionName.includes('services_offered:')) {
+              console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
+            }
+
+            if (region.code) {
+              regions.push(region.code);
+            }
           });
+        }
+        else {
+          const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
+          let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
+
+          if (parsedServiceName) {
+            coloumns.each(function (coloumnIndex,coloumn) {
+              if (coloumnIndex === 0) {
+                services[serviceName] = services[serviceName] || {};
+              } else {
+                let regionCode = regions[coloumnIndex];
+                let isServiceSupportedInRegion = $(coloumn).text() === '✓';
+
+                if (regionCode) {
+                  services[serviceName][regionCode] = isServiceSupportedInRegion;
+
+                  regionSummary[regionCode] = regionSummary[regionCode] || {
+                    regionCode: regionCode,
+                    regionName: Object.values(regionNames).filter(region => region.code === regionCode)[0].name,
+                    value: 0
+                  };
+
+                  if (isServiceSupportedInRegion) {
+                    regionSummary[regionCode].value++;
+                  }
+                }
+              }
+
+              serviceNames[serviceName] = parsedServiceName;
+            });
+          }
         }
       });
     } else {
@@ -110,9 +118,9 @@ function parseAwsTable(html) {
   locationsMap.edgeLocations = transpose(locationsMap.edgeLocations);
   locationsMap.regionalEdgeCaches = transpose(locationsMap.regionalEdgeCaches);
 
-  const addCountryNameToUsLocations = (array) => {
-    return array.map((location) => {
-      if (location.match(/ \(.+?\)/ig)) {
+  const addCountryNameToUsLocations = (array = []) => {
+    return array.map((location = '') => {
+      if (location && location.match(/ \(.+?\)/ig)) {
         return location.replace(/ \(.+?\)/ig, ', United States$&')
       } else {
         return location.length > 0 ? `${location}, United States` : ''
@@ -126,9 +134,16 @@ function parseAwsTable(html) {
   locationsMap.edgeLocations = flatten(locationsMap.edgeLocations);
   locationsMap.regionalEdgeCaches = flatten(locationsMap.regionalEdgeCaches);
 
-  console.log('\x1b[32m%s\x1b[0m', locationsMap.edgeLocations.length + ' different AWS Edge Locations found.');
-  console.log('\x1b[32m%s\x1b[0m', locationsMap.regionalEdgeCaches.length + ' different AWS Regional Edge Cache Locations found.');
+  let edgeLocationsCount = 0;
+
+  locationsMap.edgeLocations.forEach((edgeLocation) => {
+    edgeLocationsCount += parseInt(edgeLocation.replace(/\D/g, ''), 10) || 1;
+  });
+
+  console.log('\x1b[32m%s\x1b[0m', Object.keys(regionSummary).length + ' different AWS Regions found.');
   console.log('\x1b[32m%s\x1b[0m', Object.keys(services).length + ' AWS Services found.');
+  console.log('\x1b[32m%s\x1b[0m', edgeLocationsCount + ' AWS Edge Locations found in ' + locationsMap.edgeLocations.length + ' cities.');
+  console.log('\x1b[32m%s\x1b[0m', locationsMap.regionalEdgeCaches.length + ' different AWS Regional Edge Cache Locations found.');
 
   return {
     regionSummary: regionSummary,

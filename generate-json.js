@@ -65,7 +65,7 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
   READMEheader += `### ${services.length} Services\n\n`;
   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
   READMEheader += `# Region and Service Table # \n`
-  READMEheader += `| | ${Object.keys(regions).join(' | ')} |\n`;
+  READMEheader += `| | ${Object.keys(regions || {}).join(' | ')} |\n`;
   READMEheader += `| ------------- | ${Object.keys(regions).fill('-------------').join(' | ')}|`;
   const READMErows = [];
 
