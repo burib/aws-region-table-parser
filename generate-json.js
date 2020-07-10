@@ -53,23 +53,20 @@ async function generateRegionSummaryMarkdown(parseddata) {
 awsRegionTableParser.get().then(async function (servicesAndRegions) {
   fs.writeFileSync('./data/parseddata.json', JSON.stringify(servicesAndRegions, null, 2), 'utf8');
 
-  // TODO: clean this up
-  const services = Object.values(servicesAndRegions.services);
-  const edgeLocations = servicesAndRegions.edgeLocations;
   const regionalEdgeCaches = servicesAndRegions.regionalEdgeCaches;
 
-  const regions = services[0];
-
-  let READMEheader = `### ${edgeLocations.length} Edge Locations\n`;
+  let READMEheader = `### ${servicesAndRegions.regionsCount} Regions \n`;
+  READMEheader += `### ${servicesAndRegions.servicesCount} Services\n\n`;
+  READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount} AWS Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.`;
   READMEheader += `### ${regionalEdgeCaches.length} Regional Edge Caches\n`;
-  READMEheader += `### ${services.length} Services\n\n`;
+
   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
   READMEheader += `# Region and Service Table # \n`
   READMEheader += `| | ${Object.keys(regions || {}).join(' | ')} |\n`;
   READMEheader += `| ------------- | ${Object.keys(regions).fill('-------------').join(' | ')}|`;
   const READMErows = [];
 
-  for (var value in servicesAndRegions.services) {
+  for (const value in servicesAndRegions.services) {
     const longServiceName = servicesAndRegions.serviceNames[value];
     const row = `${longServiceName}|${Object.values(servicesAndRegions.services[value]).map(value => value ? ':white_check_mark:' : ':x:').join(' | ')}`;
 

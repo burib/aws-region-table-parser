@@ -133,21 +133,29 @@ function parseAwsTable(html) {
   locationsMap.edgeLocations = flatten(locationsMap.edgeLocations);
   locationsMap.regionalEdgeCaches = flatten(locationsMap.regionalEdgeCaches);
 
-  let edgeLocationsCount = 0;
+  const edgeLocationsCount = locationsMap.edgeLocations.length;
+  let edgeLocationsTotalCount = 0;
 
   locationsMap.edgeLocations.forEach((edgeLocation) => {
-    edgeLocationsCount += parseInt(edgeLocation.replace(/\D/g, ''), 10) || 1;
+    edgeLocationsTotalCount += parseInt(edgeLocation.replace(/\D/g, ''), 10) || 1;
   });
 
-  console.log('\x1b[32m%s\x1b[0m', Object.keys(regionSummary).length + ' different AWS Regions found.');
-  console.log('\x1b[32m%s\x1b[0m', Object.keys(services).length + ' AWS Services found.');
-  console.log('\x1b[32m%s\x1b[0m', edgeLocationsCount + ' AWS Edge Locations found in ' + locationsMap.edgeLocations.length + ' cities.');
+
+  const regionsCount = Object.keys(regionSummary).length;
+  const servicesCount = Object.keys(services).length;
+  console.log('\x1b[32m%s\x1b[0m', regionsCount + ' different AWS Regions found.');
+  console.log('\x1b[32m%s\x1b[0m', servicesCount + ' AWS Services found.');
+  console.log('\x1b[32m%s\x1b[0m', edgeLocationsTotalCount + ' AWS Edge Locations found in ' + edgeLocationsCount + ' cities.');
   console.log('\x1b[32m%s\x1b[0m', locationsMap.regionalEdgeCaches.length + ' different AWS Regional Edge Cache Locations found.');
 
   return {
+    regionsCount: regionsCount,
     regionSummary: regionSummary,
+    servicesCount: servicesCount,
     services: services,
     serviceNames: serviceNames,
+    edgeLocationsTotalCount: edgeLocationsTotalCount,
+    edgeLocationsCount: edgeLocationsCount,
     edgeLocations: locationsMap.edgeLocations,
     regionalEdgeCaches: locationsMap.regionalEdgeCaches
   };
