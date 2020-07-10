@@ -1,7 +1,8 @@
 ###  25 Regions 
 ### 206 Services
 
-### 192 Edge Locations in 78 cities.###  11 Regional Edge Caches
+### 192 Edge Locations in 78 cities.
+###  11 Regional Edge Caches
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
@@ -32,7 +33,7 @@ eu-south-1 | EU (Milan) | 62
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 39
 
 
-<img src='https://quickchart.io/chart/render/f-48129209-f4c5-4b22-9400-4be46dbe4cec'>
+<img src='https://quickchart.io/chart/render/f-f461cbd8-8ba0-42c8-bd76-8f036325b973'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-south-1 | eu-west-3 | eu-north-1 | me-south-1 | af-south-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
