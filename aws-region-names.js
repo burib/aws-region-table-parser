@@ -15,6 +15,10 @@ module.exports = {
     'name': 'US West (N. California)',
     'code': 'us-west-1'
   },
+  'cape_town' : {
+    'name': 'Africa (Cape Town)',
+    'code': 'af-south-1'
+  },
   'montreal' : {
     'name': 'Canada (Central)',
     'code': 'ca-central-1'
