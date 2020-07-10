@@ -2,7 +2,7 @@
 Currently AWS has no API to query which service available in which region.  
 This project scrapes their [Regional Product Services](http://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) url and creates a serviceName to region map as a [json object](https://github.com/burib/aws-region-table-parser/blob/master/data/parseddata.json). ( runs every day at 12:00 UTC noon )
 
-Example:
+Example of parsed data:
 ```json
 {
    "services": {
@@ -39,7 +39,11 @@ Example:
 }
 ```
 
-#### How to Initiate a new Parsing
+#### [Text Summary of Regions:](https://github.com/burib/aws-region-table-parser/blob/master/data/README.md) 
+
+
+
+#### How to Initiate a new Parsing locally
  ```bash 
 npm start
 ```
