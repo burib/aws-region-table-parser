@@ -55,7 +55,7 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
 
   let READMEheader = `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
   READMEheader += `### ${servicesAndRegions.servicesCount.toString().padStart(3)} Services\n\n`;
-  READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount.toString().padStart(3)} Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.`;
+  READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount.toString().padStart(3)} Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.\n`;
   READMEheader += `### ${servicesAndRegions.regionalEdgeCachesCount.toString().padStart(3)} Regional Edge Caches\n`;
 
   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
