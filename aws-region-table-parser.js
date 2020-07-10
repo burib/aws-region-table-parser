@@ -32,8 +32,8 @@ function parseAwsTable(html) {
       $(this).find('tr').each(function(rowIndex, row) {
         // first <tr> always has the Region Name
         const coloumns = $(row).find('th').length > 0 ? $(row).find('th') : $(row).find('td');
-        if (rowIndex === 0) {
 
+        if (rowIndex === 0) {
           coloumns.each(function (coloumnIndex, coloumn) {
             let region = null;
             const parsedRegionName = $(coloumn).text().toLowerCase().trim()
@@ -52,8 +52,7 @@ function parseAwsTable(html) {
               regions.push(region.code);
             }
           });
-        }
-        else {
+        } else {
           const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
           let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
 
@@ -62,7 +61,7 @@ function parseAwsTable(html) {
               if (coloumnIndex === 0) {
                 services[serviceName] = services[serviceName] || {};
               } else {
-                let regionCode = regions[coloumnIndex];
+                let regionCode = regions[coloumnIndex -1];
                 let isServiceSupportedInRegion = $(coloumn).text() === '✓';
 
                 if (regionCode) {
