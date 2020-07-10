@@ -1,5 +1,4 @@
 {
-  "regionsCount": 25,
   "regionSummary": {
     "us-east-1": {
       "regionCode": "us-east-1",
@@ -127,7 +126,6 @@
       "value": 78
     }
   },
-  "servicesCount": 206,
   "services": {
     "alexa_for_business": {
       "us-east-1": true,
@@ -5831,8 +5829,6 @@
     "comprehend medical": "Amazon Comprehend Medical",
     "sagemaker neo": "Amazon SageMaker Neo"
   },
-  "edgeLocationsTotalCount": 192,
-  "edgeLocationsCount": 78,
   "edgeLocations": [
     "Ashburn, VA, United States (6)",
     "Boston, MA, United States (3)",
@@ -5925,5 +5921,10 @@
     "Singapore",
     "Sydney, Australia",
     "Tokyo, Japan"
-  ]
+  ],
+  "regionsCount": 25,
+  "servicesCount": 206,
+  "edgeLocationsTotalCount": 192,
+  "edgeLocationsCount": 78,
+  "regionalEdgeCachesCount": 11
 }

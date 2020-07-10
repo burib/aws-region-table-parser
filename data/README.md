@@ -1,7 +1,7 @@
-### 78 Edge Locations
-### 11 Regional Edge Caches
+###  25 Regions 
 ### 206 Services
 
+### 192 Edge Locations in 78 cities.###  11 Regional Edge Caches
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
@@ -11,8 +11,8 @@ eu-west-1 | EU (Ireland) | 192
 ap-southeast-2 | Asia Pacific (Sydney) | 180
 ap-northeast-1 | Asia Pacific (Tokyo) | 173
 us-east-2 | US East (Ohio) | 172
-eu-central-1 | EU (Frankfurt) | 171
 ap-southeast-1 | Asia Pacific (Singapore) | 171
+eu-central-1 | EU (Frankfurt) | 171
 eu-west-2 | EU (London) | 157
 ap-northeast-2 | Asia Pacific (Seoul) | 153
 ap-south-1 | Asia Pacific (Mumbai) | 145
@@ -27,12 +27,12 @@ me-south-1 | Middle East (Bahrain) | 96
 us-gov-east-1 | GovCloud (US-East) | 86
 cn-northwest-1 | China (Ningxia) | 78
 cn-north-1 | China (Beijing) | 76
-eu-south-1 | EU (Milan) | 62
 af-south-1 | Africa (Cape Town) | 62
+eu-south-1 | EU (Milan) | 62
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 39
 
 
-<img src='https://quickchart.io/chart/render/f-dd8848c9-6270-4ef4-9d9f-26c62390119e'>
+<img src='https://quickchart.io/chart/render/f-48129209-f4c5-4b22-9400-4be46dbe4cec'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-south-1 | eu-west-3 | eu-north-1 | me-south-1 | af-south-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |

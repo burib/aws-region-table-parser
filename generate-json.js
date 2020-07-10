@@ -53,17 +53,15 @@ async function generateRegionSummaryMarkdown(parseddata) {
 awsRegionTableParser.get().then(async function (servicesAndRegions) {
   fs.writeFileSync('./data/parseddata.json', JSON.stringify(servicesAndRegions, null, 2), 'utf8');
 
-  const regionalEdgeCaches = servicesAndRegions.regionalEdgeCaches;
-
-  let READMEheader = `### ${servicesAndRegions.regionsCount} Regions \n`;
-  READMEheader += `### ${servicesAndRegions.servicesCount} Services\n\n`;
-  READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount} AWS Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.`;
-  READMEheader += `### ${regionalEdgeCaches.length} Regional Edge Caches\n`;
+  let READMEheader = `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
+  READMEheader += `### ${servicesAndRegions.servicesCount.toString().padStart(3)} Services\n\n`;
+  READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount.toString().padStart(3)} Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.`;
+  READMEheader += `### ${servicesAndRegions.regionalEdgeCachesCount.toString().padStart(3)} Regional Edge Caches\n`;
 
   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
   READMEheader += `# Region and Service Table # \n`
-  READMEheader += `| | ${Object.keys(regions || {}).join(' | ')} |\n`;
-  READMEheader += `| ------------- | ${Object.keys(regions).fill('-------------').join(' | ')}|`;
+  READMEheader += `| | ${Object.keys(servicesAndRegions.regionSummary || {}).join(' | ')} |\n`;
+  READMEheader += `| ------------- | ${Object.keys(servicesAndRegions.regionSummary).fill('-------------').join(' | ')}|`;
   const READMErows = [];
 
   for (const value in servicesAndRegions.services) {
