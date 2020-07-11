@@ -8,7 +8,7 @@
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 172
+      "value": 173
     },
     "us-west-2": {
       "regionCode": "us-west-2",
@@ -18,17 +18,17 @@
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 135
+      "value": 136
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 139
+      "value": 140
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 129
+      "value": 130
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
@@ -38,7 +38,7 @@
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 86
+      "value": 87
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
@@ -58,37 +58,37 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 62
+      "value": 64
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 129
+      "value": 130
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 126
+      "value": 127
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 96
+      "value": 97
     },
     "af-south-1": {
       "regionCode": "af-south-1",
       "regionName": "Africa (Cape Town)",
-      "value": 62
+      "value": 64
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 171
+      "value": 172
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 173
+      "value": 175
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
@@ -103,27 +103,27 @@
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 153
+      "value": 154
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 145
+      "value": 146
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 107
+      "value": 108
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 76
+      "value": 78
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 78
+      "value": 80
     }
   },
   "services": {
@@ -203,7 +203,7 @@
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -790,8 +790,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "ec2_spot_instances": {
       "us-east-1": true,
@@ -1658,7 +1658,7 @@
       "me-south-1": false,
       "af-south-1": false,
       "ap-southeast-1": true,
-      "ap-northeast-1": false,
+      "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
       "ap-northeast-2": false,
@@ -2246,11 +2246,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -2362,7 +2362,7 @@
     },
     "simple_email_service_ses": {
       "us-east-1": true,
-      "us-east-2": false,
+      "us-east-2": true,
       "us-west-2": true,
       "us-west-1": false,
       "ca-central-1": true,
@@ -2377,11 +2377,11 @@
       "eu-north-1": false,
       "me-south-1": false,
       "af-south-1": false,
-      "ap-southeast-1": false,
-      "ap-northeast-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
+      "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
@@ -2904,17 +2904,17 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
-      "ca-central-1": false,
-      "sa-east-1": false,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
       "eu-south-1": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
+      "eu-west-3": true,
+      "eu-north-1": true,
       "me-south-1": false,
       "af-south-1": false,
       "ap-southeast-1": true,
@@ -3178,7 +3178,7 @@
       "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": true,
-      "us-gov-east-1": false,
+      "us-gov-east-1": true,
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
@@ -4047,7 +4047,7 @@
       "eu-south-1": false,
       "eu-west-3": true,
       "eu-north-1": true,
-      "me-south-1": false,
+      "me-south-1": true,
       "af-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -4055,7 +4055,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
     },
@@ -4329,7 +4329,7 @@
       "cn-north-1": true,
       "cn-northwest-1": false
     },
-    "iot_sitewise_preview": {
+    "iot_sitewise": {
       "us-east-1": true,
       "us-east-2": false,
       "us-west-2": true,
@@ -4345,16 +4345,7 @@
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
-      "af-south-1": false,
-      "ap-southeast-1": false,
-      "ap-northeast-1": false,
-      "ap-northeast-3": false,
-      "ap-southeast-2": false,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "af-south-1": false
     },
     "iot_things_graph": {
       "us-east-1": true,
@@ -4773,11 +4764,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -5298,8 +5289,8 @@
       "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": true,
-      "cn-north-1": false,
-      "cn-northwest-1": false
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "trusted_advisor": {
       "us-east-1": true,
@@ -5619,6 +5610,17 @@
       "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
+    },
+    "iot_sitewise_preview": {
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     }
   },
   "serviceNames": {
@@ -5779,7 +5781,7 @@
     "iot_device_management": "AWS IoT Device Management",
     "iot_events": "AWS IoT Events",
     "iot_greengrass": "AWS IoT Greengrass",
-    "iot_sitewise_preview": "AWS IoT SiteWise (preview)",
+    "iot_sitewise": "AWS IoT SiteWise",
     "iot_things_graph": "AWS IoT Things Graph",
     "key_management_service": "AWS Key Management Service",
     "lake_formation": "AWS Lake Formation",
@@ -5827,7 +5829,8 @@
     "vm_importexport": "VM Import/Export",
     "vmware_cloud_on_aws": "VMware Cloud on AWS",
     "comprehend medical": "Amazon Comprehend Medical",
-    "sagemaker neo": "Amazon SageMaker Neo"
+    "sagemaker neo": "Amazon SageMaker Neo",
+    "iot_sitewise_preview": "AWS IoT SiteWise (preview)"
   },
   "edgeLocations": [
     "Ashburn, VA, United States (6)",
@@ -5923,7 +5926,7 @@
     "Tokyo, Japan"
   ],
   "regionsCount": 25,
-  "servicesCount": 206,
+  "servicesCount": 207,
   "edgeLocationsTotalCount": 192,
   "edgeLocationsCount": 78,
   "regionalEdgeCachesCount": 11
