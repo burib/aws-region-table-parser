@@ -18,7 +18,7 @@
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 136
+      "value": 137
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
@@ -1887,7 +1887,7 @@
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
-      "us-west-1": false,
+      "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": false,
       "us-gov-west-1": true,
