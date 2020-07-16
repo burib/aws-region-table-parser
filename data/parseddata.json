@@ -3,7 +3,7 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 200
+      "value": 201
     },
     "us-east-2": {
       "regionCode": "us-east-2",
@@ -13,7 +13,7 @@
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 196
+      "value": 197
     },
     "us-west-1": {
       "regionCode": "us-west-1",
@@ -48,7 +48,7 @@
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 192
+      "value": 193
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
@@ -58,7 +58,7 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 64
+      "value": 65
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -78,7 +78,7 @@
     "af-south-1": {
       "regionCode": "af-south-1",
       "regionName": "Africa (Cape Town)",
-      "value": 64
+      "value": 65
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -1501,6 +1501,33 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
+    },
+    "ivs": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": false,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
+      "eu-central-1": false,
+      "eu-west-1": true,
+      "eu-west-2": false,
+      "eu-south-1": false,
+      "eu-west-3": false,
+      "eu-north-1": false,
+      "me-south-1": false,
+      "af-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -4953,11 +4980,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -5676,6 +5703,7 @@
     "guardduty": "Amazon GuardDuty",
     "honeycode": "Amazon Honeycode",
     "inspector": "Amazon Inspector",
+    "ivs": "Amazon IVS",
     "kendra": "Amazon Kendra",
     "kinesis_data_analytics": "Amazon Kinesis Data Analytics",
     "kinesis_data_firehose": "Amazon Kinesis Data Firehose",
@@ -5926,7 +5954,7 @@
     "Tokyo, Japan"
   ],
   "regionsCount": 25,
-  "servicesCount": 207,
+  "servicesCount": 208,
   "edgeLocationsTotalCount": 192,
   "edgeLocationsCount": 78,
   "regionalEdgeCachesCount": 11
