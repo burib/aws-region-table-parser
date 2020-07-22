@@ -23,7 +23,7 @@
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 140
+      "value": 141
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
@@ -58,7 +58,7 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 65
+      "value": 66
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -78,7 +78,7 @@
     "af-south-1": {
       "regionCode": "af-south-1",
       "regionName": "Africa (Cape Town)",
-      "value": 65
+      "value": 66
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -1598,11 +1598,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -4372,7 +4372,16 @@
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
-      "af-south-1": false
+      "af-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": false,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "iot_things_graph": {
       "us-east-1": true,
@@ -5081,7 +5090,7 @@
       "us-east-2": true,
       "us-west-2": true,
       "us-west-1": true,
-      "ca-central-1": false,
+      "ca-central-1": true,
       "sa-east-1": true,
       "us-gov-west-1": true,
       "us-gov-east-1": true,
@@ -5637,17 +5646,6 @@
       "ap-east-1": true,
       "cn-north-1": false,
       "cn-northwest-1": false
-    },
-    "iot_sitewise_preview": {
-      "ap-southeast-1": false,
-      "ap-northeast-1": false,
-      "ap-northeast-3": false,
-      "ap-southeast-2": false,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
     }
   },
   "serviceNames": {
@@ -5857,8 +5855,7 @@
     "vm_importexport": "VM Import/Export",
     "vmware_cloud_on_aws": "VMware Cloud on AWS",
     "comprehend medical": "Amazon Comprehend Medical",
-    "sagemaker neo": "Amazon SageMaker Neo",
-    "iot_sitewise_preview": "AWS IoT SiteWise (preview)"
+    "sagemaker neo": "Amazon SageMaker Neo"
   },
   "edgeLocations": [
     "Ashburn, VA, United States (6)",
@@ -5954,7 +5951,7 @@
     "Tokyo, Japan"
   ],
   "regionsCount": 25,
-  "servicesCount": 208,
+  "servicesCount": 207,
   "edgeLocationsTotalCount": 192,
   "edgeLocationsCount": 78,
   "regionalEdgeCachesCount": 11
