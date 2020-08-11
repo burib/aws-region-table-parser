@@ -3,127 +3,127 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 188
+      "value": 186
     },
     "us-east-2": {
       "regionCode": "us-east-2",
       "regionName": "US East (Ohio)",
-      "value": 162
+      "value": 160
     },
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 184
+      "value": 182
     },
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 129
+      "value": 127
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 135
+      "value": 133
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 122
+      "value": 120
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 101
+      "value": 99
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 78
+      "value": 76
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 159
+      "value": 157
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
       "regionName": "EU (Ireland)",
-      "value": 179
+      "value": 177
     },
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 149
+      "value": 147
     },
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 73
+      "value": 72
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 127
+      "value": 125
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 124
+      "value": 122
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 99
+      "value": 97
     },
     "af-south-1": {
       "regionCode": "af-south-1",
       "regionName": "Africa (Cape Town)",
-      "value": 70
+      "value": 69
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 160
+      "value": 158
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 164
+      "value": 162
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 39
+      "value": 37
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 169
+      "value": 167
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 146
+      "value": 144
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 137
+      "value": 135
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 105
+      "value": 103
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 79
+      "value": 77
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 79
+      "value": 77
     }
   },
   "services": {
@@ -425,33 +425,6 @@
       "cn-northwest-1": false
     },
     "cloudwatch": {
-      "us-east-1": true,
-      "us-east-2": true,
-      "us-west-2": true,
-      "us-west-1": true,
-      "ca-central-1": true,
-      "sa-east-1": true,
-      "us-gov-west-1": true,
-      "us-gov-east-1": true,
-      "eu-central-1": true,
-      "eu-west-1": true,
-      "eu-west-2": true,
-      "eu-south-1": true,
-      "eu-west-3": true,
-      "eu-north-1": true,
-      "me-south-1": true,
-      "af-south-1": true,
-      "ap-southeast-1": true,
-      "ap-northeast-1": true,
-      "ap-northeast-3": true,
-      "ap-southeast-2": true,
-      "ap-northeast-2": true,
-      "ap-south-1": true,
-      "ap-east-1": true,
-      "cn-north-1": true,
-      "cn-northwest-1": true
-    },
-    "cloudwatch_events": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -901,7 +874,7 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
-    "elastic_mapreduce": {
+    "elastic_mapreduce emr": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1170,33 +1143,6 @@
       "ap-east-1": false,
       "cn-north-1": true,
       "cn-northwest-1": false
-    },
-    "glacier": {
-      "us-east-1": true,
-      "us-east-2": true,
-      "us-west-2": true,
-      "us-west-1": true,
-      "ca-central-1": true,
-      "sa-east-1": true,
-      "us-gov-west-1": true,
-      "us-gov-east-1": true,
-      "eu-central-1": true,
-      "eu-west-1": true,
-      "eu-west-2": true,
-      "eu-south-1": true,
-      "eu-west-3": true,
-      "eu-north-1": true,
-      "me-south-1": true,
-      "af-south-1": true,
-      "ap-southeast-1": true,
-      "ap-northeast-1": true,
-      "ap-northeast-3": true,
-      "ap-southeast-2": true,
-      "ap-northeast-2": true,
-      "ap-south-1": true,
-      "ap-east-1": true,
-      "cn-north-1": true,
-      "cn-northwest-1": true
     },
     "guardduty": {
       "us-east-1": true,
@@ -2495,7 +2441,7 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
-    "amplify_console": {
+    "amplify": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -3720,11 +3666,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": false,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -4626,7 +4572,7 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
-    "server_migration_service": {
+    "server_migration_service sms": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -5310,7 +5256,6 @@
     "cloudfront": "Amazon CloudFront",
     "cloudsearch": "Amazon CloudSearch",
     "cloudwatch": "Amazon CloudWatch",
-    "cloudwatch_events": "Amazon CloudWatch Events",
     "codeguru": "Amazon CodeGuru",
     "cognito": "Amazon Cognito",
     "comprehend": "Amazon Comprehend",
@@ -5327,7 +5272,7 @@
     "elastic_compute_cloud_ec2": "Amazon Elastic Compute Cloud (EC2)",
     "elastic_file_system_efs": "Amazon Elastic File System (EFS)",
     "elastic_inference": "Amazon Elastic Inference",
-    "elastic_mapreduce": "Amazon Elastic MapReduce",
+    "elastic_mapreduce emr": "Amazon Elastic MapReduce (EMR)",
     "elasticsearch_service": "Amazon Elasticsearch Service",
     "elastic_transcoder": "Amazon Elastic Transcoder",
     "eventbridge": "Amazon EventBridge",
@@ -5337,7 +5282,6 @@
     "fsx_for_windows_file_server": "Amazon FSx for Windows File Server",
     "fsx_for_lustre": "Amazon FSx for Lustre",
     "gamelift": "Amazon GameLift",
-    "glacier": "Amazon Glacier",
     "guardduty": "Amazon GuardDuty",
     "honeycode": "Amazon Honeycode",
     "inspector": "Amazon Inspector",
@@ -5387,7 +5331,7 @@
     "workmail": "Amazon WorkMail",
     "workspaces": "Amazon WorkSpaces",
     "workspaces_application_manager": "Amazon WorkSpaces Application Manager",
-    "amplify_console": "AWS Amplify Console",
+    "amplify": "AWS Amplify",
     "application_discovery_service": "AWS Application Discovery Service",
     "app_mesh": "AWS App Mesh",
     "appsync": "AWS AppSync",
@@ -5466,7 +5410,7 @@
     "secrets_manager": "AWS Secrets Manager",
     "security_hub": "AWS Security Hub",
     "serverless_application_repository": "AWS Serverless Application Repository",
-    "server_migration_service": "AWS Server Migration Service",
+    "server_migration_service sms": "AWS Server Migration Service (SMS)",
     "service_catalog": "AWS Service Catalog",
     "shield_standard": "AWS Shield Standard",
     "shield_advanced": "AWS Shield Advanced",
@@ -5588,7 +5532,7 @@
     "Tokyo, Japan"
   ],
   "regionsCount": 25,
-  "servicesCount": 194,
+  "servicesCount": 192,
   "edgeLocationsTotalCount": 193,
   "edgeLocationsCount": 79,
   "regionalEdgeCachesCount": 11
