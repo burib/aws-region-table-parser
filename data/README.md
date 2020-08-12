@@ -2,7 +2,7 @@
 ### 192 Services
 
 ### 193 Edge Locations in 79 cities.
-###  11 Regional Edge Caches
+###  12 Regional Edge Caches
 ### Region Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
@@ -33,7 +33,7 @@ af-south-1 | Africa (Cape Town) | 69
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 37
 
 
-<img src='https://quickchart.io/chart/render/f-df83fb00-2e99-4b7d-a11d-6649aa786c57'>
+<img src='https://quickchart.io/chart/render/f-e2837c02-0074-4136-acbb-87608d990702'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-south-1 | eu-west-3 | eu-north-1 | me-south-1 | af-south-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |

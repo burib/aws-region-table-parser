@@ -5523,6 +5523,7 @@
     "Ohio, United States",
     "Oregon, United States",
     "São Paulo, Brazil",
+    "Dublin, Ireland",
     "Frankfurt, Germany",
     "London, England",
     "Mumbai, India",
@@ -5535,5 +5536,5 @@
   "servicesCount": 192,
   "edgeLocationsTotalCount": 193,
   "edgeLocationsCount": 79,
-  "regionalEdgeCachesCount": 11
+  "regionalEdgeCachesCount": 12
 }
