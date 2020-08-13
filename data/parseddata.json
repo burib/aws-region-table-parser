@@ -43,7 +43,7 @@
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 157
+      "value": 158
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -58,7 +58,7 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 72
+      "value": 73
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -2153,10 +2153,10 @@
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
