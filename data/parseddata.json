@@ -3,7 +3,7 @@
     "us-east-1": {
       "regionCode": "us-east-1",
       "regionName": "US East (N. Virginia)",
-      "value": 186
+      "value": 187
     },
     "us-east-2": {
       "regionCode": "us-east-2",
@@ -13,12 +13,12 @@
     "us-west-2": {
       "regionCode": "us-west-2",
       "regionName": "US West (Oregon)",
-      "value": 182
+      "value": 183
     },
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 127
+      "value": 128
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
@@ -315,6 +315,16 @@
       "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
+    },
+    "braket": {
+      "us-east-1": true,
+      "us-east-2": false,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": false,
+      "sa-east-1": false,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false
     },
     "chime": {
       "us-east-1": true,
@@ -5251,6 +5261,7 @@
     "appflow": "Amazon AppFlow",
     "augmented_ai_a2i": "Amazon Augmented AI (A2I)",
     "aurora": "Amazon Aurora",
+    "braket": "Amazon Braket",
     "chime": "Amazon Chime",
     "cloud_directory": "Amazon Cloud Directory",
     "cloudfront": "Amazon CloudFront",
@@ -5533,7 +5544,7 @@
     "Tokyo, Japan"
   ],
   "regionsCount": 25,
-  "servicesCount": 192,
+  "servicesCount": 193,
   "edgeLocationsTotalCount": 193,
   "edgeLocationsCount": 79,
   "regionalEdgeCachesCount": 12
