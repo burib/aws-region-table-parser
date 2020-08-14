@@ -558,7 +558,16 @@
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
-      "af-south-1": false
+      "af-south-1": false,
+      "ap-southeast-1": false,
+      "ap-northeast-1": false,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": false,
+      "ap-south-1": false,
+      "ap-east-1": false,
+      "cn-north-1": false,
+      "cn-northwest-1": false
     },
     "connect": {
       "us-east-1": true,
@@ -884,7 +893,7 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
-    "elastic_mapreduce emr": {
+    "elastic_mapreduce_emr": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -1990,7 +1999,16 @@
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false
+      "af-south-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "simple_email_service_ses": {
       "us-east-1": true,
@@ -3180,7 +3198,7 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
-    "data exchange": {
+    "data_exchange": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -4582,7 +4600,7 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
-    "server_migration_service sms": {
+    "server_migration_service_sms": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -5229,28 +5247,6 @@
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
-    },
-    "comprehend medical": {
-      "ap-southeast-1": false,
-      "ap-northeast-1": false,
-      "ap-northeast-3": false,
-      "ap-southeast-2": true,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
-    },
-    "sagemaker neo": {
-      "ap-southeast-1": true,
-      "ap-northeast-1": true,
-      "ap-northeast-3": false,
-      "ap-southeast-2": true,
-      "ap-northeast-2": true,
-      "ap-south-1": true,
-      "ap-east-1": true,
-      "cn-north-1": true,
-      "cn-northwest-1": true
     }
   },
   "serviceNames": {
@@ -5283,7 +5279,7 @@
     "elastic_compute_cloud_ec2": "Amazon Elastic Compute Cloud (EC2)",
     "elastic_file_system_efs": "Amazon Elastic File System (EFS)",
     "elastic_inference": "Amazon Elastic Inference",
-    "elastic_mapreduce emr": "Amazon Elastic MapReduce (EMR)",
+    "elastic_mapreduce_emr": "Amazon Elastic MapReduce (EMR)",
     "elasticsearch_service": "Amazon Elasticsearch Service",
     "elastic_transcoder": "Amazon Elastic Transcoder",
     "eventbridge": "Amazon EventBridge",
@@ -5369,7 +5365,7 @@
     "control_tower": "AWS Control Tower",
     "cost_and_usage_report": "AWS Cost and Usage Report",
     "cost_explorer": "AWS Cost Explorer",
-    "data exchange": "AWS Data Exchange",
+    "data_exchange": "AWS Data Exchange",
     "database_migration_service": "AWS Database Migration Service",
     "data_pipeline": "AWS Data Pipeline",
     "datasync": "AWS DataSync",
@@ -5421,7 +5417,7 @@
     "secrets_manager": "AWS Secrets Manager",
     "security_hub": "AWS Security Hub",
     "serverless_application_repository": "AWS Serverless Application Repository",
-    "server_migration_service sms": "AWS Server Migration Service (SMS)",
+    "server_migration_service_sms": "AWS Server Migration Service (SMS)",
     "service_catalog": "AWS Service Catalog",
     "shield_standard": "AWS Shield Standard",
     "shield_advanced": "AWS Shield Advanced",
@@ -5444,9 +5440,7 @@
     "elastic_load_balancing": "Elastic Load Balancing",
     "end-of-support_migration_program_for_windows_server": "End-of-Support Migration Program for Windows Server",
     "vm_importexport": "VM Import/Export",
-    "vmware_cloud_on_aws": "VMware Cloud on AWS",
-    "comprehend medical": "Amazon Comprehend Medical",
-    "sagemaker neo": "Amazon SageMaker Neo"
+    "vmware_cloud_on_aws": "VMware Cloud on AWS"
   },
   "edgeLocations": [
     "Ashburn, VA, United States (6)",
@@ -5544,7 +5538,7 @@
     "Tokyo, Japan"
   ],
   "regionsCount": 25,
-  "servicesCount": 193,
+  "servicesCount": 191,
   "edgeLocationsTotalCount": 193,
   "edgeLocationsCount": 79,
   "regionalEdgeCachesCount": 12
