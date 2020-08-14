@@ -53,7 +53,7 @@ function parseAwsTable(html) {
             }
           });
         } else {
-          const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim();
+          const parsedServiceName = coloumns.eq(0).find('a').eq(0).text().trim().replace(' ', ' ');
           let serviceName = parsedServiceName.toLowerCase().trim().replace(' - ', '_').replace(/[ .]/ig, '_').replace(/[()/]/ig, '').replace('__', '_').replace('amazon_', '').replace('aws_', '');
 
           if (parsedServiceName) {
