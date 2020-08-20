@@ -8,15 +8,15 @@
 | ------ | -------- | -------- | 
 us-east-1 | US East (N. Virginia) | 180
 us-west-2 | US West (Oregon) | 177
-eu-west-1 | EU (Ireland) | 171
+eu-west-1 | EU (Ireland) | 172
 ap-southeast-2 | Asia Pacific (Sydney) | 161
 ap-northeast-1 | Asia Pacific (Tokyo) | 157
 us-east-2 | US East (Ohio) | 154
 eu-central-1 | EU (Frankfurt) | 153
 ap-southeast-1 | Asia Pacific (Singapore) | 153
-eu-west-2 | EU (London) | 142
-ap-northeast-2 | Asia Pacific (Seoul) | 139
-ap-south-1 | Asia Pacific (Mumbai) | 131
+eu-west-2 | EU (London) | 143
+ap-northeast-2 | Asia Pacific (Seoul) | 140
+ap-south-1 | Asia Pacific (Mumbai) | 132
 ca-central-1 | Canada (Central) | 127
 us-west-1 | US West (N. California) | 124
 eu-west-3 | EU (Paris) | 121
@@ -25,15 +25,15 @@ sa-east-1 | South America (São Paulo) | 117
 ap-east-1 | Asia Pacific (Hong Kong) | 100
 us-gov-west-1 | GovCloud (US-West) | 96
 me-south-1 | Middle East (Bahrain) | 93
-cn-north-1 | China (Beijing) | 74
-cn-northwest-1 | China (Ningxia) | 74
+cn-north-1 | China (Beijing) | 75
+cn-northwest-1 | China (Ningxia) | 75
 us-gov-east-1 | GovCloud (US-East) | 73
-eu-south-1 | EU (Milan) | 72
-af-south-1 | Africa (Cape Town) | 68
+eu-south-1 | EU (Milan) | 73
+af-south-1 | Africa (Cape Town) | 69
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 36
 
 
-<img src='https://quickchart.io/chart/render/f-1c7767a9-8e32-4eb3-bdd8-93efcb88001a'>
+<img src='https://quickchart.io/chart/render/f-b08a3c9d-a04b-43c4-827b-a5db2bdcc298'>
 
 # Region and Service Table # 
 | | us-east-1 | us-east-2 | us-west-2 | us-west-1 | ca-central-1 | sa-east-1 | us-gov-west-1 | us-gov-east-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-south-1 | eu-west-3 | eu-north-1 | me-south-1 | af-south-1 | ap-southeast-1 | ap-northeast-1 | ap-northeast-3 | ap-southeast-2 | ap-northeast-2 | ap-south-1 | ap-east-1 | cn-north-1 | cn-northwest-1 |
@@ -46,7 +46,7 @@ Amazon AppFlow|:white_check_mark: | :white_check_mark: | :white_check_mark: | :w
 Amazon Augmented AI (A2I)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 Amazon Aurora|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Braket|:white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x:
-Amazon Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
+Amazon Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 Amazon Cloud Directory|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 Amazon CloudFront|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudSearch|:white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x:
@@ -89,7 +89,7 @@ Amazon Kinesis Video Streams|:white_check_mark: | :white_check_mark: | :white_ch
 Amazon Lex|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 Amazon Lightsail|:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 Amazon Macie|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
-Amazon Keyspaces (for Apache Cassandra)|:white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
+Amazon Keyspaces (for Apache Cassandra)|:white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Blockchain|:white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x:
 Amazon Managed Streaming for Apache Kafka|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon MQ|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x:
@@ -187,7 +187,7 @@ AWS Lambda|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white
 AWS License Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Managed Services|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS Marketplace|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-AWS Migration Hub|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
+AWS Migration Hub|:white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 AWS OpsWorks Stacks|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
 AWS OpsWorks for Chef Automate|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
 AWS OpsWorks for Puppet Enterprise|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x:
