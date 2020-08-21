@@ -48,7 +48,7 @@ function parseAwsTable(html) {
               console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
             }
 
-            if (region.code) {
+            if (region && region.code) {
               regions.push(region.code);
             }
           });
