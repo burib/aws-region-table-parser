@@ -44,7 +44,7 @@ function parseAwsTable(html) {
               region = regionNames[parsedRegionName] || {};
             }
 
-            if (!region.code && !parsedRegionName.includes('services_offered:')) {
+            if (!region || !region.code && !parsedRegionName.includes('services_offered:')) {
               console.log('\x1b[33m%s\x1b[0m', 'region name: ' + parsedRegionName + ' not found in "./aws-region-names.js"');
             }
 
