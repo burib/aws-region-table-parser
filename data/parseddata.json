@@ -58,7 +58,7 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 74
+      "value": 73
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -2130,7 +2130,7 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": true,
+      "eu-south-1": false,
       "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
