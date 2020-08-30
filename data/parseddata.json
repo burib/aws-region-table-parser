@@ -18,32 +18,32 @@
     "us-west-1": {
       "regionCode": "us-west-1",
       "regionName": "US West (N. California)",
-      "value": 125
+      "value": 127
     },
     "ca-central-1": {
       "regionCode": "ca-central-1",
       "regionName": "Canada (Central)",
-      "value": 128
+      "value": 131
     },
     "sa-east-1": {
       "regionCode": "sa-east-1",
       "regionName": "South America (São Paulo)",
-      "value": 120
+      "value": 123
     },
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 98
+      "value": 100
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 75
+      "value": 78
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 154
+      "value": 156
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -53,77 +53,77 @@
     "eu-west-2": {
       "regionCode": "eu-west-2",
       "regionName": "EU (London)",
-      "value": 144
+      "value": 146
     },
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 73
+      "value": 75
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 122
+      "value": 125
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
       "regionName": "EU (Stockholm)",
-      "value": 120
+      "value": 122
     },
     "me-south-1": {
       "regionCode": "me-south-1",
       "regionName": "Middle East (Bahrain)",
-      "value": 95
+      "value": 99
     },
     "af-south-1": {
       "regionCode": "af-south-1",
       "regionName": "Africa (Cape Town)",
-      "value": 70
+      "value": 72
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
       "regionName": "Asia Pacific (Singapore)",
-      "value": 154
+      "value": 155
     },
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 158
+      "value": 159
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 37
+      "value": 40
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
       "regionName": "Asia Pacific (Sydney)",
-      "value": 162
+      "value": 163
     },
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 141
+      "value": 143
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 133
+      "value": 135
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
       "regionName": "Asia Pacific (Hong Kong)",
-      "value": 102
+      "value": 106
     },
     "cn-north-1": {
       "regionCode": "cn-north-1",
       "regionName": "China (Beijing)",
-      "value": 76
+      "value": 79
     },
     "cn-northwest-1": {
       "regionCode": "cn-northwest-1",
       "regionName": "China (Ningxia)",
-      "value": 76
+      "value": 79
     }
   },
   "services": {
@@ -362,7 +362,7 @@
       "sa-east-1": false,
       "us-gov-west-1": true,
       "us-gov-east-1": false,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
       "eu-south-1": false,
@@ -1794,61 +1794,7 @@
       "cn-north-1": true,
       "cn-northwest-1": true
     },
-    "rekognition_custom_labels": {
-      "us-east-1": true,
-      "us-east-2": true,
-      "us-west-2": true,
-      "us-west-1": false,
-      "ca-central-1": false,
-      "sa-east-1": false,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false,
-      "eu-central-1": false,
-      "eu-west-1": true,
-      "eu-west-2": false,
-      "eu-south-1": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
-      "me-south-1": false,
-      "af-south-1": false,
-      "ap-southeast-1": false,
-      "ap-northeast-1": false,
-      "ap-northeast-3": false,
-      "ap-southeast-2": false,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
-    },
-    "rekognition_image": {
-      "us-east-1": true,
-      "us-east-2": true,
-      "us-west-2": true,
-      "us-west-1": true,
-      "ca-central-1": false,
-      "sa-east-1": false,
-      "us-gov-west-1": true,
-      "us-gov-east-1": false,
-      "eu-central-1": true,
-      "eu-west-1": true,
-      "eu-west-2": true,
-      "eu-south-1": false,
-      "eu-west-3": false,
-      "eu-north-1": false,
-      "me-south-1": false,
-      "af-south-1": false,
-      "ap-southeast-1": true,
-      "ap-northeast-1": true,
-      "ap-northeast-3": false,
-      "ap-southeast-2": true,
-      "ap-northeast-2": true,
-      "ap-south-1": true,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
-    },
-    "rekognition_video": {
+    "rekognition": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -2144,6 +2090,33 @@
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
+    },
+    "transcribe": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
+      "eu-central-1": true,
+      "eu-west-1": true,
+      "eu-west-2": true,
+      "eu-south-1": false,
+      "eu-west-3": true,
+      "eu-north-1": false,
+      "me-south-1": true,
+      "af-south-1": false,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": false,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "transcribe_medical": {
       "us-east-1": true,
@@ -3343,11 +3316,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
@@ -3547,7 +3520,7 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
-    "fargate_ecs": {
+    "fargate": {
       "us-east-1": true,
       "us-east-2": true,
       "us-west-2": true,
@@ -3573,33 +3546,6 @@
       "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
-    },
-    "fargate_eks": {
-      "us-east-1": true,
-      "us-east-2": true,
-      "us-west-2": true,
-      "us-west-1": false,
-      "ca-central-1": false,
-      "sa-east-1": false,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false,
-      "eu-central-1": true,
-      "eu-west-1": true,
-      "eu-west-2": false,
-      "eu-south-1": true,
-      "eu-west-3": false,
-      "eu-north-1": false,
-      "me-south-1": false,
-      "af-south-1": true,
-      "ap-southeast-1": true,
-      "ap-northeast-1": true,
-      "ap-northeast-3": false,
-      "ap-southeast-2": true,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
-      "ap-east-1": false,
-      "cn-north-1": false,
-      "cn-northwest-1": false
     },
     "firewall_manager": {
       "us-east-1": true,
@@ -3708,6 +3654,33 @@
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
+    },
+    "identity_and_access_management_iam": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
+      "eu-central-1": true,
+      "eu-west-1": true,
+      "eu-west-2": true,
+      "eu-south-1": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
+      "me-south-1": true,
+      "af-south-1": true,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": true,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
     },
     "iot_1-click": {
       "us-east-1": true,
@@ -4276,6 +4249,33 @@
       "cn-north-1": false,
       "cn-northwest-1": false
     },
+    "organizations": {
+      "us-east-1": true,
+      "us-east-2": true,
+      "us-west-2": true,
+      "us-west-1": true,
+      "ca-central-1": true,
+      "sa-east-1": true,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
+      "eu-central-1": true,
+      "eu-west-1": true,
+      "eu-west-2": true,
+      "eu-south-1": true,
+      "eu-west-3": true,
+      "eu-north-1": true,
+      "me-south-1": true,
+      "af-south-1": true,
+      "ap-southeast-1": true,
+      "ap-northeast-1": true,
+      "ap-northeast-3": true,
+      "ap-southeast-2": true,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
+      "ap-east-1": true,
+      "cn-north-1": true,
+      "cn-northwest-1": true
+    },
     "outposts": {
       "us-east-1": true,
       "us-east-2": true,
@@ -4349,7 +4349,7 @@
       "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
-      "ap-northeast-3": false,
+      "ap-northeast-3": true,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
@@ -4480,7 +4480,7 @@
       "eu-south-1": false,
       "eu-west-3": true,
       "eu-north-1": true,
-      "me-south-1": false,
+      "me-south-1": true,
       "af-south-1": false,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
@@ -4488,7 +4488,7 @@
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
-      "ap-east-1": false,
+      "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
     },
@@ -5178,9 +5178,7 @@
     "quantum_ledger_database_qldb": "Amazon Quantum Ledger Database (QLDB)",
     "quicksight": "Amazon QuickSight",
     "redshift": "Amazon Redshift",
-    "rekognition_custom_labels": "Amazon Rekognition Custom Labels",
-    "rekognition_image": "Amazon Rekognition Image",
-    "rekognition_video": "Amazon Rekognition Video",
+    "rekognition": "Amazon Rekognition",
     "relational_database_service_rds": "Amazon Relational Database Service (RDS)",
     "rds_on_vmware": "Amazon RDS on VMware",
     "sagemaker": "Amazon SageMaker",
@@ -5191,6 +5189,7 @@
     "simple_workflow_service_swf": "Amazon Simple Workflow Service (SWF)",
     "sumerian": "Amazon Sumerian",
     "textract": "Amazon Textract",
+    "transcribe": "Amazon Transcribe",
     "transcribe_medical": "Amazon Transcribe Medical",
     "translate": "Amazon Translate",
     "virtual_private_cloud_vpc": "Amazon Virtual Private Cloud (VPC)",
@@ -5243,12 +5242,12 @@
     "elemental_mediapackage": "AWS Elemental MediaPackage",
     "elemental_mediastore": "AWS Elemental MediaStore",
     "elemental_mediatailor": "AWS Elemental MediaTailor",
-    "fargate_ecs": "AWS Fargate (ECS)",
-    "fargate_eks": "AWS Fargate (EKS)",
+    "fargate": "AWS Fargate",
     "firewall_manager": "AWS Firewall Manager",
     "global_accelerator": "AWS Global Accelerator",
     "glue": "AWS Glue",
     "ground_station": "AWS Ground Station",
+    "identity_and_access_management_iam": "AWS Identity and Access Management (IAM)",
     "iot_1-click": "AWS IoT 1-Click",
     "iot_analytics": "AWS IoT Analytics",
     "iot_core": "AWS IoT Core",
@@ -5270,6 +5269,7 @@
     "opsworks_stacks": "AWS OpsWorks Stacks",
     "opsworks_for_chef_automate": "AWS OpsWorks for Chef Automate",
     "opsworks_for_puppet_enterprise": "AWS OpsWorks for Puppet Enterprise",
+    "organizations": "AWS Organizations",
     "outposts": "AWS Outposts",
     "personal_health_dashboard": "AWS Personal Health Dashboard",
     "privatelink": "AWS PrivateLink",
