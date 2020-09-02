@@ -33,17 +33,17 @@
     "us-gov-west-1": {
       "regionCode": "us-gov-west-1",
       "regionName": "GovCloud (US-West)",
-      "value": 100
+      "value": 99
     },
     "us-gov-east-1": {
       "regionCode": "us-gov-east-1",
       "regionName": "GovCloud (US-East)",
-      "value": 80
+      "value": 79
     },
     "eu-central-1": {
       "regionCode": "eu-central-1",
       "regionName": "EU (Frankfurt)",
-      "value": 156
+      "value": 157
     },
     "eu-west-1": {
       "regionCode": "eu-west-1",
@@ -58,12 +58,12 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 75
+      "value": 76
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 125
+      "value": 123
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
@@ -1563,7 +1563,7 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
@@ -3207,11 +3207,11 @@
       "sa-east-1": false,
       "us-gov-west-1": false,
       "us-gov-east-1": false,
-      "eu-central-1": false,
+      "eu-central-1": true,
       "eu-west-1": false,
       "eu-west-2": false,
       "eu-south-1": false,
-      "eu-west-3": true,
+      "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
       "af-south-1": false,
@@ -3695,7 +3695,7 @@
       "eu-west-1": true,
       "eu-west-2": true,
       "eu-south-1": false,
-      "eu-west-3": true,
+      "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
       "af-south-1": false,
@@ -4553,8 +4553,8 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": true,
-      "us-gov-east-1": true,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
