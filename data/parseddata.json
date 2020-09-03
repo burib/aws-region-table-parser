@@ -58,12 +58,12 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 76
+      "value": 77
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
       "regionName": "EU (Paris)",
-      "value": 123
+      "value": 122
     },
     "eu-north-1": {
       "regionCode": "eu-north-1",
@@ -78,7 +78,7 @@
     "af-south-1": {
       "regionCode": "af-south-1",
       "regionName": "Africa (Cape Town)",
-      "value": 72
+      "value": 73
     },
     "ap-southeast-1": {
       "regionCode": "ap-southeast-1",
@@ -88,12 +88,12 @@
     "ap-northeast-1": {
       "regionCode": "ap-northeast-1",
       "regionName": "Asia Pacific (Tokyo)",
-      "value": 159
+      "value": 160
     },
     "ap-northeast-3": {
       "regionCode": "ap-northeast-3",
       "regionName": "Asia Pacific (Osaka-Local)",
-      "value": 40
+      "value": 41
     },
     "ap-southeast-2": {
       "regionCode": "ap-southeast-2",
@@ -103,12 +103,12 @@
     "ap-northeast-2": {
       "regionCode": "ap-northeast-2",
       "regionName": "Asia Pacific (Seoul)",
-      "value": 143
+      "value": 145
     },
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 135
+      "value": 136
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -366,7 +366,7 @@
       "eu-west-1": true,
       "eu-west-2": true,
       "eu-south-1": false,
-      "eu-west-3": true,
+      "eu-west-3": false,
       "eu-north-1": false,
       "me-south-1": false,
       "af-south-1": false,
@@ -387,8 +387,8 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": true,
-      "us-gov-east-1": true,
+      "us-gov-west-1": false,
+      "us-gov-east-1": false,
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
@@ -1680,7 +1680,7 @@
       "ap-northeast-1": false,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
+      "ap-northeast-2": true,
       "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
@@ -4591,11 +4591,11 @@
       "me-south-1": false,
       "af-south-1": false,
       "ap-southeast-1": true,
-      "ap-northeast-1": false,
+      "ap-northeast-1": true,
       "ap-northeast-3": false,
       "ap-southeast-2": true,
-      "ap-northeast-2": false,
-      "ap-south-1": false,
+      "ap-northeast-2": true,
+      "ap-south-1": true,
       "ap-east-1": false,
       "cn-north-1": false,
       "cn-northwest-1": false
@@ -4877,8 +4877,8 @@
       "us-west-1": true,
       "ca-central-1": true,
       "sa-east-1": true,
-      "us-gov-west-1": false,
-      "us-gov-east-1": false,
+      "us-gov-west-1": true,
+      "us-gov-east-1": true,
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
@@ -4889,7 +4889,7 @@
       "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
-      "ap-northeast-3": false,
+      "ap-northeast-3": true,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
       "ap-south-1": true,
@@ -4909,11 +4909,11 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
-      "af-south-1": false,
+      "af-south-1": true,
       "ap-southeast-1": true,
       "ap-northeast-1": true,
       "ap-northeast-3": false,
