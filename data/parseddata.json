@@ -58,7 +58,7 @@
     "eu-south-1": {
       "regionCode": "eu-south-1",
       "regionName": "EU (Milan)",
-      "value": 77
+      "value": 78
     },
     "eu-west-3": {
       "regionCode": "eu-west-3",
@@ -108,7 +108,7 @@
     "ap-south-1": {
       "regionCode": "ap-south-1",
       "regionName": "Asia Pacific (Mumbai)",
-      "value": 136
+      "value": 137
     },
     "ap-east-1": {
       "regionCode": "ap-east-1",
@@ -3613,7 +3613,7 @@
       "eu-central-1": true,
       "eu-west-1": true,
       "eu-west-2": true,
-      "eu-south-1": false,
+      "eu-south-1": true,
       "eu-west-3": true,
       "eu-north-1": true,
       "me-south-1": true,
@@ -4622,7 +4622,7 @@
       "ap-northeast-3": true,
       "ap-southeast-2": true,
       "ap-northeast-2": true,
-      "ap-south-1": false,
+      "ap-south-1": true,
       "ap-east-1": true,
       "cn-north-1": true,
       "cn-northwest-1": true
