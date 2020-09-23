@@ -81,7 +81,10 @@
     "Tokyo, Japan (16)",
     "Shenzhen",
     "Zhongwei",
-    "Boston, MA"
+    "New York, NY",
+    "Washington, D.C.",
+    "Boston, MA",
+    "Atlanta, GA"
   ],
   "regionalEdgeCaches": [
     "Northern Virginia, United States",
@@ -99,7 +102,7 @@
   ],
   "regionsCount": 0,
   "servicesCount": 0,
-  "edgeLocationsTotalCount": 193,
-  "edgeLocationsCount": 79,
+  "edgeLocationsTotalCount": 196,
+  "edgeLocationsCount": 82,
   "regionalEdgeCachesCount": 12
 }
