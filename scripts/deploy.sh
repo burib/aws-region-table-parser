@@ -9,9 +9,7 @@ function deploy() {
   git config user.name 'autobot';
   git pull $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH;
 
-  BASEDIR=$(cd "$(dirname "$1")" && pwd)/$(basename "$1")
-
-  if [[ -z $(git status ${BASEDIR}data/parseddata.json -s) ]]
+  if [[ -z $(git status "$DATA_DIR/parseddata.json" -s) ]]
   then
     echo "no changes in data directory.";
   else
@@ -23,20 +21,6 @@ function deploy() {
       git push $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH --force --follow-tags;
   fi
 }
-
-#function get_services() {
-#  curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"], serviceUrl: .attributes["aws:serviceUrl"] | sub("https://"; ""; "g") | sub("aws.amazon.com/"; ""; "g") | sub("www."; ""; "g") | sub(".aws"; ""; "g") | sub("/"; "-"; "g") | .[0:-1] }]' | jq '[
-#          group_by(.serviceName)[] | { (.[0].serviceUrl): {
-#                          name: .[0].serviceName,
-#                          regions: [.[] | .region],
-#                          count: [.[] | .region] | length
-#                  }
-#          }
-#  ]' | jq 'sort_by(.[. | keys | .[0]].count)' | jq '{
-#    services: [.],
-#    servicesCount: . | length
-#  }'
-#}
 
 function get_services() {
   curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"], serviceUrl: .attributes["aws:serviceUrl"] | sub("https://"; ""; "g") | sub("aws.amazon.com/"; ""; "g") | sub("www."; ""; "g") | sub(".aws"; ""; "g") | sub("/"; "-"; "g") | .[0:-1] }]' | jq '[
