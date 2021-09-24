@@ -51,10 +51,9 @@ async function generateRegionSummaryMarkdown(parseddata) {
 }
 
 awsRegionTableParser.get().then(async function (servicesAndRegions) {
-  fs.writeFileSync('./data/parseddata.json', JSON.stringify(servicesAndRegions, null, 2), 'utf8');
-
-  let READMEheader = `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
-  READMEheader += `### ${servicesAndRegions.servicesCount.toString().padStart(3)} Services\n\n`;
+  console.log(servicesAndRegions);
+  let READMEheader = `### ${servicesAndRegions.servicesCount.toString().padStart(3)} Services\n\n`;
+  READMEheader += `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
   READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount.toString().padStart(3)} Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.\n`;
   READMEheader += `### ${servicesAndRegions.regionalEdgeCachesCount.toString().padStart(3)} Regional Edge Caches\n`;
 
