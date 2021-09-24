@@ -23,7 +23,7 @@ function deploy() {
 }
 
 function get_services() {
-  curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"], serviceUrl: .attributes["aws:serviceUrl"] | sub("https://"; ""; "g") | sub("aws.amazon.com/"; ""; "g") | sub("www."; ""; "g") | sub(".aws"; ""; "g") | sub("/"; "-"; "g") | .[0:-1] }]' | jq '[
+  curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"], serviceUrl: .attributes["aws:serviceUrl"] | sub("https://"; ""; "g") | sub("aws.amazon.com/"; ""; "g") | sub("www."; ""; "g") | sub(".aws"; ""; "g") | sub("/"; ""; "g") }]' | jq '[
           group_by(.serviceName)[] | {
                           name: .[0].serviceName,
                           count: [.[] | .region] | length,

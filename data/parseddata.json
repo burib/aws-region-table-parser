@@ -515,7 +515,7 @@
       ],
       "id": "cloudtrail"
     },
-    "codeartifac": {
+    "codeartifact": {
       "name": "AWS CodeArtifact",
       "count": 13,
       "regions": [
@@ -533,7 +533,7 @@
         "ap-southeast-1",
         "us-east-2"
       ],
-      "id": "codeartifac"
+      "id": "codeartifact"
     },
     "codebuild": {
       "name": "AWS CodeBuild",
@@ -734,7 +734,7 @@
       ],
       "id": "config"
     },
-    "controltowe": {
+    "controltower": {
       "name": "AWS Control Tower",
       "count": 15,
       "regions": [
@@ -754,7 +754,7 @@
         "ca-central-1",
         "sa-east-1"
       ],
-      "id": "controltowe"
+      "id": "controltower"
     },
     "aws-cost-management-cost-explorer": {
       "name": "AWS Cost Explorer",
@@ -804,7 +804,7 @@
       ],
       "id": "datapipeline"
     },
-    "datasyn": {
+    "datasync": {
       "name": "AWS DataSync",
       "count": 23,
       "regions": [
@@ -832,7 +832,7 @@
         "eu-south-1",
         "us-west-2"
       ],
-      "id": "datasyn"
+      "id": "datasync"
     },
     "dms": {
       "name": "AWS Database Migration Service",
@@ -996,7 +996,7 @@
       ],
       "id": "elasticbeanstalk"
     },
-    "mediaconnec": {
+    "mediaconnect": {
       "name": "AWS Elemental MediaConnect",
       "count": 16,
       "regions": [
@@ -1017,7 +1017,7 @@
         "us-east-2",
         "us-west-1"
       ],
-      "id": "mediaconnec"
+      "id": "mediaconnect"
     },
     "mediaconvert": {
       "name": "AWS Elemental MediaConvert",
@@ -1208,7 +1208,7 @@
       ],
       "id": "firewall-manager"
     },
-    "global-accelerato": {
+    "global-accelerator": {
       "name": "AWS Global Accelerator",
       "count": 21,
       "regions": [
@@ -1234,7 +1234,7 @@
         "us-west-1",
         "eu-west-1"
       ],
-      "id": "global-accelerato"
+      "id": "global-accelerator"
     },
     "glue": {
       "name": "AWS Glue",
@@ -1313,7 +1313,7 @@
       ],
       "id": "iq"
     },
-    "ia": {
+    "iam": {
       "name": "AWS Identity and Access Management (IAM)",
       "count": 25,
       "regions": [
@@ -1343,7 +1343,7 @@
         "eu-west-3",
         "us-east-1"
       ],
-      "id": "ia"
+      "id": "iam"
     },
     "iot-1-click": {
       "name": "AWS IoT 1-Click",
@@ -1766,7 +1766,7 @@
       ],
       "id": "network-firewall"
     },
-    "opsworks-stacks": {
+    "opsworksstacks": {
       "name": "AWS OpsWorks Stacks",
       "count": 15,
       "regions": [
@@ -1786,9 +1786,9 @@
         "sa-east-1",
         "us-west-2"
       ],
-      "id": "opsworks-stacks"
+      "id": "opsworksstacks"
     },
-    "opsworks-chefautomate": {
+    "opsworkschefautomate": {
       "name": "AWS OpsWorks for Chef Automate",
       "count": 9,
       "regions": [
@@ -1802,9 +1802,9 @@
         "us-west-1",
         "us-west-2"
       ],
-      "id": "opsworks-chefautomate"
+      "id": "opsworkschefautomate"
     },
-    "opsworks-puppetenterprise": {
+    "opsworkspuppetenterprise": {
       "name": "AWS OpsWorks for Puppet Enterprise",
       "count": 9,
       "regions": [
@@ -1818,9 +1818,9 @@
         "us-west-1",
         "us-west-2"
       ],
-      "id": "opsworks-puppetenterprise"
+      "id": "opsworkspuppetenterprise"
     },
-    "organization": {
+    "organizations": {
       "name": "AWS Organizations",
       "count": 25,
       "regions": [
@@ -1850,7 +1850,7 @@
         "sa-east-1",
         "us-west-2"
       ],
-      "id": "organization"
+      "id": "organizations"
     },
     "outposts": {
       "name": "AWS Outposts",
@@ -1882,7 +1882,7 @@
       ],
       "id": "outposts"
     },
-    "premiumsupport-phd": {
+    "premiumsupportphd": {
       "name": "AWS Personal Health Dashboard",
       "count": 25,
       "regions": [
@@ -1912,7 +1912,7 @@
         "us-gov-west-1",
         "us-west-2"
       ],
-      "id": "premiumsupport-phd"
+      "id": "premiumsupportphd"
     },
     "privatelink": {
       "name": "AWS PrivateLink",
@@ -2099,7 +2099,7 @@
       ],
       "id": "server-migration-service"
     },
-    "serverless-serverlessrepo": {
+    "serverlessserverlessrepo": {
       "name": "AWS Serverless Application Repository",
       "count": 22,
       "regions": [
@@ -2126,7 +2126,7 @@
         "ca-central-1",
         "us-east-1"
       ],
-      "id": "serverless-serverlessrepo"
+      "id": "serverlessserverlessrepo"
     },
     "servicecatalog": {
       "name": "AWS Service Catalog",
@@ -2270,7 +2270,7 @@
       ],
       "id": "snowmobile"
     },
-    "step-functions-details": {
+    "step-functionsdetails": {
       "name": "AWS Step Functions",
       "count": 25,
       "regions": [
@@ -2300,7 +2300,7 @@
         "us-gov-west-1",
         "us-west-1"
       ],
-      "id": "step-functions-details"
+      "id": "step-functionsdetails"
     },
     "storagegateway": {
       "name": "AWS Storage Gateway",
@@ -2461,7 +2461,7 @@
       ],
       "id": "transit-gateway"
     },
-    "premiumsupport-trustedadvisor": {
+    "premiumsupporttrustedadvisor": {
       "name": "AWS Trusted Advisor",
       "count": 24,
       "regions": [
@@ -2490,7 +2490,7 @@
         "sa-east-1",
         "us-west-2"
       ],
-      "id": "premiumsupport-trustedadvisor"
+      "id": "premiumsupporttrustedadvisor"
     },
     "vpn": {
       "name": "AWS VPN",
@@ -2554,7 +2554,7 @@
       ],
       "id": "waf"
     },
-    "well-architected-too": {
+    "well-architected-tool": {
       "name": "AWS Well-Architected Tool",
       "count": 18,
       "regions": [
@@ -2577,7 +2577,7 @@
         "us-east-2",
         "us-west-1"
       ],
-      "id": "well-architected-too"
+      "id": "well-architected-tool"
     },
     "xray": {
       "name": "AWS X-Ray",
@@ -2743,7 +2743,7 @@
       ],
       "id": "augmented-ai"
     },
-    "rds-aurora": {
+    "rdsaurora": {
       "name": "Amazon Aurora",
       "count": 25,
       "regions": [
@@ -2773,7 +2773,7 @@
         "us-gov-east-1",
         "us-west-2"
       ],
-      "id": "rds-aurora"
+      "id": "rdsaurora"
     },
     "braket": {
       "name": "Amazon Braket",
@@ -2969,7 +2969,7 @@
       ],
       "id": "comprehend"
     },
-    "comprehend-medical": {
+    "comprehendmedical": {
       "name": "Amazon Comprehend Medical",
       "count": 8,
       "regions": [
@@ -2982,7 +2982,7 @@
         "us-gov-west-1",
         "us-west-2"
       ],
-      "id": "comprehend-medical"
+      "id": "comprehendmedical"
     },
     "connect": {
       "name": "Amazon Connect",
@@ -3305,7 +3305,7 @@
       ],
       "id": "elastic-inference"
     },
-    "ek": {
+    "eks": {
       "name": "Amazon Elastic Kubernetes Service (EKS)",
       "count": 25,
       "regions": [
@@ -3335,7 +3335,7 @@
         "us-east-1",
         "us-gov-east-1"
       ],
-      "id": "ek"
+      "id": "eks"
     },
     "emr": {
       "name": "Amazon Elastic MapReduce (EMR)",
@@ -3448,7 +3448,7 @@
       ],
       "id": "eventbridge"
     },
-    "fsx-lustre": {
+    "fsxlustre": {
       "name": "Amazon FSx for Lustre",
       "count": 25,
       "regions": [
@@ -3478,9 +3478,9 @@
         "sa-east-1",
         "us-west-2"
       ],
-      "id": "fsx-lustre"
+      "id": "fsxlustre"
     },
-    "fsx-netapp-onta": {
+    "fsxnetapp-ontap": {
       "name": "Amazon FSx for NetApp ONTAP",
       "count": 21,
       "regions": [
@@ -3506,9 +3506,9 @@
         "us-gov-east-1",
         "eu-north-1"
       ],
-      "id": "fsx-netapp-onta"
+      "id": "fsxnetapp-ontap"
     },
-    "fsx-windows": {
+    "fsxwindows": {
       "name": "Amazon FSx for Windows File Server",
       "count": 25,
       "regions": [
@@ -3538,7 +3538,7 @@
         "cn-northwest-1",
         "me-south-1"
       ],
-      "id": "fsx-windows"
+      "id": "fsxwindows"
     },
     "forecast": {
       "name": "Amazon Forecast",
@@ -3721,7 +3721,7 @@
       ],
       "id": "keyspaces"
     },
-    "kinesis-analytics": {
+    "kinesisanalytics": {
       "name": "Amazon Kinesis Data Analytics",
       "count": 23,
       "regions": [
@@ -3749,9 +3749,9 @@
         "eu-west-2",
         "us-gov-west-1"
       ],
-      "id": "kinesis-analytics"
+      "id": "kinesisanalytics"
     },
-    "kinesis-firehose": {
+    "kinesisfirehose": {
       "name": "Amazon Kinesis Data Firehose",
       "count": 25,
       "regions": [
@@ -3781,9 +3781,9 @@
         "me-south-1",
         "sa-east-1"
       ],
-      "id": "kinesis-firehose"
+      "id": "kinesisfirehose"
     },
-    "kinesis-streams": {
+    "kinesisstreams": {
       "name": "Amazon Kinesis Data Streams",
       "count": 25,
       "regions": [
@@ -3813,9 +3813,9 @@
         "eu-south-1",
         "us-gov-east-1"
       ],
-      "id": "kinesis-streams"
+      "id": "kinesisstreams"
     },
-    "kinesis-video-streams": {
+    "kinesisvideo-streams": {
       "name": "Amazon Kinesis Video Streams",
       "count": 15,
       "regions": [
@@ -3835,7 +3835,7 @@
         "ca-central-1",
         "eu-west-2"
       ],
-      "id": "kinesis-video-streams"
+      "id": "kinesisvideo-streams"
     },
     "lex": {
       "name": "Amazon Lex",
@@ -3876,7 +3876,7 @@
       ],
       "id": "amazonlightsail.com"
     },
-    "locatio": {
+    "location": {
       "name": "Amazon Location Service",
       "count": 9,
       "regions": [
@@ -3890,7 +3890,7 @@
         "us-east-2",
         "us-west-2"
       ],
-      "id": "locatio"
+      "id": "location"
     },
     "lookout-for-metrics": {
       "name": "Amazon Lookout for Metrics",
@@ -4216,13 +4216,13 @@
       ],
       "id": "quicksight"
     },
-    "rds-vmware": {
+    "rdsvmware": {
       "name": "Amazon RDS on VMware",
       "count": 1,
       "regions": [
         "us-east-1"
       ],
-      "id": "rds-vmware"
+      "id": "rdsvmware"
     },
     "redshift": {
       "name": "Amazon Redshift",
@@ -4549,7 +4549,7 @@
       ],
       "id": "sumerian"
     },
-    "textrac": {
+    "textract": {
       "name": "Amazon Textract",
       "count": 15,
       "regions": [
@@ -4569,9 +4569,9 @@
         "eu-west-2",
         "us-gov-east-1"
       ],
-      "id": "textrac"
+      "id": "textract"
     },
-    "timestrea": {
+    "timestream": {
       "name": "Amazon Timestream",
       "count": 5,
       "regions": [
@@ -4581,7 +4581,7 @@
         "us-east-2",
         "us-west-2"
       ],
-      "id": "timestrea"
+      "id": "timestream"
     },
     "transcribe": {
       "name": "Amazon Transcribe",
@@ -4611,7 +4611,7 @@
       ],
       "id": "transcribe"
     },
-    "transcribe-medical": {
+    "transcribemedical": {
       "name": "Amazon Transcribe Medical",
       "count": 17,
       "regions": [
@@ -4633,7 +4633,7 @@
         "us-east-2",
         "us-west-2"
       ],
-      "id": "transcribe-medical"
+      "id": "transcribemedical"
     },
     "translate": {
       "name": "Amazon Translate",
@@ -4746,7 +4746,7 @@
       ],
       "id": "workspaces"
     },
-    "workspaces-applicationmanager": {
+    "workspacesapplicationmanager": {
       "name": "Amazon WorkSpaces Application Manager",
       "count": 5,
       "regions": [
@@ -4756,7 +4756,7 @@
         "us-east-1",
         "us-west-2"
       ],
-      "id": "workspaces-applicationmanager"
+      "id": "workspacesapplicationmanager"
     },
     "cloudendure-disaster-recovery": {
       "name": "CloudEndure Disaster Recovery",
@@ -4923,7 +4923,7 @@
     "cloudhsm": "AWS CloudHSM",
     "cloudshell": "AWS CloudShell",
     "cloudtrail": "AWS CloudTrail",
-    "codeartifac": "AWS CodeArtifact",
+    "codeartifact": "AWS CodeArtifact",
     "codebuild": "AWS CodeBuild",
     "codecommit": "AWS CodeCommit",
     "codedeploy": "AWS CodeDeploy",
@@ -4931,12 +4931,12 @@
     "codestar": "AWS CodeStar",
     "compute-optimizer": "AWS Compute Optimizer",
     "config": "AWS Config",
-    "controltowe": "AWS Control Tower",
+    "controltower": "AWS Control Tower",
     "aws-cost-management-cost-explorer": "AWS Cost Explorer",
     "aws-cost-management-cost-and-usage-reporting": "AWS Cost and Usage Report",
     "data-exchange": "AWS Data Exchange",
     "datapipeline": "AWS Data Pipeline",
-    "datasyn": "AWS DataSync",
+    "datasync": "AWS DataSync",
     "dms": "AWS Database Migration Service",
     "deepcomposer": "AWS DeepComposer",
     "deeplens": "AWS DeepLens",
@@ -4945,7 +4945,7 @@
     "directconnect": "AWS Direct Connect",
     "directoryservice": "AWS Directory Service",
     "elasticbeanstalk": "AWS Elastic Beanstalk",
-    "mediaconnec": "AWS Elemental MediaConnect",
+    "mediaconnect": "AWS Elemental MediaConnect",
     "mediaconvert": "AWS Elemental MediaConvert",
     "medialive": "AWS Elemental MediaLive",
     "mediapackage": "AWS Elemental MediaPackage",
@@ -4954,11 +4954,11 @@
     "fargate": "AWS Fargate",
     "fis": "AWS Fault Injection Simulator",
     "firewall-manager": "AWS Firewall Manager",
-    "global-accelerato": "AWS Global Accelerator",
+    "global-accelerator": "AWS Global Accelerator",
     "glue": "AWS Glue",
     "ground-station": "AWS Ground Station",
     "iq": "AWS IQ",
-    "ia": "AWS Identity and Access Management (IAM)",
+    "iam": "AWS Identity and Access Management (IAM)",
     "iot-1-click": "AWS IoT 1-Click",
     "iot-analytics": "AWS IoT Analytics",
     "iot": "AWS IoT Core",
@@ -4976,12 +4976,12 @@
     "mp": "AWS Marketplace",
     "migration-hub": "AWS Migration Hub",
     "network-firewall": "AWS Network Firewall",
-    "opsworks-stacks": "AWS OpsWorks Stacks",
-    "opsworks-chefautomate": "AWS OpsWorks for Chef Automate",
-    "opsworks-puppetenterprise": "AWS OpsWorks for Puppet Enterprise",
-    "organization": "AWS Organizations",
+    "opsworksstacks": "AWS OpsWorks Stacks",
+    "opsworkschefautomate": "AWS OpsWorks for Chef Automate",
+    "opsworkspuppetenterprise": "AWS OpsWorks for Puppet Enterprise",
+    "organizations": "AWS Organizations",
     "outposts": "AWS Outposts",
-    "premiumsupport-phd": "AWS Personal Health Dashboard",
+    "premiumsupportphd": "AWS Personal Health Dashboard",
     "privatelink": "AWS PrivateLink",
     "proton": "AWS Proton",
     "ram": "AWS Resource Access Manager (RAM)",
@@ -4989,23 +4989,23 @@
     "secrets-manager": "AWS Secrets Manager",
     "security-hub": "AWS Security Hub",
     "server-migration-service": "AWS Server Migration Service (SMS)",
-    "serverless-serverlessrepo": "AWS Serverless Application Repository",
+    "serverlessserverlessrepo": "AWS Serverless Application Repository",
     "servicecatalog": "AWS Service Catalog",
     "shield": "AWS Shield",
     "single-sign-on": "AWS Single Sign-On",
     "snowball": "AWS Snowball",
     "snowcone": "AWS Snowcone",
     "snowmobile": "AWS Snowmobile",
-    "step-functions-details": "AWS Step Functions",
+    "step-functionsdetails": "AWS Step Functions",
     "storagegateway": "AWS Storage Gateway",
     "premiumsupport": "AWS Support",
     "systems-manager": "AWS Systems Manager",
     "aws-transfer-family": "AWS Transfer Family",
     "transit-gateway": "AWS Transit Gateway",
-    "premiumsupport-trustedadvisor": "AWS Trusted Advisor",
+    "premiumsupporttrustedadvisor": "AWS Trusted Advisor",
     "vpn": "AWS VPN",
     "waf": "AWS WAF",
-    "well-architected-too": "AWS Well-Architected Tool",
+    "well-architected-tool": "AWS Well-Architected Tool",
     "xray": "AWS X-Ray",
     "alexaforbusiness": "Alexa for Business",
     "api-gateway": "Amazon API Gateway",
@@ -5013,7 +5013,7 @@
     "appstream2": "Amazon AppStream 2.0",
     "athena": "Amazon Athena",
     "augmented-ai": "Amazon Augmented AI (A2I)",
-    "rds-aurora": "Amazon Aurora",
+    "rdsaurora": "Amazon Aurora",
     "braket": "Amazon Braket",
     "chime": "Amazon Chime",
     "cloud-directory": "Amazon Cloud Directory",
@@ -5023,7 +5023,7 @@
     "codeguru": "Amazon CodeGuru",
     "cognito": "Amazon Cognito",
     "comprehend": "Amazon Comprehend",
-    "comprehend-medical": "Amazon Comprehend Medical",
+    "comprehendmedical": "Amazon Comprehend Medical",
     "connect": "Amazon Connect",
     "detective": "Amazon Detective",
     "devops-guru": "Amazon DevOps Guru",
@@ -5036,14 +5036,14 @@
     "ecs": "Amazon Elastic Container Service (ECS)",
     "efs": "Amazon Elastic File System (EFS)",
     "elastic-inference": "Amazon Elastic Inference",
-    "ek": "Amazon Elastic Kubernetes Service (EKS)",
+    "eks": "Amazon Elastic Kubernetes Service (EKS)",
     "emr": "Amazon Elastic MapReduce (EMR)",
     "elastictranscoder": "Amazon Elastic Transcoder",
     "elasticsearch-service": "Amazon Elasticsearch Service",
     "eventbridge": "Amazon EventBridge",
-    "fsx-lustre": "Amazon FSx for Lustre",
-    "fsx-netapp-onta": "Amazon FSx for NetApp ONTAP",
-    "fsx-windows": "Amazon FSx for Windows File Server",
+    "fsxlustre": "Amazon FSx for Lustre",
+    "fsxnetapp-ontap": "Amazon FSx for NetApp ONTAP",
+    "fsxwindows": "Amazon FSx for Windows File Server",
     "forecast": "Amazon Forecast",
     "fraud-detector": "Amazon Fraud Detector",
     "gamelift": "Amazon GameLift",
@@ -5054,13 +5054,13 @@
     "inspector": "Amazon Inspector",
     "kendra": "Amazon Kendra",
     "keyspaces": "Amazon Keyspaces (for Apache Cassandra)",
-    "kinesis-analytics": "Amazon Kinesis Data Analytics",
-    "kinesis-firehose": "Amazon Kinesis Data Firehose",
-    "kinesis-streams": "Amazon Kinesis Data Streams",
-    "kinesis-video-streams": "Amazon Kinesis Video Streams",
+    "kinesisanalytics": "Amazon Kinesis Data Analytics",
+    "kinesisfirehose": "Amazon Kinesis Data Firehose",
+    "kinesisstreams": "Amazon Kinesis Data Streams",
+    "kinesisvideo-streams": "Amazon Kinesis Video Streams",
     "lex": "Amazon Lex",
     "amazonlightsail.com": "Amazon Lightsail",
-    "locatio": "Amazon Location Service",
+    "location": "Amazon Location Service",
     "lookout-for-metrics": "Amazon Lookout for Metrics",
     "lookout-for-vision": "Amazon Lookout for Vision",
     "lumberyard": "Amazon Lumberyard",
@@ -5076,7 +5076,7 @@
     "polly": "Amazon Polly",
     "qldb": "Amazon Quantum Ledger Database (QLDB)",
     "quicksight": "Amazon QuickSight",
-    "rds-vmware": "Amazon RDS on VMware",
+    "rdsvmware": "Amazon RDS on VMware",
     "redshift": "Amazon Redshift",
     "rekognition": "Amazon Rekognition",
     "rds": "Amazon Relational Database Service (RDS)",
@@ -5088,17 +5088,17 @@
     "s3": "Amazon Simple Storage Service (S3)",
     "swf": "Amazon Simple Workflow Service (SWF)",
     "sumerian": "Amazon Sumerian",
-    "textrac": "Amazon Textract",
-    "timestrea": "Amazon Timestream",
+    "textract": "Amazon Textract",
+    "timestream": "Amazon Timestream",
     "transcribe": "Amazon Transcribe",
-    "transcribe-medical": "Amazon Transcribe Medical",
+    "transcribemedical": "Amazon Transcribe Medical",
     "translate": "Amazon Translate",
     "vpc": "Amazon Virtual Private Cloud (VPC)",
     "workdocs": "Amazon WorkDocs",
     "worklink": "Amazon WorkLink",
     "workmail": "Amazon WorkMail",
     "workspaces": "Amazon WorkSpaces",
-    "workspaces-applicationmanager": "Amazon WorkSpaces Application Manager",
+    "workspacesapplicationmanager": "Amazon WorkSpaces Application Manager",
     "cloudendure-disaster-recovery": "CloudEndure Disaster Recovery",
     "cloudendure-migration": "CloudEndure Migration",
     "elasticloadbalancing": "Elastic Load Balancing",
