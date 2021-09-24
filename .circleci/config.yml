@@ -25,15 +25,16 @@ jobs:
           fingerprints:
             - "cf:be:ec:73:0c:b7:25:9e:12:5c:52:c5:0e:16:6e:03"
 
-      - run: npm install
+      - run: npm ci
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run: bash ./scripts/parser.sh update_data
       - run: npm start
-      - run: bash ./scripts/deploy.sh
+      - run: bash ./scripts/parser.sh deploy
 
 workflows:
   version: 2

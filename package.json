@@ -10,10 +10,7 @@
     "region table"
   ],
   "license": "MIT",
-  "dependencies": {
-    "cheerio": "1.0.0-rc.3",
-    "request": "2.88.2"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "node generate-json.js"
   },
@@ -23,5 +20,8 @@
   },
   "bugs": {
     "url": "https://github.com/burib/aws-region-table-parser/issues"
+  },
+  "devDependencies": {
+    "request": "2.88.2"
   }
 }
