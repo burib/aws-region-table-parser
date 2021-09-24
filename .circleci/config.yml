@@ -32,9 +32,9 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: bash ./scripts/deploy.sh update_data
+      - run: bash ./scripts/parser.sh update_data
       - run: npm start
-      - run: bash ./scripts/deploy.sh deploy
+      - run: bash ./scripts/parser.sh deploy
 
 workflows:
   version: 2
