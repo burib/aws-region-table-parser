@@ -1516,7 +1516,7 @@
     },
     "iot-sitewise": {
       "name": "AWS IoT SiteWise",
-      "count": 7,
+      "count": 8,
       "regions": [
         "ap-southeast-1",
         "ap-southeast-2",
@@ -1524,6 +1524,7 @@
         "eu-central-1",
         "eu-west-1",
         "us-east-1",
+        "us-gov-west-1",
         "us-west-2"
       ],
       "id": "iot-sitewise"
