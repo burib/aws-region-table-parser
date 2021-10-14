@@ -3696,7 +3696,7 @@
     },
     "kendra": {
       "name": "Amazon Kendra",
-      "count": 7,
+      "count": 8,
       "regions": [
         "ap-southeast-1",
         "ap-southeast-2",
@@ -3704,6 +3704,7 @@
         "eu-west-1",
         "us-east-1",
         "us-east-2",
+        "us-gov-west-1",
         "us-west-2"
       ],
       "id": "kendra"
