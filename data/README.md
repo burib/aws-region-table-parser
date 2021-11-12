@@ -8,11 +8,12 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-c98aafcc-5f22-41b6-b961-573b896f8325'>
+<img src='https://quickchart.io/chart/render/zf-196902e5-0960-4468-998a-b0f131d20a3b'>
 
 # Region and Service Table # 
 | |  |
 | ------------- | |
+AWS IoT Events|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Amplify|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS App Mesh|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS AppSync|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -73,7 +74,6 @@ AWS IoT Analytics|:white_check_mark: | :white_check_mark: | :white_check_mark: |
 AWS IoT Core|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT Device Defender|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT Device Management|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-AWS IoT Events|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT Greengrass|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT SiteWise|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT Things Graph|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
