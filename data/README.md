@@ -1,4 +1,4 @@
-### 200 Services
+### 201 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-61d8a17a-c707-4cde-94d3-d4d090a3b512'>
+<img src='https://quickchart.io/chart/render/zf-2efbc6f0-b0fa-402f-be87-f8877201afd9'>
 
 # Region and Service Table # 
 | |  |
@@ -152,6 +152,7 @@ Amazon Elasticsearch Service|:white_check_mark: | :white_check_mark: | :white_ch
 Amazon EventBridge|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon FSx for Lustre|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon FSx for NetApp ONTAP|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon FSx for OpenZFS|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon FSx for Windows File Server|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Forecast|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Fraud Detector|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
