@@ -1,5 +1,5 @@
 {
-  "servicesCount": 201,
+  "servicesCount": 202,
   "services": {
     "iot-events": {
       "name": "AWS IoT Events",
@@ -1024,6 +1024,22 @@
         "us-west-2"
       ],
       "id": "elasticbeanstalk"
+    },
+    "disaster-recovery": {
+      "name": "AWS Elastic Disaster Recovery (DRS)",
+      "count": 9,
+      "regions": [
+        "ap-northeast-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-west-1",
+        "eu-west-2",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "id": "disaster-recovery"
     },
     "mediaconnect": {
       "name": "AWS Elemental MediaConnect",
@@ -4973,6 +4989,7 @@
     "directconnect": "AWS Direct Connect",
     "directoryservice": "AWS Directory Service",
     "elasticbeanstalk": "AWS Elastic Beanstalk",
+    "disaster-recovery": "AWS Elastic Disaster Recovery (DRS)",
     "mediaconnect": "AWS Elemental MediaConnect",
     "mediaconvert": "AWS Elemental MediaConvert",
     "medialive": "AWS Elemental MediaLive",

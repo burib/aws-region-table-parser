@@ -1,4 +1,4 @@
-### 201 Services
+### 202 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-2efbc6f0-b0fa-402f-be87-f8877201afd9'>
+<img src='https://quickchart.io/chart/render/zf-a4e1c529-311c-4a74-a838-296ed49b005a'>
 
 # Region and Service Table # 
 | |  |
@@ -55,6 +55,7 @@ AWS Device Farm|:white_check_mark: | :white_check_mark: | :white_check_mark: | :
 AWS Direct Connect|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Directory Service|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Elastic Beanstalk|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS Elastic Disaster Recovery (DRS)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Elemental MediaConnect|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Elemental MediaConvert|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Elemental MediaLive|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
