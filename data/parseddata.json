@@ -1522,22 +1522,23 @@
     },
     "greengrass": {
       "name": "AWS IoT Greengrass",
-      "count": 14,
+      "count": 15,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
         "ap-south-1",
         "ap-southeast-1",
+        "ca-central-1",
         "cn-north-1",
         "eu-west-1",
         "eu-west-2",
         "us-east-2",
-        "us-gov-west-1",
         "us-west-2",
         "ap-southeast-2",
         "eu-central-1",
         "us-east-1",
-        "us-gov-east-1"
+        "us-gov-east-1",
+        "us-gov-west-1"
       ],
       "id": "greengrass"
     },
@@ -1703,24 +1704,26 @@
     },
     "managed-services": {
       "name": "AWS Managed Services",
-      "count": 16,
+      "count": 18,
       "regions": [
         "ap-northeast-1",
         "ap-south-1",
         "ca-central-1",
         "eu-central-1",
-        "eu-west-1",
         "eu-west-3",
         "us-east-1",
         "us-east-2",
+        "us-gov-west-1",
         "us-west-1",
         "us-west-2",
         "ap-northeast-2",
         "ap-southeast-1",
         "ap-southeast-2",
         "eu-north-1",
+        "eu-west-1",
         "eu-west-2",
-        "sa-east-1"
+        "sa-east-1",
+        "us-gov-east-1"
       ],
       "id": "managed-services"
     },
@@ -2044,13 +2047,13 @@
     },
     "secrets-manager": {
       "name": "AWS Secrets Manager",
-      "count": 25,
+      "count": 26,
       "regions": [
         "af-south-1",
         "ap-east-1",
         "ap-northeast-3",
-        "ap-south-1",
         "ap-southeast-1",
+        "ap-southeast-3",
         "cn-northwest-1",
         "eu-west-3",
         "me-south-1",
@@ -2058,17 +2061,18 @@
         "us-gov-west-1",
         "ap-northeast-1",
         "ap-northeast-2",
+        "ap-south-1",
         "ap-southeast-2",
         "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
-        "sa-east-1",
         "us-east-2",
         "us-west-2",
         "ca-central-1",
         "cn-north-1",
         "eu-south-1",
+        "sa-east-1",
         "us-gov-east-1",
         "us-west-1"
       ],
@@ -2228,7 +2232,7 @@
     },
     "single-sign-on": {
       "name": "AWS Single Sign-On",
-      "count": 16,
+      "count": 17,
       "regions": [
         "ap-northeast-1",
         "ap-southeast-1",
@@ -2239,13 +2243,14 @@
         "eu-west-3",
         "sa-east-1",
         "us-east-1",
-        "us-west-2",
+        "us-gov-east-1",
         "ap-northeast-2",
         "ap-south-1",
         "ca-central-1",
         "eu-west-2",
         "us-east-2",
-        "us-gov-west-1"
+        "us-gov-west-1",
+        "us-west-2"
       ],
       "id": "single-sign-on"
     },
@@ -2282,18 +2287,19 @@
     },
     "snowcone": {
       "name": "AWS Snowcone",
-      "count": 11,
+      "count": 12,
       "regions": [
-        "ap-northeast-1",
         "ap-southeast-1",
         "ap-southeast-2",
         "ca-central-1",
         "eu-central-1",
         "eu-west-1",
+        "eu-west-2",
         "sa-east-1",
         "us-east-1",
         "us-west-1",
         "us-west-2",
+        "ap-northeast-1",
         "us-east-2"
       ],
       "id": "snowcone"
@@ -2445,7 +2451,7 @@
     },
     "aws-transfer-family": {
       "name": "AWS Transfer Family",
-      "count": 24,
+      "count": 25,
       "regions": [
         "af-south-1",
         "ap-east-1",
@@ -2458,9 +2464,9 @@
         "us-east-2",
         "us-west-1",
         "ap-northeast-2",
+        "ap-northeast-3",
         "ca-central-1",
         "eu-north-1",
-        "eu-west-1",
         "eu-west-2",
         "eu-west-3",
         "me-south-1",
@@ -2470,7 +2476,8 @@
         "ap-northeast-1",
         "cn-north-1",
         "cn-northwest-1",
-        "eu-south-1"
+        "eu-south-1",
+        "eu-west-1"
       ],
       "id": "aws-transfer-family"
     },
@@ -2837,7 +2844,7 @@
     },
     "chime": {
       "name": "Amazon Chime",
-      "count": 18,
+      "count": 20,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
@@ -2856,6 +2863,8 @@
         "eu-north-1",
         "eu-west-2",
         "us-east-2",
+        "us-gov-east-1",
+        "us-gov-west-1",
         "us-west-1"
       ],
       "id": "chime"
@@ -3321,7 +3330,7 @@
     },
     "efs": {
       "name": "Amazon Elastic File System (EFS)",
-      "count": 25,
+      "count": 26,
       "regions": [
         "ap-south-1",
         "ca-central-1",
@@ -3339,11 +3348,12 @@
         "ap-northeast-2",
         "ap-northeast-3",
         "ap-southeast-1",
-        "eu-central-1",
+        "ap-southeast-3",
         "eu-south-1",
         "eu-west-3",
         "sa-east-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "us-east-1",
         "us-gov-west-1",
@@ -4102,31 +4112,33 @@
     },
     "msk": {
       "name": "Amazon Managed Streaming for Apache Kafka",
-      "count": 23,
+      "count": 25,
       "regions": [
+        "af-south-1",
         "ap-northeast-2",
         "ap-south-1",
         "ap-southeast-2",
         "cn-northwest-1",
         "eu-west-3",
         "us-east-1",
-        "us-east-2",
         "us-gov-east-1",
         "us-gov-west-1",
         "us-west-2",
         "ap-east-1",
         "ap-northeast-1",
-        "ca-central-1",
+        "ap-northeast-3",
         "cn-north-1",
         "eu-north-1",
         "eu-south-1",
         "eu-west-2",
         "me-south-1",
-        "sa-east-1",
+        "us-east-2",
         "us-west-1",
         "ap-southeast-1",
+        "ca-central-1",
         "eu-central-1",
-        "eu-west-1"
+        "eu-west-1",
+        "sa-east-1"
       ],
       "id": "msk"
     },
