@@ -1,4 +1,4 @@
-### 202 Services
+### 204 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-dde91b3d-0715-4d79-b104-00a12a7db5f6'>
+<img src='https://quickchart.io/chart/render/zf-b04edd00-5b69-411b-9b7b-b79726060536'>
 
 # Region and Service Table # 
 | |  |
@@ -94,6 +94,7 @@ AWS Outposts|:white_check_mark: | :white_check_mark: | :white_check_mark: | :whi
 AWS Personal Health Dashboard|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS PrivateLink|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Proton|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS Resilience Hub|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Resource Access Manager (RAM)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS RoboMaker|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Secrets Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -214,4 +215,5 @@ CloudEndure Disaster Recovery|:white_check_mark: | :white_check_mark: | :white_c
 CloudEndure Migration|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Elastic Load Balancing|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 FreeRTOS|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Red Hat OpenShift Service on AWS (ROSA)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 VMware Cloud on AWS|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:

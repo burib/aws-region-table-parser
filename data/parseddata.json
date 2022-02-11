@@ -1,5 +1,5 @@
 {
-  "servicesCount": 202,
+  "servicesCount": 204,
   "services": {
     "iot-events": {
       "name": "AWS IoT Events",
@@ -1998,6 +1998,33 @@
         "us-west-2"
       ],
       "id": "proton"
+    },
+    "resilience-hub": {
+      "name": "AWS Resilience Hub",
+      "count": 20,
+      "regions": [
+        "ap-east-1",
+        "ap-northeast-2",
+        "ap-south-1",
+        "eu-central-1",
+        "eu-west-1",
+        "eu-west-2",
+        "me-south-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2",
+        "af-south-1",
+        "ap-northeast-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "ca-central-1",
+        "eu-north-1",
+        "eu-south-1",
+        "eu-west-3",
+        "sa-east-1",
+        "us-west-1"
+      ],
+      "id": "resilience-hub"
     },
     "ram": {
       "name": "AWS Resource Access Manager (RAM)",
@@ -4982,6 +5009,34 @@
       ],
       "id": "freertos"
     },
+    "rosa": {
+      "name": "Red Hat OpenShift Service on AWS (ROSA)",
+      "count": 21,
+      "regions": [
+        "ap-east-1",
+        "ap-northeast-1",
+        "ap-northeast-3",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "eu-north-1",
+        "eu-south-1",
+        "eu-west-1",
+        "me-south-1",
+        "us-east-2",
+        "af-south-1",
+        "ap-northeast-2",
+        "ap-south-1",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-west-1",
+        "us-west-2",
+        "eu-west-3"
+      ],
+      "id": "rosa"
+    },
     "vmware": {
       "name": "VMware Cloud on AWS",
       "count": 20,
@@ -5092,6 +5147,7 @@
     "premiumsupportphd": "AWS Personal Health Dashboard",
     "privatelink": "AWS PrivateLink",
     "proton": "AWS Proton",
+    "resilience-hub": "AWS Resilience Hub",
     "ram": "AWS Resource Access Manager (RAM)",
     "robomaker": "AWS RoboMaker",
     "secrets-manager": "AWS Secrets Manager",
@@ -5212,6 +5268,7 @@
     "cloudendure-migration": "CloudEndure Migration",
     "elasticloadbalancing": "Elastic Load Balancing",
     "freertos": "FreeRTOS",
+    "rosa": "Red Hat OpenShift Service on AWS (ROSA)",
     "vmware": "VMware Cloud on AWS"
   },
   "regionSummary": {},
