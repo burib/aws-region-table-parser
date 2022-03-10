@@ -1,4 +1,4 @@
-### 204 Services
+### 205 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-a0ada114-9bc9-4b88-8f85-af6cbfd6aaf8'>
+<img src='https://quickchart.io/chart/render/zf-0a2e0567-f7ad-477e-935f-cc7d9315e9d2'>
 
 # Region and Service Table # 
 | |  |
@@ -179,6 +179,7 @@ Amazon Lumberyard|:white_check_mark: | :white_check_mark: | :white_check_mark: |
 Amazon MQ|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Macie|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Blockchain|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon Managed Grafana|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Streaming for Apache Kafka|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Workflows for Apache Airflow|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Neptune|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
