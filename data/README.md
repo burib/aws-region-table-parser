@@ -1,4 +1,4 @@
-### 205 Services
+### 207 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-c1a4270d-6ec1-4b6f-bade-a7c05ce97d3a'>
+<img src='https://quickchart.io/chart/render/zf-a44310fe-1fef-4dec-87f6-2163d65cab8f'>
 
 # Region and Service Table # 
 | |  |
@@ -140,6 +140,7 @@ Amazon Detective|:white_check_mark: | :white_check_mark: | :white_check_mark: | 
 Amazon DevOps Guru|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon DocumentDB (with MongoDB compatibility)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon DynamoDB|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon EC2 Auto Scaling|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon ElastiCache|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Elastic Block Store (EBS)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Elastic Compute Cloud (EC2)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -180,6 +181,7 @@ Amazon MQ|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_
 Amazon Macie|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Blockchain|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Grafana|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon Managed Service for Prometheus|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Streaming for Apache Kafka|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Workflows for Apache Airflow|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Neptune|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:

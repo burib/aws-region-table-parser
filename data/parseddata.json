@@ -1,5 +1,5 @@
 {
-  "servicesCount": 205,
+  "servicesCount": 207,
   "services": {
     "iot-events": {
       "name": "AWS IoT Events",
@@ -2666,7 +2666,7 @@
     },
     "xray": {
       "name": "AWS X-Ray",
-      "count": 25,
+      "count": 26,
       "regions": [
         "ap-east-1",
         "ap-southeast-1",
@@ -2683,15 +2683,16 @@
         "ap-northeast-2",
         "ap-south-1",
         "ap-southeast-2",
+        "ap-southeast-3",
         "ca-central-1",
         "cn-north-1",
         "eu-south-1",
         "eu-west-1",
-        "us-gov-west-1",
         "ap-northeast-3",
         "eu-north-1",
         "me-south-1",
         "sa-east-1",
+        "us-gov-west-1",
         "us-west-2"
       ],
       "id": "xray"
@@ -3193,6 +3194,39 @@
         "us-gov-west-1"
       ],
       "id": "dynamodb"
+    },
+    "ec2autoscaling": {
+      "name": "Amazon EC2 Auto Scaling",
+      "count": 26,
+      "regions": [
+        "af-south-1",
+        "ap-southeast-1",
+        "ap-southeast-3",
+        "eu-central-1",
+        "eu-south-1",
+        "eu-west-2",
+        "me-south-1",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "ap-east-1",
+        "ap-northeast-2",
+        "ap-northeast-3",
+        "ap-southeast-2",
+        "ca-central-1",
+        "cn-north-1",
+        "eu-north-1",
+        "eu-west-3",
+        "us-gov-west-1",
+        "us-west-2",
+        "ap-northeast-1",
+        "ap-south-1",
+        "cn-northwest-1",
+        "eu-west-1",
+        "us-gov-east-1",
+        "us-west-1"
+      ],
+      "id": "ec2autoscaling"
     },
     "elasticache": {
       "name": "Amazon ElastiCache",
@@ -4164,6 +4198,22 @@
         "us-west-2"
       ],
       "id": "grafana"
+    },
+    "prometheus": {
+      "name": "Amazon Managed Service for Prometheus",
+      "count": 9,
+      "regions": [
+        "ap-northeast-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "id": "prometheus"
     },
     "msk": {
       "name": "Amazon Managed Streaming for Apache Kafka",
@@ -5222,6 +5272,7 @@
     "devops-guru": "Amazon DevOps Guru",
     "documentdb": "Amazon DocumentDB (with MongoDB compatibility)",
     "dynamodb": "Amazon DynamoDB",
+    "ec2autoscaling": "Amazon EC2 Auto Scaling",
     "elasticache": "Amazon ElastiCache",
     "ebs": "Amazon Elastic Block Store (EBS)",
     "ec2": "Amazon Elastic Compute Cloud (EC2)",
@@ -5262,6 +5313,7 @@
     "macie": "Amazon Macie",
     "managed-blockchain": "Amazon Managed Blockchain",
     "grafana": "Amazon Managed Grafana",
+    "prometheus": "Amazon Managed Service for Prometheus",
     "msk": "Amazon Managed Streaming for Apache Kafka",
     "managed-workflows-for-apache-airflow": "Amazon Managed Workflows for Apache Airflow",
     "neptune": "Amazon Neptune",
