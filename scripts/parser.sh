@@ -23,14 +23,15 @@ function deploy() {
 }
 
 function get_services() {
-  curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"], serviceUrl: .attributes["aws:serviceUrl"] | sub("https://"; ""; "g") | sub("aws.amazon.com/"; ""; "g") | sub("www."; ""; "g") | sub(".aws"; ""; "g") | sub("/"; ""; "g") }]' | jq '[
+  curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { id: .id | split(":")[0], region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"] | gsub("^\\s+|\\s+$";""), serviceUrl: .attributes["aws:serviceUrl"] }]' | jq '[
           group_by(.serviceName)[] | {
+                          code: .[0].id,
                           name: .[0].serviceName,
                           count: [.[] | .region] | length,
                           regions: [.[] | .region],
-                          id: .[0].serviceUrl
+                          url: .[0].serviceUrl
                   }
-  ] | sort_by(.name) | INDEX(.id) |
+  ] | sort_by(.name) | INDEX(.code) |
   {
     "servicesCount": . | keys | length,
     "services": .,
@@ -41,7 +42,7 @@ function get_services() {
     "regionsCount": 0,
     "edgeLocationsTotalCount": 0,
     "edgeLocationsCount": 0,
-    "regionalEdgeCachesCount": 0
+    "regionalEdgeCachesCount": 0,
   }'
 }
 
