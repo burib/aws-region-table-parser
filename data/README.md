@@ -1,4 +1,4 @@
-### 207 Services
+### 208 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-2e15fe71-8c6b-4e83-ac7a-962510995472'>
+<img src='https://quickchart.io/chart/render/zf-e4ba0fe7-245b-4c6a-9164-9bb160e02515'>
 
 # Region and Service Table # 
 | |  |
@@ -78,6 +78,7 @@ AWS IoT Device Management|:white_check_mark: | :white_check_mark: | :white_check
 AWS IoT Greengrass|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT SiteWise|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT Things Graph|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS IoT TwinMaker|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Key Management Service|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Lake Formation|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Lambda|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
