@@ -1,5 +1,5 @@
 {
-  "servicesCount": 208,
+  "servicesCount": 207,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -5151,18 +5151,6 @@
       ],
       "url": "https://aws.amazon.com/workdocs/"
     },
-    "worklink": {
-      "code": "worklink",
-      "name": "Amazon WorkLink",
-      "count": 4,
-      "regions": [
-        "eu-west-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/worklink/"
-    },
     "workmail": {
       "code": "workmail",
       "name": "Amazon WorkMail",
@@ -5590,7 +5578,6 @@
     "translate": "Amazon Translate",
     "vpc": "Amazon Virtual Private Cloud (VPC)",
     "workdocs": "Amazon WorkDocs",
-    "worklink": "Amazon WorkLink",
     "workmail": "Amazon WorkMail",
     "workspaces": "Amazon WorkSpaces",
     "wam": "Amazon WorkSpaces Application Manager",

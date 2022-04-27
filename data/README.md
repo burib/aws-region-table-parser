@@ -1,4 +1,4 @@
-### 208 Services
+### 207 Services
 
 ###   0 Regions 
 ###   0 Edge Locations in 0 cities.
@@ -8,7 +8,7 @@
 | ------ | -------- | -------- | 
 
 
-<img src='https://quickchart.io/chart/render/zf-361385ec-8c42-4560-a5c8-ea7ada20dea9'>
+<img src='https://quickchart.io/chart/render/zf-4be3d30f-0095-449c-a2c5-22638672cbfe'>
 
 # Region and Service Table # 
 | |  |
@@ -211,7 +211,6 @@ Amazon Transcribe Medical|:white_check_mark: | :white_check_mark: | :white_check
 Amazon Translate|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Virtual Private Cloud (VPC)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon WorkDocs|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-Amazon WorkLink|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon WorkMail|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon WorkSpaces|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon WorkSpaces Application Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
