@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const awsRegionTableParser = require('./index.js');
 const chartGenerator = require('./chart-generator.js');
 const regionNames = {
@@ -121,5 +122,9 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
 
   const READMEtext = `${READMEheader}\n${READMErows.join('\n')}`;
 
-  fs.writeFileSync('./data/README.md', READMEtext, 'utf8');
+  const README_FILE_PATH = path.join(__dirname, 'README.md');
+  let README_FILE_CONTEXT = fs.readFileSync(README_FILE_PATH, 'utf8');
+  README_FILE_CONTEXT = README_FILE_CONTEXT.replace('# Region Summary:  \r\n', `# Region Summary:  \r\n\r\n${READMEtext}`);
+
+  fs.writeFileSync(README_FILE_PATH, README_FILE_CONTEXT, 'utf8');
 });
