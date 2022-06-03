@@ -36,14 +36,9 @@ function get_services() {
     "servicesCount": . | keys | length,
     "services": .,
     "serviceNames": . | to_entries | map({key: .key, value: .value.name}) | from_entries,
-    "regionSummary": {},
-    "edgeLocations": [],
-    "regionalEdgeCaches": [],
-    "regionsCount": 0,
-    "edgeLocationsTotalCount": 0,
-    "edgeLocationsCount": 0,
-    "regionalEdgeCachesCount": 0,
-  }'
+    "regionCodes":  . | to_entries | map(.value.regions) | flatten | unique | sort,
+    "regionsCount": . | to_entries | map(.value.regions) | flatten | unique | length,
+  }' > "$DATA_DIR/parseddata.json"
 }
 
 function update_data() {

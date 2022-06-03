@@ -1,6 +1,35 @@
 const fs = require('fs');
 const awsRegionTableParser = require('./index.js');
 const chartGenerator = require('./chart-generator.js');
+const regionNames = {
+  "af-south-1": "Africa (Cape Town)",
+  "ap-east-1": "Asia Pacific (Hong Kong)",
+  "ap-northeast-1": "Asia Pacific (Tokyo)",
+  "ap-northeast-2": "Asia Pacific (Seoul)",
+  "ap-northeast-3": "Asia Pacific (Osaka-Local)",
+  "ap-south-1": "Asia Pacific (Mumbai)",
+  "ap-southeast-1": "Asia Pacific (Singapore)",
+  "ap-southeast-2": "Asia Pacific (Sydney)",
+  "ap-southeast-3": " Asia Pacific (Jakarta)",
+  "ca-central-1": "Canada (Central)",
+  "cn-north-1": "China (Beijing)",
+  "cn-northwest-1": "China (Ningxia)",
+  "eu-central-1": "Europe (Frankfurt)",
+  "eu-central-2": "Europe (Zurich)",
+  "eu-north-1": "Europe (Stockholm)",
+  "eu-south-1": "Europe (Milan)",
+  "eu-west-1": "Europe (Ireland)",
+  "eu-west-2": "Europe (London)",
+  "eu-west-3": "Europe (Paris)",
+  "me-south-1": "Middle East (Bahrain)",
+  "sa-east-1": "South America (Sao Paulo)",
+  "us-east-1": "US East (N. Virginia)",
+  "us-east-2": "US East (Ohio)",
+  "us-gov-east-1": "AWS GovCloud (US-East)",
+  "us-gov-west-1": "AWS GovCloud (US)",
+  "us-west-1": "US West (N. California)",
+  "us-west-2": "US West (Oregon)"
+};
 
 const sortArrayByProp = (array, prop, asc = true) => {
   return array.sort((a, b) => {
@@ -9,7 +38,8 @@ const sortArrayByProp = (array, prop, asc = true) => {
 };
 
 async function generateRegionSummaryMarkdown(parseddata) {
-  const regionSummary = sortArrayByProp(Object.values(parseddata.regionSummary), 'value', false);
+  const regionSummary = sortArrayByProp(Object.values(parseddata.regionSummary), 'count', false);
+
   const chartConfig = {
     "type": "bar",
     "data": {
@@ -35,10 +65,10 @@ async function generateRegionSummaryMarkdown(parseddata) {
   markdownTable += `| Region Code | Region Name | no. of Supported Services | \n`;
   markdownTable += `| ------ | -------- | -------- | \n`;
   regionSummary.forEach(region => {
-    markdownTable += `${region.regionCode} | ${region.regionName} | ${region.value}\n`;
+    markdownTable += `${region.code} | ${region.name} | ${region.count}\n`;
 
-    chartConfig.data.labels.push(`${region.regionCode}`);
-    chartConfig.data.datasets[0].data.push(region.value);
+    chartConfig.data.labels.push(`${region.code}`);
+    chartConfig.data.datasets[0].data.push(region.count);
   });
 
   markdownTable += `\n\n`;
@@ -50,11 +80,31 @@ async function generateRegionSummaryMarkdown(parseddata) {
   });
 }
 
+function getRegionSummary(parseddata) {
+  let regionSummary = {};
+
+  Object.values(parseddata.services).forEach(service => {
+    service.regions.forEach(regionCode => {
+      if (!regionSummary[regionCode]) {
+        regionSummary[regionCode] = {
+          code: regionCode,
+          name: regionNames[regionCode] || regionCode,
+          count: 0
+        };
+      }
+
+      regionSummary[regionCode].count += 1;
+    });
+  });
+
+  return regionSummary
+}
+
 awsRegionTableParser.get().then(async function (servicesAndRegions) {
+  servicesAndRegions.regionSummary = getRegionSummary(servicesAndRegions);
+
   let READMEheader = `### ${servicesAndRegions.servicesCount.toString().padStart(3)} Services\n\n`;
   READMEheader += `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
-  READMEheader += `### ${servicesAndRegions.edgeLocationsTotalCount.toString().padStart(3)} Edge Locations in ${servicesAndRegions.edgeLocationsCount} cities.\n`;
-  READMEheader += `### ${servicesAndRegions.regionalEdgeCachesCount.toString().padStart(3)} Regional Edge Caches\n`;
 
   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
   READMEheader += `# Region and Service Table # \n`
