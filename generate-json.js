@@ -75,6 +75,7 @@ async function generateRegionSummaryMarkdown(parseddata) {
   markdownTable += `\n\n`;
 
   return await chartGenerator.getChartUrl(chartConfig).then((chartUrl) => {
+    markdownTable += "### Number of Supported Services Per Region\n\n";
     markdownTable += `<img src='${chartUrl}'>\n\n`;
 
     return markdownTable;
