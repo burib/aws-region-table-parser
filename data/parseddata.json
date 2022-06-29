@@ -2916,7 +2916,7 @@
     "appstream": {
       "code": "appstream",
       "name": "Amazon AppStream 2.0",
-      "count": 12,
+      "count": 13,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
@@ -2929,7 +2929,8 @@
         "us-gov-west-1",
         "us-west-2",
         "ap-southeast-2",
-        "us-east-1"
+        "us-east-1",
+        "us-east-2"
       ],
       "url": "https://aws.amazon.com/appstream2/"
     },
