@@ -1399,6 +1399,35 @@
       ],
       "url": "https://aws.amazon.com/ground-station/"
     },
+    "sso": {
+      "code": "sso",
+      "name": "AWS IAM Identity Center",
+      "count": 21,
+      "regions": [
+        "ap-east-1",
+        "ap-northeast-3",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-south-1",
+        "eu-west-1",
+        "me-south-1",
+        "sa-east-1",
+        "us-east-1",
+        "us-gov-east-1",
+        "ap-northeast-1",
+        "ap-northeast-2",
+        "ap-south-1",
+        "ap-southeast-1",
+        "ca-central-1",
+        "eu-north-1",
+        "eu-west-3",
+        "us-east-2",
+        "us-gov-west-1",
+        "us-west-2",
+        "eu-west-2"
+      ],
+      "url": "https://aws.amazon.com/single-sign-on/"
+    },
     "aiq": {
       "code": "aiq",
       "name": "AWS IQ",
@@ -2394,35 +2423,6 @@
         "ca-central-1"
       ],
       "url": "https://aws.amazon.com/shield/"
-    },
-    "sso": {
-      "code": "sso",
-      "name": "AWS Single Sign-On",
-      "count": 21,
-      "regions": [
-        "ap-east-1",
-        "ap-northeast-3",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-south-1",
-        "eu-west-1",
-        "me-south-1",
-        "sa-east-1",
-        "us-east-1",
-        "us-gov-east-1",
-        "ap-northeast-1",
-        "ap-northeast-2",
-        "ap-south-1",
-        "ap-southeast-1",
-        "ca-central-1",
-        "eu-north-1",
-        "eu-west-3",
-        "us-east-2",
-        "us-gov-west-1",
-        "us-west-2",
-        "eu-west-2"
-      ],
-      "url": "https://aws.amazon.com/single-sign-on/"
     },
     "snowball": {
       "code": "snowball",
@@ -5464,6 +5464,7 @@
     "globalaccelerator": "AWS Global Accelerator",
     "glue": "AWS Glue",
     "groundstation": "AWS Ground Station",
+    "sso": "AWS IAM Identity Center",
     "aiq": "AWS IQ",
     "iam": "AWS Identity and Access Management (IAM)",
     "iot1click-projects": "AWS IoT 1-Click",
@@ -5501,7 +5502,6 @@
     "serverlessrepo": "AWS Serverless Application Repository",
     "servicecatalog": "AWS Service Catalog",
     "shield": "AWS Shield",
-    "sso": "AWS Single Sign-On",
     "snowball": "AWS Snowball",
     "snowcone": "AWS Snowcone",
     "snowmobile": "AWS Snowmobile",
