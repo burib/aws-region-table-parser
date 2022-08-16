@@ -1,5 +1,5 @@
 {
-  "servicesCount": 207,
+  "servicesCount": 208,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -477,7 +477,7 @@
     "cloudhsmv2": {
       "code": "cloudhsmv2",
       "name": "AWS CloudHSM",
-      "count": 23,
+      "count": 24,
       "regions": [
         "af-south-1",
         "ap-east-1",
@@ -493,15 +493,16 @@
         "ap-south-1",
         "ap-southeast-1",
         "ap-southeast-2",
+        "ap-southeast-3",
         "eu-west-2",
         "eu-west-3",
-        "sa-east-1",
         "us-gov-west-1",
         "us-west-1",
         "us-west-2",
         "ap-northeast-2",
         "eu-north-1",
-        "eu-west-1"
+        "eu-west-1",
+        "sa-east-1"
       ],
       "url": "https://aws.amazon.com/cloudhsm/"
     },
@@ -5243,6 +5244,24 @@
       ],
       "url": "https://aws.amazon.com/workspaces/applicationmanager/"
     },
+    "workspaces-web": {
+      "code": "workspaces-web",
+      "name": "Amazon WorkSpaces Web",
+      "count": 10,
+      "regions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-west-1",
+        "eu-west-2",
+        "us-east-1",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/workspaces/web/"
+    },
     "cloudenduredisasterrecovery": {
       "code": "cloudenduredisasterrecovery",
       "name": "CloudEndure Disaster Recovery",
@@ -5628,6 +5647,7 @@
     "workmail": "Amazon WorkMail",
     "workspaces": "Amazon WorkSpaces",
     "wam": "Amazon WorkSpaces Application Manager",
+    "workspaces-web": "Amazon WorkSpaces Web",
     "cloudenduredisasterrecovery": "CloudEndure Disaster Recovery",
     "cloudenduremigration": "CloudEndure Migration",
     "elb": "Elastic Load Balancing",
