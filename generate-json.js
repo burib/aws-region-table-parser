@@ -18,6 +18,7 @@ const regionNames = {
   "eu-central-1": "Europe (Frankfurt)",
   "eu-central-2": "Europe (Zurich)",
   "eu-north-1": "Europe (Stockholm)",
+  "eu-east-1": "Europe (Spain)",
   "eu-south-1": "Europe (Milan)",
   "eu-west-1": "Europe (Ireland)",
   "eu-west-2": "Europe (London)",
