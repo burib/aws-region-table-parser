@@ -108,16 +108,16 @@
     "mgn": {
       "code": "mgn",
       "name": "AWS Application Migration Service (MGN)",
-      "count": 21,
+      "count": 22,
       "regions": [
         "ap-northeast-3",
         "ap-southeast-2",
+        "ap-southeast-3",
         "ca-central-1",
         "eu-south-1",
         "eu-west-2",
         "eu-west-3",
         "me-south-1",
-        "sa-east-1",
         "us-east-2",
         "us-west-1",
         "af-south-1",
@@ -126,10 +126,11 @@
         "ap-northeast-2",
         "ap-south-1",
         "ap-southeast-1",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
+        "sa-east-1",
         "us-east-1",
+        "eu-central-1",
         "us-west-2"
       ],
       "url": "https://aws.amazon.com/application-migration-service/"
@@ -1360,7 +1361,7 @@
     "glue": {
       "code": "glue",
       "name": "AWS Glue",
-      "count": 25,
+      "count": 26,
       "regions": [
         "ap-east-1",
         "ap-northeast-2",
@@ -1373,11 +1374,11 @@
         "us-west-1",
         "us-west-2",
         "ap-northeast-1",
+        "ap-southeast-3",
         "ca-central-1",
         "cn-north-1",
         "eu-central-1",
         "eu-west-3",
-        "me-south-1",
         "sa-east-1",
         "us-east-2",
         "us-gov-east-1",
@@ -1386,7 +1387,8 @@
         "eu-north-1",
         "eu-south-1",
         "eu-west-1",
-        "eu-west-2"
+        "eu-west-2",
+        "me-south-1"
       ],
       "url": "https://aws.amazon.com/glue/"
     },
