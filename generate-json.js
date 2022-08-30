@@ -11,7 +11,7 @@ const regionNames = {
   "ap-south-1": "Asia Pacific (Mumbai)",
   "ap-southeast-1": "Asia Pacific (Singapore)",
   "ap-southeast-2": "Asia Pacific (Sydney)",
-  "ap-southeast-3": " Asia Pacific (Jakarta)",
+  "ap-southeast-3": "Asia Pacific (Jakarta)",
   "ca-central-1": "Canada (Central)",
   "cn-north-1": "China (Beijing)",
   "cn-northwest-1": "China (Ningxia)",
@@ -24,6 +24,7 @@ const regionNames = {
   "eu-west-2": "Europe (London)",
   "eu-west-3": "Europe (Paris)",
   "me-south-1": "Middle East (Bahrain)",
+  "me-central-1": "Middle East (UAE)"
   "sa-east-1": "South America (Sao Paulo)",
   "us-east-1": "US East (N. Virginia)",
   "us-east-2": "US East (Ohio)",
