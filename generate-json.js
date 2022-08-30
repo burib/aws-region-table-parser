@@ -24,7 +24,7 @@ const regionNames = {
   "eu-west-2": "Europe (London)",
   "eu-west-3": "Europe (Paris)",
   "me-south-1": "Middle East (Bahrain)",
-  "me-central-1": "Middle East (UAE)"
+  "me-central-1": "Middle East (UAE)",
   "sa-east-1": "South America (Sao Paulo)",
   "us-east-1": "US East (N. Virginia)",
   "us-east-2": "US East (Ohio)",
