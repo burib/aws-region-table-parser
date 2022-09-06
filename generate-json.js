@@ -123,11 +123,11 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
     READMErows.push(row);
   }
 
-  const READMEtext = `${READMEheader}\n${READMErows.join('\n')}`;
+  const READMEtext = `  \n${READMEheader}\n${READMErows.join('\n')}`;
 
   const README_FILE_PATH = path.join(__dirname, 'README.md');
   let README_FILE_CONTEXT = fs.readFileSync(README_FILE_PATH, 'utf8');
-  README_FILE_CONTEXT = README_FILE_CONTEXT.replace('# Region Summary: \r\n', `# Region Summary:  \r\n\r\n${READMEtext}`);
+  README_FILE_CONTEXT = README_FILE_CONTEXT.replace('# Region Summary:', `# Region Summary:${READMEtext}`);
 
   fs.writeFileSync(README_FILE_PATH, README_FILE_CONTEXT, 'utf8');
 });
