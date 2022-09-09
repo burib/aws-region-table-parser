@@ -9,6 +9,7 @@ const regionNames = {
   "ap-northeast-2": "Asia Pacific (Seoul)",
   "ap-northeast-3": "Asia Pacific (Osaka-Local)",
   "ap-south-1": "Asia Pacific (Mumbai)",
+  "ap-south-2": "Asia Pacific (Hyderabad)",
   "ap-southeast-1": "Asia Pacific (Singapore)",
   "ap-southeast-2": "Asia Pacific (Sydney)",
   "ap-southeast-3": "Asia Pacific (Jakarta)",
