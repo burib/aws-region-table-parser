@@ -1,5 +1,5 @@
 {
-  "servicesCount": 208,
+  "servicesCount": 210,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -482,7 +482,7 @@
     "cloudhsmv2": {
       "code": "cloudhsmv2",
       "name": "AWS CloudHSM",
-      "count": 24,
+      "count": 25,
       "regions": [
         "af-south-1",
         "ap-east-1",
@@ -507,6 +507,7 @@
         "ap-northeast-2",
         "eu-north-1",
         "eu-west-1",
+        "me-central-1",
         "sa-east-1"
       ],
       "url": "https://aws.amazon.com/cloudhsm/"
@@ -1842,6 +1843,21 @@
         "us-west-1"
       ],
       "url": "https://aws.amazon.com/license-manager/"
+    },
+    "m2": {
+      "code": "m2",
+      "name": "AWS Mainframe Modernization",
+      "count": 7,
+      "regions": [
+        "ap-southeast-2",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-west-1",
+        "sa-east-1",
+        "us-east-1",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/mainframe-modernization/"
     },
     "managedservices": {
       "code": "managedservices",
@@ -3780,41 +3796,6 @@
       ],
       "url": "https://aws.amazon.com/elastictranscoder/"
     },
-    "es": {
-      "code": "es",
-      "name": "Amazon Elasticsearch Service",
-      "count": 27,
-      "regions": [
-        "ap-east-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "cn-north-1",
-        "cn-northwest-1",
-        "eu-south-1",
-        "eu-west-3",
-        "us-gov-west-1",
-        "us-west-1",
-        "us-west-2",
-        "af-south-1",
-        "ap-southeast-1",
-        "ca-central-1",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "me-south-1",
-        "us-east-1",
-        "us-east-2",
-        "ap-northeast-1",
-        "ap-northeast-2",
-        "ap-northeast-3",
-        "ap-southeast-3",
-        "me-central-1",
-        "sa-east-1",
-        "us-gov-east-1"
-      ],
-      "url": "https://aws.amazon.com/elasticsearch-service/"
-    },
     "eventbridge": {
       "code": "eventbridge",
       "name": "Amazon EventBridge",
@@ -3963,6 +3944,24 @@
         "me-south-1"
       ],
       "url": "https://aws.amazon.com/fsx/windows/"
+    },
+    "filecache": {
+      "code": "filecache",
+      "name": "Amazon File Cache",
+      "count": 10,
+      "regions": [
+        "ap-northeast-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-west-1",
+        "eu-west-2",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/filecache/"
     },
     "forecast": {
       "code": "forecast",
@@ -4628,6 +4627,41 @@
       ],
       "url": "https://aws.amazon.com/nimble-studio/"
     },
+    "es": {
+      "code": "es",
+      "name": "Amazon OpenSearch Service",
+      "count": 27,
+      "regions": [
+        "ap-east-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "cn-north-1",
+        "cn-northwest-1",
+        "eu-south-1",
+        "eu-west-3",
+        "us-gov-west-1",
+        "us-west-1",
+        "us-west-2",
+        "af-south-1",
+        "ap-southeast-1",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "me-south-1",
+        "us-east-1",
+        "us-east-2",
+        "ap-northeast-1",
+        "ap-northeast-2",
+        "ap-northeast-3",
+        "ap-southeast-3",
+        "me-central-1",
+        "sa-east-1",
+        "us-gov-east-1"
+      ],
+      "url": "https://aws.amazon.com/elasticsearch-service/"
+    },
     "personalize": {
       "code": "personalize",
       "name": "Amazon Personalize",
@@ -4651,7 +4685,7 @@
     "pinpoint": {
       "code": "pinpoint",
       "name": "Amazon Pinpoint",
-      "count": 12,
+      "count": 13,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
@@ -4661,10 +4695,11 @@
         "eu-central-1",
         "eu-west-1",
         "eu-west-2",
+        "us-east-2",
         "us-gov-west-1",
-        "us-west-2",
         "ap-southeast-1",
-        "us-east-1"
+        "us-east-1",
+        "us-west-2"
       ],
       "url": "https://aws.amazon.com/pinpoint/"
     },
@@ -5587,6 +5622,7 @@
     "lakeformation": "AWS Lake Formation",
     "lambda": "AWS Lambda",
     "license-manager": "AWS License Manager",
+    "m2": "AWS Mainframe Modernization",
     "managedservices": "AWS Managed Services",
     "marketplace": "AWS Marketplace",
     "mgh": "AWS Migration Hub",
@@ -5656,12 +5692,12 @@
     "eks": "Amazon Elastic Kubernetes Service (EKS)",
     "emr": "Amazon Elastic MapReduce (EMR)",
     "elastictranscoder": "Amazon Elastic Transcoder",
-    "es": "Amazon Elasticsearch Service",
     "eventbridge": "Amazon EventBridge",
     "fsx-lustre": "Amazon FSx for Lustre",
     "fsx-ontap": "Amazon FSx for NetApp ONTAP",
     "fsx-openzfs": "Amazon FSx for OpenZFS",
     "fsx-windows": "Amazon FSx for Windows File Server",
+    "filecache": "Amazon File Cache",
     "forecast": "Amazon Forecast",
     "frauddetector": "Amazon Fraud Detector",
     "gamelift": "Amazon GameLift",
@@ -5691,6 +5727,7 @@
     "mwaa": "Amazon Managed Workflows for Apache Airflow",
     "neptune": "Amazon Neptune",
     "nimble": "Amazon Nimble Studio",
+    "es": "Amazon OpenSearch Service",
     "personalize": "Amazon Personalize",
     "pinpoint": "Amazon Pinpoint",
     "polly": "Amazon Polly",
