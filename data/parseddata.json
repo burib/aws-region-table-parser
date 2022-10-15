@@ -2209,7 +2209,7 @@
     "ram": {
       "code": "ram",
       "name": "AWS Resource Access Manager (RAM)",
-      "count": 26,
+      "count": 27,
       "regions": [
         "af-south-1",
         "ap-northeast-2",
@@ -2236,6 +2236,7 @@
         "ca-central-1",
         "eu-central-1",
         "eu-west-2",
+        "me-central-1",
         "me-south-1"
       ],
       "url": "https://aws.amazon.com/ram/"
