@@ -3923,7 +3923,7 @@
     "fsx-windows": {
       "code": "fsx-windows",
       "name": "Amazon FSx for Windows File Server",
-      "count": 25,
+      "count": 26,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-3",
@@ -3937,18 +3937,19 @@
         "us-west-2",
         "ap-east-1",
         "ap-southeast-1",
+        "ap-southeast-3",
         "ca-central-1",
         "eu-central-1",
         "eu-north-1",
         "eu-south-1",
         "eu-west-1",
-        "eu-west-3",
         "us-east-2",
         "us-gov-east-1",
         "af-south-1",
         "ap-northeast-2",
         "ap-southeast-2",
         "cn-northwest-1",
+        "eu-west-3",
         "me-south-1"
       ],
       "url": "https://aws.amazon.com/fsx/windows/"
