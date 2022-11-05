@@ -1,5 +1,5 @@
 {
-  "servicesCount": 210,
+  "servicesCount": 209,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -1684,20 +1684,6 @@
         "us-east-2"
       ],
       "url": "https://aws.amazon.com/iot-sitewise/"
-    },
-    "iotthingsgraph": {
-      "code": "iotthingsgraph",
-      "name": "AWS IoT Things Graph",
-      "count": 6,
-      "regions": [
-        "ap-northeast-1",
-        "ap-northeast-2",
-        "ap-southeast-2",
-        "eu-west-1",
-        "us-east-1",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/iot-things-graph/"
     },
     "iottwinmaker": {
       "code": "iottwinmaker",
@@ -3723,7 +3709,7 @@
     "eks": {
       "code": "eks",
       "name": "Amazon Elastic Kubernetes Service (EKS)",
-      "count": 26,
+      "count": 27,
       "regions": [
         "af-south-1",
         "ap-east-1",
@@ -3749,6 +3735,7 @@
         "ap-south-1",
         "ca-central-1",
         "eu-west-3",
+        "me-central-1",
         "us-east-1",
         "us-gov-east-1"
       ],
@@ -4216,7 +4203,7 @@
     "firehose": {
       "code": "firehose",
       "name": "Amazon Kinesis Data Firehose",
-      "count": 26,
+      "count": 27,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
@@ -4230,14 +4217,15 @@
         "us-gov-west-1",
         "af-south-1",
         "ap-east-1",
-        "ap-southeast-1",
         "ap-southeast-2",
         "eu-north-1",
         "eu-west-1",
+        "me-central-1",
         "us-east-1",
         "us-east-2",
         "us-west-1",
         "us-west-2",
+        "ap-southeast-1",
         "ca-central-1",
         "cn-north-1",
         "eu-south-1",
@@ -5627,7 +5615,6 @@
     "iotevents": "AWS IoT Events",
     "greengrass": "AWS IoT Greengrass",
     "iotsitewise": "AWS IoT SiteWise",
-    "iotthingsgraph": "AWS IoT Things Graph",
     "iottwinmaker": "AWS IoT TwinMaker",
     "kms": "AWS Key Management Service",
     "lakeformation": "AWS Lake Formation",
