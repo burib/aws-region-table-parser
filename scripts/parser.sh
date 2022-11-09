@@ -23,7 +23,12 @@ function deploy() {
 }
 
 function get_services() {
-  curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices | jq '[.[] | { id: .id | split(":")[0], region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"] | gsub("^\\s+|\\s+$";""), serviceUrl: .attributes["aws:serviceUrl"] }]' | jq '[
+  local RESPONSE=$(curl -s https://api.regional-table.region-services.aws.a2z.com/index.json | jq .prices \
+    | jq '[.[] | { id: .id | split(":")[0], region: .attributes["aws:region"], serviceName: .attributes["aws:serviceName"] | gsub("^\\s+|\\s+$";""), serviceUrl: .attributes["aws:serviceUrl"] }]'
+   )
+
+  echo $RESPONSE \
+    | jq '[
           group_by(.serviceName)[] | {
                           code: .[0].id,
                           name: .[0].serviceName,
@@ -39,6 +44,22 @@ function get_services() {
     "regionCodes":  . | to_entries | map(.value.regions) | flatten | unique | sort,
     "regionsCount": . | to_entries | map(.value.regions) | flatten | unique | length,
   }' > "$DATA_DIR/parseddata.json"
+
+  echo -e "\033[0;32mDone. parseddata.json \033[0m"
+
+  local REGION_INFO=$(echo $RESPONSE | jq '[group_by(.region)[] | {region: .[0].region, services: [.[] | .serviceName], count: [.[] | .serviceName] | length}] | sort_by(.region) | INDEX(.region)')
+  # remove region key from value
+  REGION_INFO=$(echo $REGION_INFO | jq 'map({key: .region, value: {count: .count, serviceNames: .services} }) | from_entries')
+  echo $REGION_INFO | jq > "$DATA_DIR/region_info.json"
+  echo -e "\033[0;32mDone. region_info.json \033[0m"
+
+  mkdir -p "$DATA_DIR/region_info/"
+  for region in $(echo $REGION_INFO | jq -r 'keys[]'); do
+    echo $REGION_INFO | jq -r ".[\"$region\"]" > "$DATA_DIR/region_info/$region.json"
+  done
+
+  echo -e "\033[0;32mDone. region_info/*.json \033[0m"
+
 }
 
 function update_data() {
