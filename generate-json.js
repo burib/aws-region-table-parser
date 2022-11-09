@@ -128,7 +128,7 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
 
   const README_FILE_PATH = path.join(__dirname, 'README.md');
   let README_FILE_CONTEXT = fs.readFileSync(README_FILE_PATH, 'utf8');
-  README_FILE_CONTEXT = README_FILE_CONTEXT.replace('# Region Summary:', `# Region Summary:${READMEtext}`);
+  README_FILE_CONTEXT = README_FILE_CONTEXT.replace(/(<!--START_SECTION:region_summary-->)([\s\S]*)(<!--END_SECTION:region_summary-->)/, `$1\n${READMEtext}\n$3`);
 
   fs.writeFileSync(README_FILE_PATH, README_FILE_CONTEXT, 'utf8');
 });
