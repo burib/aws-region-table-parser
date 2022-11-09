@@ -9,7 +9,7 @@ function deploy() {
   git config user.name 'autobot';
   git pull $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH;
 
-  if [[ -z $(git status "$DATA_DIR/parseddata.json" -s) ]]
+  if [[ -z $(git status "$DATA_DIR/*.json" -s) ]]
   then
     echo "no changes in data directory.";
   else
