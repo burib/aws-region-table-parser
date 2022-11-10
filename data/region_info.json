@@ -2748,7 +2748,7 @@
     ]
   },
   "me-central-1": {
-    "count": 55,
+    "count": 56,
     "serviceNames": [
       "Amazon Route 53",
       "AWS Cloud Map",
@@ -2795,6 +2795,7 @@
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
       "AWS VPN",
+      "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",

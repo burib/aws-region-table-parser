@@ -36,13 +36,13 @@ ap-northeast-3 | Asia Pacific (Osaka-Local) | 100
 cn-north-1 | China (Beijing) | 99
 cn-northwest-1 | China (Ningxia) | 98
 ap-southeast-3 | Asia Pacific (Jakarta) | 86
-me-central-1 | Middle East (UAE) | 55
+me-central-1 | Middle East (UAE) | 56
 eu-central-2 | Europe (Zurich) | 47
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-0f3f074a-4fcd-4337-b72c-d1fd305240f4'>
+<img src='https://quickchart.io/chart/render/sf-84590239-e741-48c6-b0e2-ac0bc1dbcc6d'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 |
