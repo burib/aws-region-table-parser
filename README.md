@@ -6,7 +6,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
   
 ### 209 Services
 
-###  28 Regions 
+###  29 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
@@ -14,17 +14,17 @@ us-east-1 | US East (N. Virginia) | 207
 us-west-2 | US West (Oregon) | 201
 eu-west-1 | Europe (Ireland) | 195
 ap-southeast-2 | Asia Pacific (Sydney) | 189
-ap-northeast-1 | Asia Pacific (Tokyo) | 188
+ap-northeast-1 | Asia Pacific (Tokyo) | 189
 eu-central-1 | Europe (Frankfurt) | 186
-ap-southeast-1 | Asia Pacific (Singapore) | 181
+ap-southeast-1 | Asia Pacific (Singapore) | 182
 us-east-2 | US East (Ohio) | 180
-eu-west-2 | Europe (London) | 171
+eu-west-2 | Europe (London) | 172
 ap-northeast-2 | Asia Pacific (Seoul) | 164
 ca-central-1 | Canada (Central) | 162
-ap-south-1 | Asia Pacific (Mumbai) | 159
+ap-south-1 | Asia Pacific (Mumbai) | 160
+eu-west-3 | Europe (Paris) | 142
 sa-east-1 | South America (Sao Paulo) | 142
 us-west-1 | US West (N. California) | 142
-eu-west-3 | Europe (Paris) | 141
 eu-north-1 | Europe (Stockholm) | 140
 ap-east-1 | Asia Pacific (Hong Kong) | 123
 us-gov-west-1 | AWS GovCloud (US) | 123
@@ -38,15 +38,16 @@ cn-northwest-1 | China (Ningxia) | 98
 ap-southeast-3 | Asia Pacific (Jakarta) | 86
 me-central-1 | Middle East (UAE) | 56
 eu-central-2 | Europe (Zurich) | 47
+eu-south-2 | eu-south-2 | 47
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-bd6b2d85-81c2-4327-9b0a-34406a41ae60'>
+<img src='https://quickchart.io/chart/render/sf-a367b351-f027-4029-8485-5d448160855e'>
 
 # Region and Service Table # 
-| | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
+| | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
 AWS Amplify|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS App Mesh|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS AppSync|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:

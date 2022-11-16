@@ -246,7 +246,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -400,6 +400,7 @@
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
       "AWS VPN",
+      "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
@@ -713,7 +714,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 159,
+    "count": 160,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -846,6 +847,7 @@
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
       "AWS VPN",
+      "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
@@ -877,7 +879,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -1027,6 +1029,7 @@
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
       "AWS VPN",
+      "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
@@ -2225,6 +2228,58 @@
       "AWS CodeBuild"
     ]
   },
+  "eu-south-2": {
+    "count": 47,
+    "serviceNames": [
+      "Amazon Route 53",
+      "AWS Systems Manager",
+      "AWS CodeDeploy",
+      "Amazon Elastic Compute Cloud (EC2)",
+      "AWS CloudTrail",
+      "Amazon Redshift",
+      "AWS Identity and Access Management (IAM)",
+      "Amazon OpenSearch Service",
+      "Amazon Simple Queue Service (SQS)",
+      "Amazon API Gateway",
+      "AWS Step Functions",
+      "AWS PrivateLink",
+      "AWS Certificate Manager",
+      "AWS Artifact",
+      "AWS CloudFormation",
+      "Amazon Kinesis Data Streams",
+      "AWS Personal Health Dashboard",
+      "Amazon Relational Database Service (RDS)",
+      "AWS Trusted Advisor",
+      "Amazon Virtual Private Cloud (VPC)",
+      "AWS Direct Connect",
+      "Amazon Aurora",
+      "Amazon Elastic Block Store (EBS)",
+      "AWS Fargate",
+      "Amazon EventBridge",
+      "AWS X-Ray",
+      "Amazon Elastic MapReduce (EMR)",
+      "AWS Secrets Manager",
+      "Amazon Simple Workflow Service (SWF)",
+      "AWS Marketplace",
+      "Amazon CloudWatch",
+      "AWS Database Migration Service",
+      "AWS Organizations",
+      "Amazon ElastiCache",
+      "AWS Key Management Service",
+      "AWS Support",
+      "Amazon Simple Notification Service (SNS)",
+      "AWS VPN",
+      "Amazon EC2 Auto Scaling",
+      "Amazon Elastic Container Registry (ECR)",
+      "Elastic Load Balancing",
+      "Amazon Simple Storage Service (S3)",
+      "Amazon DynamoDB",
+      "AWS Config",
+      "Amazon CloudFront",
+      "AWS Lambda",
+      "Amazon Elastic Container Service (ECS)"
+    ]
+  },
   "eu-west-1": {
     "count": 195,
     "serviceNames": [
@@ -2426,7 +2481,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 171,
+    "count": 172,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2565,6 +2620,7 @@
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
       "AWS VPN",
+      "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
@@ -2602,7 +2658,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2718,6 +2774,7 @@
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
       "AWS VPN",
+      "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",

@@ -1,5 +1,5 @@
 {
-  "count": 188,
+  "count": 189,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -153,6 +153,7 @@
     "AWS Support",
     "Amazon Simple Notification Service (SNS)",
     "AWS VPN",
+    "AWS Mainframe Modernization",
     "AWS Network Firewall",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
