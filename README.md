@@ -38,7 +38,7 @@ cn-northwest-1 | China (Ningxia) | 98
 ap-southeast-3 | Asia Pacific (Jakarta) | 86
 me-central-1 | Middle East (UAE) | 56
 eu-central-2 | Europe (Zurich) | 47
-eu-south-2 | eu-south-2 | 47
+eu-south-2 | Europe (Spain) | 47
 
 
 ### Number of Supported Services Per Region
