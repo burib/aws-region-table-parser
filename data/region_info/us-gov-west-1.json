@@ -1,5 +1,5 @@
 {
-  "count": 123,
+  "count": 124,
   "serviceNames": [
     "Amazon Translate",
     "AWS DataSync",
@@ -81,6 +81,7 @@
     "Amazon Simple Email Service (SES)",
     "AWS CodePipeline",
     "AWS Auto Scaling",
+    "Amazon Timestream",
     "AWS Lake Formation",
     "Amazon CloudWatch",
     "Amazon WorkSpaces",

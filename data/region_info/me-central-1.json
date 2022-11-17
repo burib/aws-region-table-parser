@@ -1,7 +1,8 @@
 {
-  "count": 56,
+  "count": 58,
   "serviceNames": [
     "Amazon Route 53",
+    "AWS DataSync",
     "AWS Cloud Map",
     "AWS Systems Manager",
     "AWS CodeDeploy",
@@ -17,6 +18,7 @@
     "Amazon Simple Queue Service (SQS)",
     "Amazon API Gateway",
     "AWS Step Functions",
+    "AWS Directory Service",
     "AWS PrivateLink",
     "AWS Certificate Manager",
     "AWS Artifact",
