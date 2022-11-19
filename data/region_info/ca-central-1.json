@@ -1,5 +1,5 @@
 {
-  "count": 162,
+  "count": 164,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -46,6 +46,7 @@
     "AWS Glue",
     "AWS Outposts",
     "Amazon API Gateway",
+    "AWS Proton",
     "AWS Step Functions",
     "AWS Budgets",
     "AWS License Manager",
@@ -142,6 +143,7 @@
     "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "AWS CodeCommit",
+    "Amazon MemoryDB for Redis",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",
     "Amazon Elastic File System (EFS)",

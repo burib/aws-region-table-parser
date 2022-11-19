@@ -118,7 +118,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 123,
+    "count": 124,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -228,6 +228,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -246,7 +247,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -411,6 +412,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
@@ -440,7 +442,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 164,
+    "count": 166,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -490,6 +492,7 @@
       "AWS Outposts",
       "AWS Elemental MediaLive",
       "Amazon API Gateway",
+      "AWS Proton",
       "AWS Step Functions",
       "AWS Budgets",
       "AWS License Manager",
@@ -584,6 +587,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
@@ -714,7 +718,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 160,
+    "count": 161,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -857,6 +861,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -879,7 +884,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 182,
+    "count": 184,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -932,6 +937,7 @@
       "AWS Outposts",
       "AWS Elemental MediaLive",
       "Amazon API Gateway",
+      "AWS Proton",
       "AWS Step Functions",
       "AWS Budgets",
       "AWS License Manager",
@@ -1041,6 +1047,7 @@
       "AWS IoT TwinMaker",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon CodeGuru",
@@ -1066,7 +1073,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 189,
+    "count": 191,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -1122,6 +1129,7 @@
       "AWS Outposts",
       "AWS Elemental MediaLive",
       "Amazon API Gateway",
+      "AWS Proton",
       "AWS Step Functions",
       "AWS Budgets",
       "AWS License Manager",
@@ -1232,6 +1240,7 @@
       "AWS IoT TwinMaker",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon CodeGuru",
@@ -1351,7 +1360,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 162,
+    "count": 164,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -1398,6 +1407,7 @@
       "AWS Glue",
       "AWS Outposts",
       "Amazon API Gateway",
+      "AWS Proton",
       "AWS Step Functions",
       "AWS Budgets",
       "AWS License Manager",
@@ -1494,6 +1504,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -1518,7 +1529,7 @@
     ]
   },
   "cn-north-1": {
-    "count": 99,
+    "count": 100,
     "serviceNames": [
       "Amazon Route 53",
       "AWS Cloud Map",
@@ -1604,6 +1615,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -1622,7 +1634,7 @@
     ]
   },
   "cn-northwest-1": {
-    "count": 98,
+    "count": 99,
     "serviceNames": [
       "Amazon Route 53",
       "AWS Cloud Map",
@@ -1704,6 +1716,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -1725,7 +1738,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 186,
+    "count": 188,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -1780,6 +1793,7 @@
       "AWS Outposts",
       "AWS Elemental MediaLive",
       "Amazon API Gateway",
+      "AWS Proton",
       "AWS Step Functions",
       "AWS Budgets",
       "AWS License Manager",
@@ -1887,6 +1901,7 @@
       "AWS IoT TwinMaker",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
@@ -1968,7 +1983,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 140,
+    "count": 141,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2091,6 +2106,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon CodeGuru",
@@ -2113,7 +2129,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 111,
+    "count": 112,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2212,6 +2228,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -2281,7 +2298,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 195,
+    "count": 196,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2451,6 +2468,7 @@
       "AWS IoT TwinMaker",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
@@ -2481,7 +2499,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 172,
+    "count": 174,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2531,6 +2549,7 @@
       "AWS Outposts",
       "AWS Elemental MediaLive",
       "Amazon API Gateway",
+      "AWS Proton",
       "AWS Step Functions",
       "AWS Budgets",
       "AWS License Manager",
@@ -2630,6 +2649,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon CodeGuru",
@@ -2658,7 +2678,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2784,6 +2804,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -2993,7 +3014,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -3119,6 +3140,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -3140,7 +3162,7 @@
     ]
   },
   "us-east-1": {
-    "count": 207,
+    "count": 208,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -3317,6 +3339,7 @@
       "AWS IoT TwinMaker",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
@@ -3352,7 +3375,7 @@
     ]
   },
   "us-east-2": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -3510,6 +3533,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
@@ -3772,7 +3796,7 @@
     ]
   },
   "us-west-1": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -3898,6 +3922,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
@@ -3919,7 +3944,7 @@
     ]
   },
   "us-west-2": {
-    "count": 201,
+    "count": 202,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -4095,6 +4120,7 @@
       "AWS IoT TwinMaker",
       "Elastic Load Balancing",
       "AWS CodeCommit",
+      "Amazon MemoryDB for Redis",
       "Amazon Lookout for Vision",
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",

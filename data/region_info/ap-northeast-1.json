@@ -1,5 +1,5 @@
 {
-  "count": 189,
+  "count": 190,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -164,6 +164,7 @@
     "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "AWS CodeCommit",
+    "Amazon MemoryDB for Redis",
     "Amazon Lookout for Vision",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",

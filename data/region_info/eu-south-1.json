@@ -1,5 +1,5 @@
 {
-  "count": 111,
+  "count": 112,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -98,6 +98,7 @@
     "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "AWS CodeCommit",
+    "Amazon MemoryDB for Redis",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",
     "Amazon Elastic File System (EFS)",

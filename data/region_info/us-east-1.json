@@ -1,5 +1,5 @@
 {
-  "count": 207,
+  "count": 208,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -176,6 +176,7 @@
     "AWS IoT TwinMaker",
     "Elastic Load Balancing",
     "AWS CodeCommit",
+    "Amazon MemoryDB for Redis",
     "Amazon Lookout for Vision",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",

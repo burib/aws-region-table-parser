@@ -1,5 +1,5 @@
 {
-  "count": 186,
+  "count": 188,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -54,6 +54,7 @@
     "AWS Outposts",
     "AWS Elemental MediaLive",
     "Amazon API Gateway",
+    "AWS Proton",
     "AWS Step Functions",
     "AWS Budgets",
     "AWS License Manager",
@@ -161,6 +162,7 @@
     "AWS IoT TwinMaker",
     "Elastic Load Balancing",
     "AWS CodeCommit",
+    "Amazon MemoryDB for Redis",
     "Amazon Lookout for Vision",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",

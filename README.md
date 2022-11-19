@@ -4,37 +4,37 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 <!--START_SECTION:region_summary-->
   
-### 209 Services
+### 210 Services
 
 ###  29 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 207
-us-west-2 | US West (Oregon) | 201
-eu-west-1 | Europe (Ireland) | 195
-ap-southeast-2 | Asia Pacific (Sydney) | 189
-ap-northeast-1 | Asia Pacific (Tokyo) | 189
-eu-central-1 | Europe (Frankfurt) | 186
-ap-southeast-1 | Asia Pacific (Singapore) | 182
-us-east-2 | US East (Ohio) | 180
-eu-west-2 | Europe (London) | 172
-ap-northeast-2 | Asia Pacific (Seoul) | 164
-ca-central-1 | Canada (Central) | 162
-ap-south-1 | Asia Pacific (Mumbai) | 160
-eu-west-3 | Europe (Paris) | 142
-sa-east-1 | South America (Sao Paulo) | 142
-us-west-1 | US West (N. California) | 142
-eu-north-1 | Europe (Stockholm) | 140
+us-east-1 | US East (N. Virginia) | 208
+us-west-2 | US West (Oregon) | 202
+eu-west-1 | Europe (Ireland) | 196
+ap-southeast-2 | Asia Pacific (Sydney) | 191
+ap-northeast-1 | Asia Pacific (Tokyo) | 190
+eu-central-1 | Europe (Frankfurt) | 188
+ap-southeast-1 | Asia Pacific (Singapore) | 184
+us-east-2 | US East (Ohio) | 181
+eu-west-2 | Europe (London) | 174
+ap-northeast-2 | Asia Pacific (Seoul) | 166
+ca-central-1 | Canada (Central) | 164
+ap-south-1 | Asia Pacific (Mumbai) | 161
+eu-west-3 | Europe (Paris) | 143
+sa-east-1 | South America (Sao Paulo) | 143
+us-west-1 | US West (N. California) | 143
+eu-north-1 | Europe (Stockholm) | 141
+ap-east-1 | Asia Pacific (Hong Kong) | 124
 us-gov-west-1 | AWS GovCloud (US) | 124
-ap-east-1 | Asia Pacific (Hong Kong) | 123
 me-south-1 | Middle East (Bahrain) | 120
 af-south-1 | Africa (Cape Town) | 113
-eu-south-1 | Europe (Milan) | 111
+eu-south-1 | Europe (Milan) | 112
 us-gov-east-1 | AWS GovCloud (US-East) | 101
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 100
-cn-north-1 | China (Beijing) | 99
-cn-northwest-1 | China (Ningxia) | 98
+cn-north-1 | China (Beijing) | 100
+cn-northwest-1 | China (Ningxia) | 99
 ap-southeast-3 | Asia Pacific (Jakarta) | 86
 me-central-1 | Middle East (UAE) | 58
 eu-central-2 | Europe (Zurich) | 47
@@ -43,7 +43,7 @@ eu-south-2 | Europe (Spain) | 47
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-8df6e992-b2b0-4a55-b5ee-7b9b0eaaf44a'>
+<img src='https://quickchart.io/chart/render/sf-538e8c1a-25ca-4965-88b3-bed134c56389'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 |
@@ -220,6 +220,7 @@ Amazon Managed Grafana|:white_check_mark: | :white_check_mark: | :white_check_ma
 Amazon Managed Service for Prometheus|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Streaming for Apache Kafka|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Managed Workflows for Apache Airflow|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon MemoryDB for Redis|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Neptune|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Nimble Studio|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon OpenSearch Service|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
