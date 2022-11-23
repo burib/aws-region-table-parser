@@ -118,7 +118,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -232,6 +232,7 @@
       "Amazon Simple Storage Service (S3)",
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
+      "Amazon FSx for OpenZFS",
       "Amazon GameLift",
       "Amazon DynamoDB",
       "AWS Config",
@@ -442,7 +443,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 166,
+    "count": 167,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -594,6 +595,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Quantum Ledger Database (QLDB)",
       "AWS Elemental MediaConvert",
+      "Amazon FSx for OpenZFS",
       "Amazon GameLift",
       "Amazon DynamoDB",
       "Amazon DocumentDB (with MongoDB compatibility)",
@@ -718,7 +720,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 161,
+    "count": 162,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -866,6 +868,7 @@
       "AWS Server Migration Service (SMS)",
       "Amazon Elastic File System (EFS)",
       "AWS Elemental MediaConvert",
+      "Amazon FSx for OpenZFS",
       "Amazon GameLift",
       "Amazon DynamoDB",
       "Amazon DocumentDB (with MongoDB compatibility)",
@@ -2035,7 +2038,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2164,6 +2167,7 @@
       "Amazon CodeGuru",
       "Amazon Elastic File System (EFS)",
       "AWS Elemental MediaConvert",
+      "Amazon FSx for OpenZFS",
       "Amazon GameLift",
       "Amazon DynamoDB",
       "AWS Config",

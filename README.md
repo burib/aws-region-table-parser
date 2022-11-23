@@ -19,14 +19,14 @@ eu-central-1 | Europe (Frankfurt) | 188
 ap-southeast-1 | Asia Pacific (Singapore) | 184
 us-east-2 | US East (Ohio) | 181
 eu-west-2 | Europe (London) | 174
-ap-northeast-2 | Asia Pacific (Seoul) | 166
+ap-northeast-2 | Asia Pacific (Seoul) | 167
 ca-central-1 | Canada (Central) | 164
-ap-south-1 | Asia Pacific (Mumbai) | 161
+ap-south-1 | Asia Pacific (Mumbai) | 162
 eu-west-3 | Europe (Paris) | 143
 sa-east-1 | South America (Sao Paulo) | 143
 us-west-1 | US West (N. California) | 143
-eu-north-1 | Europe (Stockholm) | 141
-ap-east-1 | Asia Pacific (Hong Kong) | 124
+eu-north-1 | Europe (Stockholm) | 142
+ap-east-1 | Asia Pacific (Hong Kong) | 125
 us-gov-west-1 | AWS GovCloud (US) | 124
 me-south-1 | Middle East (Bahrain) | 120
 af-south-1 | Africa (Cape Town) | 113
@@ -44,7 +44,7 @@ ap-south-2 | Asia Pacific (Hyderabad) | 47
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-cca7df6a-8552-40a2-a99e-ce905241beda'>
+<img src='https://quickchart.io/chart/render/sf-6bb1c981-f031-4b45-b258-09d3bc4cc558'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |
