@@ -1,5 +1,5 @@
 {
-  "count": 112,
+  "count": 113,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -42,6 +42,7 @@
     "AWS CloudFormation",
     "Amazon Kinesis Data Streams",
     "CloudEndure Disaster Recovery",
+    "Amazon Cognito",
     "AWS Personal Health Dashboard",
     "Amazon Relational Database Service (RDS)",
     "AWS CodeArtifact",

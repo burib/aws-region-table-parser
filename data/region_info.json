@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 113,
+    "count": 114,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -22,6 +22,7 @@
       "Amazon Kinesis Data Analytics",
       "Amazon OpenSearch Service",
       "Amazon GuardDuty",
+      "VMware Cloud on AWS",
       "Amazon Kinesis Data Firehose",
       "Amazon Kinesis Video Streams",
       "Amazon MQ",
@@ -2185,7 +2186,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 112,
+    "count": 113,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2228,6 +2229,7 @@
       "AWS CloudFormation",
       "Amazon Kinesis Data Streams",
       "CloudEndure Disaster Recovery",
+      "Amazon Cognito",
       "AWS Personal Health Dashboard",
       "Amazon Relational Database Service (RDS)",
       "AWS CodeArtifact",

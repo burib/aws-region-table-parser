@@ -1,5 +1,5 @@
 {
-  "count": 113,
+  "count": 114,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -21,6 +21,7 @@
     "Amazon Kinesis Data Analytics",
     "Amazon OpenSearch Service",
     "Amazon GuardDuty",
+    "VMware Cloud on AWS",
     "Amazon Kinesis Data Firehose",
     "Amazon Kinesis Video Streams",
     "Amazon MQ",
