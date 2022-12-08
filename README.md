@@ -4,20 +4,20 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 <!--START_SECTION:region_summary-->
   
-### 210 Services
+### 211 Services
 
 ###  30 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 208
-us-west-2 | US West (Oregon) | 202
-eu-west-1 | Europe (Ireland) | 196
-ap-southeast-2 | Asia Pacific (Sydney) | 191
-ap-northeast-1 | Asia Pacific (Tokyo) | 190
-eu-central-1 | Europe (Frankfurt) | 188
+us-east-1 | US East (N. Virginia) | 209
+us-west-2 | US West (Oregon) | 203
+eu-west-1 | Europe (Ireland) | 197
+ap-southeast-2 | Asia Pacific (Sydney) | 192
+ap-northeast-1 | Asia Pacific (Tokyo) | 191
+eu-central-1 | Europe (Frankfurt) | 189
 ap-southeast-1 | Asia Pacific (Singapore) | 184
-us-east-2 | US East (Ohio) | 181
+us-east-2 | US East (Ohio) | 182
 eu-west-2 | Europe (London) | 174
 ap-northeast-2 | Asia Pacific (Seoul) | 167
 ca-central-1 | Canada (Central) | 164
@@ -44,7 +44,7 @@ ap-south-2 | Asia Pacific (Hyderabad) | 47
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-4f1ebfdb-6504-4a52-be85-50f23d874cb5'>
+<img src='https://quickchart.io/chart/render/sf-026b8b3f-9f4b-4cbb-aef5-13c0e55f7364'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |
@@ -236,6 +236,7 @@ Amazon Rekognition|:white_check_mark: | :white_check_mark: | :white_check_mark: 
 Amazon Relational Database Service (RDS)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Route 53|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon SageMaker|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon Security Lake|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Simple Email Service (SES)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Simple Notification Service (SNS)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Simple Queue Service (SQS)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
