@@ -1,5 +1,5 @@
 {
-  "servicesCount": 211,
+  "servicesCount": 212,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -388,6 +388,34 @@
         "us-east-2"
       ],
       "url": "https://aws.amazon.com/chatbot/"
+    },
+    "chime": {
+      "code": "chime",
+      "name": "AWS Chime",
+      "count": 20,
+      "regions": [
+        "ap-northeast-1",
+        "ap-northeast-2",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-south-1",
+        "eu-west-1",
+        "eu-west-3",
+        "sa-east-1",
+        "us-east-1",
+        "us-west-2",
+        "af-south-1",
+        "ap-southeast-1",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-2",
+        "us-east-2",
+        "us-gov-east-1",
+        "us-gov-west-1",
+        "us-west-1"
+      ],
+      "url": "https://aws.amazon.com/chime/"
     },
     "servicediscovery": {
       "code": "servicediscovery",
@@ -2172,6 +2200,39 @@
       ],
       "url": "https://aws.amazon.com/premiumsupport/phd/"
     },
+    "private-ca": {
+      "code": "private-ca",
+      "name": "AWS Private Certificate Authority",
+      "count": 25,
+      "regions": [
+        "ap-east-1",
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-south-1",
+        "eu-west-1",
+        "me-central-1",
+        "sa-east-1",
+        "us-east-2",
+        "us-west-2",
+        "af-south-1",
+        "ap-northeast-2",
+        "ap-northeast-3",
+        "ap-southeast-1",
+        "ap-southeast-3",
+        "eu-north-1",
+        "eu-west-2",
+        "us-east-1",
+        "us-gov-east-1",
+        "us-gov-west-1",
+        "ca-central-1",
+        "eu-central-1",
+        "eu-west-3",
+        "me-south-1",
+        "us-west-1"
+      ],
+      "url": "https://aws.amazon.com/private-ca/"
+    },
     "privatelink": {
       "code": "privatelink",
       "name": "AWS PrivateLink",
@@ -3189,34 +3250,6 @@
       ],
       "url": "https://aws.amazon.com/braket/"
     },
-    "chime": {
-      "code": "chime",
-      "name": "Amazon Chime",
-      "count": 20,
-      "regions": [
-        "ap-northeast-1",
-        "ap-northeast-2",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-south-1",
-        "eu-west-1",
-        "eu-west-3",
-        "sa-east-1",
-        "us-east-1",
-        "us-west-2",
-        "af-south-1",
-        "ap-southeast-1",
-        "ca-central-1",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-2",
-        "us-east-2",
-        "us-gov-east-1",
-        "us-gov-west-1",
-        "us-west-1"
-      ],
-      "url": "https://chime.aws/"
-    },
     "clouddirectory": {
       "code": "clouddirectory",
       "name": "Amazon Cloud Directory",
@@ -4224,7 +4257,7 @@
     "inspector2": {
       "code": "inspector2",
       "name": "Amazon Inspector",
-      "count": 19,
+      "count": 33,
       "regions": [
         "ap-northeast-2",
         "ap-southeast-1",
@@ -4244,7 +4277,21 @@
         "me-south-1",
         "us-east-1",
         "us-east-2",
-        "us-west-2"
+        "us-west-2",
+        "ap-northeast-1",
+        "ap-northeast-2",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-2",
+        "us-east-2",
+        "us-gov-west-1",
+        "us-west-1",
+        "us-west-2",
+        "ap-south-1",
+        "eu-west-1",
+        "us-east-1",
+        "us-gov-east-1"
       ],
       "url": "https://aws.amazon.com/inspector/"
     },
@@ -4428,7 +4475,7 @@
     "lex-runtime": {
       "code": "lex-runtime",
       "name": "Amazon Lex",
-      "count": 11,
+      "count": 12,
       "regions": [
         "af-south-1",
         "ap-northeast-1",
@@ -4439,8 +4486,9 @@
         "eu-west-1",
         "eu-west-2",
         "us-east-1",
-        "us-west-2",
-        "ap-southeast-2"
+        "us-gov-west-1",
+        "ap-southeast-2",
+        "us-west-2"
       ],
       "url": "https://aws.amazon.com/lex/"
     },
@@ -5771,6 +5819,7 @@
     "budgets": "AWS Budgets",
     "acm": "AWS Certificate Manager",
     "chatbot": "AWS Chatbot",
+    "chime": "AWS Chime",
     "servicediscovery": "AWS Cloud Map",
     "cloud9": "AWS Cloud9",
     "cloudformation": "AWS CloudFormation",
@@ -5838,6 +5887,7 @@
     "organizations": "AWS Organizations",
     "outposts": "AWS Outposts",
     "phd": "AWS Personal Health Dashboard",
+    "private-ca": "AWS Private Certificate Authority",
     "privatelink": "AWS PrivateLink",
     "proton": "AWS Proton",
     "resiliencehub": "AWS Resilience Hub",
@@ -5872,7 +5922,6 @@
     "augmentedairuntime": "Amazon Augmented AI (A2I)",
     "aurora": "Amazon Aurora",
     "braket": "Amazon Braket",
-    "chime": "Amazon Chime",
     "clouddirectory": "Amazon Cloud Directory",
     "cloudfront": "Amazon CloudFront",
     "cloudsearch": "Amazon CloudSearch",

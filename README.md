@@ -4,39 +4,39 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 <!--START_SECTION:region_summary-->
   
-### 211 Services
+### 212 Services
 
 ###  30 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 209
-us-west-2 | US West (Oregon) | 203
-eu-west-1 | Europe (Ireland) | 197
-ap-southeast-2 | Asia Pacific (Sydney) | 192
-ap-northeast-1 | Asia Pacific (Tokyo) | 191
-eu-central-1 | Europe (Frankfurt) | 189
-ap-southeast-1 | Asia Pacific (Singapore) | 184
-us-east-2 | US East (Ohio) | 182
-eu-west-2 | Europe (London) | 174
-ap-northeast-2 | Asia Pacific (Seoul) | 167
-ca-central-1 | Canada (Central) | 164
-ap-south-1 | Asia Pacific (Mumbai) | 162
-eu-west-3 | Europe (Paris) | 143
-sa-east-1 | South America (Sao Paulo) | 143
-us-west-1 | US West (N. California) | 143
-eu-north-1 | Europe (Stockholm) | 142
-ap-east-1 | Asia Pacific (Hong Kong) | 125
-us-gov-west-1 | AWS GovCloud (US) | 124
-me-south-1 | Middle East (Bahrain) | 120
-af-south-1 | Africa (Cape Town) | 114
-eu-south-1 | Europe (Milan) | 113
-us-gov-east-1 | AWS GovCloud (US-East) | 101
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 100
+us-east-1 | US East (N. Virginia) | 211
+us-west-2 | US West (Oregon) | 205
+eu-west-1 | Europe (Ireland) | 199
+ap-southeast-2 | Asia Pacific (Sydney) | 194
+ap-northeast-1 | Asia Pacific (Tokyo) | 193
+eu-central-1 | Europe (Frankfurt) | 191
+ap-southeast-1 | Asia Pacific (Singapore) | 185
+us-east-2 | US East (Ohio) | 184
+eu-west-2 | Europe (London) | 176
+ap-northeast-2 | Asia Pacific (Seoul) | 169
+ca-central-1 | Canada (Central) | 165
+ap-south-1 | Asia Pacific (Mumbai) | 164
+us-west-1 | US West (N. California) | 145
+eu-north-1 | Europe (Stockholm) | 144
+eu-west-3 | Europe (Paris) | 144
+sa-east-1 | South America (Sao Paulo) | 144
+us-gov-west-1 | AWS GovCloud (US) | 127
+ap-east-1 | Asia Pacific (Hong Kong) | 126
+me-south-1 | Middle East (Bahrain) | 121
+af-south-1 | Africa (Cape Town) | 115
+eu-south-1 | Europe (Milan) | 114
+us-gov-east-1 | AWS GovCloud (US-East) | 103
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 101
 cn-north-1 | China (Beijing) | 100
 cn-northwest-1 | China (Ningxia) | 99
-ap-southeast-3 | Asia Pacific (Jakarta) | 87
-me-central-1 | Middle East (UAE) | 58
+ap-southeast-3 | Asia Pacific (Jakarta) | 88
+me-central-1 | Middle East (UAE) | 59
 eu-central-2 | Europe (Zurich) | 47
 eu-south-2 | Europe (Spain) | 47
 ap-south-2 | Asia Pacific (Hyderabad) | 47
@@ -44,7 +44,7 @@ ap-south-2 | Asia Pacific (Hyderabad) | 47
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-026b8b3f-9f4b-4cbb-aef5-13c0e55f7364'>
+<img src='https://quickchart.io/chart/render/sf-915ff616-1c5e-4e2c-a7db-fb26bbac561f'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |
@@ -62,6 +62,7 @@ AWS Batch|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_
 AWS Budgets|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Certificate Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Chatbot|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Cloud Map|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Cloud9|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS CloudFormation|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -129,6 +130,7 @@ AWS OpsWorks for Puppet Enterprise|:white_check_mark: | :white_check_mark: | :wh
 AWS Organizations|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Outposts|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Personal Health Dashboard|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS Private Certificate Authority|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS PrivateLink|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Proton|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Resilience Hub|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -163,7 +165,6 @@ Amazon Athena|:white_check_mark: | :white_check_mark: | :white_check_mark: | :wh
 Amazon Augmented AI (A2I)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Aurora|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Braket|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-Amazon Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Cloud Directory|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudFront|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudSearch|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:

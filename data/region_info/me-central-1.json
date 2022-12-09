@@ -1,5 +1,5 @@
 {
-  "count": 58,
+  "count": 59,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -31,10 +31,11 @@
     "AWS Direct Connect",
     "AWS IoT Core",
     "Amazon Aurora",
+    "AWS Private Certificate Authority",
     "Amazon Elastic Block Store (EBS)",
     "AWS Fargate",
-    "Amazon EventBridge",
     "AWS X-Ray",
+    "Amazon EventBridge",
     "AWS CloudHSM",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
