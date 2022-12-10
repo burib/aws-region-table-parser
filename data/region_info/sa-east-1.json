@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 145,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -29,6 +29,7 @@
     "Amazon Kinesis Data Firehose",
     "Amazon Kinesis Video Streams",
     "Amazon GuardDuty",
+    "Amazon AppStream 2.0",
     "AWS Resource Access Manager (RAM)",
     "Amazon CloudSearch",
     "AWS Single Sign-On",

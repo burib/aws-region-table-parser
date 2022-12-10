@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 60,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -16,6 +16,7 @@
     "Amazon GuardDuty",
     "AWS Resource Access Manager (RAM)",
     "Amazon Simple Queue Service (SQS)",
+    "Amazon MQ",
     "Amazon API Gateway",
     "AWS Step Functions",
     "AWS Directory Service",
