@@ -2007,7 +2007,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 47,
+    "count": 48,
     "serviceNames": [
       "Amazon Route 53",
       "AWS Systems Manager",
@@ -2017,6 +2017,7 @@
       "Amazon Redshift",
       "AWS Identity and Access Management (IAM)",
       "Amazon OpenSearch Service",
+      "Amazon GuardDuty",
       "Amazon Simple Queue Service (SQS)",
       "Amazon API Gateway",
       "AWS Step Functions",
@@ -2913,7 +2914,7 @@
     ]
   },
   "me-central-1": {
-    "count": 60,
+    "count": 61,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2963,6 +2964,7 @@
       "AWS Key Management Service",
       "AWS Support",
       "Amazon Simple Notification Service (SNS)",
+      "AWS IoT Device Management",
       "AWS VPN",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",

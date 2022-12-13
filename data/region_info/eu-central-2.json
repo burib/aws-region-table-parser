@@ -1,5 +1,5 @@
 {
-  "count": 47,
+  "count": 48,
   "serviceNames": [
     "Amazon Route 53",
     "AWS Systems Manager",
@@ -9,6 +9,7 @@
     "Amazon Redshift",
     "AWS Identity and Access Management (IAM)",
     "Amazon OpenSearch Service",
+    "Amazon GuardDuty",
     "Amazon Simple Queue Service (SQS)",
     "Amazon API Gateway",
     "AWS Step Functions",

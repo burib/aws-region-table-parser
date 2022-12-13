@@ -1652,7 +1652,7 @@
     "iotdevicemanagement": {
       "code": "iotdevicemanagement",
       "name": "AWS IoT Device Management",
-      "count": 22,
+      "count": 23,
       "regions": [
         "ap-east-1",
         "ap-south-1",
@@ -1668,12 +1668,13 @@
         "ap-northeast-2",
         "ap-southeast-2",
         "ca-central-1",
-        "cn-northwest-1",
         "eu-north-1",
         "eu-west-2",
+        "me-central-1",
         "us-east-1",
         "us-gov-east-1",
         "us-west-2",
+        "cn-northwest-1",
         "eu-west-1",
         "sa-east-1"
       ],
@@ -4188,7 +4189,7 @@
     "guardduty": {
       "code": "guardduty",
       "name": "Amazon GuardDuty",
-      "count": 27,
+      "count": 28,
       "regions": [
         "af-south-1",
         "ap-northeast-3",
@@ -4214,6 +4215,7 @@
         "ap-south-1",
         "cn-north-1",
         "cn-northwest-1",
+        "eu-central-2",
         "eu-north-1",
         "us-gov-east-1",
         "us-west-1"
