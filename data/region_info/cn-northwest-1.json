@@ -50,11 +50,11 @@
     "Amazon EventBridge",
     "AWS X-Ray",
     "Amazon Neptune",
+    "Amazon Elastic MapReduce (EMR)",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Marketplace",
     "AWS Batch",
-    "Amazon Elastic MapReduce (EMR)",
     "AWS Transfer Family",
     "AWS CodePipeline",
     "AWS Auto Scaling",
@@ -89,16 +89,16 @@
     "Amazon GameLift",
     "Amazon DynamoDB",
     "Amazon DocumentDB (with MongoDB compatibility)",
+    "AWS Config",
     "AWS Security Hub",
     "AWS Cost and Usage Report",
-    "AWS Config",
     "Amazon CloudFront",
     "AWS Lambda",
     "FreeRTOS",
     "AWS App Mesh",
+    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
     "AWS Cost Explorer",
-    "Amazon Elastic Container Service (ECS)",
-    "AWS CodeBuild"
+    "Amazon Elastic Container Service (ECS)"
   ]
 }

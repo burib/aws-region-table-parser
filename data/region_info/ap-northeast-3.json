@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 101,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -48,7 +48,6 @@
     "Amazon Virtual Private Cloud (VPC)",
     "AWS Direct Connect",
     "Amazon Aurora",
-    "AWS Private Certificate Authority",
     "Amazon Elastic Block Store (EBS)",
     "AWS IQ",
     "CloudEndure Migration",
@@ -60,11 +59,11 @@
     "AWS Private Certificate Authority",
     "AWS X-Ray",
     "AWS CloudHSM",
+    "Amazon Elastic MapReduce (EMR)",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Marketplace",
     "AWS Batch",
-    "Amazon Elastic MapReduce (EMR)",
     "AWS Transfer Family",
     "Amazon Simple Email Service (SES)",
     "AWS Auto Scaling",
@@ -81,8 +80,8 @@
     "AWS Key Management Service",
     "AWS Support",
     "Amazon Simple Notification Service (SNS)",
-    "AWS Network Firewall",
     "AWS VPN",
+    "AWS Network Firewall",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
     "AWS Service Catalog",
@@ -95,13 +94,13 @@
     "Amazon Elastic File System (EFS)",
     "Amazon GameLift",
     "Amazon DynamoDB",
-    "AWS Security Hub",
     "AWS Config",
+    "AWS Security Hub",
     "Amazon CloudFront",
     "AWS Lambda",
     "AWS App Mesh",
+    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
-    "AWS CodeBuild"
+    "Amazon Elastic Container Service (ECS)"
   ]
 }

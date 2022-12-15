@@ -10,41 +10,41 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 212
-us-west-2 | US West (Oregon) | 206
-eu-west-1 | Europe (Ireland) | 200
-ap-southeast-2 | Asia Pacific (Sydney) | 195
-ap-northeast-1 | Asia Pacific (Tokyo) | 194
-eu-central-1 | Europe (Frankfurt) | 192
-ap-southeast-1 | Asia Pacific (Singapore) | 186
-us-east-2 | US East (Ohio) | 185
+us-east-1 | US East (N. Virginia) | 211
+us-west-2 | US West (Oregon) | 205
+eu-west-1 | Europe (Ireland) | 199
+ap-southeast-2 | Asia Pacific (Sydney) | 194
+ap-northeast-1 | Asia Pacific (Tokyo) | 193
+eu-central-1 | Europe (Frankfurt) | 191
+ap-southeast-1 | Asia Pacific (Singapore) | 185
+us-east-2 | US East (Ohio) | 184
 eu-west-2 | Europe (London) | 177
-ap-northeast-2 | Asia Pacific (Seoul) | 170
-ca-central-1 | Canada (Central) | 166
+ap-northeast-2 | Asia Pacific (Seoul) | 168
+ca-central-1 | Canada (Central) | 165
 ap-south-1 | Asia Pacific (Mumbai) | 165
 sa-east-1 | South America (Sao Paulo) | 146
-us-west-1 | US West (N. California) | 146
-eu-north-1 | Europe (Stockholm) | 145
-eu-west-3 | Europe (Paris) | 145
-us-gov-west-1 | AWS GovCloud (US) | 128
-ap-east-1 | Asia Pacific (Hong Kong) | 127
-me-south-1 | Middle East (Bahrain) | 122
-af-south-1 | Africa (Cape Town) | 116
-eu-south-1 | Europe (Milan) | 115
-us-gov-east-1 | AWS GovCloud (US-East) | 104
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 102
+us-west-1 | US West (N. California) | 145
+eu-north-1 | Europe (Stockholm) | 144
+eu-west-3 | Europe (Paris) | 144
+us-gov-west-1 | AWS GovCloud (US) | 127
+ap-east-1 | Asia Pacific (Hong Kong) | 126
+me-south-1 | Middle East (Bahrain) | 121
+eu-south-1 | Europe (Milan) | 114
+af-south-1 | Africa (Cape Town) | 114
+us-gov-east-1 | AWS GovCloud (US-East) | 103
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 101
 cn-north-1 | China (Beijing) | 100
 cn-northwest-1 | China (Ningxia) | 99
-ap-southeast-3 | Asia Pacific (Jakarta) | 89
-me-central-1 | Middle East (UAE) | 62
-eu-central-2 | Europe (Zurich) | 48
-eu-south-2 | Europe (Spain) | 47
-ap-south-2 | Asia Pacific (Hyderabad) | 47
+ap-southeast-3 | Asia Pacific (Jakarta) | 87
+me-central-1 | Middle East (UAE) | 61
+eu-central-2 | Europe (Zurich) | 50
+eu-south-2 | Europe (Spain) | 49
+ap-south-2 | Asia Pacific (Hyderabad) | 49
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-f1507cdf-f405-489b-b8d5-9098a81e6281'>
+<img src='https://quickchart.io/chart/render/sf-ae134612-ce3c-4809-a4e6-b727f6ae8ee3'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |

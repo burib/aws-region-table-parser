@@ -1,5 +1,5 @@
 {
-  "count": 104,
+  "count": 103,
   "serviceNames": [
     "AWS DataSync",
     "AWS Cloud Map",
@@ -50,7 +50,6 @@
     "AWS Direct Connect",
     "Amazon Aurora",
     "AWS IoT Core",
-    "AWS Private Certificate Authority",
     "Amazon Elastic Block Store (EBS)",
     "AWS Chime",
     "CloudEndure Migration",
@@ -63,11 +62,11 @@
     "AWS CloudHSM",
     "Amazon Neptune",
     "AWS Fault Injection Simulator",
+    "Amazon Elastic MapReduce (EMR)",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Marketplace",
     "AWS Batch",
-    "Amazon Elastic MapReduce (EMR)",
     "AWS Transfer Family",
     "AWS Auto Scaling",
     "Amazon CloudWatch",
@@ -84,8 +83,8 @@
     "AWS Key Management Service",
     "AWS Support",
     "Amazon Simple Notification Service (SNS)",
-    "AWS Network Firewall",
     "AWS VPN",
+    "AWS Network Firewall",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
     "AWS Service Catalog",
@@ -96,14 +95,14 @@
     "AWS CodeCommit",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",
-    "Amazon Elastic File System (EFS)",
     "Amazon Inspector",
+    "Amazon Elastic File System (EFS)",
     "Amazon DynamoDB",
-    "AWS Security Hub",
     "AWS Config",
+    "AWS Security Hub",
     "AWS Lambda",
+    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
-    "AWS CodeBuild"
+    "Amazon Elastic Container Service (ECS)"
   ]
 }
