@@ -1,5 +1,5 @@
 {
-  "count": 50,
+  "count": 51,
   "serviceNames": [
     "Amazon Route 53",
     "AWS Systems Manager",
@@ -46,6 +46,7 @@
     "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
+    "Amazon Elastic File System (EFS)",
     "Amazon DynamoDB",
     "AWS Config",
     "Amazon CloudFront",

@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 145,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -15,6 +15,7 @@
     "AWS CodeDeploy",
     "AWS IoT Device Defender",
     "Amazon Inspector",
+    "Amazon QuickSight",
     "AWS CloudTrail",
     "Amazon Polly",
     "Amazon Elastic Compute Cloud (EC2)",

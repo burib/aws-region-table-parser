@@ -1602,9 +1602,10 @@
     ]
   },
   "cn-north-1": {
-    "count": 100,
+    "count": 101,
     "serviceNames": [
       "Amazon Route 53",
+      "AWS DataSync",
       "AWS Cloud Map",
       "Amazon SageMaker",
       "AWS Transit Gateway",
@@ -1707,9 +1708,10 @@
     ]
   },
   "cn-northwest-1": {
-    "count": 99,
+    "count": 100,
     "serviceNames": [
       "Amazon Route 53",
+      "AWS DataSync",
       "AWS Cloud Map",
       "Amazon SageMaker",
       "AWS Transit Gateway",
@@ -2007,7 +2009,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 50,
+    "count": 51,
     "serviceNames": [
       "Amazon Route 53",
       "AWS Systems Manager",
@@ -2054,6 +2056,7 @@
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "Amazon Simple Storage Service (S3)",
+      "Amazon Elastic File System (EFS)",
       "Amazon DynamoDB",
       "AWS Config",
       "Amazon CloudFront",
@@ -2062,7 +2065,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2079,6 +2082,7 @@
       "AWS CodeDeploy",
       "AWS IoT Device Defender",
       "Amazon Inspector",
+      "Amazon QuickSight",
       "AWS CloudTrail",
       "Amazon Polly",
       "Amazon Elastic Compute Cloud (EC2)",
@@ -2770,7 +2774,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -2786,6 +2790,7 @@
       "AWS CodeDeploy",
       "AWS IoT Device Defender",
       "Amazon Inspector",
+      "Amazon QuickSight",
       "AWS CloudTrail",
       "Amazon Polly",
       "Amazon Elastic Compute Cloud (EC2)",

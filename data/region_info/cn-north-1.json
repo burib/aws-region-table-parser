@@ -1,7 +1,8 @@
 {
-  "count": 100,
+  "count": 101,
   "serviceNames": [
     "Amazon Route 53",
+    "AWS DataSync",
     "AWS Cloud Map",
     "Amazon SageMaker",
     "AWS Transit Gateway",
