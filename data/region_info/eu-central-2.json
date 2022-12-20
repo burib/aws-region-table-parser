@@ -1,5 +1,5 @@
 {
-  "count": 51,
+  "count": 52,
   "serviceNames": [
     "Amazon Route 53",
     "AWS Systems Manager",
@@ -30,6 +30,7 @@
     "AWS Fargate",
     "Amazon EventBridge",
     "AWS X-Ray",
+    "AWS CloudHSM",
     "Amazon Elastic MapReduce (EMR)",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",

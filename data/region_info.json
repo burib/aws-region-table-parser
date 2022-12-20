@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 114,
+    "count": 115,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -26,6 +26,7 @@
       "Amazon GuardDuty",
       "VMware Cloud on AWS",
       "AWS Resource Access Manager (RAM)",
+      "AWS Single Sign-On",
       "Amazon Simple Queue Service (SQS)",
       "AWS Compute Optimizer",
       "Amazon MQ",
@@ -1340,7 +1341,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 87,
+    "count": 88,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1362,6 +1363,7 @@
       "Amazon Kinesis Data Firehose",
       "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
+      "AWS Single Sign-On",
       "Amazon Simple Queue Service (SQS)",
       "Amazon MQ",
       "Amazon API Gateway",
@@ -2009,7 +2011,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 51,
+    "count": 52,
     "serviceNames": [
       "Amazon Route 53",
       "AWS Systems Manager",
@@ -2040,6 +2042,7 @@
       "AWS Fargate",
       "Amazon EventBridge",
       "AWS X-Ray",
+      "AWS CloudHSM",
       "Amazon Elastic MapReduce (EMR)",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
@@ -3912,7 +3915,7 @@
     ]
   },
   "us-west-1": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Route 53",
@@ -3943,6 +3946,7 @@
       "Amazon GuardDuty",
       "VMware Cloud on AWS",
       "AWS Resource Access Manager (RAM)",
+      "AWS Single Sign-On",
       "AWS Managed Services",
       "Amazon Simple Queue Service (SQS)",
       "AWS Compute Optimizer",

@@ -1,5 +1,5 @@
 {
-  "count": 114,
+  "count": 115,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -25,6 +25,7 @@
     "Amazon GuardDuty",
     "VMware Cloud on AWS",
     "AWS Resource Access Manager (RAM)",
+    "AWS Single Sign-On",
     "Amazon Simple Queue Service (SQS)",
     "AWS Compute Optimizer",
     "Amazon MQ",

@@ -1,5 +1,5 @@
 {
-  "count": 87,
+  "count": 88,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -21,6 +21,7 @@
     "Amazon Kinesis Data Firehose",
     "Amazon GuardDuty",
     "AWS Resource Access Manager (RAM)",
+    "AWS Single Sign-On",
     "Amazon Simple Queue Service (SQS)",
     "Amazon MQ",
     "Amazon API Gateway",

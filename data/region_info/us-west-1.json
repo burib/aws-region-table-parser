@@ -1,5 +1,5 @@
 {
-  "count": 145,
+  "count": 146,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -30,6 +30,7 @@
     "Amazon GuardDuty",
     "VMware Cloud on AWS",
     "AWS Resource Access Manager (RAM)",
+    "AWS Single Sign-On",
     "AWS Managed Services",
     "Amazon Simple Queue Service (SQS)",
     "AWS Compute Optimizer",
