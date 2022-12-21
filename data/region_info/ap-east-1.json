@@ -100,8 +100,8 @@
     "AWS Key Management Service",
     "AWS Support",
     "Amazon Simple Notification Service (SNS)",
-    "AWS VPN",
     "AWS Network Firewall",
+    "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
     "AWS Service Catalog",
@@ -116,16 +116,16 @@
     "Amazon Elastic File System (EFS)",
     "Amazon GameLift",
     "Amazon DynamoDB",
-    "AWS Config",
     "AWS Security Hub",
     "Amazon FSx for OpenZFS",
     "AWS Elemental MediaConnect",
+    "AWS Config",
     "Amazon CloudFront",
     "AWS Lambda",
     "FreeRTOS",
     "AWS App Mesh",
-    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)"
+    "Amazon Elastic Container Service (ECS)",
+    "AWS CodeBuild"
   ]
 }

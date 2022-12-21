@@ -81,13 +81,13 @@
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
     "Amazon DynamoDB",
-    "AWS Config",
     "AWS Security Hub",
+    "AWS Config",
     "Amazon CloudFront",
     "AWS Lambda",
     "AWS App Mesh",
-    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)"
+    "Amazon Elastic Container Service (ECS)",
+    "AWS CodeBuild"
   ]
 }

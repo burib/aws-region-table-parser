@@ -83,8 +83,8 @@
     "AWS Key Management Service",
     "AWS Support",
     "Amazon Simple Notification Service (SNS)",
-    "AWS VPN",
     "AWS Network Firewall",
+    "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
     "AWS Service Catalog",
@@ -95,14 +95,14 @@
     "AWS CodeCommit",
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",
-    "Amazon Inspector",
     "Amazon Elastic File System (EFS)",
+    "Amazon Inspector",
     "Amazon DynamoDB",
-    "AWS Config",
     "AWS Security Hub",
+    "AWS Config",
     "AWS Lambda",
-    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)"
+    "Amazon Elastic Container Service (ECS)",
+    "AWS CodeBuild"
   ]
 }

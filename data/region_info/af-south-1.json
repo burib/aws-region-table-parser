@@ -1,5 +1,5 @@
 {
-  "count": 115,
+  "count": 116,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -89,12 +89,12 @@
     "AWS Organizations",
     "Amazon Macie",
     "Amazon ElastiCache",
-    "Amazon Connect",
     "AWS Key Management Service",
     "AWS Support",
     "Amazon Simple Notification Service (SNS)",
-    "AWS VPN",
+    "Amazon Connect",
     "AWS Network Firewall",
+    "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
     "AWS Service Catalog",
@@ -106,15 +106,16 @@
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",
     "Amazon Elastic File System (EFS)",
+    "AWS Elemental MediaConvert",
     "Amazon GameLift",
     "Amazon DynamoDB",
-    "AWS Config",
     "AWS Security Hub",
+    "AWS Config",
     "Amazon CloudFront",
     "AWS Lambda",
     "AWS App Mesh",
-    "AWS CodeBuild",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)"
+    "Amazon Elastic Container Service (ECS)",
+    "AWS CodeBuild"
   ]
 }
