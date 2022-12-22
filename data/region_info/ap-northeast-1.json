@@ -174,7 +174,7 @@
     "Amazon Elastic File System (EFS)",
     "Amazon Quantum Ledger Database (QLDB)",
     "AWS Elemental MediaConvert",
-    "Amazon Inspector",
+    "Amazon Inspector Classic",
     "Amazon GameLift",
     "Amazon DynamoDB",
     "Amazon DocumentDB (with MongoDB compatibility)",

@@ -1,5 +1,5 @@
 {
-  "count": 116,
+  "count": 117,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -63,6 +63,7 @@
     "AWS Global Accelerator",
     "AWS Elastic Disaster Recovery (DRS)",
     "Amazon EventBridge",
+    "Amazon Lex",
     "AWS Private Certificate Authority",
     "Amazon AppFlow",
     "AWS X-Ray",

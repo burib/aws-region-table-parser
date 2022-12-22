@@ -118,7 +118,7 @@
     "Amazon Elastic File System (EFS)",
     "AWS Elemental MediaConvert",
     "Amazon Comprehend Medical",
-    "Amazon Inspector",
+    "Amazon Inspector Classic",
     "Amazon DynamoDB",
     "Amazon DocumentDB (with MongoDB compatibility)",
     "AWS Security Hub",

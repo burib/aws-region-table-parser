@@ -96,7 +96,7 @@
     "Amazon Simple Storage Service (S3)",
     "AWS Server Migration Service (SMS)",
     "Amazon Elastic File System (EFS)",
-    "Amazon Inspector",
+    "Amazon Inspector Classic",
     "Amazon DynamoDB",
     "AWS Security Hub",
     "AWS Config",

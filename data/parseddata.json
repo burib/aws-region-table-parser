@@ -1,5 +1,5 @@
 {
-  "servicesCount": 212,
+  "servicesCount": 213,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -4273,7 +4273,7 @@
     "inspector2": {
       "code": "inspector2",
       "name": "Amazon Inspector",
-      "count": 33,
+      "count": 19,
       "regions": [
         "ap-northeast-2",
         "ap-southeast-1",
@@ -4293,7 +4293,15 @@
         "me-south-1",
         "us-east-1",
         "us-east-2",
-        "us-west-2",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/inspector/"
+    },
+    "inspector": {
+      "code": "inspector",
+      "name": "Amazon Inspector Classic",
+      "count": 14,
+      "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
         "ap-southeast-2",
@@ -4309,7 +4317,7 @@
         "us-east-1",
         "us-gov-east-1"
       ],
-      "url": "https://aws.amazon.com/inspector/"
+      "url": "https://docs.aws.amazon.com/inspector/v1/userguide/inspector_introduction.html"
     },
     "kendra": {
       "code": "kendra",
@@ -4491,16 +4499,19 @@
     "lex-runtime": {
       "code": "lex-runtime",
       "name": "Amazon Lex",
-      "count": 9,
+      "count": 12,
       "regions": [
+        "af-south-1",
         "ap-northeast-1",
+        "ap-northeast-2",
         "ap-southeast-1",
-        "ap-southeast-2",
+        "ca-central-1",
         "eu-central-1",
         "eu-west-1",
         "eu-west-2",
         "us-east-1",
         "us-gov-west-1",
+        "ap-southeast-2",
         "us-west-2"
       ],
       "url": "https://aws.amazon.com/lex/"
@@ -5981,6 +5992,7 @@
     "honeycode": "Amazon Honeycode",
     "ivs": "Amazon IVS",
     "inspector2": "Amazon Inspector",
+    "inspector": "Amazon Inspector Classic",
     "kendra": "Amazon Kendra",
     "mcs": "Amazon Keyspaces (for Apache Cassandra)",
     "kinesisanalytics": "Amazon Kinesis Data Analytics",
