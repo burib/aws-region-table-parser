@@ -1,7 +1,8 @@
 {
-  "count": 49,
+  "count": 50,
   "serviceNames": [
     "Amazon Route 53",
+    "AWS Cloud Map",
     "AWS Systems Manager",
     "AWS CodeDeploy",
     "AWS CloudTrail",

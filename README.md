@@ -26,8 +26,8 @@ sa-east-1 | South America (Sao Paulo) | 146
 us-west-1 | US West (N. California) | 146
 eu-north-1 | Europe (Stockholm) | 145
 eu-west-3 | Europe (Paris) | 145
-us-gov-west-1 | AWS GovCloud (US) | 127
 ap-east-1 | Asia Pacific (Hong Kong) | 126
+us-gov-west-1 | AWS GovCloud (US) | 126
 me-south-1 | Middle East (Bahrain) | 121
 af-south-1 | Africa (Cape Town) | 117
 eu-south-1 | Europe (Milan) | 114
@@ -35,16 +35,16 @@ us-gov-east-1 | AWS GovCloud (US-East) | 103
 ap-northeast-3 | Asia Pacific (Osaka-Local) | 101
 cn-north-1 | China (Beijing) | 101
 cn-northwest-1 | China (Ningxia) | 100
-ap-southeast-3 | Asia Pacific (Jakarta) | 88
+ap-southeast-3 | Asia Pacific (Jakarta) | 89
 me-central-1 | Middle East (UAE) | 62
-eu-central-2 | Europe (Zurich) | 52
-eu-south-2 | Europe (Spain) | 49
-ap-south-2 | Asia Pacific (Hyderabad) | 49
+eu-central-2 | Europe (Zurich) | 53
+eu-south-2 | Europe (Spain) | 50
+ap-south-2 | Asia Pacific (Hyderabad) | 50
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-92175ad1-70b4-435c-b262-7716f4272bb8'>
+<img src='https://quickchart.io/chart/render/sf-c9441ce5-971c-4a4d-a336-2d544fe52733'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |
@@ -62,7 +62,6 @@ AWS Batch|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_
 AWS Budgets|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Certificate Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Chatbot|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-AWS Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Cloud Map|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Cloud9|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS CloudFormation|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -165,6 +164,7 @@ Amazon Athena|:white_check_mark: | :white_check_mark: | :white_check_mark: | :wh
 Amazon Augmented AI (A2I)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Aurora|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Braket|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Cloud Directory|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudFront|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudSearch|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:

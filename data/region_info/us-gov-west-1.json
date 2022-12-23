@@ -1,5 +1,5 @@
 {
-  "count": 127,
+  "count": 126,
   "serviceNames": [
     "Amazon Translate",
     "AWS DataSync",
@@ -60,14 +60,13 @@
     "Amazon Aurora",
     "AWS IoT Core",
     "Amazon Elastic Block Store (EBS)",
-    "AWS Chime",
+    "Amazon Chime",
     "CloudEndure Migration",
     "Amazon Comprehend",
     "AWS Fargate",
     "AWS Backup",
     "Amazon Kendra",
     "Amazon EventBridge",
-    "Amazon Lex",
     "AWS Private Certificate Authority",
     "AWS X-Ray",
     "Amazon Textract",
