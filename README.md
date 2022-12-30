@@ -21,7 +21,7 @@ us-east-2 | US East (Ohio) | 184
 eu-west-2 | Europe (London) | 177
 ap-northeast-2 | Asia Pacific (Seoul) | 169
 ca-central-1 | Canada (Central) | 166
-ap-south-1 | Asia Pacific (Mumbai) | 165
+ap-south-1 | Asia Pacific (Mumbai) | 166
 sa-east-1 | South America (Sao Paulo) | 146
 us-west-1 | US West (N. California) | 146
 eu-north-1 | Europe (Stockholm) | 145
@@ -44,7 +44,7 @@ ap-south-2 | Asia Pacific (Hyderabad) | 50
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-c9441ce5-971c-4a4d-a336-2d544fe52733'>
+<img src='https://quickchart.io/chart/render/sf-7e402c7e-4c12-486d-b126-8471526ad1c9'>
 
 # Region and Service Table # 
 | | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |

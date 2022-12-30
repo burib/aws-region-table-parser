@@ -1,5 +1,5 @@
 {
-  "count": 165,
+  "count": 166,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Route 53",
@@ -90,6 +90,7 @@
     "AWS Global Accelerator",
     "AWS Snowcone",
     "AWS Elastic Disaster Recovery (DRS)",
+    "Amazon Kendra",
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
     "Amazon AppFlow",
