@@ -1,16 +1,12 @@
 name: CI/CD
 
 on:
-  push:
-    workflow_dispatch:
-    branches:
-      - main
-      - master
+  workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
 
 jobs:
-  build:
+  parse_data:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,6 +26,8 @@ jobs:
 
   npm_publish:
     runs-on: ubuntu-latest
+    needs: parse_data
+    environment: npm
     steps:
       - uses: actions/checkout@v2
       - name: Set up NPM authentication
