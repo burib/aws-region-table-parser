@@ -5,10 +5,6 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)" # scripts fo
 DATA_DIR="$DIR/../data"
 
 function deploy() {
-  git config user.email 'info@burib.net';
-  git config user.name 'autobot';
-  git pull $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH;
-
   if [[ -z $(git status "$DATA_DIR/*.json" -s) ]]
   then
     echo "no changes in data directory.";
@@ -18,7 +14,7 @@ function deploy() {
       timestamp=$(date --utc "+%F_%T");
       git commit -m "$timestamp UTC";
       npm version patch;
-      git push $CIRCLE_REPOSITORY_URL $CIRCLE_BRANCH --force --follow-tags;
+      git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY main --force --follow-tags;
   fi
 }
 
