@@ -1,0 +1,42 @@
+name: CI/CD
+
+on:
+  push:
+    workflow_dispatch:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: v1-dependencies-${{ hashFiles('package.json') }}
+      - name: Install dependencies
+        run: npm ci
+      - name: Run parser script
+        run: bash ./scripts/parser.sh update_data
+      - name: Start project
+        run: npm start
+      - name: Deploy project
+        run: bash ./scripts/parser.sh deploy
+
+  npm_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up NPM authentication
+        run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - name: Install dependencies
+        run: npm ci
+      - name: Publish to NPM
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
