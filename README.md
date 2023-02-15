@@ -4,51 +4,52 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 <!--START_SECTION:region_summary-->
   
-### 213 Services
+### 216 Services
 
-###  30 Regions 
+###  31 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-us-east-1 | US East (N. Virginia) | 211
-us-west-2 | US West (Oregon) | 205
-eu-west-1 | Europe (Ireland) | 199
-ap-southeast-2 | Asia Pacific (Sydney) | 194
-ap-northeast-1 | Asia Pacific (Tokyo) | 193
-eu-central-1 | Europe (Frankfurt) | 191
-ap-southeast-1 | Asia Pacific (Singapore) | 185
-us-east-2 | US East (Ohio) | 184
-eu-west-2 | Europe (London) | 177
-ap-northeast-2 | Asia Pacific (Seoul) | 169
-ca-central-1 | Canada (Central) | 166
-ap-south-1 | Asia Pacific (Mumbai) | 166
-sa-east-1 | South America (Sao Paulo) | 146
-us-west-1 | US West (N. California) | 146
-eu-north-1 | Europe (Stockholm) | 145
-eu-west-3 | Europe (Paris) | 145
-ap-east-1 | Asia Pacific (Hong Kong) | 126
-us-gov-west-1 | AWS GovCloud (US) | 126
-me-south-1 | Middle East (Bahrain) | 121
-af-south-1 | Africa (Cape Town) | 117
-eu-south-1 | Europe (Milan) | 114
-us-gov-east-1 | AWS GovCloud (US-East) | 103
-cn-north-1 | China (Beijing) | 102
-ap-northeast-3 | Asia Pacific (Osaka-Local) | 101
-cn-northwest-1 | China (Ningxia) | 100
-ap-southeast-3 | Asia Pacific (Jakarta) | 89
-me-central-1 | Middle East (UAE) | 62
-eu-central-2 | Europe (Zurich) | 53
-eu-south-2 | Europe (Spain) | 50
-ap-south-2 | Asia Pacific (Hyderabad) | 50
+us-east-1 | US East (N. Virginia) | 214
+us-west-2 | US West (Oregon) | 207
+eu-west-1 | Europe (Ireland) | 201
+ap-southeast-2 | Asia Pacific (Sydney) | 196
+ap-northeast-1 | Asia Pacific (Tokyo) | 196
+eu-central-1 | Europe (Frankfurt) | 193
+us-east-2 | US East (Ohio) | 188
+ap-southeast-1 | Asia Pacific (Singapore) | 187
+eu-west-2 | Europe (London) | 179
+ap-northeast-2 | Asia Pacific (Seoul) | 172
+ap-south-1 | Asia Pacific (Mumbai) | 169
+ca-central-1 | Canada (Central) | 168
+us-west-1 | US West (N. California) | 149
+sa-east-1 | South America (Sao Paulo) | 148
+eu-north-1 | Europe (Stockholm) | 147
+eu-west-3 | Europe (Paris) | 147
+us-gov-west-1 | AWS GovCloud (US) | 130
+ap-east-1 | Asia Pacific (Hong Kong) | 127
+me-south-1 | Middle East (Bahrain) | 122
+af-south-1 | Africa (Cape Town) | 121
+eu-south-1 | Europe (Milan) | 116
+us-gov-east-1 | AWS GovCloud (US-East) | 108
+cn-north-1 | China (Beijing) | 103
+ap-northeast-3 | Asia Pacific (Osaka-Local) | 102
+cn-northwest-1 | China (Ningxia) | 101
+ap-southeast-3 | Asia Pacific (Jakarta) | 91
+me-central-1 | Middle East (UAE) | 75
+eu-central-2 | Europe (Zurich) | 59
+eu-south-2 | Europe (Spain) | 58
+ap-south-2 | Asia Pacific (Hyderabad) | 56
+ap-southeast-4 | Asia Pacific (Melbourne) | 48
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-ad35a90d-ac60-41e9-806f-f8ff9b641ec9'>
+<img src='https://quickchart.io/chart/render/sf-9ace01f8-efc4-47d6-8e8a-4a0b9b0d8b32'>
 
 # Region and Service Table # 
-| | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
+| | ap-east-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | eu-central-1 | eu-south-1 | me-south-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | eu-north-1 | eu-west-1 | eu-west-2 | eu-west-3 | sa-east-1 | us-east-1 | us-west-1 | cn-northwest-1 | ap-northeast-3 | ap-southeast-3 | cn-north-1 | af-south-1 | eu-central-2 | eu-south-2 | us-gov-east-1 | me-central-1 | us-gov-west-1 | ap-south-2 | ap-southeast-4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
 AWS Amplify|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS App Mesh|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS AppSync|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -62,6 +63,7 @@ AWS Batch|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_
 AWS Budgets|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Certificate Manager|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Chatbot|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS Cloud Control API|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Cloud Map|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Cloud9|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS CloudFormation|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -103,6 +105,7 @@ AWS Firewall Manager|:white_check_mark: | :white_check_mark: | :white_check_mark
 AWS Global Accelerator|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Glue|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Ground Station|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS IAM Identity Center|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IQ|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Identity and Access Management (IAM)|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS IoT 1-Click|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -141,7 +144,6 @@ AWS Server Migration Service (SMS)|:white_check_mark: | :white_check_mark: | :wh
 AWS Serverless Application Repository|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Service Catalog|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Shield|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
-AWS Single Sign-On|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Snowball|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Snowcone|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Snowmobile|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -155,6 +157,7 @@ AWS Trusted Advisor|:white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS VPN|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS WAF|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS Well-Architected Tool|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+AWS Wickr|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 AWS X-Ray|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Alexa for Business|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon API Gateway|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
@@ -165,6 +168,7 @@ Amazon Augmented AI (A2I)|:white_check_mark: | :white_check_mark: | :white_check
 Amazon Aurora|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Braket|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Chime|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Amazon Chime SDK|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon Cloud Directory|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudFront|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Amazon CloudSearch|:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
