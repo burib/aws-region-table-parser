@@ -2,39 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const awsRegionTableParser = require('./index.js');
 const chartGenerator = require('./chart-generator.js');
-const regionNames = {
-  "af-south-1": "Africa (Cape Town)",
-  "ap-east-1": "Asia Pacific (Hong Kong)",
-  "ap-northeast-1": "Asia Pacific (Tokyo)",
-  "ap-northeast-2": "Asia Pacific (Seoul)",
-  "ap-northeast-3": "Asia Pacific (Osaka-Local)",
-  "ap-northeast-4": "Asia Pacific (Melbourne)",
-  "ap-south-1": "Asia Pacific (Mumbai)",
-  "ap-south-2": "Asia Pacific (Hyderabad)",
-  "ap-southeast-1": "Asia Pacific (Singapore)",
-  "ap-southeast-2": "Asia Pacific (Sydney)",
-  "ap-southeast-3": "Asia Pacific (Jakarta)",
-  "ca-central-1": "Canada (Central)",
-  "cn-north-1": "China (Beijing)",
-  "cn-northwest-1": "China (Ningxia)",
-  "eu-central-1": "Europe (Frankfurt)",
-  "eu-central-2": "Europe (Zurich)",
-  "eu-north-1": "Europe (Stockholm)",
-  "eu-south-1": "Europe (Milan)",
-  "eu-south-2": "Europe (Spain)",
-  "eu-west-1": "Europe (Ireland)",
-  "eu-west-2": "Europe (London)",
-  "eu-west-3": "Europe (Paris)",
-  "me-south-1": "Middle East (Bahrain)",
-  "me-central-1": "Middle East (UAE)",
-  "sa-east-1": "South America (Sao Paulo)",
-  "us-east-1": "US East (N. Virginia)",
-  "us-east-2": "US East (Ohio)",
-  "us-gov-east-1": "AWS GovCloud (US-East)",
-  "us-gov-west-1": "AWS GovCloud (US)",
-  "us-west-1": "US West (N. California)",
-  "us-west-2": "US West (Oregon)"
-};
+const regionNames = require('./region_code_to_name_map.json');
 
 const sortArrayByProp = (array, prop, asc = true) => {
   return array.sort((a, b) => {
