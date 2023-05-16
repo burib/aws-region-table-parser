@@ -10,6 +10,8 @@ function deploy() {
     echo "no changes in data directory.";
   else
       echo "changes detected.";
+      git config --global user.email "action@github.com"
+      git config --global user.name "GitHub Action"
       git add -A;
       timestamp=$(date --utc "+%F_%T");
       git commit -m "$timestamp UTC";
