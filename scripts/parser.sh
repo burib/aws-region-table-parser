@@ -17,7 +17,8 @@ function deploy() {
       git commit -m "$timestamp UTC";
       npm version patch;
       echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY";
-      git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_ORGANISATION_NAME}/${GITHUB_REPOSITORY_NAME}" main --force --follow-tags;
+      DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | cut -d' ' -f5);
+      git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_ORGANISATION_NAME}/${GITHUB_REPOSITORY_NAME}" "$DEFAULT_BRANCH" --force --follow-tags;
   fi
 }
 
