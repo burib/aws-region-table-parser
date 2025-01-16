@@ -38,7 +38,7 @@ async function generateRegionSummaryMarkdown(parseddata) {
   markdownTable += `| Region Code | Region Name | no. of Supported Services | \n`;
   markdownTable += `| ------ | -------- | -------- | \n`;
   regionSummary.forEach(region => {
-    markdownTable += `${region.code} | ${region.name} | ${region.count}\n`;
+    markdownTable += `| ${region.code} | ${region.name} | ${region.count} |\n`;
 
     chartConfig.data.labels.push(`${region.code}`);
     chartConfig.data.datasets[0].data.push(region.count);
@@ -71,7 +71,7 @@ function getRegionSummary(parseddata) {
     });
   });
 
-  return regionSummary
+  return regionSummary;
 }
 
 awsRegionTableParser.get().then(async function (servicesAndRegions) {
@@ -81,23 +81,36 @@ awsRegionTableParser.get().then(async function (servicesAndRegions) {
   READMEheader += `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
 
   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
-  READMEheader += `# Region and Service Table # \n`
-  READMEheader += `| | ${Object.keys(servicesAndRegions.regionSummary || {}).join(' | ')} |\n`;
-  READMEheader += `| ------------- | ${Object.keys(servicesAndRegions.regionSummary).fill('-------------').join(' | ')}|`;
+  READMEheader += `# Region and Service Table # \n`;
+
+  // Get all region codes in a consistent order
+  const regionCodes = servicesAndRegions.regionCodes;
+
+  // Create header row
+  READMEheader += `| Service | ${regionCodes.join(' | ')} |\n`;
+  READMEheader += `| ------------- | ${regionCodes.map(() => '-------------').join(' | ')} |\n`;
+
   const READMErows = [];
 
-  for (const value in servicesAndRegions.services) {
-    const longServiceName = servicesAndRegions.serviceNames[value];
-    const row = `${longServiceName}|${Object.values(servicesAndRegions.services[value]).map(value => value ? ':white_check_mark:' : ':x:').join(' | ')}`;
+  // Generate rows for each service
+  Object.entries(servicesAndRegions.services).forEach(([serviceCode, serviceData]) => {
+    const serviceName = servicesAndRegions.serviceNames[serviceCode];
+    const regionChecks = regionCodes.map(regionCode =>
+      serviceData.regions.includes(regionCode) ? ':white_check_mark:' : ':x:'
+    );
 
+    const row = `| ${serviceName} | ${regionChecks.join(' | ')} |`;
     READMErows.push(row);
-  }
+  });
 
-  const READMEtext = `  \n${READMEheader}\n${READMErows.join('\n')}`;
+  const READMEtext = `${READMEheader}${READMErows.join('\n')}`;
 
   const README_FILE_PATH = path.join(__dirname, 'README.md');
   let README_FILE_CONTEXT = fs.readFileSync(README_FILE_PATH, 'utf8');
-  README_FILE_CONTEXT = README_FILE_CONTEXT.replace(/(<!--START_SECTION:region_summary-->)([\s\S]*)(<!--END_SECTION:region_summary-->)/, `$1\n${READMEtext}\n$3`);
+  README_FILE_CONTEXT = README_FILE_CONTEXT.replace(
+    /(<!--START_SECTION:region_summary-->)([\s\S]*)(<!--END_SECTION:region_summary-->)/,
+    `$1\n${READMEtext}\n$3`
+  );
 
   fs.writeFileSync(README_FILE_PATH, README_FILE_CONTEXT, 'utf8');
 });

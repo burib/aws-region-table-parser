@@ -10,6 +10,8 @@
   "ap-southeast-2": "Asia Pacific (Sydney)",
   "ap-southeast-3": "Asia Pacific (Jakarta)",
   "ap-southeast-4": "Asia Pacific (Melbourne)",
+  "ap-southeast-5": "Asia Pacific (Malaysia)",
+  "ap-southeast-7": "Asia Pacific (Thailand)",
   "ca-central-1": "Canada (Central)",
   "ca-west-1": "Canada West (Calgary)",
   "cn-north-1": "China (Beijing)",
@@ -31,5 +33,6 @@
   "us-gov-east-1": "AWS GovCloud (US-East)",
   "us-gov-west-1": "AWS GovCloud (US)",
   "us-west-1": "US West (N. California)",
-  "us-west-2": "US West (Oregon)"
+  "us-west-2": "US West (Oregon)",
+  "mx-central-1": "AWS Mexico (Central)"
 }
