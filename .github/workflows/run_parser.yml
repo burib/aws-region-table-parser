@@ -22,11 +22,13 @@ jobs:
       - name: "set env variables"
         id: set_env_vars
         uses: buricloud/github-workflows/.github/actions/github_tools/set_env_vars@main
-      - name: Install dependencies
+      - name: "Install dependencies"
         run: npm ci
-      - name: Run parser script
+      - name: "Run parser script"
         run: bash ./scripts/parser.sh update_data
-      - name: Start project
+      - name: "Start project"
         run: npm start
-      - name: Deploy project
+      - name: "Update AWS Region Data and Publish Changes to GitHub if changes are detected"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bash ./scripts/parser.sh deploy
