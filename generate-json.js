@@ -38,7 +38,7 @@ async function generateRegionSummaryMarkdown(parseddata) {
   markdownTable += `| Region Code | Region Name | no. of Supported Services | \n`;
   markdownTable += `| ------ | -------- | -------- | \n`;
   regionSummary.forEach(region => {
-    markdownTable += `| ${region.code} | ${region.name} | ${region.count} |\n`;
+    markdownTable += `| [${region.code}](./data/region_info/${region.code}.json) | ${region.name} | ${region.count} |\n`;
 
     chartConfig.data.labels.push(`${region.code}`);
     chartConfig.data.datasets[0].data.push(region.count);
