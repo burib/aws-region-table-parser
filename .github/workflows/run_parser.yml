@@ -1,4 +1,9 @@
-name: CI/CD
+name: "Parse Regions Data"
+
+permissions:
+  id-token: write # Setting the permissions to write is required in order to request an OpenID Connect JWT Token as described in the docs.
+  contents: write # This is required for actions/checkout
+  pull-requests: write # This is required for actions/checkout
 
 on:
   workflow_dispatch:
@@ -14,6 +19,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: 'npm'
+      - name: "set env variables"
+        id: set_env_vars
+        uses: buricloud/github-workflows/.github/actions/github_tools/set_env_vars@main
       - name: Install dependencies
         run: npm ci
       - name: Run parser script

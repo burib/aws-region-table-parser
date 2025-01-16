@@ -16,6 +16,7 @@ function deploy() {
       timestamp=$(date --utc "+%F_%T");
       git commit -m "$timestamp UTC";
       npm version patch;
+      echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY";
       git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY" main --force --follow-tags;
   fi
 }
