@@ -9,47 +9,47 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-| us-east-1 | US East (N. Virginia) | 239 |
-| us-west-2 | US West (Oregon) | 229 |
-| eu-west-1 | Europe (Ireland) | 223 |
-| ap-southeast-2 | Asia Pacific (Sydney) | 218 |
-| eu-central-1 | Europe (Frankfurt) | 215 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 214 |
-| ap-southeast-1 | Asia Pacific (Singapore) | 210 |
-| us-east-2 | US East (Ohio) | 206 |
-| eu-west-2 | Europe (London) | 200 |
-| ap-northeast-2 | Asia Pacific (Seoul) | 190 |
-| ap-south-1 | Asia Pacific (Mumbai) | 188 |
-| ca-central-1 | Canada (Central) | 187 |
-| eu-north-1 | Europe (Stockholm) | 169 |
-| sa-east-1 | South America (Sao Paulo) | 167 |
-| eu-west-3 | Europe (Paris) | 165 |
-| us-west-1 | US West (N. California) | 165 |
-| us-gov-west-1 | AWS GovCloud (US) | 153 |
-| af-south-1 | Africa (Cape Town) | 143 |
-| ap-east-1 | Asia Pacific (Hong Kong) | 141 |
-| me-south-1 | Middle East (Bahrain) | 138 |
-| eu-south-1 | Europe (Milan) | 134 |
-| us-gov-east-1 | AWS GovCloud (US-East) | 132 |
-| ap-northeast-3 | Asia Pacific (Osaka-Local) | 131 |
-| cn-north-1 | China (Beijing) | 120 |
-| il-central-1 | Israel (Tel Aviv) | 119 |
-| ap-southeast-3 | Asia Pacific (Jakarta) | 118 |
-| me-central-1 | Middle East (UAE) | 118 |
-| eu-south-2 | Europe (Spain) | 117 |
-| cn-northwest-1 | China (Ningxia) | 115 |
-| eu-central-2 | Europe (Zurich) | 111 |
-| ap-south-2 | Asia Pacific (Hyderabad) | 111 |
-| ap-southeast-4 | Asia Pacific (Melbourne) | 109 |
-| ca-west-1 | Canada West (Calgary) | 95 |
-| ap-southeast-5 | Asia Pacific (Malaysia) | 84 |
-| ap-southeast-7 | Asia Pacific (Thailand) | 58 |
-| mx-central-1 | AWS Mexico (Central) | 56 |
+| [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 239 |
+| [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 229 |
+| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 223 |
+| [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 218 |
+| [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 215 |
+| [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 214 |
+| [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 210 |
+| [us-east-2](./data/region_info/us-east-2.json) | US East (Ohio) | 206 |
+| [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 200 |
+| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 190 |
+| [ap-south-1](./data/region_info/ap-south-1.json) | Asia Pacific (Mumbai) | 188 |
+| [ca-central-1](./data/region_info/ca-central-1.json) | Canada (Central) | 187 |
+| [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 169 |
+| [sa-east-1](./data/region_info/sa-east-1.json) | South America (Sao Paulo) | 167 |
+| [eu-west-3](./data/region_info/eu-west-3.json) | Europe (Paris) | 165 |
+| [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 165 |
+| [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US) | 153 |
+| [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 143 |
+| [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 141 |
+| [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 138 |
+| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 134 |
+| [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 132 |
+| [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka-Local) | 131 |
+| [cn-north-1](./data/region_info/cn-north-1.json) | China (Beijing) | 120 |
+| [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 119 |
+| [ap-southeast-3](./data/region_info/ap-southeast-3.json) | Asia Pacific (Jakarta) | 118 |
+| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 118 |
+| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 117 |
+| [cn-northwest-1](./data/region_info/cn-northwest-1.json) | China (Ningxia) | 115 |
+| [eu-central-2](./data/region_info/eu-central-2.json) | Europe (Zurich) | 111 |
+| [ap-south-2](./data/region_info/ap-south-2.json) | Asia Pacific (Hyderabad) | 111 |
+| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 109 |
+| [ca-west-1](./data/region_info/ca-west-1.json) | Canada West (Calgary) | 95 |
+| [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 84 |
+| [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 58 |
+| [mx-central-1](./data/region_info/mx-central-1.json) | AWS Mexico (Central) | 56 |
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/sf-dffe8ae9-3f9a-4cdc-9e45-a3f6a5174565'>
+<img src='https://quickchart.io/chart/render/sf-6dab68e4-a618-4749-a62a-8982ea9963d3'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-7 | ca-central-1 | ca-west-1 | cn-north-1 | cn-northwest-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
