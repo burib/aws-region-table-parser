@@ -1828,7 +1828,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 84,
+    "count": 85,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1845,6 +1845,7 @@
       "AWS Identity and Access Management (IAM)",
       "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
+      "Amazon GuardDuty",
       "Amazon MQ",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
