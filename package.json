@@ -10,7 +10,9 @@
     "region table"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "jsdom": "26.0.0"
+  },
   "scripts": {
     "start": "node generate-json.js"
   },
