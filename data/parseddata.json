@@ -1,5 +1,5 @@
 {
-  "servicesCount": 241,
+  "servicesCount": 242,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -2727,6 +2727,23 @@
       ],
       "url": "https://aws.amazon.com/outposts/"
     },
+    "pcs": {
+      "code": "pcs",
+      "name": "AWS Parallel Computing Service (PCS)",
+      "count": 9,
+      "regions": [
+        "ap-northeast-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/pcs/"
+    },
     "payment-cryptography": {
       "code": "payment-cryptography",
       "name": "AWS Payment Cryptography",
@@ -5034,7 +5051,7 @@
     "efs": {
       "code": "efs",
       "name": "Amazon Elastic File System (EFS)",
-      "count": 35,
+      "count": 36,
       "regions": [
         "ap-south-1",
         "ap-south-2",
@@ -5065,12 +5082,13 @@
         "eu-south-2",
         "il-central-1",
         "me-central-1",
-        "us-west-2",
+        "mx-central-1",
         "ap-southeast-2",
         "ap-southeast-5",
         "eu-north-1",
         "us-east-1",
-        "us-gov-west-1"
+        "us-gov-west-1",
+        "us-west-2"
       ],
       "url": "https://aws.amazon.com/efs/"
     },
@@ -7510,6 +7528,7 @@
     "opsworkspuppetenterprise": "AWS OpsWorks for Puppet Enterprise",
     "organizations": "AWS Organizations",
     "outposts": "AWS Outposts",
+    "pcs": "AWS Parallel Computing Service (PCS)",
     "payment-cryptography": "AWS Payment Cryptography",
     "privatenetworks": "AWS Private 5G",
     "acm-pca": "AWS Private Certificate Authority",

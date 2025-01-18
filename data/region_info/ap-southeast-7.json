@@ -54,8 +54,8 @@
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
     "Amazon DynamoDB",
-    "Amazon CloudFront",
     "AWS Config",
+    "Amazon CloudFront",
     "AWS Lambda",
     "Amazon Application Recovery Controller",
     "Amazon Elastic Container Service (ECS)"
