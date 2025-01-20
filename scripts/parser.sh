@@ -43,9 +43,9 @@ function update_data() {
     "serviceNames": . | to_entries | map({key: .key, value: .value.name}) | from_entries,
     "regionCodes":  . | to_entries | map(.value.regions) | flatten | unique | sort,
     "regionsCount": . | to_entries | map(.value.regions) | flatten | unique | length,
-  }' > "$DATA_DIR/parseddata.json"
+  }' > "$DATA_DIR/service_info.json"
 
-  echo -e "\033[0;32mDone. parseddata.json \033[0m"
+  echo -e "\033[0;32mDone. service_info.json \033[0m"
 
   local REGION_INFO=$(echo $RESPONSE | jq '[group_by(.region)[] | {region: .[0].region, services: [.[] | .serviceName], count: [.[] | .serviceName] | length}] | sort_by(.region) | INDEX(.region)')
   # remove region key from value
