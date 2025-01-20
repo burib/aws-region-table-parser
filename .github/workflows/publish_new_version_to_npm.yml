@@ -1,6 +1,7 @@
 name: "Publish to npm"
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v[0-9]{1,3}(\.[0-9]{1,3}){2}'
