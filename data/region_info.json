@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 143,
+    "count": 144,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -108,6 +108,7 @@
       "AWS Elastic Beanstalk",
       "Amazon Transcribe",
       "Amazon ElastiCache",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
