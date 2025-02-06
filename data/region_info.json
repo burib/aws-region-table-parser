@@ -1832,12 +1832,13 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 85,
+    "count": 86,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
       "AWS Shield",
+      "Amazon SageMaker",
       "AWS Cloud Map",
       "AWS Transit Gateway",
       "AWS CloudTrail",
@@ -1922,7 +1923,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 58,
+    "count": 59,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1957,6 +1958,7 @@
       "AWS Fargate",
       "AWS X-Ray",
       "Amazon EventBridge",
+      "AWS Private Certificate Authority",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
       "AWS Marketplace",
@@ -4289,7 +4291,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 58,
+    "count": 59,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4324,6 +4326,7 @@
       "AWS Fargate",
       "AWS X-Ray",
       "Amazon EventBridge",
+      "AWS Private Certificate Authority",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
       "AWS Marketplace",
