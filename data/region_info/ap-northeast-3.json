@@ -1,5 +1,5 @@
 {
-  "count": 131,
+  "count": 132,
   "serviceNames": [
     "Amazon Security Lake",
     "Amazon Route 53",
@@ -70,6 +70,7 @@
     "AWS Elemental MediaPackage",
     "AWS Fargate",
     "AWS Elastic Disaster Recovery (DRS)",
+    "Amazon Bedrock",
     "AWS X-Ray",
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
