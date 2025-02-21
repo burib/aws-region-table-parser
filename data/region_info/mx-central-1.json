@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 62,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -60,6 +60,7 @@
     "AWS Security Hub",
     "Amazon CloudFront",
     "AWS Lambda",
+    "AWS Cloud Control API",
     "Amazon Application Recovery Controller",
     "Amazon Elastic Container Service (ECS)"
   ]
