@@ -1,5 +1,5 @@
 {
-  "count": 120,
+  "count": 119,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -82,7 +82,6 @@
     "Amazon CloudWatch",
     "AWS Serverless Application Repository",
     "AWS Organizations",
-    "AWS Snowball",
     "AWS Database Migration Service",
     "AWS Elastic Beanstalk",
     "Amazon Transcribe",

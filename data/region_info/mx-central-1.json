@@ -1,5 +1,5 @@
 {
-  "count": 62,
+  "count": 63,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -12,6 +12,7 @@
     "Amazon OpenSearch Service",
     "Amazon Redshift",
     "AWS Identity and Access Management (IAM)",
+    "Amazon Data Firehose",
     "AWS Resource Access Manager (RAM)",
     "AWS Health Dashboard",
     "Amazon Simple Queue Service (SQS)",
