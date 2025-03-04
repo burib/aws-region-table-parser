@@ -6213,7 +6213,7 @@
     "neptune": {
       "code": "neptune",
       "name": "Amazon Neptune",
-      "count": 28,
+      "count": 29,
       "regions": [
         "ap-southeast-1",
         "ap-southeast-2",
@@ -6229,7 +6229,7 @@
         "ap-northeast-1",
         "ap-northeast-2",
         "ap-south-1",
-        "cn-north-1",
+        "ap-southeast-5",
         "eu-central-1",
         "il-central-1",
         "me-central-1",
@@ -6239,6 +6239,7 @@
         "ap-northeast-3",
         "ap-southeast-3",
         "ca-central-1",
+        "cn-north-1",
         "eu-north-1",
         "eu-west-3",
         "us-east-2",
