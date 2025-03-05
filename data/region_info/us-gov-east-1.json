@@ -1,5 +1,5 @@
 {
-  "count": 133,
+  "count": 134,
   "serviceNames": [
     "Amazon Security Lake",
     "AWS DataSync",
@@ -50,6 +50,7 @@
     "AWS Firewall Manager",
     "AWS CloudFormation",
     "Amazon Kinesis Data Streams",
+    "Amazon Cognito",
     "Amazon FSx for NetApp ONTAP",
     "AWS Control Tower",
     "Amazon Detective",
