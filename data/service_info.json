@@ -1,5 +1,5 @@
 {
-  "servicesCount": 242,
+  "servicesCount": 243,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -2597,22 +2597,12 @@
     "opsworks": {
       "code": "opsworks",
       "name": "AWS OpsWorks Stacks",
-      "count": 15,
+      "count": 5,
       "regions": [
-        "ap-northeast-1",
-        "ap-south-1",
         "ap-southeast-1",
-        "ap-southeast-2",
         "eu-central-1",
-        "eu-west-2",
-        "eu-west-3",
-        "us-east-1",
-        "us-east-2",
-        "us-west-1",
-        "ap-northeast-2",
-        "ca-central-1",
         "eu-west-1",
-        "sa-east-1",
+        "us-east-1",
         "us-west-2"
       ],
       "url": "https://aws.amazon.com/opsworks/stacks/"
@@ -4484,7 +4474,7 @@
     "cognito-identity": {
       "code": "cognito-identity",
       "name": "Amazon Cognito",
-      "count": 32,
+      "count": 33,
       "regions": [
         "ap-northeast-1",
         "ap-south-1",
@@ -4496,9 +4486,9 @@
         "il-central-1",
         "us-east-1",
         "us-west-1",
-        "af-south-1",
         "ap-south-2",
         "ap-southeast-4",
+        "ap-southeast-5",
         "eu-central-1",
         "eu-central-2",
         "eu-north-1",
@@ -4506,6 +4496,7 @@
         "us-east-2",
         "us-gov-east-1",
         "us-gov-west-1",
+        "af-south-1",
         "ap-east-1",
         "ap-northeast-2",
         "ap-northeast-3",
@@ -4513,10 +4504,10 @@
         "ca-central-1",
         "ca-west-1",
         "eu-south-2",
-        "me-central-1",
         "me-south-1",
         "us-west-2",
         "eu-west-2",
+        "me-central-1",
         "sa-east-1"
       ],
       "url": "https://aws.amazon.com/cognito/"
@@ -5533,7 +5524,7 @@
     },
     "gamelift": {
       "code": "gamelift",
-      "name": "Amazon GameLift",
+      "name": "Amazon GameLift Servers",
       "count": 23,
       "regions": [
         "af-south-1",
@@ -5560,7 +5551,19 @@
         "ap-northeast-3",
         "eu-central-1"
       ],
-      "url": "https://aws.amazon.com/gamelift/"
+      "url": "https://aws.amazon.com/gamelift/servers/"
+    },
+    "AmazonGameLiftStreams": {
+      "code": "AmazonGameLiftStreams",
+      "name": "Amazon GameLift Streams",
+      "count": 4,
+      "regions": [
+        "ap-northeast-1",
+        "eu-central-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/gamelift/streams/"
     },
     "guardduty": {
       "code": "guardduty",
@@ -7633,7 +7636,8 @@
     "finspace": "Amazon FinSpace",
     "forecast": "Amazon Forecast",
     "frauddetector": "Amazon Fraud Detector",
-    "gamelift": "Amazon GameLift",
+    "gamelift": "Amazon GameLift Servers",
+    "AmazonGameLiftStreams": "Amazon GameLift Streams",
     "guardduty": "Amazon GuardDuty",
     "ivs": "Amazon IVS",
     "inspector2": "Amazon Inspector",
