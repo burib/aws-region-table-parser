@@ -1831,7 +1831,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 88,
+    "count": 89,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1891,6 +1891,7 @@
       "Amazon Elastic MapReduce (EMR)",
       "AWS Transfer Family",
       "AWS Marketplace",
+      "AWS CodePipeline",
       "EC2 Image Builder",
       "Amazon Location Service",
       "AWS Lake Formation",
@@ -3042,7 +3043,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -3114,6 +3115,7 @@
       "AWS IQ",
       "AWS Global Accelerator",
       "AWS Fargate",
+      "Amazon Bedrock",
       "AWS Elastic Disaster Recovery (DRS)",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
@@ -3181,7 +3183,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -3245,6 +3247,7 @@
       "Amazon Elastic Block Store (EBS)",
       "AWS Global Accelerator",
       "AWS Fargate",
+      "Amazon Bedrock",
       "AWS Elastic Disaster Recovery (DRS)",
       "Amazon Textract",
       "Amazon EventBridge",

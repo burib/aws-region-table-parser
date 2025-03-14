@@ -1,5 +1,5 @@
 {
-  "count": 88,
+  "count": 89,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -59,6 +59,7 @@
     "Amazon Elastic MapReduce (EMR)",
     "AWS Transfer Family",
     "AWS Marketplace",
+    "AWS CodePipeline",
     "EC2 Image Builder",
     "Amazon Location Service",
     "AWS Lake Formation",
