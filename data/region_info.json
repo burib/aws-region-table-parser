@@ -1925,7 +1925,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 65,
+    "count": 66,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1979,6 +1979,7 @@
       "AWS Support",
       "AWS Key Management Service",
       "AWS VPN",
+      "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
