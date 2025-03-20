@@ -846,7 +846,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -910,6 +910,7 @@
       "AWS Certificate Manager",
       "Amazon Personalize",
       "AWS Artifact",
+      "Amazon DataZone",
       "CloudEndure Disaster Recovery",
       "Amazon Elastic Kubernetes Service (EKS)",
       "AWS Firewall Manager",
@@ -3309,7 +3310,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 224,
+    "count": 225,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3528,6 +3529,7 @@
       "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
+      "Amazon Q Business",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",

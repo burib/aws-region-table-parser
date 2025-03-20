@@ -1,5 +1,5 @@
 {
-  "count": 224,
+  "count": 225,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -218,6 +218,7 @@
     "Amazon Rekognition",
     "AWS Elemental MediaStore",
     "AWS Cloud Control API",
+    "Amazon Q Business",
     "AWS Application Discovery Service",
     "Amazon FSx for Windows File Server",
     "AWS App Runner",
