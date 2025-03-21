@@ -1926,7 +1926,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 66,
+    "count": 67,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1946,6 +1946,7 @@
       "AWS WAF",
       "Amazon API Gateway",
       "AWS Step Functions",
+      "AWS Directory Service",
       "AWS Glue",
       "AWS PrivateLink",
       "AWS Certificate Manager",
@@ -3744,7 +3745,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 164,
+    "count": 165,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3797,6 +3798,7 @@
       "AWS Elemental MediaLive",
       "AWS Certificate Manager",
       "AWS Artifact",
+      "Amazon DataZone",
       "CloudEndure Disaster Recovery",
       "Amazon Elastic Kubernetes Service (EKS)",
       "AWS Firewall Manager",
@@ -4303,7 +4305,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 66,
+    "count": 67,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4323,6 +4325,7 @@
       "AWS WAF",
       "Amazon API Gateway",
       "AWS Step Functions",
+      "AWS Directory Service",
       "AWS Glue",
       "AWS PrivateLink",
       "AWS Certificate Manager",

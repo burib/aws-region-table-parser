@@ -1,5 +1,5 @@
 {
-  "count": 164,
+  "count": 165,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -52,6 +52,7 @@
     "AWS Elemental MediaLive",
     "AWS Certificate Manager",
     "AWS Artifact",
+    "Amazon DataZone",
     "CloudEndure Disaster Recovery",
     "Amazon Elastic Kubernetes Service (EKS)",
     "AWS Firewall Manager",
