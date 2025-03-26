@@ -1098,10 +1098,9 @@
     "cur": {
       "code": "cur",
       "name": "AWS Cost and Usage Report",
-      "count": 2,
+      "count": 1,
       "regions": [
-        "cn-northwest-1",
-        "us-east-1"
+        "cn-northwest-1"
       ],
       "url": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/"
     },
@@ -2275,7 +2274,7 @@
     "lakeformation": {
       "code": "lakeformation",
       "name": "AWS Lake Formation",
-      "count": 34,
+      "count": 36,
       "regions": [
         "af-south-1",
         "ap-southeast-1",
@@ -2308,8 +2307,10 @@
         "us-east-2",
         "us-west-2",
         "ap-south-1",
+        "ap-southeast-7",
         "ca-west-1",
         "cn-northwest-1",
+        "mx-central-1",
         "sa-east-1"
       ],
       "url": "https://aws.amazon.com/lake-formation/"

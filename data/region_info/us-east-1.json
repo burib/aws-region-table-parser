@@ -1,5 +1,5 @@
 {
-  "count": 240,
+  "count": 239,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -223,7 +223,6 @@
     "Amazon WorkMail",
     "AWS Payment Cryptography",
     "AWS Elemental MediaConnect",
-    "AWS Cost and Usage Report",
     "Amazon CloudFront",
     "AWS Config",
     "AWS Lambda",
