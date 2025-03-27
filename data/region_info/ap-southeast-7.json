@@ -1,5 +1,5 @@
 {
-  "count": 68,
+  "count": 69,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -54,6 +54,7 @@
     "Amazon Simple Notification Service (SNS)",
     "AWS Support",
     "AWS Key Management Service",
+    "AWS Network Firewall",
     "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
