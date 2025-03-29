@@ -1928,11 +1928,12 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 69,
+    "count": 70,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
+      "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
       "AWS CloudTrail",
@@ -4309,11 +4310,12 @@
     ]
   },
   "mx-central-1": {
-    "count": 69,
+    "count": 70,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
+      "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
       "AWS CloudTrail",
