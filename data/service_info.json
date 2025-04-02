@@ -5583,7 +5583,7 @@
     "guardduty": {
       "code": "guardduty",
       "name": "Amazon GuardDuty",
-      "count": 34,
+      "count": 35,
       "regions": [
         "af-south-1",
         "ap-southeast-3",
@@ -5607,8 +5607,8 @@
         "us-east-2",
         "ap-south-1",
         "ap-southeast-2",
+        "ap-southeast-7",
         "ca-central-1",
-        "eu-central-2",
         "eu-west-1",
         "eu-west-3",
         "me-central-1",
@@ -5618,6 +5618,7 @@
         "ap-northeast-2",
         "cn-north-1",
         "cn-northwest-1",
+        "eu-central-2",
         "eu-north-1"
       ],
       "url": "https://aws.amazon.com/guardduty/"

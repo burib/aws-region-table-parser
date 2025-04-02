@@ -1928,7 +1928,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 70,
+    "count": 71,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1943,6 +1943,7 @@
       "Amazon Redshift",
       "AWS Identity and Access Management (IAM)",
       "Amazon Data Firehose",
+      "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
       "Amazon Simple Queue Service (SQS)",
