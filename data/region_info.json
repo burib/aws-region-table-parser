@@ -1833,7 +1833,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 90,
+    "count": 91,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1879,6 +1879,7 @@
       "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
       "AWS Direct Connect",
+      "AWS IAM Identity Center",
       "Amazon Aurora",
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
@@ -4045,7 +4046,7 @@
     ]
   },
   "me-central-1": {
-    "count": 118,
+    "count": 119,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4073,6 +4074,7 @@
       "AWS Launch Wizard",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
+      "AWS Managed Services",
       "AWS Compute Optimizer",
       "Amazon Simple Queue Service (SQS)",
       "Amazon MQ",
