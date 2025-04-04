@@ -5015,9 +5015,10 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "Amazon Security Lake",
+      "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
       "Red Hat OpenShift Service on AWS (ROSA)",
@@ -5154,10 +5155,11 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 153,
+    "count": 154,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
+      "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
       "Red Hat OpenShift Service on AWS (ROSA)",

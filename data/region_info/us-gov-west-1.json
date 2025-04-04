@@ -1,8 +1,9 @@
 {
-  "count": 153,
+  "count": 154,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
+    "Amazon Route 53",
     "AWS DataSync",
     "Amazon CloudWatch Logs",
     "Red Hat OpenShift Service on AWS (ROSA)",
