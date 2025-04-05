@@ -58,8 +58,8 @@
     "AWS Network Firewall",
     "AWS VPN",
     "AWS Storage Gateway",
-    "Amazon EC2 Auto Scaling",
     "Amazon Elastic Container Registry (ECR)",
+    "Amazon EC2 Auto Scaling",
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
@@ -69,7 +69,7 @@
     "AWS Config",
     "AWS Lambda",
     "AWS Cloud Control API",
-    "Amazon Elastic Container Service (ECS)",
-    "Amazon Application Recovery Controller"
+    "Amazon Application Recovery Controller",
+    "Amazon Elastic Container Service (ECS)"
   ]
 }

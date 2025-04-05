@@ -90,16 +90,16 @@
     "AWS Network Firewall",
     "AWS VPN",
     "AWS Storage Gateway",
+    "Amazon Elastic Container Registry (ECR)",
     "Amazon EC2 Auto Scaling",
     "Amazon FSx for Lustre",
     "AWS Service Catalog",
     "AWS AppSync",
     "AWS Wickr",
-    "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
-    "AWS User Notifications",
     "Amazon Elastic File System (EFS)",
+    "AWS User Notifications",
     "Amazon DynamoDB",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
@@ -108,9 +108,9 @@
     "AWS Lambda",
     "AWS App Mesh",
     "AWS Cloud Control API",
+    "Amazon Application Recovery Controller",
     "Amazon FSx for Windows File Server",
     "Amazon Elastic Container Service (ECS)",
-    "AWS CodeBuild",
-    "Amazon Application Recovery Controller"
+    "AWS CodeBuild"
   ]
 }

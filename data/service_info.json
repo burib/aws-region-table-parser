@@ -1,5 +1,5 @@
 {
-  "servicesCount": 243,
+  "servicesCount": 242,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -2763,17 +2763,6 @@
         "us-west-2"
       ],
       "url": "https://aws.amazon.com/payment-cryptography/"
-    },
-    "privatenetworks": {
-      "code": "privatenetworks",
-      "name": "AWS Private 5G",
-      "count": 3,
-      "regions": [
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/private5g/"
     },
     "acm-pca": {
       "code": "acm-pca",
@@ -7578,7 +7567,6 @@
     "outposts": "AWS Outposts",
     "pcs": "AWS Parallel Computing Service (PCS)",
     "payment-cryptography": "AWS Payment Cryptography",
-    "privatenetworks": "AWS Private 5G",
     "acm-pca": "AWS Private Certificate Authority",
     "privatelink": "AWS PrivateLink",
     "proton": "AWS Proton",

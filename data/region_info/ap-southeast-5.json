@@ -75,10 +75,10 @@
     "AWS Network Firewall",
     "AWS VPN",
     "AWS Storage Gateway",
+    "Amazon Elastic Container Registry (ECR)",
     "Amazon EC2 Auto Scaling",
     "Amazon FSx for Lustre",
     "AWS Wickr",
-    "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
@@ -89,8 +89,8 @@
     "AWS Config",
     "AWS Lambda",
     "AWS Cloud Control API",
+    "Amazon Application Recovery Controller",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
-    "Amazon Application Recovery Controller"
+    "Amazon Elastic Container Service (ECS)"
   ]
 }
