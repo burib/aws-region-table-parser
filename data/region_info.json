@@ -1929,7 +1929,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 73,
+    "count": 74,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1943,6 +1943,7 @@
       "Amazon OpenSearch Service",
       "Amazon Redshift",
       "AWS Identity and Access Management (IAM)",
+      "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
       "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
@@ -4315,7 +4316,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 72,
+    "count": 73,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4329,6 +4330,7 @@
       "Amazon OpenSearch Service",
       "Amazon Redshift",
       "AWS Identity and Access Management (IAM)",
+      "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
