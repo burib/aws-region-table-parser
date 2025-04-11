@@ -1,5 +1,5 @@
 {
-  "count": 217,
+  "count": 218,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -193,6 +193,7 @@
     "Amazon Elastic File System (EFS)",
     "Amazon Inspector Classic",
     "AWS User Notifications",
+    "Amazon Q Developer",
     "Amazon CodeGuru",
     "AWS Elemental MediaConvert",
     "Amazon Quantum Ledger Database (QLDB)",

@@ -1833,7 +1833,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 91,
+    "count": 92,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1869,6 +1869,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "AWS Firewall Manager",
       "AWS CloudFormation",
+      "AWS Resource Explorer",
       "Amazon Kinesis Data Streams",
       "Amazon Cognito",
       "AWS Control Tower",
@@ -1929,7 +1930,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 74,
+    "count": 75,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1962,6 +1963,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "AWS Firewall Manager",
       "AWS CloudFormation",
+      "AWS Resource Explorer",
       "Amazon Kinesis Data Streams",
       "Amazon Relational Database Service (RDS)",
       "AWS Trusted Advisor",
@@ -2542,7 +2544,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 217,
+    "count": 218,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2736,6 +2738,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Inspector Classic",
       "AWS User Notifications",
+      "Amazon Q Developer",
       "Amazon CodeGuru",
       "AWS Elemental MediaConvert",
       "Amazon Quantum Ledger Database (QLDB)",
@@ -4316,7 +4319,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 73,
+    "count": 74,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4348,6 +4351,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "AWS Firewall Manager",
       "AWS CloudFormation",
+      "AWS Resource Explorer",
       "Amazon Kinesis Data Streams",
       "Amazon Relational Database Service (RDS)",
       "AWS Trusted Advisor",

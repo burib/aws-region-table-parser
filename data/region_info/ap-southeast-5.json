@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 92,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -35,6 +35,7 @@
     "Amazon Elastic Kubernetes Service (EKS)",
     "AWS Firewall Manager",
     "AWS CloudFormation",
+    "AWS Resource Explorer",
     "Amazon Kinesis Data Streams",
     "Amazon Cognito",
     "AWS Control Tower",
