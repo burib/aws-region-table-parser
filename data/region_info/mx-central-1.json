@@ -1,5 +1,5 @@
 {
-  "count": 74,
+  "count": 75,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -49,6 +49,7 @@
     "Amazon Simple Workflow Service (SWF)",
     "AWS Batch",
     "Amazon Elastic MapReduce (EMR)",
+    "AWS Transfer Family",
     "AWS Marketplace",
     "EC2 Image Builder",
     "AWS Lake Formation",

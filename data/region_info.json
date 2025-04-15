@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -105,6 +105,7 @@
       "AWS Organizations",
       "AWS Snowball",
       "AWS Database Migration Service",
+      "AWS Entity Resolution",
       "AWS Elastic Beanstalk",
       "Amazon Transcribe",
       "Amazon ElastiCache",
@@ -2010,7 +2011,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2147,6 +2148,7 @@
       "AWS Organizations",
       "AWS Snowball",
       "AWS Database Migration Service",
+      "AWS Entity Resolution",
       "AWS Elastic Beanstalk",
       "Amazon Transcribe",
       "AWS Telco Network Builder",
@@ -4319,7 +4321,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 74,
+    "count": 75,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4369,6 +4371,7 @@
       "Amazon Simple Workflow Service (SWF)",
       "AWS Batch",
       "Amazon Elastic MapReduce (EMR)",
+      "AWS Transfer Family",
       "AWS Marketplace",
       "EC2 Image Builder",
       "AWS Lake Formation",
