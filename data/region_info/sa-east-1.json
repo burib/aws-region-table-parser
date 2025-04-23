@@ -1,11 +1,12 @@
 {
-  "count": 166,
+  "count": 167,
   "serviceNames": [
     "Amazon Security Lake",
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
     "AWS DataSync",
     "Amazon CloudWatch Logs",
+    "AWS Security Incident Response",
     "Red Hat OpenShift Service on AWS (ROSA)",
     "AWS Shield",
     "AWS CloudShell",

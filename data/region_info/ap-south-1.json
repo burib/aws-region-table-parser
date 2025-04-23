@@ -1,5 +1,5 @@
 {
-  "count": 188,
+  "count": 189,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -9,6 +9,7 @@
     "AWS DataSync",
     "Amazon Elastic Transcoder",
     "Amazon CloudWatch Logs",
+    "AWS Security Incident Response",
     "Red Hat OpenShift Service on AWS (ROSA)",
     "AWS Shield",
     "AWS CloudShell",

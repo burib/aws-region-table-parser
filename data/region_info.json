@@ -846,7 +846,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -856,6 +856,7 @@
       "AWS DataSync",
       "Amazon Elastic Transcoder",
       "Amazon CloudWatch Logs",
+      "AWS Security Incident Response",
       "Red Hat OpenShift Service on AWS (ROSA)",
       "AWS Shield",
       "AWS CloudShell",
@@ -1930,11 +1931,12 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 76,
+    "count": 77,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
+      "AWS Shield",
       "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
@@ -3759,7 +3761,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 165,
+    "count": 166,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3767,6 +3769,7 @@
       "Amazon Managed Workflows for Apache Airflow",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
+      "AWS Security Incident Response",
       "Red Hat OpenShift Service on AWS (ROSA)",
       "AWS Shield",
       "AWS CloudShell",
@@ -4320,11 +4323,12 @@
     ]
   },
   "mx-central-1": {
-    "count": 76,
+    "count": 77,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
+      "AWS Shield",
       "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
@@ -4401,13 +4405,14 @@
     ]
   },
   "sa-east-1": {
-    "count": 166,
+    "count": 167,
     "serviceNames": [
       "Amazon Security Lake",
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
+      "AWS Security Incident Response",
       "Red Hat OpenShift Service on AWS (ROSA)",
       "AWS Shield",
       "AWS CloudShell",
