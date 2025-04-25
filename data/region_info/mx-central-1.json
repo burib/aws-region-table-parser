@@ -76,7 +76,7 @@
     "AWS Config",
     "AWS Lambda",
     "AWS Cloud Control API",
-    "Amazon Application Recovery Controller",
-    "Amazon Elastic Container Service (ECS)"
+    "Amazon Elastic Container Service (ECS)",
+    "Amazon Application Recovery Controller"
   ]
 }

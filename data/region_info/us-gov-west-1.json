@@ -147,13 +147,13 @@
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
     "AWS Config",
-    "Amazon Rekognition",
     "AWS Lambda",
+    "Amazon Rekognition",
     "AWS Cloud Control API",
-    "Amazon Application Recovery Controller",
     "Amazon FSx for Windows File Server",
     "Amazon Elastic Container Service (ECS)",
     "AWS CodeBuild",
+    "Amazon Application Recovery Controller",
     "Amazon Chime SDK"
   ]
 }

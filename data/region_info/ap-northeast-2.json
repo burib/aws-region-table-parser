@@ -179,16 +179,16 @@
     "AWS Elemental MediaConnect",
     "Amazon CloudFront",
     "AWS Config",
-    "Amazon Rekognition",
     "AWS Lambda",
     "FreeRTOS",
     "AWS App Mesh",
+    "Amazon Rekognition",
     "AWS Elemental MediaStore",
     "AWS Cloud Control API",
-    "Amazon Application Recovery Controller",
     "Amazon FSx for Windows File Server",
     "Amazon Elastic Container Service (ECS)",
     "AWS CodeBuild",
+    "Amazon Application Recovery Controller",
     "Amazon Chime SDK"
   ]
 }

@@ -141,10 +141,10 @@
       "AWS Lambda",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -288,10 +288,10 @@
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ap-northeast-1": {
@@ -499,18 +499,18 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -695,16 +695,16 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -839,10 +839,10 @@
       "AWS Lambda",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ap-south-1": {
@@ -1026,16 +1026,16 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -1150,10 +1150,10 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ap-southeast-1": {
@@ -1359,16 +1359,16 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -1580,19 +1580,19 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
       "Amazon Q Business",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -1713,10 +1713,10 @@
       "AWS Lambda",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ap-southeast-4": {
@@ -1827,10 +1827,10 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ap-southeast-5": {
@@ -1925,9 +1925,9 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
-      "Amazon Elastic Container Service (ECS)"
+      "Amazon Elastic Container Service (ECS)",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ap-southeast-7": {
@@ -2008,8 +2008,8 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
-      "Amazon Elastic Container Service (ECS)"
+      "Amazon Elastic Container Service (ECS)",
+      "Amazon Application Recovery Controller"
     ]
   },
   "ca-central-1": {
@@ -2191,15 +2191,15 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -2298,9 +2298,9 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
-      "Amazon Elastic Container Service (ECS)"
+      "Amazon Elastic Container Service (ECS)",
+      "Amazon Application Recovery Controller"
     ]
   },
   "cn-north-1": {
@@ -2421,10 +2421,10 @@
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "cn-northwest-1": {
@@ -2539,10 +2539,10 @@
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "AWS Cost Explorer"
     ]
   },
@@ -2754,18 +2754,18 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -2879,10 +2879,10 @@
       "AWS Lambda",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "eu-north-1": {
@@ -3054,10 +3054,10 @@
       "AWS App Mesh",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -3194,10 +3194,10 @@
       "AWS Lambda",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -3316,14 +3316,14 @@
       "AWS Security Hub",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "eu-west-1": {
@@ -3540,19 +3540,19 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
       "Amazon Q Business",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -3745,18 +3745,18 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -3923,11 +3923,11 @@
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -4044,14 +4044,14 @@
       "AWS Security Hub",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -4173,10 +4173,10 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "me-south-1": {
@@ -4316,10 +4316,10 @@
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
-      "AWS CodeBuild"
+      "AWS CodeBuild",
+      "Amazon Application Recovery Controller"
     ]
   },
   "mx-central-1": {
@@ -4400,8 +4400,8 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
-      "Amazon Elastic Container Service (ECS)"
+      "Amazon Elastic Container Service (ECS)",
+      "Amazon Application Recovery Controller"
     ]
   },
   "sa-east-1": {
@@ -4569,10 +4569,10 @@
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -4802,19 +4802,19 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
       "Amazon Q Business",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK",
       "AWS Cost Explorer"
     ]
@@ -5017,16 +5017,16 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -5163,10 +5163,10 @@
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -5319,13 +5319,13 @@
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -5486,15 +5486,15 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Cloud Control API",
-      "Amazon Application Recovery Controller",
       "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   },
@@ -5717,19 +5717,19 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
-      "Amazon Rekognition",
       "AWS Lambda",
       "FreeRTOS",
       "AWS App Mesh",
+      "Amazon Rekognition",
       "AWS Elemental MediaStore",
       "AWS Cloud Control API",
       "Amazon Q Business",
-      "Amazon Application Recovery Controller",
       "AWS Application Discovery Service",
       "Amazon FSx for Windows File Server",
       "AWS App Runner",
       "Amazon Elastic Container Service (ECS)",
       "AWS CodeBuild",
+      "Amazon Application Recovery Controller",
       "Amazon Chime SDK"
     ]
   }
