@@ -2013,7 +2013,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2157,6 +2157,7 @@
       "AWS IoT Device Management",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "Amazon Macie",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Connect",
