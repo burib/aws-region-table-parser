@@ -1931,7 +1931,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 77,
+    "count": 78,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1968,6 +1968,7 @@
       "AWS CloudFormation",
       "AWS Resource Explorer",
       "Amazon Kinesis Data Streams",
+      "AWS Control Tower",
       "Amazon Relational Database Service (RDS)",
       "AWS Trusted Advisor",
       "AWS Resource Groups",
@@ -4324,7 +4325,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 77,
+    "count": 78,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4360,6 +4361,7 @@
       "AWS CloudFormation",
       "AWS Resource Explorer",
       "Amazon Kinesis Data Streams",
+      "AWS Control Tower",
       "Amazon Relational Database Service (RDS)",
       "AWS Trusted Advisor",
       "AWS Resource Groups",
