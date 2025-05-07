@@ -1,5 +1,5 @@
 {
-  "count": 109,
+  "count": 110,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -7,6 +7,7 @@
     "Amazon CloudWatch Logs",
     "Red Hat OpenShift Service on AWS (ROSA)",
     "AWS Shield",
+    "AWS CloudShell",
     "Amazon SageMaker AI",
     "AWS Cloud Map",
     "AWS Transit Gateway",

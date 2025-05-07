@@ -1040,7 +1040,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 112,
+    "count": 113,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1048,6 +1048,7 @@
       "Amazon CloudWatch Logs",
       "Red Hat OpenShift Service on AWS (ROSA)",
       "AWS Shield",
+      "AWS CloudShell",
       "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
@@ -1720,7 +1721,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 109,
+    "count": 110,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1728,6 +1729,7 @@
       "Amazon CloudWatch Logs",
       "Red Hat OpenShift Service on AWS (ROSA)",
       "AWS Shield",
+      "AWS CloudShell",
       "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
@@ -2206,13 +2208,14 @@
     ]
   },
   "ca-west-1": {
-    "count": 95,
+    "count": 96,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
       "AWS Shield",
+      "AWS CloudShell",
       "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
@@ -3934,13 +3937,14 @@
     ]
   },
   "il-central-1": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
       "AWS DataSync",
       "Amazon CloudWatch Logs",
       "AWS Shield",
+      "AWS CloudShell",
       "Amazon SageMaker AI",
       "AWS Cloud Map",
       "AWS Transit Gateway",
