@@ -2016,7 +2016,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2152,6 +2152,7 @@
       "AWS Organizations",
       "AWS Snowball",
       "AWS Database Migration Service",
+      "AWS Entity Resolution",
       "AWS Serverless Application Repository",
       "AWS Elastic Beanstalk",
       "Amazon Transcribe",
@@ -3766,7 +3767,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 166,
+    "count": 168,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3801,6 +3802,7 @@
       "Amazon GuardDuty",
       "AWS Launch Wizard",
       "VMware Cloud on AWS",
+      "Amazon AppStream 2.0",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
       "AWS Managed Services",
@@ -3884,6 +3886,7 @@
       "AWS Lake Formation",
       "Amazon CloudWatch",
       "AWS Cloud9",
+      "Amazon WorkSpaces",
       "AWS Organizations",
       "AWS Snowball",
       "AWS Database Migration Service",
@@ -4329,7 +4332,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 78,
+    "count": 80,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4347,6 +4350,7 @@
       "AWS Identity and Access Management (IAM)",
       "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
+      "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
       "Amazon Simple Queue Service (SQS)",
@@ -4368,6 +4372,7 @@
       "AWS Control Tower",
       "Amazon Relational Database Service (RDS)",
       "AWS Trusted Advisor",
+      "Amazon Pinpoint and End User Messaging",
       "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
       "AWS Direct Connect",

@@ -1,5 +1,5 @@
 {
-  "count": 166,
+  "count": 168,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -34,6 +34,7 @@
     "Amazon GuardDuty",
     "AWS Launch Wizard",
     "VMware Cloud on AWS",
+    "Amazon AppStream 2.0",
     "AWS Resource Access Manager (RAM)",
     "AWS Health Dashboard",
     "AWS Managed Services",
@@ -117,6 +118,7 @@
     "AWS Lake Formation",
     "Amazon CloudWatch",
     "AWS Cloud9",
+    "Amazon WorkSpaces",
     "AWS Organizations",
     "AWS Snowball",
     "AWS Database Migration Service",

@@ -1,5 +1,5 @@
 {
-  "count": 187,
+  "count": 188,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -135,6 +135,7 @@
     "AWS Organizations",
     "AWS Snowball",
     "AWS Database Migration Service",
+    "AWS Entity Resolution",
     "AWS Serverless Application Repository",
     "AWS Elastic Beanstalk",
     "Amazon Transcribe",

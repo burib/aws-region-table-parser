@@ -1594,18 +1594,19 @@
     "entityresolution": {
       "code": "entityresolution",
       "name": "AWS Entity Resolution",
-      "count": 10,
+      "count": 11,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
-        "ap-southeast-1",
         "ap-southeast-2",
+        "ca-central-1",
         "eu-central-1",
         "eu-west-1",
         "eu-west-2",
         "us-east-1",
         "us-east-2",
-        "us-west-2"
+        "us-west-2",
+        "ap-southeast-1"
       ],
       "url": "https://aws.amazon.com/entity-resolution"
     },
@@ -4029,20 +4030,21 @@
     "appstream": {
       "code": "appstream",
       "name": "Amazon AppStream 2.0",
-      "count": 15,
+      "count": 16,
       "regions": [
         "ap-northeast-2",
         "ap-south-1",
         "ap-southeast-1",
-        "ca-central-1",
         "eu-central-1",
         "eu-west-1",
         "eu-west-2",
+        "eu-west-3",
         "sa-east-1",
         "us-gov-east-1",
         "us-west-2",
         "ap-northeast-1",
         "ap-southeast-2",
+        "ca-central-1",
         "us-east-1",
         "us-east-2",
         "us-gov-west-1"
@@ -5593,7 +5595,7 @@
     "guardduty": {
       "code": "guardduty",
       "name": "Amazon GuardDuty",
-      "count": 35,
+      "count": 36,
       "regions": [
         "af-south-1",
         "ap-southeast-3",
@@ -5608,14 +5610,15 @@
         "ap-east-1",
         "ap-northeast-1",
         "ap-northeast-3",
-        "ap-south-2",
         "ap-southeast-1",
         "ap-southeast-5",
         "ca-west-1",
         "eu-south-1",
         "il-central-1",
+        "mx-central-1",
         "us-east-2",
         "ap-south-1",
+        "ap-south-2",
         "ap-southeast-2",
         "ap-southeast-7",
         "ca-central-1",
@@ -5623,13 +5626,13 @@
         "eu-west-3",
         "me-central-1",
         "me-south-1",
-        "us-gov-east-1",
         "us-west-1",
         "ap-northeast-2",
         "cn-north-1",
         "cn-northwest-1",
         "eu-central-2",
-        "eu-north-1"
+        "eu-north-1",
+        "us-gov-east-1"
       ],
       "url": "https://aws.amazon.com/guardduty/"
     },
@@ -6351,7 +6354,7 @@
     "pinpoint-sms-voice-v2": {
       "code": "pinpoint-sms-voice-v2",
       "name": "Amazon Pinpoint and End User Messaging",
-      "count": 30,
+      "count": 31,
       "regions": [
         "ap-northeast-2",
         "ap-northeast-3",
@@ -6373,16 +6376,17 @@
         "il-central-1",
         "me-south-1",
         "us-east-1",
-        "ap-northeast-1",
         "ap-south-2",
         "ap-southeast-1",
         "eu-central-1",
         "eu-north-1",
         "eu-west-2",
         "me-central-1",
+        "mx-central-1",
         "us-east-2",
         "us-gov-east-1",
-        "us-west-1"
+        "us-west-1",
+        "ap-northeast-1"
       ],
       "url": "https://aws.amazon.com/end-user-messaging/amazon-pinpoint-aws-end-user-messaging-landing-page/"
     },
@@ -7194,7 +7198,7 @@
     "workspaces": {
       "code": "workspaces",
       "name": "Amazon WorkSpaces",
-      "count": 17,
+      "count": 18,
       "regions": [
         "af-south-1",
         "ap-south-1",
@@ -7202,7 +7206,7 @@
         "ca-central-1",
         "cn-northwest-1",
         "eu-central-1",
-        "sa-east-1",
+        "eu-west-3",
         "us-east-1",
         "us-gov-west-1",
         "us-west-2",
@@ -7212,6 +7216,7 @@
         "eu-west-1",
         "eu-west-2",
         "il-central-1",
+        "sa-east-1",
         "us-gov-east-1"
       ],
       "url": "https://aws.amazon.com/workspaces/"
