@@ -1933,7 +1933,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 78,
+    "count": 79,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1982,6 +1982,7 @@
       "AWS Fargate",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
+      "Amazon FSx",
       "AWS X-Ray",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
@@ -2892,7 +2893,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 171,
+    "count": 172,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3049,6 +3050,7 @@
       "Amazon Elastic File System (EFS)",
       "AWS Elemental MediaConvert",
       "Amazon GameLift Servers",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
@@ -4332,7 +4334,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 80,
+    "count": 81,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4382,6 +4384,7 @@
       "AWS Fargate",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
+      "Amazon FSx",
       "AWS X-Ray",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",

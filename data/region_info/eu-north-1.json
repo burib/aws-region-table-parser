@@ -1,5 +1,5 @@
 {
-  "count": 171,
+  "count": 172,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -156,6 +156,7 @@
     "Amazon Elastic File System (EFS)",
     "AWS Elemental MediaConvert",
     "Amazon GameLift Servers",
+    "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",

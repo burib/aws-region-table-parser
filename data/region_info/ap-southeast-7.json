@@ -1,5 +1,5 @@
 {
-  "count": 78,
+  "count": 79,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -48,6 +48,7 @@
     "AWS Fargate",
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
+    "Amazon FSx",
     "AWS X-Ray",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
