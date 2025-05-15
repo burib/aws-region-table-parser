@@ -1934,7 +1934,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 79,
+    "count": 83,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -1973,6 +1973,7 @@
       "Amazon Kinesis Data Streams",
       "AWS Control Tower",
       "Amazon Relational Database Service (RDS)",
+      "Amazon FSx for NetApp ONTAP",
       "AWS Trusted Advisor",
       "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
@@ -2003,16 +2004,19 @@
       "AWS VPN",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
+      "Amazon FSx for Lustre",
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "Amazon Simple Storage Service (S3)",
       "Amazon Elastic File System (EFS)",
       "Amazon DynamoDB",
+      "Amazon FSx for OpenZFS",
       "AWS Security Hub",
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
+      "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "Amazon Application Recovery Controller"
     ]
@@ -4335,7 +4339,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 81,
+    "count": 85,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4374,6 +4378,7 @@
       "Amazon Kinesis Data Streams",
       "AWS Control Tower",
       "Amazon Relational Database Service (RDS)",
+      "Amazon FSx for NetApp ONTAP",
       "AWS Trusted Advisor",
       "Amazon Pinpoint and End User Messaging",
       "AWS Resource Groups",
@@ -4406,16 +4411,19 @@
       "AWS VPN",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",
+      "Amazon FSx for Lustre",
       "Amazon Elastic Container Registry (ECR)",
       "Elastic Load Balancing",
       "Amazon Simple Storage Service (S3)",
       "Amazon Elastic File System (EFS)",
       "Amazon DynamoDB",
+      "Amazon FSx for OpenZFS",
       "AWS Security Hub",
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
       "AWS Cloud Control API",
+      "Amazon FSx for Windows File Server",
       "Amazon Elastic Container Service (ECS)",
       "Amazon Application Recovery Controller"
     ]
