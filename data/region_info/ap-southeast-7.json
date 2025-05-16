@@ -1,5 +1,5 @@
 {
-  "count": 83,
+  "count": 84,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -39,6 +39,7 @@
     "AWS Control Tower",
     "Amazon Relational Database Service (RDS)",
     "Amazon FSx for NetApp ONTAP",
+    "Amazon Managed Streaming for Apache Kafka",
     "AWS Trusted Advisor",
     "AWS Resource Groups",
     "Amazon Virtual Private Cloud (VPC)",

@@ -6142,7 +6142,7 @@
     "kafka": {
       "code": "kafka",
       "name": "Amazon Managed Streaming for Apache Kafka",
-      "count": 34,
+      "count": 36,
       "regions": [
         "af-south-1",
         "ap-northeast-2",
@@ -6175,9 +6175,11 @@
         "sa-east-1",
         "us-west-1",
         "ap-southeast-1",
+        "ap-southeast-7",
         "eu-central-1",
         "eu-south-2",
-        "eu-west-1"
+        "eu-west-1",
+        "mx-central-1"
       ],
       "url": "https://aws.amazon.com/msk/"
     },
