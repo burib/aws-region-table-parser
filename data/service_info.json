@@ -1,5 +1,5 @@
 {
-  "servicesCount": 243,
+  "servicesCount": 242,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -4204,22 +4204,6 @@
       ],
       "url": "https://aws.amazon.com/rds/aurora/"
     },
-    "dsql": {
-      "code": "dsql",
-      "name": "Amazon Aurora DSQL",
-      "count": 8,
-      "regions": [
-        "ap-northeast-1",
-        "ap-northeast-3",
-        "eu-west-1",
-        "eu-west-2",
-        "eu-west-3",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/rds/aurora/dsql/"
-    },
     "bedrock": {
       "code": "bedrock",
       "name": "Amazon Bedrock",
@@ -7668,7 +7652,6 @@
     "athena": "Amazon Athena",
     "augmentedairuntime": "Amazon Augmented AI (A2I)",
     "aurora": "Amazon Aurora",
-    "dsql": "Amazon Aurora DSQL",
     "bedrock": "Amazon Bedrock",
     "braket": "Amazon Braket",
     "chime": "Amazon Chime",

@@ -296,7 +296,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 216,
+    "count": 215,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -501,7 +501,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "Amazon Rekognition",
@@ -711,7 +710,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 133,
+    "count": 132,
     "serviceNames": [
       "Amazon Security Lake",
       "Amazon Route 53",
@@ -839,7 +838,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "AWS App Mesh",
       "AWS Cloud Control API",
       "Amazon FSx for Windows File Server",
@@ -3343,7 +3341,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 226,
+    "count": 225,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3557,7 +3555,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "Amazon Rekognition",
@@ -3574,7 +3571,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 200,
+    "count": 199,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3763,7 +3760,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "Amazon Rekognition",
@@ -3779,7 +3775,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 169,
+    "count": 168,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3940,7 +3936,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "AWS Cloud Control API",
@@ -4608,7 +4603,7 @@
     ]
   },
   "us-east-1": {
-    "count": 239,
+    "count": 238,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -4834,7 +4829,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "Amazon Rekognition",
@@ -4852,7 +4846,7 @@
     ]
   },
   "us-east-2": {
-    "count": 207,
+    "count": 206,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -5050,7 +5044,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "Amazon Rekognition",
@@ -5532,7 +5525,7 @@
     ]
   },
   "us-west-2": {
-    "count": 231,
+    "count": 230,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -5751,7 +5744,6 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Lambda",
-      "Amazon Aurora DSQL",
       "FreeRTOS",
       "AWS App Mesh",
       "Amazon Rekognition",
