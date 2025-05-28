@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 133,
   "serviceNames": [
     "Amazon Security Lake",
     "Amazon Route 53",
@@ -127,6 +127,7 @@
     "Amazon CloudFront",
     "AWS Config",
     "AWS Lambda",
+    "Amazon Aurora DSQL",
     "AWS App Mesh",
     "AWS Cloud Control API",
     "Amazon FSx for Windows File Server",

@@ -1,5 +1,5 @@
 {
-  "count": 168,
+  "count": 169,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -160,6 +160,7 @@
     "Amazon CloudFront",
     "AWS Config",
     "AWS Lambda",
+    "Amazon Aurora DSQL",
     "FreeRTOS",
     "AWS App Mesh",
     "AWS Cloud Control API",
