@@ -1724,7 +1724,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 110,
+    "count": 111,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1793,6 +1793,7 @@
       "Amazon FSx",
       "Amazon Verified Permissions",
       "AWS X-Ray",
+      "Amazon Neptune",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
       "AWS Batch",
@@ -2218,7 +2219,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 96,
+    "count": 97,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2280,6 +2281,7 @@
       "Amazon FSx",
       "Amazon Verified Permissions",
       "AWS X-Ray",
+      "Amazon Neptune",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
       "AWS Batch",
