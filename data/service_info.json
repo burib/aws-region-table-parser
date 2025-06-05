@@ -1,5 +1,5 @@
 {
-  "servicesCount": 243,
+  "servicesCount": 242,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -1890,10 +1890,11 @@
     "ahl": {
       "code": "ahl",
       "name": "AWS HealthLake",
-      "count": 6,
+      "count": 7,
       "regions": [
         "ap-south-1",
         "ap-southeast-2",
+        "eu-west-1",
         "eu-west-2",
         "us-east-1",
         "us-east-2",
@@ -2615,19 +2616,6 @@
         "us-west-2"
       ],
       "url": "https://aws.amazon.com/network-firewall/"
-    },
-    "opsworks": {
-      "code": "opsworks",
-      "name": "AWS OpsWorks Stacks",
-      "count": 5,
-      "regions": [
-        "ap-southeast-1",
-        "eu-central-1",
-        "eu-west-1",
-        "us-east-1",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/opsworks/stacks/"
     },
     "opsworkschefautomate": {
       "code": "opsworkschefautomate",
@@ -6135,22 +6123,29 @@
     "aps": {
       "code": "aps",
       "name": "Amazon Managed Service for Prometheus",
-      "count": 15,
+      "count": 22,
       "regions": [
-        "ap-northeast-1",
         "ap-northeast-2",
         "ap-southeast-2",
-        "eu-central-1",
-        "eu-west-1",
+        "ap-southeast-5",
+        "ap-southeast-7",
+        "eu-central-2",
+        "eu-south-1",
         "eu-west-2",
         "eu-west-3",
         "sa-east-1",
         "us-east-1",
-        "us-west-2",
+        "af-south-1",
+        "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-1",
         "ca-central-1",
+        "eu-central-1",
         "eu-north-1",
+        "eu-west-1",
+        "me-central-1",
+        "us-west-2",
+        "ap-east-1",
         "us-east-2"
       ],
       "url": "https://aws.amazon.com/prometheus/"
@@ -6202,7 +6197,7 @@
     "mwaa": {
       "code": "mwaa",
       "name": "Amazon Managed Workflows for Apache Airflow",
-      "count": 31,
+      "count": 32,
       "regions": [
         "ap-south-2",
         "ap-southeast-1",
@@ -6217,7 +6212,7 @@
         "ap-east-1",
         "ap-northeast-2",
         "ap-southeast-3",
-        "ap-southeast-4",
+        "ap-southeast-5",
         "ca-central-1",
         "eu-north-1",
         "eu-west-1",
@@ -6225,15 +6220,16 @@
         "eu-west-3",
         "us-east-1",
         "af-south-1",
-        "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "ap-southeast-4",
         "ca-west-1",
         "cn-north-1",
         "cn-northwest-1",
         "eu-central-1",
         "us-east-2",
         "us-west-2",
+        "ap-northeast-1",
         "ap-northeast-3"
       ],
       "url": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
@@ -7622,7 +7618,6 @@
     "marketplace": "AWS Marketplace",
     "mgh": "AWS Migration Hub",
     "network-firewall": "AWS Network Firewall",
-    "opsworks": "AWS OpsWorks Stacks",
     "opsworkschefautomate": "AWS OpsWorks for Chef Automate",
     "opsworkspuppetenterprise": "AWS OpsWorks for Puppet Enterprise",
     "organizations": "AWS Organizations",
