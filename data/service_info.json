@@ -3453,7 +3453,7 @@
     "storagegateway": {
       "code": "storagegateway",
       "name": "AWS Storage Gateway",
-      "count": 36,
+      "count": 37,
       "regions": [
         "ap-northeast-1",
         "ap-southeast-3",
@@ -3476,6 +3476,7 @@
         "us-west-1",
         "us-west-2",
         "af-south-1",
+        "ap-east-2",
         "ap-northeast-2",
         "ap-southeast-2",
         "ap-southeast-5",
@@ -3483,14 +3484,14 @@
         "eu-central-1",
         "eu-north-1",
         "eu-west-2",
-        "us-east-1",
         "us-east-2",
         "ap-south-1",
         "ap-southeast-4",
         "eu-south-1",
         "il-central-1",
         "me-south-1",
-        "sa-east-1"
+        "sa-east-1",
+        "us-east-1"
       ],
       "url": "https://aws.amazon.com/storagegateway/"
     },

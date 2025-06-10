@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 61,
+    "count": 62,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -349,6 +349,7 @@
       "AWS Support",
       "AWS Key Management Service",
       "AWS VPN",
+      "AWS Storage Gateway",
       "Amazon Elastic Container Registry (ECR)",
       "Amazon EC2 Auto Scaling",
       "Elastic Load Balancing",

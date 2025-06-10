@@ -34,5 +34,6 @@
   "me-central-1": "Middle East (UAE)",
   "sa-east-1": "South America (São Paulo)",
   "us-gov-east-1": "AWS GovCloud (US-East)",
-  "us-gov-west-1": "AWS GovCloud (US-West)"
+  "us-gov-west-1": "AWS GovCloud (US-West)",
+  "ap-east-2": "Asia Pacific (Taipei)"
 }
