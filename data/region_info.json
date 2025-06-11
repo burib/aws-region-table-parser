@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 62,
+    "count": 63,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -317,6 +317,7 @@
       "Amazon Simple Queue Service (SQS)",
       "Amazon API Gateway",
       "AWS Step Functions",
+      "AWS Glue",
       "AWS PrivateLink",
       "AWS Certificate Manager",
       "AWS Artifact",
