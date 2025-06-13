@@ -1,5 +1,5 @@
 {
-  "servicesCount": 242,
+  "servicesCount": 243,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -3646,6 +3646,16 @@
         "eu-west-1"
       ],
       "url": "https://aws.amazon.com/aws-transfer-family/"
+    },
+    "awstransform": {
+      "code": "awstransform",
+      "name": "AWS Transform",
+      "count": 2,
+      "regions": [
+        "eu-central-1",
+        "us-east-1"
+      ],
+      "url": "https://aws.amazon.com/transform/"
     },
     "transitgateway": {
       "code": "transitgateway",
@@ -7712,6 +7722,7 @@
     "ssm": "AWS Systems Manager",
     "tnb": "AWS Telco Network Builder",
     "transfer": "AWS Transfer Family",
+    "awstransform": "AWS Transform",
     "transitgateway": "AWS Transit Gateway",
     "trustedadvisor": "AWS Trusted Advisor",
     "notifications": "AWS User Notifications",
