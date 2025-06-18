@@ -781,7 +781,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
       "Amazon Security Lake",
       "Amazon Route 53",
@@ -905,6 +905,7 @@
       "Amazon DynamoDB",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
+      "AWS Payment Cryptography",
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
@@ -919,7 +920,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -1096,6 +1097,7 @@
       "Amazon DynamoDB",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
+      "AWS Payment Cryptography",
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",

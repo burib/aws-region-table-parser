@@ -1,5 +1,5 @@
 {
-  "count": 189,
+  "count": 190,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -176,6 +176,7 @@
     "Amazon DynamoDB",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
+    "AWS Payment Cryptography",
     "AWS Elemental MediaConnect",
     "Amazon CloudFront",
     "AWS Config",
