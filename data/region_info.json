@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 64,
+    "count": 65,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -317,6 +317,7 @@
       "Amazon Simple Queue Service (SQS)",
       "Amazon API Gateway",
       "AWS Step Functions",
+      "AWS Directory Service",
       "AWS Glue",
       "AWS PrivateLink",
       "AWS Certificate Manager",
@@ -1912,7 +1913,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 95,
+    "count": 96,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1999,6 +2000,7 @@
       "Elastic Load Balancing",
       "Amazon Simple Storage Service (S3)",
       "Amazon Elastic File System (EFS)",
+      "Amazon GameLift Servers",
       "Amazon DynamoDB",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
@@ -2012,7 +2014,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 86,
+    "count": 87,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2090,6 +2092,7 @@
       "Elastic Load Balancing",
       "Amazon Simple Storage Service (S3)",
       "Amazon Elastic File System (EFS)",
+      "Amazon GameLift Servers",
       "Amazon DynamoDB",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",

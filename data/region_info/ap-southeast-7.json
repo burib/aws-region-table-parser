@@ -1,5 +1,5 @@
 {
-  "count": 86,
+  "count": 87,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -77,6 +77,7 @@
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
+    "Amazon GameLift Servers",
     "Amazon DynamoDB",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",

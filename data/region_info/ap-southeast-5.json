@@ -1,5 +1,5 @@
 {
-  "count": 95,
+  "count": 96,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -86,6 +86,7 @@
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
+    "Amazon GameLift Servers",
     "Amazon DynamoDB",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
