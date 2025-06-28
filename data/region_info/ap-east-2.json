@@ -1,5 +1,5 @@
 {
-  "count": 65,
+  "count": 66,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -9,6 +9,7 @@
     "AWS CloudTrail",
     "AWS Systems Manager",
     "Amazon Elastic Compute Cloud (EC2)",
+    "Amazon Athena",
     "Amazon OpenSearch Service",
     "Amazon Redshift",
     "AWS Identity and Access Management (IAM)",
