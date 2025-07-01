@@ -1119,7 +1119,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 114,
+    "count": 115,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1135,6 +1135,7 @@
       "AWS Systems Manager",
       "AWS CodeDeploy",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
@@ -1800,7 +1801,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 111,
+    "count": 112,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1816,6 +1817,7 @@
       "AWS Systems Manager",
       "AWS CodeDeploy",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
@@ -1916,7 +1918,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 96,
+    "count": 97,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1929,6 +1931,7 @@
       "AWS CloudTrail",
       "AWS Systems Manager",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Polly",
       "Amazon Athena",
       "Amazon OpenSearch Service",
@@ -2017,7 +2020,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 87,
+    "count": 88,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2029,6 +2032,7 @@
       "AWS CloudTrail",
       "AWS Systems Manager",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "Amazon OpenSearch Service",
       "Amazon Redshift",
@@ -2302,7 +2306,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 98,
+    "count": 99,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2317,6 +2321,7 @@
       "AWS Systems Manager",
       "AWS CodeDeploy",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
@@ -3307,7 +3312,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 120,
+    "count": 122,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -3323,6 +3328,7 @@
       "AWS Systems Manager",
       "AWS CodeDeploy",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon QuickSight",
       "Amazon Polly",
       "Amazon Athena",
@@ -3379,6 +3385,7 @@
       "Amazon FSx",
       "Amazon Verified Permissions",
       "AWS X-Ray",
+      "AWS CloudHSM",
       "Amazon Neptune",
       "AWS Fault Injection Service",
       "AWS Secrets Manager",
@@ -4042,7 +4049,7 @@
     ]
   },
   "il-central-1": {
-    "count": 121,
+    "count": 122,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4057,6 +4064,7 @@
       "AWS Systems Manager",
       "AWS CodeDeploy",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
@@ -4168,7 +4176,7 @@
     ]
   },
   "me-central-1": {
-    "count": 121,
+    "count": 122,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4185,6 +4193,7 @@
       "AWS CodeDeploy",
       "AWS IoT Device Defender",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
@@ -4437,7 +4446,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 86,
+    "count": 87,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4449,6 +4458,7 @@
       "AWS CloudTrail",
       "AWS Systems Manager",
       "Amazon Elastic Compute Cloud (EC2)",
+      "Amazon Inspector",
       "Amazon Athena",
       "Amazon OpenSearch Service",
       "Amazon Redshift",

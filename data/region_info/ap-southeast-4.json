@@ -1,5 +1,5 @@
 {
-  "count": 111,
+  "count": 112,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -15,6 +15,7 @@
     "AWS Systems Manager",
     "AWS CodeDeploy",
     "Amazon Elastic Compute Cloud (EC2)",
+    "Amazon Inspector",
     "Amazon Athena",
     "AWS Chatbot",
     "Amazon OpenSearch Service",
