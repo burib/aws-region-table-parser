@@ -85,10 +85,10 @@
     "AWS Organizations",
     "AWS Database Migration Service",
     "Amazon ElastiCache",
-    "AWS Support",
     "AWS Key Management Service",
     "AWS Network Firewall",
     "Amazon Simple Notification Service (SNS)",
+    "AWS Support",
     "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
@@ -110,8 +110,8 @@
     "AWS Lambda",
     "AWS Cloud Control API",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
     "AWS CodeBuild",
-    "Amazon Application Recovery Controller"
+    "Amazon Application Recovery Controller",
+    "Amazon Elastic Container Service (ECS)"
   ]
 }

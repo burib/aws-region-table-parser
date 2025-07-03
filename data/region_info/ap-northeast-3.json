@@ -99,11 +99,11 @@
     "AWS Database Migration Service",
     "AWS Elastic Beanstalk",
     "Amazon ElastiCache",
-    "AWS Support",
     "Amazon Macie",
     "AWS Key Management Service",
     "AWS Network Firewall",
     "Amazon Simple Notification Service (SNS)",
+    "AWS Support",
     "AWS VPN",
     "AWS Mainframe Modernization",
     "AWS Storage Gateway",
@@ -127,13 +127,13 @@
     "AWS Elemental MediaConnect",
     "Amazon CloudFront",
     "AWS Config",
-    "AWS Lambda",
     "Amazon Aurora DSQL",
     "AWS App Mesh",
+    "AWS Lambda",
     "AWS Cloud Control API",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
     "AWS CodeBuild",
-    "Amazon Application Recovery Controller"
+    "Amazon Application Recovery Controller",
+    "Amazon Elastic Container Service (ECS)"
   ]
 }

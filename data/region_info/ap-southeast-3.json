@@ -90,10 +90,10 @@
     "AWS Database Migration Service",
     "AWS Elastic Beanstalk",
     "Amazon ElastiCache",
-    "AWS Support",
     "AWS Key Management Service",
     "AWS Network Firewall",
     "Amazon Simple Notification Service (SNS)",
+    "AWS Support",
     "AWS Verified Access",
     "AWS VPN",
     "AWS Storage Gateway",
@@ -112,12 +112,12 @@
     "AWS Security Hub",
     "Amazon CloudFront",
     "AWS Config",
-    "AWS Lambda",
     "AWS App Mesh",
+    "AWS Lambda",
     "AWS Cloud Control API",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
     "AWS CodeBuild",
-    "Amazon Application Recovery Controller"
+    "Amazon Application Recovery Controller",
+    "Amazon Elastic Container Service (ECS)"
   ]
 }

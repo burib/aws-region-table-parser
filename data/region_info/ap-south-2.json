@@ -86,10 +86,10 @@
     "AWS Organizations",
     "AWS Database Migration Service",
     "Amazon ElastiCache",
-    "AWS Support",
     "AWS Key Management Service",
     "AWS Network Firewall",
     "Amazon Simple Notification Service (SNS)",
+    "AWS Support",
     "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
@@ -103,18 +103,18 @@
     "Amazon Simple Storage Service (S3)",
     "AWS User Notifications",
     "Amazon Elastic File System (EFS)",
-    "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
+    "Amazon DocumentDB (with MongoDB compatibility)",
     "AWS Elemental MediaConnect",
     "Amazon CloudFront",
     "AWS Config",
     "AWS Lambda",
     "AWS Cloud Control API",
     "Amazon FSx for Windows File Server",
-    "Amazon Elastic Container Service (ECS)",
     "AWS CodeBuild",
-    "Amazon Application Recovery Controller"
+    "Amazon Application Recovery Controller",
+    "Amazon Elastic Container Service (ECS)"
   ]
 }
