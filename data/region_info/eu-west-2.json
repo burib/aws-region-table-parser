@@ -1,5 +1,5 @@
 {
-  "count": 200,
+  "count": 201,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -130,6 +130,7 @@
     "AWS Marketplace",
     "AWS Auto Scaling",
     "AWS Application Migration Service (MGN)",
+    "AWS Parallel Computing Service (PCS)",
     "AWS CodePipeline",
     "EC2 Image Builder",
     "Amazon Location Service",
