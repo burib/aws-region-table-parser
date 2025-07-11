@@ -1,5 +1,5 @@
 {
-  "count": 68,
+  "count": 73,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -30,6 +30,7 @@
     "AWS CloudFormation",
     "Amazon Kinesis Data Streams",
     "Amazon Relational Database Service (RDS)",
+    "Amazon FSx for NetApp ONTAP",
     "AWS Trusted Advisor",
     "AWS Resource Groups",
     "Amazon Virtual Private Cloud (VPC)",
@@ -40,6 +41,7 @@
     "AWS Fargate",
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
+    "Amazon FSx",
     "AWS X-Ray",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
@@ -58,15 +60,18 @@
     "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
+    "Amazon FSx for Lustre",
     "Amazon Elastic Container Registry (ECR)",
     "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
     "Amazon DynamoDB",
+    "Amazon FSx for OpenZFS",
     "Amazon CloudFront",
     "AWS Config",
     "AWS Lambda",
     "AWS Cloud Control API",
+    "Amazon FSx for Windows File Server",
     "Amazon Application Recovery Controller",
     "Amazon Elastic Container Service (ECS)"
   ]
