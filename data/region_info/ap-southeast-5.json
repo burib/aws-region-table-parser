@@ -1,5 +1,5 @@
 {
-  "count": 97,
+  "count": 98,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -64,6 +64,7 @@
     "Amazon Elastic MapReduce (EMR)",
     "AWS Transfer Family",
     "AWS Marketplace",
+    "AWS Application Migration Service (MGN)",
     "AWS CodePipeline",
     "EC2 Image Builder",
     "Amazon Location Service",

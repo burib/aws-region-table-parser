@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 74,
+    "count": 75,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -331,6 +331,7 @@
       "Amazon Kinesis Data Streams",
       "Amazon Relational Database Service (RDS)",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon Managed Streaming for Apache Kafka",
       "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
       "AWS Direct Connect",
@@ -1926,7 +1927,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 97,
+    "count": 98,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1991,6 +1992,7 @@
       "Amazon Elastic MapReduce (EMR)",
       "AWS Transfer Family",
       "AWS Marketplace",
+      "AWS Application Migration Service (MGN)",
       "AWS CodePipeline",
       "EC2 Image Builder",
       "Amazon Location Service",
@@ -2028,7 +2030,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 88,
+    "count": 89,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2087,6 +2089,7 @@
       "AWS Batch",
       "Amazon Elastic MapReduce (EMR)",
       "AWS Marketplace",
+      "AWS Application Migration Service (MGN)",
       "EC2 Image Builder",
       "AWS Lake Formation",
       "Amazon CloudWatch",
