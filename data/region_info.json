@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 75,
+    "count": 76,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -367,6 +367,7 @@
       "Amazon Simple Storage Service (S3)",
       "Amazon Elastic File System (EFS)",
       "Amazon FSx for OpenZFS",
+      "AWS Security Hub",
       "Amazon DynamoDB",
       "Amazon CloudFront",
       "AWS Config",
