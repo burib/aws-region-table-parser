@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -37,6 +37,7 @@
     "AWS CloudFormation",
     "AWS Resource Explorer",
     "Amazon Kinesis Data Streams",
+    "Amazon Cognito",
     "AWS Control Tower",
     "Amazon Relational Database Service (RDS)",
     "Amazon FSx for NetApp ONTAP",
