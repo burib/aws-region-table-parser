@@ -1,5 +1,5 @@
 {
-  "count": 76,
+  "count": 77,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -30,6 +30,7 @@
     "Amazon Elastic Kubernetes Service (EKS)",
     "AWS CloudFormation",
     "Amazon Kinesis Data Streams",
+    "AWS Control Tower",
     "Amazon Relational Database Service (RDS)",
     "Amazon FSx for NetApp ONTAP",
     "Amazon Managed Streaming for Apache Kafka",
