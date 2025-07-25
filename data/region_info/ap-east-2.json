@@ -54,8 +54,8 @@
     "EC2 Image Builder",
     "AWS Lake Formation",
     "Amazon CloudWatch",
-    "AWS Organizations",
     "AWS Database Migration Service",
+    "AWS Organizations",
     "Amazon ElastiCache",
     "AWS Key Management Service",
     "Amazon Simple Notification Service (SNS)",
@@ -74,9 +74,9 @@
     "Amazon CloudFront",
     "AWS Config",
     "AWS Lambda",
-    "Amazon FSx for Windows File Server",
     "AWS Cloud Control API",
     "Amazon Application Recovery Controller",
+    "Amazon FSx for Windows File Server",
     "Amazon Elastic Container Service (ECS)"
   ]
 }
