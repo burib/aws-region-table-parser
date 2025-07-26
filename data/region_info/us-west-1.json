@@ -1,5 +1,5 @@
 {
-  "count": 164,
+  "count": 165,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -87,6 +87,7 @@
     "AWS Resilience Hub",
     "AWS Fargate",
     "AWS Elemental MediaPackage",
+    "Amazon Bedrock",
     "AWS Elastic Disaster Recovery (DRS)",
     "AWS Snowcone",
     "Amazon EventBridge",
