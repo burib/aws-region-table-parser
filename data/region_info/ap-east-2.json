@@ -1,5 +1,5 @@
 {
-  "count": 77,
+  "count": 78,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -28,8 +28,8 @@
     "AWS Certificate Manager",
     "AWS Artifact",
     "Amazon Elastic Kubernetes Service (EKS)",
-    "AWS CloudFormation",
     "Amazon Kinesis Data Streams",
+    "AWS CloudFormation",
     "AWS Control Tower",
     "Amazon Relational Database Service (RDS)",
     "Amazon FSx for NetApp ONTAP",
@@ -60,6 +60,7 @@
     "AWS Key Management Service",
     "Amazon Simple Notification Service (SNS)",
     "AWS Support",
+    "AWS Network Firewall",
     "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
