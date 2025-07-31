@@ -2034,7 +2034,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 90,
+    "count": 91,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2093,6 +2093,7 @@
       "Amazon Simple Workflow Service (SWF)",
       "AWS Batch",
       "Amazon Elastic MapReduce (EMR)",
+      "AWS Transfer Family",
       "AWS Marketplace",
       "AWS Application Migration Service (MGN)",
       "EC2 Image Builder",
