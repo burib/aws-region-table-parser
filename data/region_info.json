@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 78,
+    "count": 79,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -315,6 +315,7 @@
       "AWS Identity and Access Management (IAM)",
       "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
+      "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
       "Amazon Simple Queue Service (SQS)",
@@ -1813,7 +1814,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 112,
+    "count": 113,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1877,6 +1878,7 @@
       "AWS Global Accelerator",
       "AWS Fargate",
       "AWS Elemental MediaPackage",
+      "Amazon Bedrock",
       "AWS Elastic Disaster Recovery (DRS)",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
@@ -1930,7 +1932,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 99,
+    "count": 104,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1942,6 +1944,8 @@
       "AWS Transit Gateway",
       "AWS CloudTrail",
       "AWS Systems Manager",
+      "AWS IoT Greengrass",
+      "AWS IoT Device Defender",
       "Amazon Elastic Compute Cloud (EC2)",
       "Amazon Inspector",
       "Amazon Polly",
@@ -1951,6 +1955,7 @@
       "AWS Identity and Access Management (IAM)",
       "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
+      "Amazon Kinesis Video Streams",
       "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
@@ -1981,6 +1986,7 @@
       "AWS IAM Identity Center",
       "AWS Trusted Advisor",
       "Amazon Aurora",
+      "AWS IoT Core",
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
       "AWS Global Accelerator",
@@ -2005,6 +2011,7 @@
       "AWS Database Migration Service",
       "AWS Organizations",
       "Amazon ElastiCache",
+      "AWS IoT Device Management",
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
@@ -3329,7 +3336,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 122,
+    "count": 127,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -3344,6 +3351,8 @@
       "AWS CloudTrail",
       "AWS Systems Manager",
       "AWS CodeDeploy",
+      "AWS IoT Greengrass",
+      "AWS IoT Device Defender",
       "Amazon Elastic Compute Cloud (EC2)",
       "Amazon Inspector",
       "Amazon QuickSight",
@@ -3355,6 +3364,7 @@
       "AWS Identity and Access Management (IAM)",
       "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
+      "Amazon Kinesis Video Streams",
       "Amazon GuardDuty",
       "AWS Launch Wizard",
       "AWS Resource Access Manager (RAM)",
@@ -3390,6 +3400,7 @@
       "AWS Trusted Advisor",
       "Amazon DynamoDB Accelerator",
       "Amazon Aurora",
+      "AWS IoT Core",
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
       "AWS Global Accelerator",
@@ -3422,6 +3433,7 @@
       "AWS Organizations",
       "AWS Telco Network Builder",
       "Amazon ElastiCache",
+      "AWS IoT Device Management",
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
@@ -4322,7 +4334,7 @@
     ]
   },
   "me-south-1": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4349,6 +4361,7 @@
       "AWS Identity and Access Management (IAM)",
       "Amazon Managed Service for Apache Flink",
       "Amazon Data Firehose",
+      "Amazon Kinesis Video Streams",
       "Amazon GuardDuty",
       "AWS Launch Wizard",
       "VMware Cloud on AWS",

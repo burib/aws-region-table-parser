@@ -1,5 +1,5 @@
 {
-  "count": 78,
+  "count": 79,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -16,6 +16,7 @@
     "AWS Identity and Access Management (IAM)",
     "Amazon Managed Service for Apache Flink",
     "Amazon Data Firehose",
+    "Amazon GuardDuty",
     "AWS Resource Access Manager (RAM)",
     "AWS Health Dashboard",
     "Amazon Simple Queue Service (SQS)",

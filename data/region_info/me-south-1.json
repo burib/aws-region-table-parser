@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 139,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -26,6 +26,7 @@
     "AWS Identity and Access Management (IAM)",
     "Amazon Managed Service for Apache Flink",
     "Amazon Data Firehose",
+    "Amazon Kinesis Video Streams",
     "Amazon GuardDuty",
     "AWS Launch Wizard",
     "VMware Cloud on AWS",
