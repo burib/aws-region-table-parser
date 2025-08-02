@@ -5985,7 +5985,7 @@
     "lightsail": {
       "code": "lightsail",
       "name": "Amazon Lightsail",
-      "count": 14,
+      "count": 15,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
@@ -5997,6 +5997,7 @@
         "eu-west-1",
         "eu-west-2",
         "us-east-1",
+        "ap-southeast-3",
         "ca-central-1",
         "eu-west-3",
         "us-east-2",

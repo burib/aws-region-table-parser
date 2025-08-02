@@ -1691,7 +1691,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 118,
+    "count": 119,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1743,6 +1743,7 @@
       "AWS Control Tower",
       "Amazon Relational Database Service (RDS)",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon Lightsail",
       "Amazon Managed Streaming for Apache Kafka",
       "Amazon Pinpoint and End User Messaging",
       "AWS Resource Groups",
