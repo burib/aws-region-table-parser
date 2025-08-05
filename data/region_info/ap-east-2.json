@@ -1,5 +1,5 @@
 {
-  "count": 79,
+  "count": 80,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -23,6 +23,7 @@
     "Amazon MQ",
     "Amazon API Gateway",
     "AWS Step Functions",
+    "AWS License Manager",
     "AWS Directory Service",
     "AWS Glue",
     "AWS PrivateLink",
