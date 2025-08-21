@@ -4288,7 +4288,7 @@
     "bedrock": {
       "code": "bedrock",
       "name": "Amazon Bedrock",
-      "count": 24,
+      "count": 25,
       "regions": [
         "ap-northeast-3",
         "ap-south-2",
@@ -4301,7 +4301,7 @@
         "us-east-1",
         "us-gov-west-1",
         "ap-southeast-2",
-        "ca-central-1",
+        "ap-southeast-3",
         "eu-central-1",
         "eu-south-1",
         "eu-west-2",
@@ -4313,7 +4313,8 @@
         "ap-northeast-1",
         "ap-northeast-2",
         "ap-south-1",
-        "ap-southeast-4"
+        "ap-southeast-4",
+        "ca-central-1"
       ],
       "url": "https://aws.amazon.com/bedrock/"
     },

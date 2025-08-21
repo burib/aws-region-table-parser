@@ -1,5 +1,5 @@
 {
-  "count": 119,
+  "count": 120,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -64,6 +64,7 @@
     "Amazon Elastic Block Store (EBS)",
     "AWS Global Accelerator",
     "AWS Fargate",
+    "Amazon Bedrock",
     "AWS Elastic Disaster Recovery (DRS)",
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
