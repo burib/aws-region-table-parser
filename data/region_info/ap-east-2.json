@@ -1,5 +1,5 @@
 {
-  "count": 80,
+  "count": 82,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -30,6 +30,7 @@
     "AWS Certificate Manager",
     "AWS Artifact",
     "Amazon Elastic Kubernetes Service (EKS)",
+    "AWS Resource Explorer",
     "Amazon Kinesis Data Streams",
     "AWS CloudFormation",
     "AWS Control Tower",
@@ -48,6 +49,7 @@
     "AWS Private Certificate Authority",
     "Amazon FSx",
     "AWS X-Ray",
+    "Amazon Verified Permissions",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Batch",

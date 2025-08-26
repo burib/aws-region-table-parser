@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 93,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -54,6 +54,7 @@
     "AWS Private Certificate Authority",
     "Amazon FSx",
     "AWS X-Ray",
+    "Amazon Verified Permissions",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Batch",
@@ -65,6 +66,7 @@
     "AWS Lake Formation",
     "Amazon CloudWatch",
     "AWS Database Migration Service",
+    "AWS Elastic Beanstalk",
     "AWS Organizations",
     "Amazon ElastiCache",
     "AWS Key Management Service",

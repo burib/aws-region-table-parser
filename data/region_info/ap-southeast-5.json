@@ -1,5 +1,5 @@
 {
-  "count": 104,
+  "count": 106,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -63,6 +63,7 @@
     "Amazon FSx",
     "AWS X-Ray",
     "Amazon Neptune",
+    "Amazon Verified Permissions",
     "AWS Secrets Manager",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Batch",
@@ -76,6 +77,7 @@
     "Amazon CloudWatch",
     "Amazon Location Service",
     "AWS Database Migration Service",
+    "AWS Elastic Beanstalk",
     "AWS Organizations",
     "Amazon ElastiCache",
     "AWS IoT Device Management",

@@ -1,5 +1,5 @@
 {
-  "count": 127,
+  "count": 128,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -93,6 +93,7 @@
     "Amazon CloudWatch",
     "Amazon Location Service",
     "AWS Database Migration Service",
+    "AWS Elastic Beanstalk",
     "AWS Organizations",
     "AWS Telco Network Builder",
     "Amazon ElastiCache",
