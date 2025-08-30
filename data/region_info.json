@@ -4152,7 +4152,7 @@
     ]
   },
   "il-central-1": {
-    "count": 122,
+    "count": 123,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4168,6 +4168,7 @@
       "AWS CodeDeploy",
       "Amazon Elastic Compute Cloud (EC2)",
       "Amazon Inspector",
+      "Amazon QuickSight",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
@@ -4279,7 +4280,7 @@
     ]
   },
   "me-central-1": {
-    "count": 123,
+    "count": 124,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4297,6 +4298,7 @@
       "AWS IoT Device Defender",
       "Amazon Elastic Compute Cloud (EC2)",
       "Amazon Inspector",
+      "Amazon QuickSight",
       "Amazon Athena",
       "AWS Chatbot",
       "Amazon OpenSearch Service",
