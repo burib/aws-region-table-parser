@@ -2048,7 +2048,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 58,
+    "count": 59,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2074,6 +2074,7 @@
       "Amazon Kinesis Data Streams",
       "AWS CloudFormation",
       "Amazon Relational Database Service (RDS)",
+      "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
       "AWS Direct Connect",
       "AWS Trusted Advisor",

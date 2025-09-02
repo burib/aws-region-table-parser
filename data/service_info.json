@@ -3061,7 +3061,7 @@
     "resource-groups": {
       "code": "resource-groups",
       "name": "AWS Resource Groups",
-      "count": 37,
+      "count": 38,
       "regions": [
         "ap-south-1",
         "ap-southeast-1",
@@ -3075,8 +3075,8 @@
         "us-west-2",
         "ap-northeast-2",
         "ap-south-2",
+        "ap-southeast-6",
         "ca-central-1",
-        "cn-northwest-1",
         "eu-north-1",
         "eu-south-2",
         "sa-east-1",
@@ -3087,8 +3087,8 @@
         "ap-northeast-1",
         "ap-southeast-4",
         "ap-southeast-7",
+        "cn-northwest-1",
         "eu-central-2",
-        "eu-west-1",
         "eu-west-2",
         "eu-west-3",
         "us-east-1",
@@ -3099,6 +3099,7 @@
         "ap-southeast-5",
         "cn-north-1",
         "eu-central-1",
+        "eu-west-1",
         "il-central-1"
       ],
       "url": "https://docs.aws.amazon.com/ARG/index.html"
