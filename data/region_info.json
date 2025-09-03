@@ -1937,7 +1937,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 106,
+    "count": 107,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2034,6 +2034,7 @@
       "Elastic Load Balancing",
       "Amazon Simple Storage Service (S3)",
       "Amazon Elastic File System (EFS)",
+      "AWS User Notifications",
       "Amazon GameLift Servers",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",

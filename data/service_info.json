@@ -3811,7 +3811,7 @@
     "notifications": {
       "code": "notifications",
       "name": "AWS User Notifications",
-      "count": 29,
+      "count": 30,
       "regions": [
         "af-south-1",
         "ap-east-1",
@@ -3834,6 +3834,7 @@
         "us-east-2",
         "us-west-2",
         "ap-northeast-3",
+        "ap-southeast-5",
         "ca-west-1",
         "eu-central-2",
         "eu-west-1",
