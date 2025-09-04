@@ -1,5 +1,5 @@
 {
-  "count": 190,
+  "count": 191,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -74,6 +74,7 @@
     "Amazon Lumberyard",
     "Amazon Relational Database Service (RDS)",
     "Amazon FSx for NetApp ONTAP",
+    "AWS HealthOmics",
     "Amazon Detective",
     "Amazon Lightsail",
     "Amazon Managed Streaming for Apache Kafka",

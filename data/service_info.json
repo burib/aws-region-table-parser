@@ -1947,8 +1947,9 @@
     "omics": {
       "code": "omics",
       "name": "AWS HealthOmics",
-      "count": 7,
+      "count": 8,
       "regions": [
+        "ap-northeast-2",
         "ap-southeast-1",
         "eu-central-1",
         "eu-west-1",
