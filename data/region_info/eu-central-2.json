@@ -1,5 +1,5 @@
 {
-  "count": 113,
+  "count": 114,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -67,6 +67,7 @@
     "AWS Private Certificate Authority",
     "Amazon FSx",
     "AWS X-Ray",
+    "AWS Fault Injection Service",
     "Amazon Verified Permissions",
     "AWS CloudHSM",
     "AWS Secrets Manager",
