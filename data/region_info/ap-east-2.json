@@ -1,5 +1,5 @@
 {
-  "count": 82,
+  "count": 83,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -21,6 +21,7 @@
     "AWS Health Dashboard",
     "Amazon Simple Queue Service (SQS)",
     "Amazon MQ",
+    "AWS WAF",
     "Amazon API Gateway",
     "AWS Step Functions",
     "AWS License Manager",
