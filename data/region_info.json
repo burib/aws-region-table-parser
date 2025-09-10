@@ -2051,7 +2051,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 59,
+    "count": 60,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2087,6 +2087,7 @@
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
       "AWS X-Ray",
+      "Amazon Verified Permissions",
       "AWS Secrets Manager",
       "Amazon Simple Workflow Service (SWF)",
       "AWS Batch",
