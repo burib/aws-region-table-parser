@@ -5282,7 +5282,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "Amazon Security Lake",
       "Amazon Route 53",
@@ -5394,6 +5394,7 @@
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
       "AWS Verified Access",
+      "Amazon Managed Service for Prometheus",
       "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS VPN",
@@ -5423,7 +5424,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 155,
+    "count": 156,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -5547,6 +5548,7 @@
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
       "AWS Verified Access",
+      "Amazon Managed Service for Prometheus",
       "AWS Mainframe Modernization",
       "Amazon Connect",
       "AWS Network Firewall",
