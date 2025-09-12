@@ -607,7 +607,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 191,
+    "count": 192,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -749,6 +749,7 @@
       "Amazon ElastiCache",
       "AWS Clean Rooms",
       "Amazon Transcribe",
+      "AWS Deadline Cloud",
       "AWS IoT Device Management",
       "Amazon Macie",
       "Amazon Keyspaces (for Apache Cassandra)",
@@ -3778,7 +3779,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 201,
+    "count": 202,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3928,6 +3929,7 @@
       "Amazon ElastiCache",
       "AWS Clean Rooms",
       "Amazon Transcribe",
+      "AWS Deadline Cloud",
       "AWS IoT Device Management",
       "Amazon Macie",
       "Amazon Keyspaces (for Apache Cassandra)",

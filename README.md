@@ -17,8 +17,8 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 216 |
 | [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 210 |
 | [us-east-2](./data/region_info/us-east-2.json) | US East (Ohio) | 207 |
-| [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 201 |
-| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 191 |
+| [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 202 |
+| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 192 |
 | [ap-south-1](./data/region_info/ap-south-1.json) | Asia Pacific (Mumbai) | 190 |
 | [ca-central-1](./data/region_info/ca-central-1.json) | Canada (Central) | 188 |
 | [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 172 |
@@ -51,7 +51,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-b27846b0-38ad-4620-ae36-521794ce76b2'>
+<img src='https://quickchart.io/chart/render/zf-9b3ac52d-2f45-4f7c-b454-e3a3929c6615'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | cn-north-1 | cn-northwest-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
@@ -94,7 +94,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | AWS Data Pipeline | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: |
 | AWS DataSync | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Database Migration Service | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| AWS Deadline Cloud | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: |
+| AWS Deadline Cloud | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: |
 | AWS DeepComposer | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
 | AWS DeepRacer | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
 | AWS Device Farm | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: |
