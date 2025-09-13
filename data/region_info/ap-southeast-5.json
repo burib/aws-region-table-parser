@@ -1,5 +1,5 @@
 {
-  "count": 107,
+  "count": 108,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -37,6 +37,7 @@
     "AWS PrivateLink",
     "AWS Certificate Manager",
     "AWS Artifact",
+    "Amazon DataZone",
     "Amazon Elastic Kubernetes Service (EKS)",
     "AWS Firewall Manager",
     "AWS Resource Explorer",
