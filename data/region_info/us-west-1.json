@@ -1,5 +1,5 @@
 {
-  "count": 165,
+  "count": 166,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -132,6 +132,7 @@
     "Amazon Simple Notification Service (SNS)",
     "AWS Support",
     "AWS Verified Access",
+    "Amazon Managed Service for Prometheus",
     "AWS Mainframe Modernization",
     "AWS Network Firewall",
     "AWS VPN",

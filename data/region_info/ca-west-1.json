@@ -1,5 +1,5 @@
 {
-  "count": 99,
+  "count": 100,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -79,6 +79,7 @@
     "AWS Key Management Service",
     "Amazon Simple Notification Service (SNS)",
     "AWS Support",
+    "Amazon Managed Service for Prometheus",
     "AWS Network Firewall",
     "AWS VPN",
     "AWS Storage Gateway",

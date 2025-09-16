@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 84,
+    "count": 85,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -365,6 +365,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -805,7 +806,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "Amazon Security Lake",
       "Amazon Route 53",
@@ -909,6 +910,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS VPN",
@@ -1139,7 +1141,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 115,
+    "count": 116,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1229,6 +1231,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -1698,7 +1701,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 120,
+    "count": 121,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1795,6 +1798,7 @@
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
       "AWS Verified Access",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -1823,7 +1827,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 113,
+    "count": 114,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1913,6 +1917,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -2410,7 +2415,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 99,
+    "count": 100,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2490,6 +2495,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -3417,7 +3423,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -3519,6 +3525,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS VPN",
@@ -4162,7 +4169,7 @@
     ]
   },
   "il-central-1": {
-    "count": 123,
+    "count": 124,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4258,6 +4265,7 @@
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
       "AWS Verified Access",
+      "Amazon Managed Service for Prometheus",
       "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS VPN",
@@ -4419,7 +4427,7 @@
     ]
   },
   "me-south-1": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4533,6 +4541,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -4563,7 +4572,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 90,
+    "count": 91,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4636,6 +4645,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "Amazon Managed Service for Prometheus",
       "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
@@ -5589,7 +5599,7 @@
     ]
   },
   "us-west-1": {
-    "count": 165,
+    "count": 166,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -5722,6 +5732,7 @@
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
       "AWS Verified Access",
+      "Amazon Managed Service for Prometheus",
       "AWS Mainframe Modernization",
       "AWS Network Firewall",
       "AWS VPN",
