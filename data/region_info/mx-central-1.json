@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 92,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -29,6 +29,7 @@
     "AWS License Manager",
     "AWS Directory Service",
     "AWS Glue",
+    "AWS Outposts",
     "AWS PrivateLink",
     "AWS Certificate Manager",
     "AWS Artifact",
