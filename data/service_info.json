@@ -1,5 +1,5 @@
 {
-  "servicesCount": 243,
+  "servicesCount": 242,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -1275,15 +1275,6 @@
         "us-west-2"
       ],
       "url": "https://aws.amazon.com/deadline-cloud/"
-    },
-    "deepcomposer": {
-      "code": "deepcomposer",
-      "name": "AWS DeepComposer",
-      "count": 1,
-      "regions": [
-        "us-east-1"
-      ],
-      "url": "https://aws.amazon.com/deepcomposer/"
     },
     "deepracer": {
       "code": "deepracer",
@@ -3174,7 +3165,7 @@
     "securityhub": {
       "code": "securityhub",
       "name": "AWS Security Hub",
-      "count": 37,
+      "count": 38,
       "regions": [
         "ap-east-2",
         "ap-south-2",
@@ -3198,10 +3189,10 @@
         "sa-east-1",
         "af-south-1",
         "ap-southeast-4",
+        "ap-southeast-6",
         "ap-southeast-7",
         "cn-northwest-1",
         "eu-central-2",
-        "il-central-1",
         "me-south-1",
         "mx-central-1",
         "us-east-1",
@@ -3212,6 +3203,7 @@
         "cn-north-1",
         "eu-central-1",
         "eu-south-2",
+        "il-central-1",
         "us-gov-east-1"
       ],
       "url": "https://aws.amazon.com/security-hub/"
@@ -4780,24 +4772,26 @@
     "datazone": {
       "code": "datazone",
       "name": "Amazon DataZone",
-      "count": 16,
+      "count": 18,
       "regions": [
+        "ap-east-1",
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-1",
         "ap-southeast-5",
         "ca-central-1",
-        "eu-central-1",
+        "eu-central-2",
         "eu-west-3",
         "sa-east-1",
         "us-east-1",
-        "us-west-2",
         "ap-northeast-2",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
-        "us-east-2"
+        "us-east-2",
+        "us-west-2"
       ],
       "url": "https://aws.amazon.com/datazone/"
     },
@@ -7802,7 +7796,6 @@
     "datasync": "AWS DataSync",
     "dms": "AWS Database Migration Service",
     "deadline-cloud": "AWS Deadline Cloud",
-    "deepcomposer": "AWS DeepComposer",
     "deepracer": "AWS DeepRacer",
     "devicefarm": "AWS Device Farm",
     "directconnect": "AWS Direct Connect",
