@@ -299,7 +299,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 85,
+    "count": 86,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -346,6 +346,7 @@
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
       "AWS Fargate",
+      "Amazon Bedrock",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
       "Amazon FSx",
@@ -1947,7 +1948,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 108,
+    "count": 109,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2007,6 +2008,7 @@
       "Amazon Elastic Block Store (EBS)",
       "AWS Global Accelerator",
       "AWS Fargate",
+      "Amazon Bedrock",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
       "Amazon FSx",
@@ -2126,7 +2128,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 93,
+    "count": 94,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2177,6 +2179,7 @@
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
       "AWS Fargate",
+      "Amazon Bedrock",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
       "Amazon FSx",
@@ -4172,7 +4175,7 @@
     ]
   },
   "il-central-1": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4235,6 +4238,7 @@
       "Amazon Elastic Block Store (EBS)",
       "AWS Global Accelerator",
       "AWS Fargate",
+      "Amazon Bedrock",
       "AWS Elastic Disaster Recovery (DRS)",
       "AWS Snowcone",
       "Amazon EventBridge",
@@ -4301,7 +4305,7 @@
     ]
   },
   "me-central-1": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -4368,6 +4372,7 @@
       "Amazon Elastic Block Store (EBS)",
       "AWS Global Accelerator",
       "AWS Fargate",
+      "Amazon Bedrock",
       "AWS Elastic Disaster Recovery (DRS)",
       "Amazon EventBridge",
       "AWS Private Certificate Authority",

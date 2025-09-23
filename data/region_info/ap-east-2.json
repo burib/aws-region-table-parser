@@ -1,5 +1,5 @@
 {
-  "count": 85,
+  "count": 86,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -46,6 +46,7 @@
     "AWS Backup",
     "Amazon Elastic Block Store (EBS)",
     "AWS Fargate",
+    "Amazon Bedrock",
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
     "Amazon FSx",

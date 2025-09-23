@@ -33,25 +33,25 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 136 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 135 |
 | [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 129 |
-| [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 124 |
-| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 124 |
+| [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 125 |
+| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 125 |
 | [ap-southeast-3](./data/region_info/ap-southeast-3.json) | Asia Pacific (Jakarta) | 121 |
 | [cn-north-1](./data/region_info/cn-north-1.json) | China (Beijing) | 119 |
 | [ap-south-2](./data/region_info/ap-south-2.json) | Asia Pacific (Hyderabad) | 116 |
 | [eu-central-2](./data/region_info/eu-central-2.json) | Europe (Zurich) | 115 |
 | [cn-northwest-1](./data/region_info/cn-northwest-1.json) | China (Ningxia) | 114 |
 | [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 114 |
-| [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 108 |
+| [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 109 |
 | [ca-west-1](./data/region_info/ca-west-1.json) | Canada West (Calgary) | 100 |
-| [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 93 |
+| [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 94 |
 | [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 92 |
-| [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 85 |
+| [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 86 |
 | [ap-southeast-6](./data/region_info/ap-southeast-6.json) | AWS Asia Pacific (New Zealand) | 61 |
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-47933c6e-47d4-4409-93cc-943e0b78c628'>
+<img src='https://quickchart.io/chart/render/zf-6a47a12f-67ab-4fb7-8ed1-c58a0acd2abd'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | cn-north-1 | cn-northwest-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
@@ -189,7 +189,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | Amazon Augmented AI (A2I) | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: |
 | Amazon Aurora | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Amazon Aurora DSQL | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: |
-| Amazon Bedrock | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Amazon Bedrock | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Amazon Braket | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: |
 | Amazon Chime | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Amazon Chime SDK | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
