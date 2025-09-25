@@ -1,5 +1,5 @@
 {
-  "count": 119,
+  "count": 120,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -67,6 +67,7 @@
     "Amazon EventBridge",
     "AWS Private Certificate Authority",
     "Amazon FSx",
+    "Amazon Verified Permissions",
     "AWS X-Ray",
     "Amazon Neptune",
     "AWS Secrets Manager",

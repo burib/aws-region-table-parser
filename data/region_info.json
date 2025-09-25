@@ -299,7 +299,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 86,
+    "count": 87,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -331,6 +331,7 @@
       "AWS Certificate Manager",
       "AWS Artifact",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "AWS Firewall Manager",
       "AWS CloudFormation",
       "AWS Resource Explorer",
       "Amazon Kinesis Data Streams",
@@ -2525,7 +2526,7 @@
     ]
   },
   "cn-north-1": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2593,6 +2594,7 @@
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
       "Amazon FSx",
+      "Amazon Verified Permissions",
       "AWS X-Ray",
       "Amazon Neptune",
       "AWS Secrets Manager",
@@ -2649,7 +2651,7 @@
     ]
   },
   "cn-northwest-1": {
-    "count": 114,
+    "count": 115,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2710,6 +2712,7 @@
       "Amazon EventBridge",
       "AWS Private Certificate Authority",
       "Amazon FSx",
+      "Amazon Verified Permissions",
       "AWS X-Ray",
       "Amazon Neptune",
       "AWS Secrets Manager",
