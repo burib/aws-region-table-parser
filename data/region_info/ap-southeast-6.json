@@ -1,5 +1,5 @@
 {
-  "count": 62,
+  "count": 63,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -30,6 +30,7 @@
     "AWS Direct Connect",
     "AWS Trusted Advisor",
     "Amazon Aurora",
+    "AWS Backup",
     "Amazon Elastic Block Store (EBS)",
     "AWS Fargate",
     "Amazon EventBridge",

@@ -1,5 +1,5 @@
 {
-  "count": 92,
+  "count": 93,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -47,6 +47,7 @@
     "AWS Resource Groups",
     "Amazon Virtual Private Cloud (VPC)",
     "AWS Direct Connect",
+    "AWS IAM Identity Center",
     "AWS Trusted Advisor",
     "Amazon Aurora",
     "AWS Backup",

@@ -2063,7 +2063,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 62,
+    "count": 63,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2094,6 +2094,7 @@
       "AWS Direct Connect",
       "AWS Trusted Advisor",
       "Amazon Aurora",
+      "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
       "AWS Fargate",
       "Amazon EventBridge",
@@ -2130,7 +2131,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 94,
+    "count": 95,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2176,6 +2177,7 @@
       "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
       "AWS Direct Connect",
+      "AWS IAM Identity Center",
       "AWS Trusted Advisor",
       "Amazon Aurora",
       "AWS Backup",
@@ -4584,7 +4586,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 92,
+    "count": 93,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4632,6 +4634,7 @@
       "AWS Resource Groups",
       "Amazon Virtual Private Cloud (VPC)",
       "AWS Direct Connect",
+      "AWS IAM Identity Center",
       "AWS Trusted Advisor",
       "Amazon Aurora",
       "AWS Backup",
