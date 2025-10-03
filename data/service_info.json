@@ -1,5 +1,5 @@
 {
-  "servicesCount": 242,
+  "servicesCount": 241,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -3103,22 +3103,6 @@
         "il-central-1"
       ],
       "url": "https://docs.aws.amazon.com/ARG/index.html"
-    },
-    "robomaker": {
-      "code": "robomaker",
-      "name": "AWS RoboMaker",
-      "count": 8,
-      "regions": [
-        "ap-northeast-1",
-        "ap-southeast-1",
-        "eu-central-1",
-        "eu-west-1",
-        "us-east-1",
-        "us-east-2",
-        "us-gov-west-1",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/robomaker/"
     },
     "secretsmanager": {
       "code": "secretsmanager",
@@ -7866,7 +7850,6 @@
     "ram": "AWS Resource Access Manager (RAM)",
     "resource-explorer-2": "AWS Resource Explorer",
     "resource-groups": "AWS Resource Groups",
-    "robomaker": "AWS RoboMaker",
     "secretsmanager": "AWS Secrets Manager",
     "securityhub": "AWS Security Hub",
     "security-ir": "AWS Security Incident Response",
