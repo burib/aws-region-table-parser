@@ -1,5 +1,5 @@
 {
-  "count": 93,
+  "count": 94,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -86,6 +86,7 @@
     "Amazon Elastic File System (EFS)",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
+    "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
     "Amazon CloudFront",
     "AWS Config",

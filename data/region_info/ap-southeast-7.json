@@ -1,5 +1,5 @@
 {
-  "count": 95,
+  "count": 96,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -88,6 +88,7 @@
     "Amazon GameLift Servers",
     "Amazon FSx for OpenZFS",
     "AWS Security Hub",
+    "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
     "Amazon CloudFront",
     "AWS Config",

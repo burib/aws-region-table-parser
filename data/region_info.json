@@ -808,7 +808,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
       "Amazon Security Lake",
       "Amazon Route 53",
@@ -932,6 +932,7 @@
       "AWS Elemental MediaConvert",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
@@ -1947,7 +1948,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 109,
+    "count": 110,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -2050,6 +2051,7 @@
       "Amazon GameLift Servers",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon CloudFront",
       "AWS Config",
@@ -2129,7 +2131,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 95,
+    "count": 96,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2218,6 +2220,7 @@
       "Amazon GameLift Servers",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon CloudFront",
       "AWS Config",
@@ -4582,7 +4585,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 93,
+    "count": 94,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -4669,6 +4672,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon FSx for OpenZFS",
       "AWS Security Hub",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon CloudFront",
       "AWS Config",
