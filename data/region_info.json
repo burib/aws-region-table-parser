@@ -2232,7 +2232,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2412,6 +2412,7 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
+      "AWS Payment Cryptography",
       "AWS App Mesh",
       "Amazon Rekognition",
       "AWS Lambda",
@@ -3799,7 +3800,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 202,
+    "count": 203,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3989,6 +3990,7 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
+      "AWS Payment Cryptography",
       "Amazon Aurora DSQL",
       "AWS App Mesh",
       "Amazon Rekognition",
