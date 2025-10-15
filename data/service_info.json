@@ -6615,7 +6615,7 @@
     "polly": {
       "code": "polly",
       "name": "Amazon Polly",
-      "count": 24,
+      "count": 25,
       "regions": [
         "af-south-1",
         "ca-central-1",
@@ -6633,14 +6633,15 @@
         "ap-south-1",
         "ap-southeast-1",
         "ap-southeast-5",
+        "eu-central-2",
         "eu-north-1",
         "eu-south-2",
         "eu-west-2",
-        "us-east-1",
         "ap-northeast-2",
         "ap-southeast-2",
         "cn-northwest-1",
-        "sa-east-1"
+        "sa-east-1",
+        "us-east-1"
       ],
       "url": "https://aws.amazon.com/polly/"
     },
