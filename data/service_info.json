@@ -1928,10 +1928,11 @@
     "ahl": {
       "code": "ahl",
       "name": "AWS HealthLake",
-      "count": 7,
+      "count": 8,
       "regions": [
         "ap-south-1",
         "ap-southeast-2",
+        "ca-central-1",
         "eu-west-1",
         "eu-west-2",
         "us-east-1",

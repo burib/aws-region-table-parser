@@ -2233,7 +2233,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2255,6 +2255,7 @@
       "AWS CodeDeploy",
       "AWS IoT Greengrass",
       "AWS IoT Device Defender",
+      "AWS HealthLake",
       "Amazon Elastic Compute Cloud (EC2)",
       "Amazon Inspector",
       "Amazon QuickSight",
