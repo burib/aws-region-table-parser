@@ -299,7 +299,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 87,
+    "count": 88,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -346,6 +346,7 @@
       "Amazon Aurora",
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
+      "AWS Global Accelerator",
       "AWS Fargate",
       "Amazon Bedrock",
       "Amazon EventBridge",
@@ -2063,7 +2064,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 64,
+    "count": 65,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2080,6 +2081,7 @@
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
       "Amazon Simple Queue Service (SQS)",
+      "Amazon MQ",
       "Amazon API Gateway",
       "AWS Step Functions",
       "AWS PrivateLink",
@@ -2132,7 +2134,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 96,
+    "count": 97,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2183,6 +2185,7 @@
       "Amazon Aurora",
       "AWS Backup",
       "Amazon Elastic Block Store (EBS)",
+      "AWS Global Accelerator",
       "AWS Fargate",
       "Amazon Bedrock",
       "Amazon EventBridge",
