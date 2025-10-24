@@ -1,5 +1,5 @@
 {
-  "count": 217,
+  "count": 218,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -205,6 +205,7 @@
     "Amazon CloudFront",
     "AWS Config",
     "AWS Payment Cryptography",
+    "Amazon Aurora DSQL",
     "AWS App Mesh",
     "Amazon Rekognition",
     "AWS Lambda",

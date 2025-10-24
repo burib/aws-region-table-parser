@@ -291,8 +291,9 @@
     "b2bi": {
       "code": "b2bi",
       "name": "AWS B2B Data Interchange",
-      "count": 3,
+      "count": 4,
       "regions": [
+        "eu-west-1",
         "us-east-1",
         "us-east-2",
         "us-west-2"
@@ -465,30 +466,31 @@
     "chatbot": {
       "code": "chatbot",
       "name": "AWS Chatbot",
-      "count": 29,
+      "count": 30,
       "regions": [
         "ap-northeast-1",
         "ap-southeast-3",
+        "ap-southeast-5",
         "ca-central-1",
         "ca-west-1",
         "eu-south-1",
-        "eu-south-2",
         "eu-west-2",
         "me-central-1",
         "me-south-1",
         "us-east-1",
         "ap-east-1",
-        "ap-northeast-3",
         "ap-south-1",
         "ap-south-2",
         "ap-southeast-1",
         "ap-southeast-2",
         "eu-central-1",
         "eu-north-1",
+        "eu-south-2",
         "eu-west-3",
         "il-central-1",
         "af-south-1",
         "ap-northeast-2",
+        "ap-northeast-3",
         "ap-southeast-4",
         "eu-central-2",
         "eu-west-1",
@@ -2819,11 +2821,11 @@
     "payment-cryptography": {
       "code": "payment-cryptography",
       "name": "AWS Payment Cryptography",
-      "count": 11,
+      "count": 12,
       "regions": [
+        "af-south-1",
         "ap-northeast-1",
         "ap-northeast-3",
-        "ap-south-1",
         "ap-southeast-1",
         "ca-central-1",
         "eu-central-1",
@@ -2831,6 +2833,7 @@
         "eu-west-2",
         "us-east-1",
         "us-west-2",
+        "ap-south-1",
         "us-east-2"
       ],
       "url": "https://aws.amazon.com/payment-cryptography/"
@@ -4302,11 +4305,12 @@
     "dsql": {
       "code": "dsql",
       "name": "Amazon Aurora DSQL",
-      "count": 9,
+      "count": 10,
       "regions": [
         "ap-northeast-1",
         "ap-northeast-2",
         "ap-northeast-3",
+        "eu-central-1",
         "eu-west-1",
         "eu-west-2",
         "eu-west-3",

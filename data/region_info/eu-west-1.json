@@ -1,5 +1,5 @@
 {
-  "count": 225,
+  "count": 226,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -171,6 +171,7 @@
     "AWS IoT Device Management",
     "Amazon Macie",
     "Amazon Keyspaces (for Apache Cassandra)",
+    "AWS B2B Data Interchange",
     "AWS Key Management Service",
     "Amazon Forecast",
     "Amazon Simple Notification Service (SNS)",

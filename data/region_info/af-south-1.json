@@ -1,5 +1,5 @@
 {
-  "count": 146,
+  "count": 147,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -139,6 +139,7 @@
     "AWS Elemental MediaConnect",
     "Amazon CloudFront",
     "AWS Config",
+    "AWS Payment Cryptography",
     "AWS App Mesh",
     "AWS Lambda",
     "AWS Cloud Control API",

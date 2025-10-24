@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -140,6 +140,7 @@
       "AWS Elemental MediaConnect",
       "Amazon CloudFront",
       "AWS Config",
+      "AWS Payment Cryptography",
       "AWS App Mesh",
       "AWS Lambda",
       "AWS Cloud Control API",
@@ -1949,7 +1950,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 110,
+    "count": 111,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1967,6 +1968,7 @@
       "Amazon Inspector",
       "Amazon Polly",
       "Amazon Athena",
+      "AWS Chatbot",
       "Amazon OpenSearch Service",
       "Amazon Redshift",
       "AWS Identity and Access Management (IAM)",
@@ -2781,7 +2783,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 217,
+    "count": 218,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -2987,6 +2989,7 @@
       "Amazon CloudFront",
       "AWS Config",
       "AWS Payment Cryptography",
+      "Amazon Aurora DSQL",
       "AWS App Mesh",
       "Amazon Rekognition",
       "AWS Lambda",
@@ -3576,7 +3579,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 225,
+    "count": 226,
     "serviceNames": [
       "Amazon Translate",
       "Amazon Security Lake",
@@ -3748,6 +3751,7 @@
       "AWS IoT Device Management",
       "Amazon Macie",
       "Amazon Keyspaces (for Apache Cassandra)",
+      "AWS B2B Data Interchange",
       "AWS Key Management Service",
       "Amazon Forecast",
       "Amazon Simple Notification Service (SNS)",
