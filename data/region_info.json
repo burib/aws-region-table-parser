@@ -1950,7 +1950,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 111,
+    "count": 112,
     "serviceNames": [
       "Amazon Route 53",
       "Amazon Managed Workflows for Apache Airflow",
@@ -1978,6 +1978,7 @@
       "Amazon GuardDuty",
       "AWS Resource Access Manager (RAM)",
       "AWS Health Dashboard",
+      "AWS Managed Services",
       "Amazon Simple Queue Service (SQS)",
       "Amazon MQ",
       "AWS WAF",
