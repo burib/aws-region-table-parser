@@ -1,5 +1,5 @@
 {
-  "servicesCount": 241,
+  "servicesCount": 242,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -1078,11 +1078,11 @@
     "controltower": {
       "code": "controltower",
       "name": "AWS Control Tower",
-      "count": 35,
+      "count": 36,
       "regions": [
-        "ap-east-1",
         "ap-east-2",
         "ap-southeast-5",
+        "ap-southeast-6",
         "ap-southeast-7",
         "eu-west-2",
         "me-central-1",
@@ -1090,9 +1090,9 @@
         "us-gov-west-1",
         "us-west-1",
         "us-west-2",
+        "ap-east-1",
         "ap-northeast-1",
         "ap-south-1",
-        "ap-south-2",
         "ap-southeast-3",
         "eu-central-2",
         "eu-north-1",
@@ -1100,9 +1100,9 @@
         "eu-south-2",
         "eu-west-1",
         "us-east-2",
-        "af-south-1",
         "ap-northeast-2",
         "ap-northeast-3",
+        "ap-south-2",
         "ap-southeast-2",
         "ca-central-1",
         "eu-central-1",
@@ -1110,6 +1110,7 @@
         "il-central-1",
         "mx-central-1",
         "sa-east-1",
+        "af-south-1",
         "ap-southeast-1",
         "ap-southeast-4",
         "ca-west-1",
@@ -5393,6 +5394,22 @@
       ],
       "url": "https://aws.amazon.com/elastictranscoder/"
     },
+    "evs": {
+      "code": "evs",
+      "name": "Amazon Elastic VMware Service",
+      "count": 8,
+      "regions": [
+        "ap-northeast-1",
+        "ap-southeast-1",
+        "eu-central-1",
+        "eu-west-1",
+        "eu-west-2",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/evs/"
+    },
     "eventbridge": {
       "code": "eventbridge",
       "name": "Amazon EventBridge",
@@ -7934,6 +7951,7 @@
     "eks": "Amazon Elastic Kubernetes Service (EKS)",
     "emr": "Amazon Elastic MapReduce (EMR)",
     "elastictranscoder": "Amazon Elastic Transcoder",
+    "evs": "Amazon Elastic VMware Service",
     "eventbridge": "Amazon EventBridge",
     "fsx": "Amazon FSx",
     "fsx-lustre": "Amazon FSx for Lustre",
