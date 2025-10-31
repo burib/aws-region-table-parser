@@ -1,5 +1,5 @@
 {
-  "count": 219,
+  "count": 220,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -61,6 +61,7 @@
     "Amazon API Gateway",
     "AWS Proton",
     "AWS Step Functions",
+    "Amazon Elastic VMware Service",
     "AWS Budgets",
     "AWS License Manager",
     "AWS Directory Service",

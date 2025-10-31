@@ -1,5 +1,5 @@
 {
-  "count": 190,
+  "count": 191,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -53,6 +53,7 @@
     "Amazon API Gateway",
     "AWS Step Functions",
     "AWS IoT FleetWise",
+    "Amazon Elastic VMware Service",
     "AWS Budgets",
     "AWS License Manager",
     "AWS Directory Service",
