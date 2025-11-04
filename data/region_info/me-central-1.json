@@ -1,5 +1,5 @@
 {
-  "count": 125,
+  "count": 126,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -94,6 +94,7 @@
     "AWS Organizations",
     "Amazon ElastiCache",
     "AWS IoT Device Management",
+    "Amazon Keyspaces (for Apache Cassandra)",
     "AWS Key Management Service",
     "Amazon Simple Notification Service (SNS)",
     "AWS Support",
