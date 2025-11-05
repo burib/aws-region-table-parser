@@ -1,5 +1,5 @@
 {
-  "count": 136,
+  "count": 137,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -35,6 +35,7 @@
     "AWS WAF",
     "Amazon API Gateway",
     "AWS Step Functions",
+    "Amazon Elastic VMware Service",
     "AWS License Manager",
     "AWS Directory Service",
     "AWS Glue",
