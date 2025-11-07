@@ -4141,30 +4141,6 @@
       ],
       "url": "https://aws.amazon.com/appflow/"
     },
-    "appstream": {
-      "code": "appstream",
-      "name": "Amazon AppStream 2.0",
-      "count": 16,
-      "regions": [
-        "ap-northeast-2",
-        "ap-south-1",
-        "ap-southeast-1",
-        "eu-central-1",
-        "eu-west-1",
-        "eu-west-2",
-        "eu-west-3",
-        "sa-east-1",
-        "us-gov-east-1",
-        "us-west-2",
-        "ap-northeast-1",
-        "ap-southeast-2",
-        "ca-central-1",
-        "us-east-1",
-        "us-east-2",
-        "us-gov-west-1"
-      ],
-      "url": "https://aws.amazon.com/appstream2/"
-    },
     "route53-application-recovery-controller": {
       "code": "route53-application-recovery-controller",
       "name": "Amazon Application Recovery Controller",
@@ -7523,6 +7499,30 @@
       ],
       "url": "https://aws.amazon.com/workspaces/"
     },
+    "appstream": {
+      "code": "appstream",
+      "name": "Amazon WorkSpaces Applications",
+      "count": 16,
+      "regions": [
+        "ap-northeast-2",
+        "ap-south-1",
+        "ap-southeast-1",
+        "eu-central-1",
+        "eu-west-1",
+        "eu-west-2",
+        "eu-west-3",
+        "sa-east-1",
+        "us-gov-east-1",
+        "us-west-2",
+        "ap-northeast-1",
+        "ap-southeast-2",
+        "ca-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-gov-west-1"
+      ],
+      "url": "https://aws.amazon.com/appstream2/"
+    },
     "workspaces-web": {
       "code": "workspaces-web",
       "name": "Amazon WorkSpaces Secure Browser",
@@ -7938,7 +7938,6 @@
     "xray": "AWS X-Ray",
     "apigateway": "Amazon API Gateway",
     "appflow": "Amazon AppFlow",
-    "appstream": "Amazon AppStream 2.0",
     "route53-application-recovery-controller": "Amazon Application Recovery Controller",
     "athena": "Amazon Athena",
     "augmentedairuntime": "Amazon Augmented AI (A2I)",
@@ -8045,6 +8044,7 @@
     "workdocs": "Amazon WorkDocs",
     "workmail": "Amazon WorkMail",
     "workspaces": "Amazon WorkSpaces",
+    "appstream": "Amazon WorkSpaces Applications",
     "workspaces-web": "Amazon WorkSpaces Secure Browser",
     "thinclient": "Amazon WorkSpaces Thin Client",
     "cloudenduredisasterrecovery": "CloudEndure Disaster Recovery",
