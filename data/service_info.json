@@ -1,5 +1,5 @@
 {
-  "servicesCount": 243,
+  "servicesCount": 244,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -4354,6 +4354,23 @@
       ],
       "url": "https://aws.amazon.com/bedrock/"
     },
+    "bedrock-agentcore": {
+      "code": "bedrock-agentcore",
+      "name": "Amazon Bedrock AgentCore",
+      "count": 9,
+      "regions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-west-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "url": "https://aws.amazon.com/bedrock/agentcore/"
+    },
     "braket": {
       "code": "braket",
       "name": "Amazon Braket",
@@ -7521,7 +7538,7 @@
         "us-east-2",
         "us-gov-west-1"
       ],
-      "url": "https://aws.amazon.com/appstream2/"
+      "url": "https://aws.amazon.com/workspaces/applications/"
     },
     "workspaces-web": {
       "code": "workspaces-web",
@@ -7944,6 +7961,7 @@
     "aurora": "Amazon Aurora",
     "dsql": "Amazon Aurora DSQL",
     "bedrock": "Amazon Bedrock",
+    "bedrock-agentcore": "Amazon Bedrock AgentCore",
     "braket": "Amazon Braket",
     "chime": "Amazon Chime",
     "chime-sdk": "Amazon Chime SDK",
