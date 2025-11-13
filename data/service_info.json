@@ -1,5 +1,5 @@
 {
-  "servicesCount": 244,
+  "servicesCount": 243,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -6146,21 +6146,6 @@
       ],
       "url": "https://aws.amazon.com/lookout-for-metrics/"
     },
-    "lookoutvision": {
-      "code": "lookoutvision",
-      "name": "Amazon Lookout for Vision",
-      "count": 7,
-      "regions": [
-        "ap-northeast-1",
-        "ap-northeast-2",
-        "eu-central-1",
-        "eu-west-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "url": "https://aws.amazon.com/lookout-for-vision/"
-    },
     "lumberyard": {
       "code": "lumberyard",
       "name": "Amazon Lumberyard",
@@ -8018,7 +8003,6 @@
     "lightsail": "Amazon Lightsail",
     "amazonlocationservice": "Amazon Location Service",
     "lookoutmetrics": "Amazon Lookout for Metrics",
-    "lookoutvision": "Amazon Lookout for Vision",
     "lumberyard": "Amazon Lumberyard",
     "mq": "Amazon MQ",
     "macie": "Amazon Macie",
