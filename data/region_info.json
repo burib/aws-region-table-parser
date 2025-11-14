@@ -2076,7 +2076,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 67,
+    "count": 68,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2130,6 +2130,7 @@
       "AWS Key Management Service",
       "Amazon Simple Notification Service (SNS)",
       "AWS Support",
+      "AWS Network Firewall",
       "AWS VPN",
       "AWS Storage Gateway",
       "Amazon EC2 Auto Scaling",

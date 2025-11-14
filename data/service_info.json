@@ -2646,7 +2646,7 @@
     "network-firewall": {
       "code": "network-firewall",
       "name": "AWS Network Firewall",
-      "count": 37,
+      "count": 38,
       "regions": [
         "ap-east-1",
         "ap-east-2",
@@ -2669,8 +2669,8 @@
         "eu-west-3",
         "us-west-1",
         "ap-south-1",
-        "ap-south-2",
         "ap-southeast-4",
+        "ap-southeast-6",
         "ca-central-1",
         "cn-north-1",
         "eu-west-1",
@@ -2678,6 +2678,7 @@
         "me-central-1",
         "mx-central-1",
         "us-gov-west-1",
+        "ap-south-2",
         "ca-west-1",
         "eu-central-1",
         "eu-central-2",
