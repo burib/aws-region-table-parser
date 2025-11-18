@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 141,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -77,6 +77,7 @@
     "AWS Backup",
     "AWS Global Accelerator",
     "AWS Elastic Disaster Recovery (DRS)",
+    "Amazon Bedrock",
     "AWS Private Certificate Authority",
     "Amazon FSx",
     "AWS X-Ray",

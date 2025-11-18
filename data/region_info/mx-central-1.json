@@ -1,5 +1,5 @@
 {
-  "count": 95,
+  "count": 96,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -55,6 +55,7 @@
     "AWS Fargate",
     "AWS Backup",
     "AWS Global Accelerator",
+    "Amazon Bedrock",
     "AWS Private Certificate Authority",
     "Amazon FSx",
     "AWS X-Ray",

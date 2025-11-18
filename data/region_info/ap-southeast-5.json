@@ -1,5 +1,5 @@
 {
-  "count": 112,
+  "count": 113,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -25,6 +25,7 @@
     "Amazon Kinesis Video Streams",
     "Amazon OpenSearch Service",
     "Amazon GuardDuty",
+    "Amazon WorkSpaces Applications",
     "AWS Resource Access Manager (RAM)",
     "AWS Health Dashboard",
     "AWS Managed Services",
