@@ -2078,7 +2078,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 68,
+    "count": 69,
     "serviceNames": [
       "Amazon Route 53",
       "AWS DataSync",
@@ -2098,6 +2098,7 @@
       "Amazon Simple Queue Service (SQS)",
       "Amazon MQ",
       "AWS Step Functions",
+      "AWS Directory Service",
       "Amazon API Gateway",
       "AWS PrivateLink",
       "AWS Certificate Manager",
