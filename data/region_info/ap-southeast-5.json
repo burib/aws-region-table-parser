@@ -1,5 +1,5 @@
 {
-  "count": 113,
+  "count": 114,
   "serviceNames": [
     "Amazon Route 53",
     "Amazon Managed Workflows for Apache Airflow",
@@ -72,6 +72,7 @@
     "AWS Secrets Manager",
     "AWS Batch",
     "Amazon Elastic MapReduce (EMR)",
+    "Amazon Simple Email Service (SES)",
     "Amazon Simple Workflow Service (SWF)",
     "AWS Marketplace",
     "AWS Application Migration Service (MGN)",
