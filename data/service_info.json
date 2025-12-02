@@ -3050,7 +3050,7 @@
     "resource-explorer-2": {
       "code": "resource-explorer-2",
       "name": "AWS Resource Explorer",
-      "count": 33,
+      "count": 34,
       "regions": [
         "ap-east-1",
         "ap-east-2",
@@ -3073,15 +3073,16 @@
         "il-central-1",
         "me-south-1",
         "af-south-1",
-        "ap-northeast-2",
         "ap-southeast-1",
         "ap-southeast-2",
+        "ap-southeast-6",
         "ca-central-1",
         "eu-central-1",
         "eu-central-2",
         "sa-east-1",
         "us-east-2",
         "us-west-2",
+        "ap-northeast-2",
         "ap-northeast-3",
         "me-central-1",
         "us-west-1"
@@ -3726,9 +3727,15 @@
     "awstransform": {
       "code": "awstransform",
       "name": "AWS Transform",
-      "count": 2,
+      "count": 8,
       "regions": [
+        "ap-northeast-1",
+        "ap-northeast-2",
+        "ap-south-1",
+        "ap-southeast-2",
+        "ca-central-1",
         "eu-central-1",
+        "eu-west-2",
         "us-east-1"
       ],
       "url": "https://aws.amazon.com/transform/"
@@ -4794,7 +4801,7 @@
     "datazone": {
       "code": "datazone",
       "name": "Amazon DataZone",
-      "count": 18,
+      "count": 19,
       "regions": [
         "ap-east-1",
         "ap-northeast-1",
@@ -4808,6 +4815,7 @@
         "us-east-1",
         "ap-northeast-2",
         "ap-southeast-2",
+        "ap-southeast-7",
         "eu-central-1",
         "eu-north-1",
         "eu-west-1",

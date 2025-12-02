@@ -1,5 +1,5 @@
 {
-  "count": 69,
+  "count": 70,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -24,6 +24,7 @@
     "AWS PrivateLink",
     "AWS Certificate Manager",
     "AWS Artifact",
+    "AWS Resource Explorer",
     "Amazon Elastic Kubernetes Service (EKS)",
     "AWS CloudFormation",
     "AWS Control Tower",

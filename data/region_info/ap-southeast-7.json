@@ -1,5 +1,5 @@
 {
-  "count": 98,
+  "count": 99,
   "serviceNames": [
     "Amazon Route 53",
     "AWS DataSync",
@@ -33,6 +33,7 @@
     "AWS PrivateLink",
     "AWS Certificate Manager",
     "AWS Artifact",
+    "Amazon DataZone",
     "AWS Resource Explorer",
     "Amazon Elastic Kubernetes Service (EKS)",
     "AWS Firewall Manager",
@@ -81,10 +82,10 @@
     "AWS VPN",
     "AWS Storage Gateway",
     "Amazon EC2 Auto Scaling",
-    "Amazon FSx for Lustre",
     "Amazon Elastic Container Registry (ECR)",
-    "Elastic Load Balancing",
+    "Amazon FSx for Lustre",
     "AWS AppSync",
+    "Elastic Load Balancing",
     "Amazon Simple Storage Service (S3)",
     "Amazon Elastic File System (EFS)",
     "Amazon GameLift Servers",
