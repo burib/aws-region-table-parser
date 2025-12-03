@@ -1,5 +1,5 @@
 {
-  "servicesCount": 243,
+  "servicesCount": 244,
   "services": {
     "amplify": {
       "code": "amplify",
@@ -6549,6 +6549,15 @@
       ],
       "url": "https://aws.amazon.com/neptune/"
     },
+    "nova-act": {
+      "code": "nova-act",
+      "name": "Amazon Nova Act",
+      "count": 1,
+      "regions": [
+        "us-east-1"
+      ],
+      "url": "https://aws.amazon.com/nova/act/"
+    },
     "es": {
       "code": "es",
       "name": "Amazon OpenSearch Service",
@@ -8035,6 +8044,7 @@
     "memorydb": "Amazon MemoryDB",
     "monitron": "Amazon Monitron",
     "neptune": "Amazon Neptune",
+    "nova-act": "Amazon Nova Act",
     "es": "Amazon OpenSearch Service",
     "personalize": "Amazon Personalize",
     "pinpoint-sms-voice-v2": "Amazon Pinpoint and End User Messaging",

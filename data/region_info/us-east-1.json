@@ -1,5 +1,5 @@
 {
-  "count": 239,
+  "count": 240,
   "serviceNames": [
     "Amazon Translate",
     "Amazon Security Lake",
@@ -47,6 +47,7 @@
     "AWS SimSpace Weaver",
     "Amazon OpenSearch Service",
     "AWS Data Exchange",
+    "Amazon Nova Act",
     "AWS Launch Wizard",
     "VMware Cloud on AWS",
     "Amazon GuardDuty",
