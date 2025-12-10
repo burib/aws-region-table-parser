@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 139,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -130,8 +130,10 @@
     "Amazon Simple Workflow Service (SWF)",
     "Amazon Textract",
     "Amazon Transcribe",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
     "Amazon WorkSpaces",
+    "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
     "Route 53 Resolver Endpoints",

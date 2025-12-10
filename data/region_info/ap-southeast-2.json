@@ -1,5 +1,5 @@
 {
-  "count": 176,
+  "count": 178,
   "serviceNames": [
     "AWS Amplify",
     "AWS App Runner",
@@ -168,8 +168,10 @@
     "Amazon Transcribe",
     "Amazon Translate",
     "Amazon VPC Lattice",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
     "Amazon WorkSpaces",
+    "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
     "Route 53 Resolver Endpoints",

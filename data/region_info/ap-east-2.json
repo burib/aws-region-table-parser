@@ -1,5 +1,5 @@
 {
-  "count": 100,
+  "count": 101,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -94,6 +94,7 @@
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",
     "Amazon Simple Workflow Service (SWF)",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",

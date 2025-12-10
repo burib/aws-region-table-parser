@@ -1,5 +1,5 @@
 {
-  "count": 122,
+  "count": 124,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -116,7 +116,9 @@
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",
     "Amazon Simple Workflow Service (SWF)",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
+    "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
     "Route 53 Resolver Endpoints",

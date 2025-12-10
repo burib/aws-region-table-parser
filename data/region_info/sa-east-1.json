@@ -1,5 +1,5 @@
 {
-  "count": 154,
+  "count": 156,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -146,8 +146,10 @@
     "Amazon Simple Workflow Service (SWF)",
     "Amazon Transcribe",
     "Amazon VPC Lattice",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
     "Amazon WorkSpaces",
+    "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
     "Route 53 Resolver Endpoints",

@@ -1,5 +1,5 @@
 {
-  "count": 151,
+  "count": 152,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -144,6 +144,7 @@
     "Amazon Transcribe",
     "Amazon Translate",
     "Amazon VPC Lattice",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",

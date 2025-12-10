@@ -1,5 +1,5 @@
 {
-  "count": 130,
+  "count": 131,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -123,6 +123,7 @@
     "Amazon Simple Storage Service (S3)",
     "Amazon Simple Workflow Service (SWF)",
     "Amazon VPC Lattice",
+    "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
