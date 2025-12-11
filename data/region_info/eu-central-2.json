@@ -1,5 +1,5 @@
 {
-  "count": 124,
+  "count": 125,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -23,6 +23,7 @@
     "AWS Database Migration Service (AWS DMS)",
     "AWS Direct Connect",
     "AWS Directory Service",
+    "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS End User Messaging",
     "AWS Fault Injection Service",

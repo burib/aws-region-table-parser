@@ -1,5 +1,5 @@
 {
-  "count": 171,
+  "count": 172,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -85,6 +85,7 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
+    "Amazon Bedrock AgentCore",
     "Amazon Chime SDK",
     "Amazon CloudFront",
     "Amazon CloudWatch",

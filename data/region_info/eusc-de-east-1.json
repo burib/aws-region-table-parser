@@ -1,5 +1,5 @@
 {
-  "count": 87,
+  "count": 89,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -28,6 +28,7 @@
     "AWS Resource Access Manager (RAM)",
     "AWS Resource Groups",
     "AWS Secrets Manager",
+    "AWS Security Hub",
     "AWS Security Token Service (STS)",
     "AWS Shield",
     "AWS Signer",
@@ -87,6 +88,7 @@
     "NAT Gateway",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
+    "Security Hub CSPM",
     "Service Quotas"
   ]
 }
