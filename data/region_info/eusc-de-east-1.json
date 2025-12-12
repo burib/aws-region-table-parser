@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -62,6 +62,7 @@
     "Amazon Elastic File System (EFS)",
     "Amazon Elastic Kubernetes Service (EKS)",
     "Amazon EventBridge",
+    "Amazon GuardDuty",
     "Amazon Kinesis Data Streams",
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Streaming for Apache Kafka (MSK)",

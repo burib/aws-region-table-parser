@@ -1089,7 +1089,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 130,
+    "count": 131,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1219,6 +1219,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
@@ -1727,7 +1728,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 125,
+    "count": 126,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1852,12 +1853,13 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
   },
   "ap-southeast-5": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1981,12 +1983,13 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
   },
   "ap-southeast-6": {
-    "count": 83,
+    "count": 84,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -2048,6 +2051,7 @@
       "Amazon EventBridge",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
+      "Amazon Managed Service for Apache Flink",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -2074,7 +2078,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 113,
+    "count": 114,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2187,6 +2191,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
@@ -2369,7 +2374,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 115,
+    "count": 116,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2484,6 +2489,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
@@ -2674,7 +2680,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 125,
+    "count": 126,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2799,6 +2805,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
@@ -3114,7 +3121,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3249,6 +3256,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
@@ -3789,7 +3797,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 89,
+    "count": 90,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -3852,6 +3860,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon GuardDuty",
       "Amazon Kinesis Data Streams",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
@@ -3883,7 +3892,7 @@
     ]
   },
   "il-central-1": {
-    "count": 132,
+    "count": 133,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -4015,12 +4024,13 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
   },
   "me-central-1": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -4158,6 +4168,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
@@ -4306,7 +4317,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 108,
+    "count": 109,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -4414,6 +4425,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]

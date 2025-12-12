@@ -1,5 +1,5 @@
 {
-  "count": 124,
+  "count": 125,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -123,6 +123,7 @@
     "NAT Gateway",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
+    "Security Hub",
     "Security Hub CSPM",
     "Service Quotas"
   ]

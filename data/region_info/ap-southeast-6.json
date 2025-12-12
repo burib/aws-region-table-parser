@@ -1,5 +1,5 @@
 {
-  "count": 83,
+  "count": 84,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -61,6 +61,7 @@
     "Amazon EventBridge",
     "Amazon Kinesis Data Streams",
     "Amazon MQ",
+    "Amazon Managed Service for Apache Flink",
     "Amazon OpenSearch Service",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
