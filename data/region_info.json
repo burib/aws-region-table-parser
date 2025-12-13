@@ -1089,7 +1089,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1179,6 +1179,7 @@
       "Amazon Elastic Container Service (ECS)",
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
       "Amazon FSx",
       "Amazon FSx for Lustre",
@@ -1859,7 +1860,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 125,
+    "count": 126,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1941,6 +1942,7 @@
       "Amazon Elastic Container Service (ECS)",
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
       "Amazon FSx",
       "Amazon FSx for Lustre",
@@ -2374,7 +2376,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 116,
+    "count": 117,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2450,6 +2452,7 @@
       "Amazon Elastic Container Service (ECS)",
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
       "Amazon FSx",
       "Amazon FSx for Lustre",
@@ -4317,7 +4320,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 109,
+    "count": 110,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -4390,6 +4393,7 @@
       "Amazon Elastic Container Service (ECS)",
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
       "Amazon FSx",
       "Amazon FSx for Lustre",
@@ -4431,7 +4435,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 157,
+    "count": 158,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4534,6 +4538,7 @@
       "Amazon Elastic Container Service (ECS)",
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
       "Amazon FSx",
       "Amazon FSx for Lustre",
@@ -5264,7 +5269,7 @@
     ]
   },
   "us-west-1": {
-    "count": 152,
+    "count": 153,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -5365,6 +5370,7 @@
       "Amazon Elastic Container Service (ECS)",
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
+      "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
       "Amazon FSx",
       "Amazon FSx for Lustre",
