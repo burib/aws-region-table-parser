@@ -153,7 +153,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -226,6 +226,7 @@
       "Amazon Aurora",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
+      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -764,7 +765,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -841,6 +842,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -4177,7 +4179,7 @@
     ]
   },
   "me-south-1": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4252,6 +4254,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",

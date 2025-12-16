@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 140,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -72,6 +72,7 @@
     "Amazon Aurora",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
+    "Amazon Chime SDK",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",
