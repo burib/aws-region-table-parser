@@ -1,5 +1,5 @@
 {
-  "count": 90,
+  "count": 91,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -38,6 +38,7 @@
     "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
+    "AWS WAF",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon Application Recovery Controller",

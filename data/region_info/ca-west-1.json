@@ -1,5 +1,5 @@
 {
-  "count": 117,
+  "count": 118,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -10,6 +10,7 @@
     "AWS Cloud Map",
     "AWS Cloud WAN",
     "AWS CloudFormation",
+    "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
     "AWS CodeDeploy",

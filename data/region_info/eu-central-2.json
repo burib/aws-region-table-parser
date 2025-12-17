@@ -1,5 +1,5 @@
 {
-  "count": 126,
+  "count": 127,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -98,6 +98,7 @@
     "Amazon Managed Service for Prometheus",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
+    "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon Quick Suite",
     "Amazon RDS for Db2",

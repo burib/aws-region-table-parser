@@ -1,5 +1,5 @@
 {
-  "count": 84,
+  "count": 85,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -73,6 +73,7 @@
     "Amazon Route 53",
     "Amazon Route 53 Private DNS",
     "Amazon Route 53 Public DNS",
+    "Amazon SageMaker AI",
     "Amazon Simple Notification Service (SNS)",
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",

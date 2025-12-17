@@ -1862,7 +1862,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1875,6 +1875,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS CodePipeline",
       "AWS Config",
@@ -1993,7 +1994,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 84,
+    "count": 85,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -2067,6 +2068,7 @@
       "Amazon Route 53",
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
+      "Amazon SageMaker AI",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2378,7 +2380,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 117,
+    "count": 118,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2389,6 +2391,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeDeploy",
@@ -2685,7 +2688,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2784,6 +2787,7 @@
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS for Db2",
@@ -3802,7 +3806,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 90,
+    "count": 91,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -3841,6 +3845,7 @@
       "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon Application Recovery Controller",
@@ -3897,7 +3902,7 @@
     ]
   },
   "il-central-1": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3933,6 +3938,7 @@
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS IoT Device Defender",
+      "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
