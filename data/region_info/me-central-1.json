@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 140,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -33,6 +33,7 @@
     "AWS Elemental MediaPackage",
     "AWS Elemental MediaTailor",
     "AWS End User Messaging",
+    "AWS Fault Injection Service",
     "AWS Firewall Manager",
     "AWS Global Accelerator",
     "AWS Glue",

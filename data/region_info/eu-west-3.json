@@ -1,5 +1,5 @@
 {
-  "count": 162,
+  "count": 163,
   "serviceNames": [
     "AWS Amplify",
     "AWS App Runner",
@@ -53,6 +53,7 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
+    "AWS Payment Cryptography",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resilience Hub",

@@ -3639,7 +3639,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 162,
+    "count": 163,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3693,6 +3693,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
@@ -4041,7 +4042,7 @@
     ]
   },
   "me-central-1": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -4075,6 +4076,7 @@
       "AWS Elemental MediaPackage",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
+      "AWS Fault Injection Service",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
       "AWS Glue",
