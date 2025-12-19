@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 133,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -46,6 +46,7 @@
     "AWS License Manager",
     "AWS Network Firewall",
     "AWS Organizations",
+    "AWS Payment Cryptography",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resource Access Manager (RAM)",

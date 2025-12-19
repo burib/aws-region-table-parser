@@ -1,5 +1,5 @@
 {
-  "count": 101,
+  "count": 102,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -20,6 +20,7 @@
     "AWS Firewall Manager",
     "AWS Global Accelerator",
     "AWS Glue",
+    "AWS IAM Identity Center",
     "AWS Identity and Access Management (IAM)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS Key Management Service (KMS)",

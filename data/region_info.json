@@ -298,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 101,
+    "count": 102,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -319,6 +319,7 @@
       "AWS Firewall Manager",
       "AWS Global Accelerator",
       "AWS Glue",
+      "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS Key Management Service (KMS)",
@@ -1091,7 +1092,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 132,
+    "count": 133,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1138,6 +1139,7 @@
       "AWS License Manager",
       "AWS Network Firewall",
       "AWS Organizations",
+      "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -1412,7 +1414,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 178,
+    "count": 179,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1471,6 +1473,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
