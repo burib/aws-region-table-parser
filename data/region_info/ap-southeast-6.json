@@ -1,5 +1,5 @@
 {
-  "count": 85,
+  "count": 84,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -10,7 +10,6 @@
     "AWS Cloud WAN",
     "AWS CloudFormation",
     "AWS CloudTrail",
-    "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",

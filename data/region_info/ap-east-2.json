@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 100,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -10,7 +10,6 @@
     "AWS Cloud WAN",
     "AWS CloudFormation",
     "AWS CloudTrail",
-    "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",
@@ -68,7 +67,6 @@
     "Amazon Elastic File System (EFS)",
     "Amazon Elastic Kubernetes Service (EKS)",
     "Amazon EventBridge",
-    "Amazon FSx",
     "Amazon FSx for Lustre",
     "Amazon FSx for NetApp ONTAP",
     "Amazon FSx for OpenZFS",
