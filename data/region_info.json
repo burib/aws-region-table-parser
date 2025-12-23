@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -142,6 +142,7 @@
       "Amazon WorkSpaces",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -150,7 +151,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 137,
+    "count": 138,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -284,6 +285,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -292,7 +294,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 100,
+    "count": 101,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -390,6 +392,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub CSPM",
@@ -397,7 +400,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 176,
+    "count": 177,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -570,6 +573,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -578,7 +582,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -744,6 +748,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -752,7 +757,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -888,6 +893,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -896,7 +902,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 171,
+    "count": 172,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1064,6 +1070,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1072,7 +1079,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 130,
+    "count": 131,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1199,6 +1206,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1207,7 +1215,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 176,
+    "count": 177,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1380,6 +1388,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1388,7 +1397,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 176,
+    "count": 177,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1561,6 +1570,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1569,7 +1579,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1694,6 +1704,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1702,7 +1713,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1823,6 +1834,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1831,7 +1843,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1952,6 +1964,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1960,7 +1973,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 84,
+    "count": 86,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -2022,6 +2035,7 @@
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
+      "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -2042,6 +2056,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub CSPM",
@@ -2049,7 +2064,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 112,
+    "count": 113,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2158,6 +2173,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2166,7 +2182,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -2332,6 +2348,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2340,7 +2357,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 115,
+    "count": 116,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2452,6 +2469,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2460,7 +2478,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 177,
+    "count": 178,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -2634,6 +2652,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2642,7 +2661,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2763,6 +2782,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2771,7 +2791,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 156,
+    "count": 157,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -2924,6 +2944,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2932,7 +2953,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -3067,6 +3088,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3075,7 +3097,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3205,6 +3227,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3213,7 +3236,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 177,
+    "count": 178,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3387,6 +3410,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3395,7 +3419,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 175,
+    "count": 176,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3567,6 +3591,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3575,7 +3600,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 160,
+    "count": 162,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3647,6 +3672,7 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
+      "AWS Wickr",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon AppFlow",
@@ -3732,6 +3758,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3835,7 +3862,7 @@
     ]
   },
   "il-central-1": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3963,6 +3990,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3971,7 +3999,7 @@
     ]
   },
   "me-central-1": {
-    "count": 137,
+    "count": 138,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -4105,6 +4133,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -4113,7 +4142,7 @@
     ]
   },
   "me-south-1": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4246,6 +4275,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -4254,7 +4284,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 108,
+    "count": 109,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -4359,6 +4389,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -4367,7 +4398,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 155,
+    "count": 156,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4519,6 +4550,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -4715,7 +4747,7 @@
     ]
   },
   "us-east-2": {
-    "count": 173,
+    "count": 174,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -4885,6 +4917,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -5186,7 +5219,7 @@
     ]
   },
   "us-west-1": {
-    "count": 150,
+    "count": 151,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -5333,6 +5366,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",

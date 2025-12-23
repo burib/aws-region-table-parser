@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 162,
   "serviceNames": [
     "AWS Amplify",
     "AWS App Runner",
@@ -71,6 +71,7 @@
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS WAF",
+    "AWS Wickr",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon AppFlow",
@@ -156,6 +157,7 @@
     "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
+    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",
