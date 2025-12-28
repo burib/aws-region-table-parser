@@ -1,5 +1,5 @@
 {
-  "count": 86,
+  "count": 87,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -34,6 +34,7 @@
     "AWS Step Functions",
     "AWS Storage Gateway",
     "AWS Systems Manager",
+    "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS X-Ray",
