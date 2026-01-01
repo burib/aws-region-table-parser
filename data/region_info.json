@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 146,
+    "count": 149,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -13,12 +13,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -97,6 +99,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -151,7 +154,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 138,
+    "count": 141,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -164,12 +167,14 @@
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -243,6 +248,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -294,7 +300,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 101,
+    "count": 103,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -305,6 +311,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -362,6 +369,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -400,7 +408,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 177,
+    "count": 180,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -416,6 +424,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -423,6 +432,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -514,6 +524,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -582,7 +593,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 170,
+    "count": 173,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -596,12 +607,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -690,6 +703,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -757,7 +771,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 140,
+    "count": 143,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -771,12 +785,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -852,6 +868,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -902,7 +919,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 172,
+    "count": 175,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -918,6 +935,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -925,6 +943,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1013,6 +1032,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -1079,7 +1099,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 131,
+    "count": 134,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1092,12 +1112,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1170,6 +1192,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -1215,7 +1238,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 177,
+    "count": 180,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1231,6 +1254,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -1238,6 +1262,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1329,6 +1354,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -1397,7 +1423,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 177,
+    "count": 180,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1413,6 +1439,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -1420,6 +1447,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1511,6 +1539,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -1579,7 +1608,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 129,
+    "count": 132,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1592,12 +1621,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1664,6 +1695,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -1713,7 +1745,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 125,
+    "count": 127,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1731,6 +1763,7 @@
       "AWS CodeBuild",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1800,6 +1833,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for Windows File Server",
@@ -1843,7 +1877,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 125,
+    "count": 128,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1856,8 +1890,10 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -1926,6 +1962,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -1973,7 +2010,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 87,
+    "count": 89,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -1984,6 +2021,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2011,6 +2049,7 @@
       "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon Application Recovery Controller",
@@ -2065,7 +2104,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 113,
+    "count": 115,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2079,6 +2118,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2142,6 +2182,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -2183,7 +2224,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 170,
+    "count": 173,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -2198,12 +2239,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2292,6 +2335,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -2358,7 +2402,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 116,
+    "count": 119,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2369,9 +2413,11 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeDeploy",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2435,6 +2481,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -2479,7 +2526,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 178,
+    "count": 181,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -2495,6 +2542,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -2502,6 +2550,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2594,6 +2643,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -2662,7 +2712,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 125,
+    "count": 128,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2675,10 +2725,12 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2746,6 +2798,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -2792,7 +2845,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 157,
+    "count": 160,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -2806,6 +2859,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -2813,6 +2867,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2897,6 +2952,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -2954,7 +3010,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 139,
+    "count": 142,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -2968,6 +3024,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -2975,6 +3032,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3048,6 +3106,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -3098,7 +3157,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 134,
+    "count": 137,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3111,11 +3170,13 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3186,6 +3247,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -3237,7 +3299,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 178,
+    "count": 181,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3254,6 +3316,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -3261,6 +3324,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3351,6 +3415,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -3420,7 +3485,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 176,
+    "count": 179,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3436,6 +3501,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -3443,6 +3509,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3533,6 +3600,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -3601,7 +3669,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 162,
+    "count": 165,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -3616,6 +3684,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -3623,6 +3692,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3708,6 +3778,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -3768,7 +3839,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 90,
+    "count": 91,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -3778,6 +3849,7 @@
       "AWS Cloud Map",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
@@ -3863,7 +3935,7 @@
     ]
   },
   "il-central-1": {
-    "count": 132,
+    "count": 135,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3876,12 +3948,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3951,6 +4025,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4000,7 +4075,7 @@
     ]
   },
   "me-central-1": {
-    "count": 138,
+    "count": 141,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -4013,12 +4088,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4093,6 +4170,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4143,7 +4221,7 @@
     ]
   },
   "me-south-1": {
-    "count": 137,
+    "count": 140,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4157,12 +4235,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4235,6 +4315,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4285,7 +4366,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 109,
+    "count": 112,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -4294,7 +4375,9 @@
       "AWS Certificate Manager (ACM)",
       "AWS Cloud Map",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4359,6 +4442,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4399,7 +4483,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 156,
+    "count": 159,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4412,12 +4496,14 @@
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4502,6 +4588,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4560,7 +4647,7 @@
     ]
   },
   "us-east-1": {
-    "count": 183,
+    "count": 186,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -4577,6 +4664,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -4584,6 +4672,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4677,6 +4766,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4748,7 +4838,7 @@
     ]
   },
   "us-east-2": {
-    "count": 174,
+    "count": 177,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -4765,6 +4855,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -4772,6 +4863,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4862,6 +4954,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -4927,7 +5020,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 136,
+    "count": 139,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -4939,12 +5032,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -5017,6 +5112,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -5068,7 +5164,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 147,
+    "count": 150,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -5080,12 +5176,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -5163,6 +5261,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -5220,7 +5319,7 @@
     ]
   },
   "us-west-1": {
-    "count": 151,
+    "count": 154,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -5235,12 +5334,14 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -5321,6 +5422,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
@@ -5376,7 +5478,7 @@
     ]
   },
   "us-west-2": {
-    "count": 180,
+    "count": 183,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -5393,6 +5495,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeArtifact",
@@ -5400,6 +5503,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -5492,6 +5596,7 @@
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon EventBridge",
+      "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",

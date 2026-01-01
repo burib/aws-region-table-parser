@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 142,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -13,6 +13,7 @@
     "AWS Cloud Map",
     "AWS Cloud WAN",
     "AWS CloudFormation",
+    "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
     "AWS CodeArtifact",
@@ -20,6 +21,7 @@
     "AWS CodeCommit",
     "AWS CodeDeploy",
     "AWS CodePipeline",
+    "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",
@@ -93,6 +95,7 @@
     "Amazon Elastic Kubernetes Service (EKS)",
     "Amazon Elastic VMware Service (EVS)",
     "Amazon EventBridge",
+    "Amazon FSx",
     "Amazon FSx for Lustre",
     "Amazon FSx for NetApp ONTAP",
     "Amazon FSx for OpenZFS",
