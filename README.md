@@ -44,7 +44,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 115 |
 | [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 112 |
 | [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 103 |
-| [eusc-de-east-1](./data/region_info/eusc-de-east-1.json) | eusc-de-east-1 | 91 |
+| [eusc-de-east-1](./data/region_info/eusc-de-east-1.json) | AWS European Sovereign Cloud (Germany) | 91 |
 | [ap-southeast-6](./data/region_info/ap-southeast-6.json) | AWS Asia Pacific (New Zealand) | 89 |
 
 
