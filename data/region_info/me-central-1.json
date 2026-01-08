@@ -1,5 +1,5 @@
 {
-  "count": 141,
+  "count": 140,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -136,7 +136,6 @@
     "Amazon Virtual Private Cloud (VPC)",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
-    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",

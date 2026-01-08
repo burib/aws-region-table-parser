@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 88,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -85,7 +85,6 @@
     "Amazon Virtual Private Cloud (VPC)",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
-    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub CSPM",
