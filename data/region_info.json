@@ -1599,7 +1599,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1674,6 +1674,7 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Data Firehose",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
       "Amazon EC2 Image Builder",
