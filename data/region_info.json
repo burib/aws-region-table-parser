@@ -1999,7 +1999,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 88,
+    "count": 90,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -2018,9 +2018,11 @@
       "AWS Directory Service",
       "AWS Elastic Beanstalk",
       "AWS End User Messaging",
+      "AWS Glue",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS Key Management Service (KMS)",
+      "AWS Lake Formation",
       "AWS Lambda",
       "AWS Network Firewall",
       "AWS Organizations",
