@@ -405,7 +405,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 180,
+    "count": 178,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -460,7 +460,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
       "AWS Payment Cryptography",
@@ -578,7 +577,6 @@
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
       "Amazon WorkSpaces",
-      "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
       "Oracle Database@AWS",
@@ -767,7 +765,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 142,
+    "count": 141,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -814,7 +812,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
       "AWS Payment Cryptography",
@@ -1231,7 +1228,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 179,
+    "count": 178,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -1287,7 +1284,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
       "AWS Payment Cryptography",
@@ -2094,7 +2090,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 114,
+    "count": 113,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2127,7 +2123,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -4622,7 +4617,7 @@
     ]
   },
   "us-east-1": {
-    "count": 186,
+    "count": 184,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -4679,7 +4674,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
       "AWS Payment Cryptography",
@@ -4801,7 +4795,6 @@
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
       "Amazon WorkSpaces",
-      "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
       "Oracle Database@AWS",
@@ -4813,7 +4806,7 @@
     ]
   },
   "us-east-2": {
-    "count": 177,
+    "count": 175,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -4870,7 +4863,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
       "AWS Payment Cryptography",
@@ -4983,7 +4975,6 @@
       "Amazon VPC Lattice",
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
-      "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
       "Oracle Database@AWS",
