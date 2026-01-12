@@ -1,5 +1,5 @@
 {
-  "count": 178,
+  "count": 179,
   "serviceNames": [
     "AWS Amplify",
     "AWS App Runner",
@@ -55,6 +55,7 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
+    "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
     "AWS Payment Cryptography",

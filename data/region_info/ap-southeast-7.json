@@ -1,5 +1,5 @@
 {
-  "count": 113,
+  "count": 114,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -32,6 +32,7 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
+    "AWS Network Firewall",
     "AWS Organizations",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",

@@ -1,5 +1,5 @@
 {
-  "count": 90,
+  "count": 91,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -44,6 +44,7 @@
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon Application Recovery Controller",
+    "Amazon Athena",
     "Amazon Aurora",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",

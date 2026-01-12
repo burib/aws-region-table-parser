@@ -1,5 +1,5 @@
 {
-  "count": 175,
+  "count": 177,
   "serviceNames": [
     "AWS Amplify",
     "AWS App Runner",
@@ -56,6 +56,7 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
+    "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
     "AWS Payment Cryptography",
@@ -168,6 +169,7 @@
     "Amazon VPC Lattice",
     "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
+    "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
     "Oracle Database@AWS",
