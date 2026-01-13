@@ -1,5 +1,5 @@
 {
-  "count": 142,
+  "count": 141,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -41,7 +41,6 @@
     "AWS Identity and Access Management (IAM)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS IoT Device Defender",
-    "AWS IoT Device Management",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",
