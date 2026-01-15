@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 147,
+    "count": 146,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -64,7 +64,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
@@ -404,7 +403,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 180,
+    "count": 178,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -478,7 +477,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
@@ -580,7 +578,6 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
-      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1091,7 +1088,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 132,
+    "count": 131,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1151,7 +1148,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
@@ -1862,7 +1858,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 127,
+    "count": 128,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1885,6 +1881,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Elastic Beanstalk",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2090,7 +2087,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 114,
+    "count": 115,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2181,6 +2178,7 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -3814,7 +3812,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 96,
+    "count": 98,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -3825,6 +3823,7 @@
       "AWS CloudFormation",
       "AWS CloudTrail",
       "AWS Config",
+      "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
@@ -3864,6 +3863,7 @@
       "Amazon Bedrock",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
+      "Amazon Cognito",
       "Amazon Data Firehose",
       "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
@@ -3915,7 +3915,7 @@
     ]
   },
   "il-central-1": {
-    "count": 134,
+    "count": 133,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3972,7 +3972,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",

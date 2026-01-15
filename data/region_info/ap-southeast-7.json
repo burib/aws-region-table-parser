@@ -1,5 +1,5 @@
 {
-  "count": 114,
+  "count": 115,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -90,6 +90,7 @@
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Service for Prometheus",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
+    "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon OpenSearch Service",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

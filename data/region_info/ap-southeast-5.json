@@ -1,5 +1,5 @@
 {
-  "count": 127,
+  "count": 128,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -22,6 +22,7 @@
     "AWS Direct Connect",
     "AWS Directory Service",
     "AWS Elastic Beanstalk",
+    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Firewall Manager",
     "AWS Global Accelerator",

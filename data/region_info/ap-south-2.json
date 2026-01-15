@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 131,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -59,7 +59,6 @@
     "AWS Step Functions",
     "AWS Storage Gateway",
     "AWS Systems Manager",
-    "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS WAF",
