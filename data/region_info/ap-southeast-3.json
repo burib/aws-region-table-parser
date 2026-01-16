@@ -1,5 +1,5 @@
 {
-  "count": 131,
+  "count": 132,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -104,6 +104,7 @@
     "Amazon OpenSearch Service",
     "Amazon Quick Suite",
     "Amazon RDS Custom for Oracle",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

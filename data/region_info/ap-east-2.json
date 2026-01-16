@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 103,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -80,6 +80,7 @@
     "Amazon Managed Service for Prometheus",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon OpenSearch Service",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
     "Amazon RDS for Oracle",

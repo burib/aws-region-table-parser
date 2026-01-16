@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 140,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -111,6 +111,7 @@
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

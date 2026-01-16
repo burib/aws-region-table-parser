@@ -1,5 +1,5 @@
 {
-  "count": 115,
+  "count": 116,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -92,6 +92,7 @@
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon OpenSearch Service",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
     "Amazon RDS for Oracle",

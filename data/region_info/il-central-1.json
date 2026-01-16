@@ -1,5 +1,5 @@
 {
-  "count": 133,
+  "count": 135,
   "serviceNames": [
     "AWS AppConfig",
     "AWS AppSync",
@@ -56,6 +56,7 @@
     "AWS Step Functions",
     "AWS Storage Gateway",
     "AWS Systems Manager",
+    "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS Verified Access",
@@ -104,6 +105,7 @@
     "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon Quick Suite",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

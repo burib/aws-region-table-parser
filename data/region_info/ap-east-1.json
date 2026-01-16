@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 141,
   "serviceNames": [
     "AWS Amplify",
     "AWS AppConfig",
@@ -112,6 +112,7 @@
     "Amazon MemoryDB",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

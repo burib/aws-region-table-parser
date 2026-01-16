@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 93,
   "serviceNames": [
     "AWS AppConfig",
     "AWS Application Auto Scaling",
@@ -24,6 +24,7 @@
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",
+    "AWS License Manager",
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Private Certificate Authority",
@@ -69,6 +70,7 @@
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon OpenSearch Service",
+    "Amazon RDS Custom for SQL Server",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
     "Amazon RDS for Oracle",

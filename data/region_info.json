@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -64,6 +64,7 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
+      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
@@ -151,7 +152,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 140,
+    "count": 141,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -264,6 +265,7 @@
       "Amazon MemoryDB",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -296,7 +298,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 102,
+    "count": 103,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -377,6 +379,7 @@
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -403,7 +406,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 178,
+    "count": 180,
     "serviceNames": [
       "AWS Amplify",
       "AWS App Runner",
@@ -477,6 +480,7 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
+      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
@@ -578,6 +582,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -763,7 +768,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -798,6 +803,7 @@
       "AWS Elemental MediaPackage",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
+      "AWS Fault Injection Service",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
       "AWS Glue",
@@ -1088,7 +1094,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 131,
+    "count": 133,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1148,6 +1154,7 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
+      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
@@ -1194,6 +1201,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon OpenSearch Service",
       "Amazon Personalize",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -1592,7 +1600,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1697,6 +1705,7 @@
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -1728,7 +1737,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 125,
+    "count": 126,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1829,6 +1838,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -1858,7 +1868,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -1962,6 +1972,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -1991,7 +2002,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 91,
+    "count": 93,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -2016,6 +2027,7 @@
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
+      "AWS License Manager",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2061,6 +2073,7 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -2087,7 +2100,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 115,
+    "count": 116,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2180,6 +2193,7 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -2384,7 +2398,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 118,
+    "count": 119,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2478,6 +2492,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -2693,7 +2708,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -2794,6 +2809,7 @@
       "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -2988,7 +3004,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -3102,6 +3118,7 @@
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -3134,7 +3151,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3243,6 +3260,7 @@
       "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -3915,7 +3933,7 @@
     ]
   },
   "il-central-1": {
-    "count": 133,
+    "count": 135,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -3972,6 +3990,7 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
+      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
@@ -4020,6 +4039,7 @@
       "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -4053,7 +4073,7 @@
     ]
   },
   "me-central-1": {
-    "count": 140,
+    "count": 141,
     "serviceNames": [
       "AWS AppConfig",
       "AWS AppSync",
@@ -4168,6 +4188,7 @@
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -4198,7 +4219,7 @@
     ]
   },
   "me-south-1": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AWS Amplify",
       "AWS AppConfig",
@@ -4310,6 +4331,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -4342,7 +4364,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 111,
+    "count": 112,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -4431,6 +4453,7 @@
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon OpenSearch Service",
+      "Amazon RDS Custom for SQL Server",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",

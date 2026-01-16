@@ -1,5 +1,5 @@
 {
-  "count": 178,
+  "count": 180,
   "serviceNames": [
     "AWS Amplify",
     "AWS App Runner",
@@ -73,6 +73,7 @@
     "AWS Step Functions",
     "AWS Storage Gateway",
     "AWS Systems Manager",
+    "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS Verified Access",
@@ -174,6 +175,7 @@
     "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
+    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",
