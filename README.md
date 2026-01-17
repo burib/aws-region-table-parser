@@ -12,23 +12,23 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 186 |
 | [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 183 |
 | [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 181 |
-| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 180 |
 | [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 180 |
+| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 180 |
 | [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 179 |
 | [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 179 |
 | [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 178 |
 | [us-east-2](./data/region_info/us-east-2.json) | US East (Ohio) | 177 |
 | [ap-south-1](./data/region_info/ap-south-1.json) | Asia Pacific (Mumbai) | 174 |
-| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 172 |
 | [ca-central-1](./data/region_info/ca-central-1.json) | Canada (Central) | 172 |
+| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 172 |
 | [eu-west-3](./data/region_info/eu-west-3.json) | Europe (Paris) | 164 |
 | [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 159 |
 | [sa-east-1](./data/region_info/sa-east-1.json) | South America (São Paulo) | 158 |
 | [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 153 |
 | [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 150 |
 | [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 147 |
-| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 142 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 142 |
+| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 142 |
 | [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 141 |
 | [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 141 |
 | [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 140 |
@@ -50,7 +50,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-70f3f410-299f-4e52-8b89-1e766ed228e0'>
+<img src='https://quickchart.io/chart/render/zf-280938a7-4e52-4e2a-a95e-ca77441fdc33'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
