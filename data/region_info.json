@@ -2002,7 +2002,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 93,
+    "count": 94,
     "serviceNames": [
       "AWS AppConfig",
       "AWS Application Auto Scaling",
@@ -2068,6 +2068,7 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon GuardDuty",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
