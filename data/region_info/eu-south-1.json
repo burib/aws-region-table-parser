@@ -1,6 +1,7 @@
 {
-  "count": 142,
+  "count": 143,
   "serviceNames": [
+    "AD Connector",
     "AWS Amplify",
     "AWS AppConfig",
     "AWS AppSync",
@@ -27,6 +28,7 @@
     "AWS Database Migration Service (AWS DMS)",
     "AWS Direct Connect",
     "AWS Directory Service",
+    "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS End User Messaging",
@@ -37,7 +39,6 @@
     "AWS IAM Identity Center",
     "AWS Identity and Access Management (IAM)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
-    "AWS IoT Device Defender",
     "AWS IoT Device Management",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",

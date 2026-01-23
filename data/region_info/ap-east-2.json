@@ -1,6 +1,7 @@
 {
-  "count": 103,
+  "count": 105,
   "serviceNames": [
+    "AD Connector",
     "AWS AppConfig",
     "AWS Application Auto Scaling",
     "AWS Backup",
@@ -16,6 +17,7 @@
     "AWS Database Migration Service (AWS DMS)",
     "AWS Direct Connect",
     "AWS Directory Service",
+    "AWS Directory Service for Microsoft Active Directory",
     "AWS End User Messaging",
     "AWS Firewall Manager",
     "AWS Global Accelerator",

@@ -1,6 +1,7 @@
 {
-  "count": 140,
+  "count": 142,
   "serviceNames": [
+    "AD Connector",
     "AWS Amplify",
     "AWS AppConfig",
     "AWS AppSync",
@@ -26,6 +27,7 @@
     "AWS Database Migration Service (AWS DMS)",
     "AWS Direct Connect",
     "AWS Directory Service",
+    "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS End User Messaging",

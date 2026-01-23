@@ -1,7 +1,8 @@
 {
   "af-south-1": {
-    "count": 147,
+    "count": 148,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -26,6 +27,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -40,7 +42,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -152,8 +153,9 @@
     ]
   },
   "ap-east-1": {
-    "count": 141,
+    "count": 143,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -178,6 +180,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -298,8 +301,9 @@
     ]
   },
   "ap-east-2": {
-    "count": 103,
+    "count": 105,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Backup",
@@ -315,6 +319,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -406,8 +411,9 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 180,
+    "count": 182,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -437,6 +443,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -591,8 +598,9 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 172,
+    "count": 174,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -619,6 +627,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -768,8 +777,9 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -795,6 +805,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -810,7 +821,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -915,8 +925,9 @@
     ]
   },
   "ap-south-1": {
-    "count": 174,
+    "count": 176,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -945,6 +956,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -1094,8 +1106,9 @@
     ]
   },
   "ap-south-2": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -1120,6 +1133,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -1133,7 +1147,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -1232,8 +1245,9 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 179,
+    "count": 181,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -1263,6 +1277,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -1416,8 +1431,9 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 179,
+    "count": 181,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -1447,6 +1463,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -1600,8 +1617,9 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 132,
+    "count": 133,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -1626,6 +1644,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
@@ -1635,7 +1654,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -1737,8 +1755,9 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -1761,6 +1780,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -1775,7 +1795,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -1868,8 +1887,9 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 129,
+    "count": 132,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -1890,7 +1910,9 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elemental MediaConvert",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -2002,8 +2024,9 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 94,
+    "count": 96,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Backup",
@@ -2019,6 +2042,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS End User Messaging",
       "AWS Glue",
@@ -2101,8 +2125,9 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 116,
+    "count": 117,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -2121,6 +2146,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -2129,7 +2155,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -2222,8 +2247,9 @@
     ]
   },
   "ca-central-1": {
-    "count": 172,
+    "count": 174,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -2250,6 +2276,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -2399,8 +2426,9 @@
     ]
   },
   "ca-west-1": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -2420,6 +2448,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -2428,7 +2457,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
@@ -2523,8 +2551,9 @@
     ]
   },
   "eu-central-1": {
-    "count": 181,
+    "count": 183,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -2554,6 +2583,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -2709,8 +2739,9 @@
     ]
   },
   "eu-central-2": {
-    "count": 127,
+    "count": 128,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -2733,6 +2764,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
@@ -2743,7 +2775,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -2841,8 +2872,9 @@
     ]
   },
   "eu-north-1": {
-    "count": 159,
+    "count": 161,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -2869,6 +2901,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -3005,8 +3038,9 @@
     ]
   },
   "eu-south-1": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -3033,6 +3067,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
@@ -3043,7 +3078,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
@@ -3152,8 +3186,9 @@
     ]
   },
   "eu-south-2": {
-    "count": 137,
+    "count": 139,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -3177,6 +3212,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
@@ -3294,8 +3330,9 @@
     ]
   },
   "eu-west-1": {
-    "count": 180,
+    "count": 182,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -3326,6 +3363,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -3479,8 +3517,9 @@
     ]
   },
   "eu-west-2": {
-    "count": 178,
+    "count": 180,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -3510,6 +3549,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -3662,8 +3702,9 @@
     ]
   },
   "eu-west-3": {
-    "count": 164,
+    "count": 166,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -3691,6 +3732,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -3831,8 +3873,9 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 98,
+    "count": 100,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Backup",
@@ -3847,6 +3890,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS End User Messaging",
       "AWS Glue",
       "AWS Identity and Access Management (IAM)",
@@ -3934,8 +3978,9 @@
     ]
   },
   "il-central-1": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -3960,6 +4005,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
@@ -3969,7 +4015,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
@@ -4074,8 +4119,9 @@
     ]
   },
   "me-central-1": {
-    "count": 141,
+    "count": 143,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
@@ -4100,6 +4146,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -4220,8 +4267,9 @@
     ]
   },
   "me-south-1": {
-    "count": 140,
+    "count": 142,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -4247,6 +4295,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
@@ -4365,8 +4414,9 @@
     ]
   },
   "mx-central-1": {
-    "count": 112,
+    "count": 113,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Backup",
@@ -4382,6 +4432,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -4390,7 +4441,6 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Defender",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -4482,8 +4532,9 @@
     ]
   },
   "sa-east-1": {
-    "count": 158,
+    "count": 159,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -4508,6 +4559,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -4525,7 +4577,6 @@
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS IoT Core",
-      "AWS IoT Device Defender",
       "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
@@ -4645,8 +4696,9 @@
     ]
   },
   "us-east-1": {
-    "count": 186,
+    "count": 188,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -4677,6 +4729,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -4836,8 +4889,9 @@
     ]
   },
   "us-east-2": {
-    "count": 177,
+    "count": 179,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -4868,6 +4922,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -5018,8 +5073,9 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 139,
+    "count": 141,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
@@ -5043,6 +5099,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaTailor",
@@ -5162,8 +5219,9 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 150,
+    "count": 152,
     "serviceNames": [
+      "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
@@ -5187,6 +5245,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConvert",
@@ -5317,8 +5376,9 @@
     ]
   },
   "us-west-1": {
-    "count": 153,
+    "count": 155,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
@@ -5345,6 +5405,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
@@ -5475,8 +5536,9 @@
     ]
   },
   "us-west-2": {
-    "count": 183,
+    "count": 185,
     "serviceNames": [
+      "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
       "AWS AppConfig",
@@ -5507,6 +5569,7 @@
       "AWS Deadline Cloud",
       "AWS Direct Connect",
       "AWS Directory Service",
+      "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",

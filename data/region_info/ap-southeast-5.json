@@ -1,6 +1,7 @@
 {
-  "count": 129,
+  "count": 132,
   "serviceNames": [
+    "AD Connector",
     "AWS AppConfig",
     "AWS AppSync",
     "AWS Application Auto Scaling",
@@ -21,7 +22,9 @@
     "AWS Database Migration Service (AWS DMS)",
     "AWS Direct Connect",
     "AWS Directory Service",
+    "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
+    "AWS Elemental MediaConvert",
     "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Firewall Manager",

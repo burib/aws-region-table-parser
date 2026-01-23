@@ -1,6 +1,7 @@
 {
-  "count": 177,
+  "count": 179,
   "serviceNames": [
+    "AD Connector",
     "AWS Amplify",
     "AWS App Runner",
     "AWS AppConfig",
@@ -31,6 +32,7 @@
     "AWS Deadline Cloud",
     "AWS Direct Connect",
     "AWS Directory Service",
+    "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS Elemental MediaConnect",
