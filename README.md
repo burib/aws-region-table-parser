@@ -12,8 +12,8 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 188 |
 | [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 185 |
 | [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 183 |
-| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 182 |
 | [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 182 |
+| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 182 |
 | [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 181 |
 | [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 181 |
 | [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 180 |
@@ -27,10 +27,10 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 155 |
 | [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 152 |
 | [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 148 |
-| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 143 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 143 |
-| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 143 |
+| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 143 |
 | [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 143 |
+| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 143 |
 | [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 142 |
 | [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 141 |
 | [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 139 |
@@ -50,7 +50,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-cc877ba1-67a7-48d2-8a6c-9521ae635e5f'>
+<img src='https://quickchart.io/chart/render/zf-98755c96-3d64-460a-967b-4fedb856bfd5'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
