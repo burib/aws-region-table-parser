@@ -1,5 +1,5 @@
 {
-  "count": 152,
+  "count": 153,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -113,6 +113,7 @@
     "Amazon Location Service",
     "Amazon MQ",
     "Amazon Managed Blockchain (AMB)",
+    "Amazon Managed Grafana",
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Service for Prometheus",
     "Amazon Managed Streaming for Apache Kafka (MSK)",

@@ -1,5 +1,5 @@
 {
-  "count": 176,
+  "count": 175,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -157,7 +157,6 @@
     "Amazon SageMaker AI",
     "Amazon SageMaker Ground Truth",
     "Amazon Security Lake",
-    "Amazon Simple Email Service (SES)",
     "Amazon Simple Notification Service (SNS)",
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",

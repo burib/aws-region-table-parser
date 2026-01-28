@@ -1,5 +1,5 @@
 {
-  "count": 174,
+  "count": 173,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -17,7 +17,6 @@
     "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
-    "AWS CodeBuild",
     "AWS CodeCommit",
     "AWS CodeDeploy",
     "AWS CodePipeline",

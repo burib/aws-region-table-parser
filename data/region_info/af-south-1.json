@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 146,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -8,7 +8,6 @@
     "AWS Application Migration Service",
     "AWS Backup",
     "AWS Batch",
-    "AWS Certificate Manager (ACM)",
     "AWS Client VPN",
     "AWS Cloud Map",
     "AWS Cloud WAN",
@@ -16,7 +15,6 @@
     "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
-    "AWS CodeBuild",
     "AWS CodeCommit",
     "AWS CodeDeploy",
     "AWS CodePipeline",

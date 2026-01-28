@@ -1,5 +1,5 @@
 {
-  "count": 174,
+  "count": 175,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -8,6 +8,7 @@
     "AWS Application Auto Scaling",
     "AWS Application Migration Service",
     "AWS Audit Manager",
+    "AWS B2B Data Interchange",
     "AWS Backup",
     "AWS Batch",
     "AWS Certificate Manager (ACM)",

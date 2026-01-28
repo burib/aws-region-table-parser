@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 148,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -9,7 +9,6 @@
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
@@ -17,7 +16,6 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
-      "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
@@ -598,7 +596,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 174,
+    "count": 173,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -616,7 +614,6 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
-      "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
@@ -777,7 +774,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 143,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -795,7 +792,6 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
-      "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
@@ -925,7 +921,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 176,
+    "count": 175,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1083,7 +1079,6 @@
       "Amazon SageMaker AI",
       "Amazon SageMaker Ground Truth",
       "Amazon Security Lake",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -1106,13 +1101,14 @@
     ]
   },
   "ap-south-2": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
+      "AWS B2B Data Interchange",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -1245,7 +1241,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 181,
+    "count": 180,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1408,7 +1404,6 @@
       "Amazon SageMaker AI",
       "Amazon SageMaker Ground Truth",
       "Amazon Security Lake",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -1441,9 +1436,9 @@
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Audit Manager",
+      "AWS B2B Data Interchange",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
@@ -2024,7 +2019,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 96,
+    "count": 97,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2076,6 +2071,7 @@
       "Amazon Aurora",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
+      "Amazon Bedrock",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -2247,7 +2243,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 174,
+    "count": 175,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2256,6 +2252,7 @@
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Audit Manager",
+      "AWS B2B Data Interchange",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -2426,7 +2423,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 120,
+    "count": 119,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2434,7 +2431,6 @@
       "AWS Application Auto Scaling",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
@@ -2561,6 +2557,7 @@
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Audit Manager",
+      "AWS B2B Data Interchange",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -2715,7 +2712,6 @@
       "Amazon SageMaker AI",
       "Amazon SageMaker Ground Truth",
       "Amazon Security Lake",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2739,7 +2735,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 128,
+    "count": 127,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2854,7 +2850,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2872,7 +2867,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 161,
+    "count": 160,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3018,7 +3013,6 @@
       "Amazon S3 on Outposts",
       "Amazon SageMaker AI",
       "Amazon Security Lake",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -3038,7 +3032,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 143,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3048,7 +3042,6 @@
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
@@ -3330,7 +3323,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 182,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3494,7 +3487,6 @@
       "Amazon SageMaker AI",
       "Amazon SageMaker Ground Truth",
       "Amazon Security Lake",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -3517,7 +3509,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 180,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3529,7 +3521,6 @@
       "AWS Audit Manager",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
@@ -3702,7 +3693,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 166,
+    "count": 167,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3711,6 +3702,7 @@
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
+      "AWS B2B Data Interchange",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -4267,7 +4259,7 @@
     ]
   },
   "me-south-1": {
-    "count": 142,
+    "count": 140,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4285,7 +4277,6 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
-      "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
@@ -4395,7 +4386,6 @@
       "Amazon Route 53 Public DNS",
       "Amazon S3 on Outposts",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -4414,14 +4404,13 @@
     ]
   },
   "mx-central-1": {
-    "count": 113,
+    "count": 112,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Cloud Map",
       "AWS CloudFormation",
       "AWS CloudHSM",
@@ -4532,7 +4521,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 159,
+    "count": 158,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4549,7 +4538,6 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
-      "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
@@ -5081,7 +5069,6 @@
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
@@ -5178,6 +5165,7 @@
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
       "Amazon MQ",
+      "Amazon Managed Grafana",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
@@ -5219,7 +5207,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 152,
+    "count": 153,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5333,6 +5321,7 @@
       "Amazon Location Service",
       "Amazon MQ",
       "Amazon Managed Blockchain (AMB)",
+      "Amazon Managed Grafana",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
@@ -5376,7 +5365,7 @@
     ]
   },
   "us-west-1": {
-    "count": 155,
+    "count": 154,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5387,7 +5376,6 @@
       "AWS Audit Manager",
       "AWS Backup",
       "AWS Batch",
-      "AWS Certificate Manager (ACM)",
       "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
