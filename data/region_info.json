@@ -1754,7 +1754,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1846,6 +1846,7 @@
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for Windows File Server",
+      "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
