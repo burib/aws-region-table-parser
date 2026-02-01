@@ -1,5 +1,5 @@
 {
-  "count": 134,
+  "count": 133,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -61,7 +61,6 @@
     "AWS Step Functions",
     "AWS Storage Gateway",
     "AWS Systems Manager",
-    "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS WAF",

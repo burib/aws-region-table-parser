@@ -1,5 +1,5 @@
 {
-  "count": 183,
+  "count": 182,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -137,7 +137,6 @@
     "Amazon Managed Grafana",
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Service for Prometheus",
-    "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon MemoryDB",
     "Amazon Neptune",

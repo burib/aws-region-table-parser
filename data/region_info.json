@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 148,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -65,7 +65,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
@@ -409,7 +408,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 182,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -485,7 +484,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
@@ -923,7 +921,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 176,
+    "count": 175,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -932,7 +930,6 @@
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
-      "AWS Audit Manager",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -1104,7 +1101,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 134,
+    "count": 133,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1166,7 +1163,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
@@ -1429,7 +1425,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 183,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1567,7 +1563,6 @@
       "Amazon Managed Grafana",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
-      "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
       "Amazon Neptune",
@@ -2022,7 +2017,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 96,
+    "count": 95,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2095,7 +2090,6 @@
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
-      "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -2244,7 +2238,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 175,
+    "count": 174,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2252,7 +2246,6 @@
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
-      "AWS Audit Manager",
       "AWS B2B Data Interchange",
       "AWS Backup",
       "AWS Batch",
@@ -2548,7 +2541,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 184,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2687,7 +2680,6 @@
       "Amazon Managed Grafana",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
-      "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
       "Amazon Neptune",
@@ -2869,7 +2861,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 161,
+    "count": 160,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2993,7 +2985,6 @@
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
-      "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
       "Amazon Neptune",
@@ -3973,7 +3964,7 @@
     ]
   },
   "il-central-1": {
-    "count": 134,
+    "count": 133,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4030,7 +4021,6 @@
       "AWS Step Functions",
       "AWS Storage Gateway",
       "AWS Systems Manager",
-      "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",

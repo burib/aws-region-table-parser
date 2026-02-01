@@ -1,5 +1,5 @@
 {
-  "count": 182,
+  "count": 181,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -75,7 +75,6 @@
     "AWS Step Functions",
     "AWS Storage Gateway",
     "AWS Systems Manager",
-    "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS Verified Access",
