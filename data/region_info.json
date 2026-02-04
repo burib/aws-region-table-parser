@@ -1886,7 +1886,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1911,6 +1911,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
@@ -2244,7 +2245,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 175,
+    "count": 176,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2416,6 +2417,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
