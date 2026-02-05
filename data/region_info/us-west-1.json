@@ -1,5 +1,5 @@
 {
-  "count": 155,
+  "count": 153,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -72,7 +72,6 @@
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS Verified Access",
-    "AWS WAF",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon AppFlow",
@@ -107,7 +106,6 @@
     "Amazon FSx",
     "Amazon FSx for Lustre",
     "Amazon FSx for NetApp ONTAP",
-    "Amazon FSx for OpenZFS",
     "Amazon FSx for Windows File Server",
     "Amazon GameLift Servers",
     "Amazon GuardDuty",

@@ -1,9 +1,8 @@
 {
-  "count": 141,
+  "count": 139,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
-    "AWS AppConfig",
     "AWS AppSync",
     "AWS Application Auto Scaling",
     "AWS Application Migration Service",
@@ -67,7 +66,6 @@
     "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
-    "AWS WAF",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon Application Recovery Controller",

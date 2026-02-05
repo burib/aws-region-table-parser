@@ -1,8 +1,7 @@
 {
-  "count": 148,
+  "count": 147,
   "serviceNames": [
     "AD Connector",
-    "AWS AppConfig",
     "AWS AppSync",
     "AWS Application Auto Scaling",
     "AWS Application Migration Service",

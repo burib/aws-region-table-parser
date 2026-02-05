@@ -1,5 +1,5 @@
 {
-  "count": 104,
+  "count": 103,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -45,7 +45,6 @@
     "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
-    "AWS WAF",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon Application Recovery Controller",
