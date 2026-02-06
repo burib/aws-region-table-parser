@@ -1,5 +1,5 @@
 {
-  "count": 181,
+  "count": 182,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -120,6 +120,7 @@
     "Amazon FSx",
     "Amazon FSx for Lustre",
     "Amazon FSx for NetApp ONTAP",
+    "Amazon FSx for OpenZFS",
     "Amazon FSx for Windows File Server",
     "Amazon GameLift Servers",
     "Amazon GuardDuty",

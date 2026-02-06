@@ -1,5 +1,5 @@
 {
-  "count": 181,
+  "count": 183,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -20,6 +20,7 @@
     "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
+    "AWS CodeArtifact",
     "AWS CodeBuild",
     "AWS CodeCommit",
     "AWS CodeDeploy",
@@ -32,6 +33,7 @@
     "AWS Direct Connect",
     "AWS Directory Service",
     "AWS Directory Service for Microsoft Active Directory",
+    "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS Elemental MediaConnect",
     "AWS Elemental MediaConvert",

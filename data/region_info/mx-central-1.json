@@ -1,7 +1,8 @@
 {
-  "count": 109,
+  "count": 112,
   "serviceNames": [
     "AD Connector",
+    "AWS AppConfig",
     "AWS Application Auto Scaling",
     "AWS Backup",
     "AWS Batch",
@@ -47,6 +48,7 @@
     "AWS Transfer Family",
     "AWS Transit Gateway",
     "AWS VPN",
+    "AWS WAF",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon Application Recovery Controller",
@@ -77,6 +79,7 @@
     "Amazon FSx",
     "Amazon FSx for Lustre",
     "Amazon FSx for NetApp ONTAP",
+    "Amazon FSx for OpenZFS",
     "Amazon FSx for Windows File Server",
     "Amazon GuardDuty",
     "Amazon Inspector",

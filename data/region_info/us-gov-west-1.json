@@ -1,7 +1,8 @@
 {
-  "count": 150,
+  "count": 153,
   "serviceNames": [
     "AD Connector",
+    "AWS AppConfig",
     "AWS Application Auto Scaling",
     "AWS Application Migration Service",
     "AWS Backup",
@@ -25,6 +26,7 @@
     "AWS Direct Connect",
     "AWS Directory Service",
     "AWS Directory Service for Microsoft Active Directory",
+    "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS Elemental MediaConvert",
     "AWS Elemental MediaTailor",
@@ -65,6 +67,7 @@
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS Verified Access",
+    "AWS WAF",
     "AWS Wickr",
     "AWS X-Ray",
     "Amazon API Gateway",

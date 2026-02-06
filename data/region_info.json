@@ -1,8 +1,9 @@
 {
   "af-south-1": {
-    "count": 147,
+    "count": 148,
     "serviceNames": [
       "AD Connector",
+      "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
@@ -299,7 +300,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 103,
+    "count": 104,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -345,6 +346,7 @@
       "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon Application Recovery Controller",
@@ -407,7 +409,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -528,6 +530,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
@@ -920,7 +923,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 174,
+    "count": 176,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -999,6 +1002,7 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon AppFlow",
@@ -1037,6 +1041,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
@@ -1099,7 +1104,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 132,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1164,6 +1169,7 @@
       "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon AppFlow",
@@ -1195,6 +1201,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Inspector",
@@ -1422,7 +1429,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 181,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1443,6 +1450,7 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
+      "AWS CodeArtifact",
       "AWS CodeBuild",
       "AWS CodeCommit",
       "AWS CodeDeploy",
@@ -1455,6 +1463,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
@@ -2014,7 +2023,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 95,
+    "count": 96,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2033,6 +2042,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS End User Messaging",
       "AWS Glue",
       "AWS Identity and Access Management (IAM)",
@@ -2235,7 +2245,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 175,
+    "count": 176,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2266,6 +2276,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
@@ -2860,7 +2871,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 160,
+    "count": 161,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2890,6 +2901,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
@@ -3314,11 +3326,12 @@
     ]
   },
   "eu-west-1": {
-    "count": 180,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
+      "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
@@ -3395,6 +3408,7 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon AppFlow",
@@ -4100,7 +4114,7 @@
     ]
   },
   "me-central-1": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4128,6 +4142,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
@@ -4246,10 +4261,11 @@
     ]
   },
   "me-south-1": {
-    "count": 139,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
+      "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
@@ -4313,6 +4329,7 @@
       "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon Application Recovery Controller",
@@ -4390,9 +4407,10 @@
     ]
   },
   "mx-central-1": {
-    "count": 109,
+    "count": 112,
     "serviceNames": [
       "AD Connector",
+      "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Backup",
       "AWS Batch",
@@ -4438,6 +4456,7 @@
       "AWS Transfer Family",
       "AWS Transit Gateway",
       "AWS VPN",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon Application Recovery Controller",
@@ -4468,6 +4487,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Inspector",
@@ -4668,11 +4688,12 @@
     ]
   },
   "us-east-1": {
-    "count": 186,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
       "AWS App Runner",
+      "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
@@ -4701,6 +4722,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
@@ -4859,7 +4881,7 @@
     ]
   },
   "us-east-2": {
-    "count": 178,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4980,6 +5002,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
@@ -5189,9 +5212,10 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 150,
+    "count": 153,
     "serviceNames": [
       "AD Connector",
+      "AWS AppConfig",
       "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Backup",
@@ -5215,6 +5239,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaTailor",
@@ -5255,6 +5280,7 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
+      "AWS WAF",
       "AWS Wickr",
       "AWS X-Ray",
       "Amazon API Gateway",
@@ -5344,7 +5370,7 @@
     ]
   },
   "us-west-1": {
-    "count": 153,
+    "count": 155,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5417,6 +5443,7 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS Verified Access",
+      "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon AppFlow",
@@ -5451,6 +5478,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
