@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 150,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -74,6 +74,7 @@
     "Amazon Application Recovery Controller",
     "Amazon Athena",
     "Amazon Aurora",
+    "Amazon Aurora DSQL",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
@@ -84,6 +85,7 @@
     "Amazon Cognito",
     "Amazon Connect",
     "Amazon Data Firehose",
+    "Amazon DataZone",
     "Amazon Detective",
     "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",

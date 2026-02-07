@@ -1,5 +1,5 @@
 {
-  "count": 134,
+  "count": 135,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -71,6 +71,7 @@
     "Amazon Application Recovery Controller",
     "Amazon Athena",
     "Amazon Aurora",
+    "Amazon Aurora DSQL",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
