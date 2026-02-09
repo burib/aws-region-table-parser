@@ -155,12 +155,13 @@
     ]
   },
   "ap-east-1": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
+      "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
@@ -599,12 +600,13 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 173,
+    "count": 174,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
       "AWS AppConfig",
       "AWS AppSync",
+      "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
@@ -1107,7 +1109,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1206,6 +1208,7 @@
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
+      "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
@@ -1246,7 +1249,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1369,6 +1372,7 @@
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
+      "Amazon FSx for Windows File Server",
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
@@ -1759,11 +1763,12 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 127,
+    "count": 128,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
+      "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
@@ -2435,7 +2440,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2520,6 +2525,7 @@
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
+      "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
@@ -2748,7 +2754,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 127,
+    "count": 128,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2839,6 +2845,7 @@
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
+      "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
@@ -5083,10 +5090,11 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
+      "AWS Application Auto Scaling",
       "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",

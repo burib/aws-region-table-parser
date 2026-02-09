@@ -1,5 +1,5 @@
 {
-  "count": 127,
+  "count": 128,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -90,6 +90,7 @@
     "Amazon FSx for Lustre",
     "Amazon FSx for NetApp ONTAP",
     "Amazon FSx for OpenZFS",
+    "Amazon FSx for Windows File Server",
     "Amazon GuardDuty",
     "Amazon Inspector",
     "Amazon Kinesis Data Streams",
