@@ -1763,7 +1763,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1840,6 +1840,7 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Data Firehose",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
       "Amazon EC2 Image Builder",
@@ -2754,7 +2755,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2829,6 +2830,7 @@
       "Amazon Cognito",
       "Amazon Data Firehose",
       "Amazon DataZone",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
       "Amazon EC2 Image Builder",
