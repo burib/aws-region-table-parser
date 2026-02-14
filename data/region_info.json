@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 150,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -75,7 +75,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -155,7 +154,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 143,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -176,7 +175,6 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
-      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -228,7 +226,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Chime SDK",
@@ -303,7 +300,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 105,
+    "count": 103,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -315,7 +312,6 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
-      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -355,7 +351,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -413,7 +408,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 182,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -541,7 +536,6 @@
       "Amazon Inspector",
       "Amazon Interactive Video Service (IVS)",
       "Amazon Kendra",
-      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
       "Amazon Lex",
@@ -1109,7 +1103,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 135,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1181,7 +1175,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -1249,7 +1242,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 182,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1338,7 +1331,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -1436,7 +1428,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 184,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1578,7 +1570,6 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Personalize",
       "Amazon Q Business",
@@ -2035,7 +2026,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 97,
+    "count": 95,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2047,7 +2038,6 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
-      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2085,7 +2075,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -2137,7 +2126,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 117,
+    "count": 116,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2194,7 +2183,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -2755,7 +2743,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 129,
+    "count": 128,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2820,7 +2808,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -2889,7 +2876,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 162,
+    "count": 160,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2971,7 +2958,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -3017,7 +3003,6 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
@@ -3056,7 +3041,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 142,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3128,7 +3113,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -3203,7 +3187,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 140,
+    "count": 139,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3273,7 +3257,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -3348,7 +3331,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 182,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3489,7 +3472,6 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Personalize",
       "Amazon Q Business",
@@ -3892,7 +3874,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 100,
+    "count": 99,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3903,7 +3885,6 @@
       "AWS Cloud Map",
       "AWS CloudFormation",
       "AWS CloudTrail",
-      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -3997,7 +3978,7 @@
     ]
   },
   "il-central-1": {
-    "count": 135,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4064,7 +4045,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -4137,7 +4117,7 @@
     ]
   },
   "me-central-1": {
-    "count": 143,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4213,7 +4193,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -4285,7 +4264,7 @@
     ]
   },
   "me-south-1": {
-    "count": 142,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4359,7 +4338,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -4432,7 +4410,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 113,
+    "count": 112,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4487,7 +4465,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -4550,7 +4527,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 160,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4629,7 +4606,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -4908,7 +4884,7 @@
     ]
   },
   "us-east-2": {
-    "count": 179,
+    "count": 178,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4934,7 +4910,6 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
-      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -5092,7 +5067,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 142,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5202,7 +5177,6 @@
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon MemoryDB",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
@@ -5397,7 +5371,7 @@
     ]
   },
   "us-west-1": {
-    "count": 156,
+    "count": 155,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5477,7 +5451,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",

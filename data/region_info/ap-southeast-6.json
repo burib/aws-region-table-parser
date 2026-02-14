@@ -1,5 +1,5 @@
 {
-  "count": 97,
+  "count": 95,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -11,7 +11,6 @@
     "AWS Cloud WAN",
     "AWS CloudFormation",
     "AWS CloudTrail",
-    "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",
@@ -49,7 +48,6 @@
     "Amazon Application Recovery Controller",
     "Amazon Athena",
     "Amazon Aurora",
-    "Amazon Aurora DSQL",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",

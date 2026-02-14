@@ -1,5 +1,5 @@
 {
-  "count": 182,
+  "count": 181,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -127,7 +127,6 @@
     "Amazon Inspector",
     "Amazon Interactive Video Service (IVS)",
     "Amazon Kendra",
-    "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon Kinesis Video Streams",
     "Amazon Lex",

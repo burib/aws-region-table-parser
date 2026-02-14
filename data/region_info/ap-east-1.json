@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 141,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -20,7 +20,6 @@
     "AWS CodeCommit",
     "AWS CodeDeploy",
     "AWS CodePipeline",
-    "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",
@@ -72,7 +71,6 @@
     "Amazon Application Recovery Controller",
     "Amazon Athena",
     "Amazon Aurora",
-    "Amazon Aurora DSQL",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Chime SDK",
