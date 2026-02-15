@@ -154,7 +154,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -175,6 +175,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -300,7 +301,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 103,
+    "count": 104,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -312,6 +313,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -408,7 +410,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -536,6 +538,7 @@
       "Amazon Inspector",
       "Amazon Interactive Video Service (IVS)",
       "Amazon Kendra",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
       "Amazon Lex",
@@ -921,7 +924,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 177,
+    "count": 176,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1007,7 +1010,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -1428,7 +1430,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 183,
+    "count": 184,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1570,6 +1572,7 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Personalize",
       "Amazon Q Business",
@@ -1616,7 +1619,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 133,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1683,7 +1686,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -1888,7 +1890,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 133,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1955,7 +1957,6 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
-      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -2026,7 +2027,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 95,
+    "count": 96,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2038,6 +2039,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -2876,7 +2878,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 160,
+    "count": 161,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3003,6 +3005,7 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
@@ -3331,7 +3334,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3472,6 +3475,7 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Personalize",
       "Amazon Q Business",
@@ -3874,7 +3878,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 99,
+    "count": 100,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3885,6 +3889,7 @@
       "AWS Cloud Map",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -4884,7 +4889,7 @@
     ]
   },
   "us-east-2": {
-    "count": 178,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4910,6 +4915,7 @@
       "AWS CodeCommit",
       "AWS CodeDeploy",
       "AWS CodePipeline",
+      "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
@@ -5067,7 +5073,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5177,6 +5183,7 @@
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon MemoryDB",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",

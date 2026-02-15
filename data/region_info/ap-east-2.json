@@ -1,5 +1,5 @@
 {
-  "count": 103,
+  "count": 104,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -11,6 +11,7 @@
     "AWS Cloud WAN",
     "AWS CloudFormation",
     "AWS CloudTrail",
+    "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",
