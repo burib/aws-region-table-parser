@@ -1,5 +1,5 @@
 {
-  "count": 142,
+  "count": 143,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -111,6 +111,7 @@
     "Amazon MemoryDB",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
+    "Amazon Q Developer",
     "Amazon Quick Suite",
     "Amazon RDS Custom for Oracle",
     "Amazon RDS for MariaDB",
