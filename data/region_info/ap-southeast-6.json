@@ -1,5 +1,5 @@
 {
-  "count": 96,
+  "count": 97,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -21,6 +21,7 @@
     "AWS Elastic Beanstalk",
     "AWS End User Messaging",
     "AWS Glue",
+    "AWS IAM Identity Center",
     "AWS Identity and Access Management (IAM)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS Key Management Service (KMS)",
