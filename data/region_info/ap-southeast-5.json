@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 133,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -26,6 +26,7 @@
     "AWS Elastic Beanstalk",
     "AWS Elemental MediaConnect",
     "AWS Elemental MediaConvert",
+    "AWS Elemental MediaLive",
     "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Firewall Manager",
