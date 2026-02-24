@@ -1,5 +1,5 @@
 {
-  "count": 184,
+  "count": 183,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -99,7 +99,6 @@
     "Amazon CloudWatch Logs",
     "Amazon Cognito",
     "Amazon Comprehend",
-    "Amazon Connect",
     "Amazon Data Firehose",
     "Amazon DataZone",
     "Amazon Detective",
@@ -131,7 +130,6 @@
     "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon Kinesis Video Streams",
-    "Amazon Lex",
     "Amazon Lightsail",
     "Amazon Location Service",
     "Amazon MQ",
@@ -180,6 +178,7 @@
     "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
+    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",

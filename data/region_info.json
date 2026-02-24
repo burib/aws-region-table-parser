@@ -154,7 +154,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 143,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -234,7 +234,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -1106,7 +1105,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 135,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1185,7 +1184,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
@@ -1621,7 +1619,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 133,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1695,7 +1693,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
@@ -1759,7 +1756,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 130,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1835,7 +1832,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
@@ -2751,7 +2747,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 129,
+    "count": 128,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2823,7 +2819,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon DocumentDB (with MongoDB compatibility)",
@@ -2885,7 +2880,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 162,
+    "count": 161,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2977,7 +2972,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -3052,7 +3046,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 142,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3132,7 +3126,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon Detective",
       "Amazon DocumentDB (with MongoDB compatibility)",
@@ -3199,7 +3192,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 140,
+    "count": 139,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3276,7 +3269,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon DocumentDB (with MongoDB compatibility)",
@@ -3344,7 +3336,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 184,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3444,7 +3436,6 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Comprehend",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -3476,7 +3467,6 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lex",
       "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
@@ -3525,6 +3515,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3718,7 +3709,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 168,
+    "count": 167,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3812,7 +3803,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -3996,7 +3986,7 @@
     ]
   },
   "il-central-1": {
-    "count": 135,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4071,7 +4061,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon Detective",
       "Amazon DocumentDB (with MongoDB compatibility)",
@@ -4136,7 +4125,7 @@
     ]
   },
   "me-central-1": {
-    "count": 143,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4219,7 +4208,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
@@ -4284,7 +4272,7 @@
     ]
   },
   "me-south-1": {
-    "count": 142,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4366,7 +4354,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon Detective",
       "Amazon DynamoDB",
@@ -4548,7 +4535,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 160,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4636,7 +4623,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -4906,7 +4892,7 @@
     ]
   },
   "us-east-2": {
-    "count": 180,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5006,7 +4992,6 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Comprehend",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -5398,7 +5383,7 @@
     ]
   },
   "us-west-1": {
-    "count": 156,
+    "count": 155,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5487,7 +5472,6 @@
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect",
       "Amazon Data Firehose",
       "Amazon Detective",
       "Amazon DynamoDB",
