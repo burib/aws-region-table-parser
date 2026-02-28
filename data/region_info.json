@@ -154,7 +154,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -229,6 +229,7 @@
       "Amazon Aurora",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
+      "Amazon Bedrock",
       "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
@@ -2028,7 +2029,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 96,
+    "count": 97,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2081,6 +2082,7 @@
       "Amazon Aurora",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
+      "Amazon Bedrock",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
