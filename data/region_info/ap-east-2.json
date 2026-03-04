@@ -1,5 +1,5 @@
 {
-  "count": 104,
+  "count": 105,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -57,6 +57,7 @@
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",
+    "Amazon Cognito",
     "Amazon Data Firehose",
     "Amazon DynamoDB",
     "Amazon EC2 Auto Scaling",

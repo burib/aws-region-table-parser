@@ -302,7 +302,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 104,
+    "count": 105,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -360,6 +360,7 @@
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
+      "Amazon Cognito",
       "Amazon Data Firehose",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
@@ -2029,7 +2030,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 97,
+    "count": 98,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2086,6 +2087,7 @@
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
+      "Amazon Cognito",
       "Amazon Data Firehose",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
