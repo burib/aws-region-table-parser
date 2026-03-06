@@ -1,5 +1,5 @@
 {
-  "count": 98,
+  "count": 99,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -20,6 +20,7 @@
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS End User Messaging",
+    "AWS Firewall Manager",
     "AWS Glue",
     "AWS IAM Identity Center",
     "AWS Identity and Access Management (IAM)",
