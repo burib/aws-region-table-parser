@@ -28,8 +28,8 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 154 |
 | [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 149 |
 | [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 143 |
-| [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 143 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 143 |
+| [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 143 |
 | [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 142 |
 | [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 141 |
 | [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 141 |
@@ -50,7 +50,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-77b67d2e-8a80-4b39-9576-d7110dacc254'>
+<img src='https://quickchart.io/chart/render/zf-60a9df2e-763c-4ce8-9fd7-72e1720d03dd'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
