@@ -1,5 +1,5 @@
 {
-  "count": 134,
+  "count": 135,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -106,6 +106,7 @@
     "Amazon Managed Service for Prometheus",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
+    "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon Personalize",
     "Amazon RDS for Db2",
