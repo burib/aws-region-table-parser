@@ -2753,7 +2753,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2873,6 +2873,7 @@
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
       "Amazon Simple Workflow Service (SWF)",
+      "Amazon Transcribe",
       "Amazon VPC Lattice",
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
@@ -3887,7 +3888,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 100,
+    "count": 101,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3913,6 +3914,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
