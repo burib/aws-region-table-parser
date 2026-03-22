@@ -4543,7 +4543,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 159,
+    "count": 160,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4679,6 +4679,7 @@
       "Amazon RDS for PostgreSQL",
       "Amazon RDS for SQL Server",
       "Amazon Redshift",
+      "Amazon Rekognition",
       "Amazon Relational Database Service (RDS)",
       "Amazon Route 53",
       "Amazon Route 53 Private DNS",
