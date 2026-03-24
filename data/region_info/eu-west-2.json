@@ -1,5 +1,5 @@
 {
-  "count": 180,
+  "count": 181,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -176,6 +176,7 @@
     "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
+    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",
