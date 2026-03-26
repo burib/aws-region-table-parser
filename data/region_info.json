@@ -3531,7 +3531,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3570,6 +3570,7 @@
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaLive",
       "AWS Elemental MediaPackage",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
