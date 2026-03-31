@@ -5088,7 +5088,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 143,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5231,12 +5231,13 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]
   },
   "us-gov-west-1": {
-    "count": 154,
+    "count": 155,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5390,6 +5391,7 @@
       "NAT Gateway",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
+      "Security Hub",
       "Security Hub CSPM",
       "Service Quotas"
     ]

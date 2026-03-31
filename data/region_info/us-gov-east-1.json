@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 144,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -142,6 +142,7 @@
     "NAT Gateway",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
+    "Security Hub",
     "Security Hub CSPM",
     "Service Quotas"
   ]
