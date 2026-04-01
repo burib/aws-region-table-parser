@@ -599,7 +599,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 174,
+    "count": 175,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -770,6 +770,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -926,7 +927,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 176,
+    "count": 177,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1099,6 +1100,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -2031,7 +2033,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 100,
+    "count": 101,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2053,6 +2055,7 @@
       "AWS Elastic Beanstalk",
       "AWS End User Messaging",
       "AWS Firewall Manager",
+      "AWS Global Accelerator",
       "AWS Glue",
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
