@@ -1,5 +1,5 @@
 {
-  "count": 129,
+  "count": 130,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -116,6 +116,7 @@
     "Amazon Route 53 Private DNS",
     "Amazon Route 53 Public DNS",
     "Amazon SageMaker AI",
+    "Amazon Simple Email Service (SES)",
     "Amazon Simple Notification Service (SNS)",
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",

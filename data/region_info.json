@@ -154,7 +154,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 143,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -283,6 +283,7 @@
       "Amazon Route 53 Public DNS",
       "Amazon S3 on Outposts",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -302,7 +303,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 105,
+    "count": 106,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -397,6 +398,7 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -1761,7 +1763,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 129,
+    "count": 130,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1878,6 +1880,7 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2033,7 +2036,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 101,
+    "count": 102,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2124,6 +2127,7 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2139,7 +2143,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 117,
+    "count": 118,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2245,6 +2249,7 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -3203,7 +3208,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3328,6 +3333,7 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -3894,7 +3900,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 101,
+    "count": 102,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3914,6 +3920,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS End User Messaging",
       "AWS Glue",
+      "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS Key Management Service (KMS)",
@@ -4432,7 +4439,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 112,
+    "count": 113,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4533,6 +4540,7 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
+      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
