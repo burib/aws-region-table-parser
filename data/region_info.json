@@ -1911,7 +1911,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2013,6 +2013,7 @@
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
+      "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
