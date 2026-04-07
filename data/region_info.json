@@ -1775,7 +1775,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1869,6 +1869,7 @@
       "Amazon FSx",
       "Amazon FSx for Lustre",
       "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
@@ -2159,7 +2160,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2173,6 +2174,7 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
+      "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS Config",
       "AWS Control Tower",
