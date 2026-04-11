@@ -1,5 +1,5 @@
 {
-  "count": 142,
+  "count": 143,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -39,6 +39,7 @@
     "AWS IAM Identity Center",
     "AWS Identity and Access Management (IAM)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
+    "AWS IoT Core",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",

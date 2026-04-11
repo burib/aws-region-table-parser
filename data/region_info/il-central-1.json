@@ -1,5 +1,5 @@
 {
-  "count": 135,
+  "count": 136,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -36,6 +36,7 @@
     "AWS IAM Identity Center",
     "AWS Identity and Access Management (IAM)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
+    "AWS IoT Core",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",
