@@ -1,5 +1,5 @@
 {
-  "count": 161,
+  "count": 162,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -52,6 +52,7 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
+    "AWS Payment Cryptography",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resilience Hub",

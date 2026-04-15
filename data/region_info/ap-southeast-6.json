@@ -1,5 +1,5 @@
 {
-  "count": 103,
+  "count": 104,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -78,6 +78,7 @@
     "Amazon MQ",
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
+    "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",

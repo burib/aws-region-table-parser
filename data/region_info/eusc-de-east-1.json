@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 103,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -17,6 +17,7 @@
     "AWS Direct Connect",
     "AWS Directory Service",
     "AWS Directory Service for Microsoft Active Directory",
+    "AWS Elastic Disaster Recovery",
     "AWS End User Messaging",
     "AWS Glue",
     "AWS IAM Identity Center",

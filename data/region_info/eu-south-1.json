@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 145,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -113,6 +113,7 @@
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon MemoryDB",
+    "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon Quick Suite",
     "Amazon RDS Custom for Oracle",

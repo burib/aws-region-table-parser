@@ -305,7 +305,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 107,
+    "count": 108,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -389,6 +389,7 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -1912,7 +1913,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1927,6 +1928,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudHSM",
+      "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodePipeline",
       "AWS Config",
@@ -2052,7 +2054,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 103,
+    "count": 104,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2131,6 +2133,7 @@
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
@@ -2160,7 +2163,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 120,
+    "count": 121,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2175,6 +2178,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudHSM",
+      "AWS CloudShell",
       "AWS CloudTrail",
       "AWS Config",
       "AWS Control Tower",
@@ -2784,7 +2788,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2912,6 +2916,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3087,7 +3092,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3201,6 +3206,7 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick Suite",
       "Amazon RDS Custom for Oracle",
@@ -3759,7 +3765,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 168,
+    "count": 169,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3924,6 +3930,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -3932,7 +3939,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 102,
+    "count": 103,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3950,6 +3957,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
       "AWS Glue",
       "AWS IAM Identity Center",
@@ -4476,7 +4484,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 114,
+    "count": 115,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4566,6 +4574,7 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -4595,7 +4604,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 161,
+    "count": 162,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4648,6 +4657,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
