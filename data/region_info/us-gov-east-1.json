@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 145,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -51,6 +51,7 @@
     "AWS PrivateLink",
     "AWS Resilience Hub",
     "AWS Resource Access Manager (RAM)",
+    "AWS Resource Explorer",
     "AWS Resource Groups",
     "AWS Secrets Manager",
     "AWS Security Hub",

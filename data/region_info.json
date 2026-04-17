@@ -1913,7 +1913,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2043,6 +2043,7 @@
       "Amazon Simple Workflow Service (SWF)",
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
+      "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
@@ -4965,7 +4966,7 @@
     ]
   },
   "us-east-2": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5138,6 +5139,7 @@
       "Amazon VPC Lattice",
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
+      "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
@@ -5150,7 +5152,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5202,6 +5204,7 @@
       "AWS PrivateLink",
       "AWS Resilience Hub",
       "AWS Resource Access Manager (RAM)",
+      "AWS Resource Explorer",
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
@@ -5299,7 +5302,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 155,
+    "count": 156,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5353,6 +5356,7 @@
       "AWS PrivateLink",
       "AWS Resilience Hub",
       "AWS Resource Access Manager (RAM)",
+      "AWS Resource Explorer",
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",

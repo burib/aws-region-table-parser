@@ -1,5 +1,5 @@
 {
-  "count": 136,
+  "count": 137,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -129,6 +129,7 @@
     "Amazon Simple Workflow Service (SWF)",
     "Amazon Verified Permissions",
     "Amazon Virtual Private Cloud (VPC)",
+    "Amazon WorkSpaces",
     "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
