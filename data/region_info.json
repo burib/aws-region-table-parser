@@ -787,7 +787,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -928,6 +928,7 @@
       "Amazon Virtual Private Cloud (VPC)",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
@@ -1261,7 +1262,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 182,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1440,6 +1441,7 @@
       "Amazon WorkSpaces Applications",
       "Elastic Load Balancing (ELB)",
       "NAT Gateway",
+      "Oracle Database@AWS",
       "Route 53 Resolver Endpoints",
       "Route53 EC2 DNS",
       "Security Hub",
