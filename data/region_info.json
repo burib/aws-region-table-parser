@@ -305,11 +305,12 @@
     ]
   },
   "ap-east-2": {
-    "count": 108,
+    "count": 109,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
+      "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -2057,11 +2058,12 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 104,
+    "count": 105,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
+      "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -2475,12 +2477,13 @@
     ]
   },
   "ca-west-1": {
-    "count": 121,
+    "count": 122,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS AppSync",
       "AWS Application Auto Scaling",
+      "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
@@ -4487,11 +4490,12 @@
     ]
   },
   "mx-central-1": {
-    "count": 115,
+    "count": 116,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
       "AWS Application Auto Scaling",
+      "AWS Application Migration Service",
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
