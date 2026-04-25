@@ -1916,7 +1916,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 137,
+    "count": 138,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2028,6 +2028,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon Quick Suite",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
