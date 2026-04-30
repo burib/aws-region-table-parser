@@ -1,5 +1,5 @@
 {
-  "count": 145,
+  "count": 146,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -115,6 +115,7 @@
     "Amazon Q Developer",
     "Amazon Quick",
     "Amazon RDS Custom for Oracle",
+    "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
     "Amazon RDS for Oracle",
