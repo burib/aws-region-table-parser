@@ -155,7 +155,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 145,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -231,7 +231,6 @@
       "Amazon Aurora",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
-      "Amazon Bedrock",
       "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
@@ -2060,7 +2059,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 106,
+    "count": 111,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2136,6 +2135,11 @@
       "Amazon Elastic File System (EFS)",
       "Amazon Elastic Kubernetes Service (EKS)",
       "Amazon EventBridge",
+      "Amazon FSx",
+      "Amazon FSx for Lustre",
+      "Amazon FSx for NetApp ONTAP",
+      "Amazon FSx for OpenZFS",
+      "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
