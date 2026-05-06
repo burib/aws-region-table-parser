@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 150,
+    "count": 151,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -65,6 +65,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -155,7 +156,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -219,6 +220,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -304,7 +306,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 109,
+    "count": 110,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -348,6 +350,7 @@
       "AWS Shield",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -418,7 +421,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 183,
+    "count": 184,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -494,6 +497,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -606,7 +610,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 176,
+    "count": 177,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -679,6 +683,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -787,7 +792,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -852,6 +857,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -937,7 +943,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 178,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1012,6 +1018,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -1120,7 +1127,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 137,
+    "count": 138,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1182,6 +1189,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -1262,7 +1270,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 183,
+    "count": 184,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1339,6 +1347,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -1450,7 +1459,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 185,
+    "count": 186,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1528,6 +1537,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -1640,7 +1650,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1697,6 +1707,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -1778,7 +1789,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1837,6 +1848,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -1916,7 +1928,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1975,6 +1987,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2059,7 +2072,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 111,
+    "count": 112,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2105,6 +2118,7 @@
       "AWS Shield",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2175,7 +2189,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 121,
+    "count": 122,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2225,6 +2239,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2301,7 +2316,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 178,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2375,6 +2390,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2484,7 +2500,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 123,
+    "count": 124,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2535,6 +2551,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2612,7 +2629,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 185,
+    "count": 186,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2690,6 +2707,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2802,7 +2820,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 132,
+    "count": 133,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2858,6 +2876,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -2939,7 +2958,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 162,
+    "count": 163,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3010,6 +3029,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -3106,7 +3126,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3170,6 +3190,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -3257,7 +3278,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3318,6 +3339,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -3403,7 +3425,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 184,
+    "count": 185,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3481,6 +3503,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -3592,7 +3615,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 183,
+    "count": 184,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3667,6 +3690,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -3780,7 +3804,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3853,6 +3877,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4062,7 +4087,7 @@
     ]
   },
   "il-central-1": {
-    "count": 137,
+    "count": 138,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4121,6 +4146,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4204,7 +4230,7 @@
     ]
   },
   "me-central-1": {
-    "count": 143,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4270,6 +4296,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4352,7 +4379,7 @@
     ]
   },
   "me-south-1": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4417,6 +4444,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4499,7 +4527,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 117,
+    "count": 118,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4546,6 +4574,7 @@
       "AWS Shield Advanced",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4621,7 +4650,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 162,
+    "count": 163,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4690,6 +4719,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4788,7 +4818,7 @@
     ]
   },
   "us-east-1": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4866,6 +4896,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -4982,7 +5013,7 @@
     ]
   },
   "us-east-2": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5060,6 +5091,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -5319,7 +5351,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 157,
+    "count": 158,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5398,6 +5430,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
       "Amazon Chime SDK",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -5481,7 +5514,7 @@
     ]
   },
   "us-west-1": {
-    "count": 156,
+    "count": 157,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5550,6 +5583,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
@@ -5642,7 +5676,7 @@
     ]
   },
   "us-west-2": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5720,6 +5754,7 @@
       "AWS Signer",
       "AWS Step Functions",
       "AWS Storage Gateway",
+      "AWS Sustainability",
       "AWS Systems Manager",
       "AWS Transfer Family",
       "AWS Transit Gateway",
