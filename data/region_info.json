@@ -156,7 +156,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -187,6 +187,7 @@
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -1650,7 +1651,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1680,6 +1681,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2189,7 +2191,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 122,
+    "count": 123,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2214,6 +2216,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2500,7 +2503,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 124,
+    "count": 125,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2525,6 +2528,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2820,7 +2824,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 133,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2849,6 +2853,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -3126,7 +3131,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 147,
+    "count": 148,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3158,6 +3163,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -3278,7 +3284,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3307,6 +3313,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -4087,7 +4094,7 @@
     ]
   },
   "il-central-1": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4117,6 +4124,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -4379,7 +4387,7 @@
     ]
   },
   "me-south-1": {
-    "count": 143,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4410,6 +4418,7 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -5514,7 +5523,7 @@
     ]
   },
   "us-west-1": {
-    "count": 157,
+    "count": 158,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5549,6 +5558,7 @@
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaPackage",
+      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",

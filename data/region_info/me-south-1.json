@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 144,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -30,6 +30,7 @@
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
+    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Fault Injection Service",
     "AWS Firewall Manager",

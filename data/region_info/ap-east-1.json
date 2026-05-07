@@ -1,5 +1,5 @@
 {
-  "count": 145,
+  "count": 146,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -30,6 +30,7 @@
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
     "AWS Elemental MediaConnect",
+    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Fault Injection Service",
     "AWS Firewall Manager",
