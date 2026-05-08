@@ -1,5 +1,5 @@
 {
-  "count": 112,
+  "count": 113,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -42,6 +42,7 @@
     "AWS Secrets Manager",
     "AWS Security Hub",
     "AWS Security Token Service (STS)",
+    "AWS Service Catalog",
     "AWS Shield",
     "AWS Step Functions",
     "AWS Storage Gateway",
