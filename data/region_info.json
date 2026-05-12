@@ -156,7 +156,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -232,6 +232,7 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
+      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Chime SDK",
@@ -944,7 +945,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 179,
+    "count": 180,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1032,6 +1033,7 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
+      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -1271,7 +1273,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 184,
+    "count": 185,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1362,6 +1364,7 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
+      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -2965,7 +2968,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 163,
+    "count": 164,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3049,6 +3052,7 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
+      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -4661,7 +4665,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 163,
+    "count": 164,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4743,6 +4747,7 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
+      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
