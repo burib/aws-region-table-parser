@@ -1,5 +1,5 @@
 {
-  "count": 186,
+  "count": 187,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -30,6 +30,7 @@
     "AWS DataSync",
     "AWS Database Migration Service (AWS DMS)",
     "AWS Deadline Cloud",
+    "AWS DevOps Agent",
     "AWS Direct Connect",
     "AWS Directory Service",
     "AWS Directory Service for Microsoft Active Directory",

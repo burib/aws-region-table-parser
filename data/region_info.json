@@ -423,7 +423,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 184,
+    "count": 185,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -453,6 +453,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -1463,7 +1464,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1494,6 +1495,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -2638,7 +2640,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2669,6 +2671,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -3438,7 +3441,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 185,
+    "count": 186,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3469,6 +3472,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -4834,7 +4838,7 @@
     ]
   },
   "us-east-1": {
-    "count": 190,
+    "count": 191,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4865,6 +4869,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -5693,7 +5698,7 @@
     ]
   },
   "us-west-2": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5724,6 +5729,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
