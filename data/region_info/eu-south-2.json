@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 144,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -139,6 +139,7 @@
     "Amazon WorkSpaces Applications",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
+    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",
