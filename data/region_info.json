@@ -1936,7 +1936,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 139,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1953,6 +1953,7 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
+      "AWS CodeBuild",
       "AWS CodePipeline",
       "AWS Config",
       "AWS Control Tower",
@@ -2038,6 +2039,7 @@
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
       "Amazon Lightsail",
@@ -2080,7 +2082,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 113,
+    "count": 114,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2094,6 +2096,7 @@
       "AWS CloudFormation",
       "AWS CloudHSM",
       "AWS CloudTrail",
+      "AWS CodeBuild",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
@@ -2198,7 +2201,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 123,
+    "count": 125,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2215,6 +2218,7 @@
       "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
+      "AWS CodeBuild",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
@@ -2290,6 +2294,7 @@
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
@@ -3998,7 +4003,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 103,
+    "count": 104,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4009,6 +4014,7 @@
       "AWS Cloud Map",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS CodeDeploy",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",

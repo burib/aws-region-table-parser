@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 141,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -16,6 +16,7 @@
     "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
+    "AWS CodeBuild",
     "AWS CodePipeline",
     "AWS Config",
     "AWS Control Tower",
@@ -101,6 +102,7 @@
     "Amazon GameLift Servers",
     "Amazon GuardDuty",
     "Amazon Inspector",
+    "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon Kinesis Video Streams",
     "Amazon Lightsail",
