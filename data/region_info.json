@@ -308,7 +308,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 111,
+    "count": 112,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -321,6 +321,7 @@
       "AWS Cloud WAN",
       "AWS CloudFormation",
       "AWS CloudTrail",
+      "AWS CodeDeploy",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
@@ -1936,7 +1937,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 141,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1954,6 +1955,7 @@
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
+      "AWS CodeDeploy",
       "AWS CodePipeline",
       "AWS Config",
       "AWS Control Tower",
@@ -2082,7 +2084,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 114,
+    "count": 115,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2097,6 +2099,7 @@
       "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS CodeBuild",
+      "AWS CodeDeploy",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
@@ -2201,7 +2204,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 125,
+    "count": 126,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2219,6 +2222,7 @@
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
+      "AWS CodeDeploy",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
@@ -4554,7 +4558,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 118,
+    "count": 119,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4567,6 +4571,7 @@
       "AWS CloudFormation",
       "AWS CloudHSM",
       "AWS CloudTrail",
+      "AWS CodeDeploy",
       "AWS Config",
       "AWS Control Tower",
       "AWS DataSync",
