@@ -1937,7 +1937,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 142,
+    "count": 143,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2060,6 +2060,7 @@
       "Amazon RDS for PostgreSQL",
       "Amazon RDS for SQL Server",
       "Amazon Redshift",
+      "Amazon Rekognition",
       "Amazon Relational Database Service (RDS)",
       "Amazon Route 53",
       "Amazon Route 53 Private DNS",
@@ -2204,7 +2205,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2313,6 +2314,7 @@
       "Amazon RDS for PostgreSQL",
       "Amazon RDS for SQL Server",
       "Amazon Redshift",
+      "Amazon Rekognition",
       "Amazon Relational Database Service (RDS)",
       "Amazon Route 53",
       "Amazon Route 53 Private DNS",
