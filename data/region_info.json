@@ -2205,7 +2205,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 127,
+    "count": 128,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2240,6 +2240,7 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
+      "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
