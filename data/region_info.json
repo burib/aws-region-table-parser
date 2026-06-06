@@ -4010,7 +4010,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 104,
+    "count": 105,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4089,6 +4089,7 @@
       "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
       "Amazon Kinesis Data Streams",
+      "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Neptune",
@@ -4855,7 +4856,7 @@
     ]
   },
   "us-east-1": {
-    "count": 191,
+    "count": 192,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4961,6 +4962,7 @@
       "Amazon Cognito",
       "Amazon Comprehend",
       "Amazon Connect Customer",
+      "Amazon Connect Health",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -5715,7 +5717,7 @@
     ]
   },
   "us-west-2": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5820,6 +5822,7 @@
       "Amazon Cognito",
       "Amazon Comprehend",
       "Amazon Connect Customer",
+      "Amazon Connect Health",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
