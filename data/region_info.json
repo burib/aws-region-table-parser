@@ -156,7 +156,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 147,
+    "count": 148,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -267,6 +267,7 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
+      "Amazon Lightsail",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
@@ -3308,7 +3309,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3413,6 +3414,7 @@
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
+      "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
@@ -4688,7 +4690,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 165,
+    "count": 166,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4809,6 +4811,7 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
+      "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",

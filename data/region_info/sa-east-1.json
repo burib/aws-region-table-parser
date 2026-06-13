@@ -1,5 +1,5 @@
 {
-  "count": 165,
+  "count": 166,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -120,6 +120,7 @@
     "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon Kinesis Video Streams",
+    "Amazon Lightsail",
     "Amazon Location Service",
     "Amazon MQ",
     "Amazon Managed Service for Apache Flink",
