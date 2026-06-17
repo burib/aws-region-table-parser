@@ -1,5 +1,5 @@
 {
-  "count": 116,
+  "count": 117,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -34,6 +34,7 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
+    "AWS Managed Services (AMS)",
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Private Certificate Authority",

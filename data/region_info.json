@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 151,
+    "count": 152,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -46,6 +46,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -156,7 +157,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 148,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -203,6 +204,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -309,7 +311,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 113,
+    "count": 114,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -341,6 +343,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -427,7 +430,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 185,
+    "count": 186,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -485,6 +488,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -617,7 +621,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 177,
+    "count": 178,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -672,6 +676,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -799,7 +804,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -847,6 +852,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -950,7 +956,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1006,6 +1012,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -1135,7 +1142,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 138,
+    "count": 139,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1181,6 +1188,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Payment Cryptography",
@@ -1278,7 +1286,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 185,
+    "count": 186,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1336,6 +1344,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -1468,7 +1477,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1528,6 +1537,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -1660,7 +1670,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1702,6 +1712,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -1800,7 +1811,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1844,6 +1855,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -1939,7 +1951,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 143,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1986,6 +1998,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2087,7 +2100,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 116,
+    "count": 117,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2122,6 +2135,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2208,7 +2222,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2248,6 +2262,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2341,7 +2356,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 179,
+    "count": 180,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2396,6 +2411,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -2525,7 +2541,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 126,
+    "count": 127,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2563,6 +2579,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2656,7 +2673,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2716,6 +2733,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -2848,7 +2866,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 134,
+    "count": 135,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2890,6 +2908,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2987,7 +3006,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 164,
+    "count": 165,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3040,6 +3059,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3156,7 +3176,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 148,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3203,6 +3223,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3309,7 +3330,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3355,6 +3376,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3459,7 +3481,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3519,6 +3541,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3650,7 +3673,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 184,
+    "count": 185,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3706,6 +3729,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3839,7 +3863,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 170,
+    "count": 171,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3893,6 +3917,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4124,7 +4149,7 @@
     ]
   },
   "il-central-1": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4168,6 +4193,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4268,7 +4294,7 @@
     ]
   },
   "me-central-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4318,6 +4344,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4417,7 +4444,7 @@
     ]
   },
   "me-south-1": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4465,6 +4492,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4566,7 +4594,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4599,6 +4627,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4690,7 +4719,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 166,
+    "count": 167,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4740,6 +4769,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4861,7 +4891,7 @@
     ]
   },
   "us-east-1": {
-    "count": 192,
+    "count": 193,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4921,6 +4951,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -5058,7 +5089,7 @@
     ]
   },
   "us-east-2": {
-    "count": 182,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5117,6 +5148,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -5245,7 +5277,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5290,6 +5322,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -5396,7 +5429,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 158,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5443,6 +5476,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -5559,7 +5593,7 @@
     ]
   },
   "us-west-1": {
-    "count": 158,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5611,6 +5645,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -5722,7 +5757,7 @@
     ]
   },
   "us-west-2": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5782,6 +5817,7 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
+      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",

@@ -3,54 +3,54 @@ Currently AWS has no public information about the number of services it provides
 This project is intended to provide a [human readable MARKDOWN](https://github.com/burib/aws-region-table-parser/blob/master/README.md) and a [machine readable JSON](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/region_info.json) format about the [service](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/service_info.json) and [per region statistics](https://github.com/burib/aws-region-table-parser/tree/master/data/region_info).
 
 <!--START_SECTION:region_summary-->
-### 192 Services
+### 193 Services
 
 ###  37 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-| [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 192 |
-| [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 189 |
-| [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 187 |
-| [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 187 |
-| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 186 |
-| [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 185 |
-| [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 185 |
-| [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 184 |
-| [us-east-2](./data/region_info/us-east-2.json) | US East (Ohio) | 182 |
-| [ap-south-1](./data/region_info/ap-south-1.json) | Asia Pacific (Mumbai) | 180 |
-| [ca-central-1](./data/region_info/ca-central-1.json) | Canada (Central) | 179 |
-| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 177 |
-| [eu-west-3](./data/region_info/eu-west-3.json) | Europe (Paris) | 170 |
-| [sa-east-1](./data/region_info/sa-east-1.json) | South America (São Paulo) | 166 |
-| [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 164 |
-| [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 158 |
-| [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 158 |
-| [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 151 |
-| [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 148 |
-| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 148 |
-| [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 146 |
-| [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 146 |
-| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 145 |
-| [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 144 |
-| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 144 |
-| [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 143 |
-| [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 139 |
-| [ap-south-2](./data/region_info/ap-south-2.json) | Asia Pacific (Hyderabad) | 138 |
-| [ap-southeast-3](./data/region_info/ap-southeast-3.json) | Asia Pacific (Jakarta) | 135 |
-| [eu-central-2](./data/region_info/eu-central-2.json) | Europe (Zurich) | 134 |
-| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 134 |
-| [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 128 |
-| [ca-west-1](./data/region_info/ca-west-1.json) | Canada West (Calgary) | 126 |
-| [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 119 |
-| [ap-southeast-6](./data/region_info/ap-southeast-6.json) | AWS Asia Pacific (New Zealand) | 116 |
-| [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 113 |
+| [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 193 |
+| [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 190 |
+| [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 188 |
+| [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 188 |
+| [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 187 |
+| [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 186 |
+| [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 186 |
+| [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 185 |
+| [us-east-2](./data/region_info/us-east-2.json) | US East (Ohio) | 183 |
+| [ap-south-1](./data/region_info/ap-south-1.json) | Asia Pacific (Mumbai) | 181 |
+| [ca-central-1](./data/region_info/ca-central-1.json) | Canada (Central) | 180 |
+| [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 178 |
+| [eu-west-3](./data/region_info/eu-west-3.json) | Europe (Paris) | 171 |
+| [sa-east-1](./data/region_info/sa-east-1.json) | South America (São Paulo) | 167 |
+| [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 165 |
+| [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 159 |
+| [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 159 |
+| [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 152 |
+| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 149 |
+| [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 149 |
+| [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 147 |
+| [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 147 |
+| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 146 |
+| [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 145 |
+| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 145 |
+| [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 144 |
+| [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 140 |
+| [ap-south-2](./data/region_info/ap-south-2.json) | Asia Pacific (Hyderabad) | 139 |
+| [ap-southeast-3](./data/region_info/ap-southeast-3.json) | Asia Pacific (Jakarta) | 136 |
+| [eu-central-2](./data/region_info/eu-central-2.json) | Europe (Zurich) | 135 |
+| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 135 |
+| [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 129 |
+| [ca-west-1](./data/region_info/ca-west-1.json) | Canada West (Calgary) | 127 |
+| [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 120 |
+| [ap-southeast-6](./data/region_info/ap-southeast-6.json) | AWS Asia Pacific (New Zealand) | 117 |
+| [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 114 |
 | [eusc-de-east-1](./data/region_info/eusc-de-east-1.json) | AWS European Sovereign Cloud (Germany) | 105 |
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-3614dd1a-6ee2-4bef-be39-698695d7aa88'>
+<img src='https://quickchart.io/chart/render/zf-45bdd48e-f94a-4cc3-a47e-426e221119ab'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
@@ -113,6 +113,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | AWS Lake Formation | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Lambda | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS License Manager | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| AWS Managed Services (AMS) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Network Firewall | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Organizations | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Outposts | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
