@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 152,
+    "count": 153,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -59,6 +59,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -157,7 +158,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 149,
+    "count": 150,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -216,6 +217,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -430,7 +432,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -501,6 +503,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -621,7 +624,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 178,
+    "count": 179,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -688,6 +691,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -956,7 +960,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1025,6 +1029,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -1142,7 +1147,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 139,
+    "count": 140,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1199,6 +1204,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -1286,7 +1292,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1357,6 +1363,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -1477,7 +1484,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1550,6 +1557,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -1670,7 +1678,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1723,6 +1731,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -1811,7 +1820,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1865,6 +1874,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -2356,7 +2366,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2424,6 +2434,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -2673,7 +2684,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2746,6 +2757,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -2866,7 +2878,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 135,
+    "count": 136,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2918,6 +2930,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -3006,7 +3019,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 165,
+    "count": 166,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3071,6 +3084,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -3176,7 +3190,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 149,
+    "count": 150,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3235,6 +3249,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -3330,7 +3345,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 146,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3387,6 +3402,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -3481,7 +3497,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3554,6 +3570,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -3673,7 +3690,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 185,
+    "count": 186,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3742,6 +3759,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -3863,7 +3881,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 171,
+    "count": 172,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3930,6 +3948,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -4294,7 +4313,7 @@
     ]
   },
   "me-central-1": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4355,6 +4374,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -4444,7 +4464,7 @@
     ]
   },
   "me-south-1": {
-    "count": 145,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4504,6 +4524,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -4719,7 +4740,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 167,
+    "count": 168,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4782,6 +4803,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -4891,7 +4913,7 @@
     ]
   },
   "us-east-1": {
-    "count": 193,
+    "count": 194,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4964,6 +4986,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -5089,7 +5112,7 @@
     ]
   },
   "us-east-2": {
-    "count": 183,
+    "count": 184,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5161,6 +5184,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
@@ -5757,7 +5781,7 @@
     ]
   },
   "us-west-2": {
-    "count": 190,
+    "count": 191,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5830,6 +5854,7 @@
       "AWS Resource Groups",
       "AWS Secrets Manager",
       "AWS Security Hub",
+      "AWS Security Incident Response",
       "AWS Security Token Service (STS)",
       "AWS Service Catalog",
       "AWS Shield",
