@@ -1,5 +1,5 @@
 {
-  "count": 159,
+  "count": 160,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -155,6 +155,7 @@
     "Amazon Virtual Private Cloud (VPC)",
     "Elastic Load Balancing (ELB)",
     "NAT Gateway",
+    "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",
     "Route53 EC2 DNS",
     "Security Hub",
