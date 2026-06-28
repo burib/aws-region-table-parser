@@ -27,11 +27,11 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 160 |
 | [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 159 |
 | [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 153 |
-| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 150 |
 | [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 150 |
-| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 147 |
-| [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 147 |
+| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 150 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 147 |
+| [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 147 |
+| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 147 |
 | [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 146 |
 | [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 146 |
 | [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 144 |
@@ -50,7 +50,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-dc7c2ab1-0d17-48c8-8126-76ad0c73ed2c'>
+<img src='https://quickchart.io/chart/render/zf-365b1fe6-938a-4071-8f6f-e66f5d4b615e'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
