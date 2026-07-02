@@ -1,6 +1,6 @@
 {
   "af-south-1": {
-    "count": 153,
+    "count": 154,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -50,6 +50,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -313,7 +314,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 114,
+    "count": 116,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -403,8 +404,10 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -432,7 +435,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -494,6 +497,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -808,7 +812,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 147,
+    "count": 148,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -860,6 +864,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -960,7 +965,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 182,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1020,6 +1025,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -1292,7 +1298,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1354,6 +1360,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -1484,7 +1491,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1548,6 +1555,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -1678,7 +1686,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 137,
+    "count": 138,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1724,6 +1732,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -1820,7 +1829,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1867,6 +1876,7 @@
       "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -1961,7 +1971,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 144,
+    "count": 146,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2038,6 +2048,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -2079,6 +2090,7 @@
       "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick",
+      "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -2110,7 +2122,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 117,
+    "count": 119,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2134,6 +2146,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2202,6 +2215,7 @@
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
@@ -2232,7 +2246,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 129,
+    "count": 130,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2301,6 +2315,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -2552,7 +2567,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 127,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2577,6 +2592,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -2655,6 +2671,7 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -2684,7 +2701,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 189,
+    "count": 190,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2748,6 +2765,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -2878,7 +2896,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 136,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2923,6 +2941,7 @@
       "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -3019,7 +3038,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 167,
+    "count": 168,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3076,6 +3095,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
@@ -3191,7 +3211,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 150,
+    "count": 152,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3242,6 +3262,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
@@ -3273,6 +3294,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
       "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
@@ -3346,7 +3368,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 147,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3396,6 +3418,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -3424,6 +3447,7 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -3498,7 +3522,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3562,6 +3586,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -3691,7 +3716,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 186,
+    "count": 187,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3751,6 +3776,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -3882,7 +3908,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 172,
+    "count": 173,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3940,6 +3966,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -4169,7 +4196,7 @@
     ]
   },
   "il-central-1": {
-    "count": 140,
+    "count": 141,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4273,6 +4300,7 @@
       "Amazon GuardDuty",
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
+      "Amazon Kinesis Video Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
@@ -4616,7 +4644,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 120,
+    "count": 122,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4710,8 +4738,10 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
+      "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
@@ -4741,7 +4771,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 168,
+    "count": 169,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4795,6 +4825,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -4914,7 +4945,7 @@
     ]
   },
   "us-east-1": {
-    "count": 194,
+    "count": 195,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4978,6 +5009,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -5113,7 +5145,7 @@
     ]
   },
   "us-east-2": {
-    "count": 184,
+    "count": 185,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5176,6 +5208,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
@@ -5302,7 +5335,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 147,
+    "count": 148,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5351,6 +5384,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
@@ -5454,7 +5488,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 159,
+    "count": 160,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5505,6 +5539,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
@@ -5783,7 +5818,7 @@
     ]
   },
   "us-west-2": {
-    "count": 191,
+    "count": 192,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5847,6 +5882,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Payment Cryptography",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",

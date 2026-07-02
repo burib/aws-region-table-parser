@@ -1,5 +1,5 @@
 {
-  "count": 147,
+  "count": 149,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -49,6 +49,7 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
+    "AWS Parallel Computing Service (PCS)",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resource Access Manager (RAM)",
@@ -77,6 +78,7 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
+    "Amazon Bedrock AgentCore",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",

@@ -1,5 +1,5 @@
 {
-  "count": 127,
+  "count": 129,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -24,6 +24,7 @@
     "AWS Directory Service",
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
+    "AWS Elastic Disaster Recovery",
     "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Firewall Manager",
@@ -102,6 +103,7 @@
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
+    "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
     "Amazon RDS for Oracle",

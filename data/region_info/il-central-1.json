@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 141,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -103,6 +103,7 @@
     "Amazon GuardDuty",
     "Amazon Inspector",
     "Amazon Kinesis Data Streams",
+    "Amazon Kinesis Video Streams",
     "Amazon MQ",
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Service for Prometheus",

@@ -1,5 +1,5 @@
 {
-  "count": 194,
+  "count": 195,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -63,6 +63,7 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
+    "AWS Parallel Computing Service (PCS)",
     "AWS Payment Cryptography",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",

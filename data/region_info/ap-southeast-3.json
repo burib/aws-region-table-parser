@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 138,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -45,6 +45,7 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
+    "AWS Parallel Computing Service (PCS)",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resource Access Manager (RAM)",

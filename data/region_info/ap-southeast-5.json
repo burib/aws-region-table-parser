@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 146,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -76,6 +76,7 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
+    "Amazon Bedrock AgentCore",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",
@@ -117,6 +118,7 @@
     "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon Quick",
+    "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",
     "Amazon RDS for Oracle",

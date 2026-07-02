@@ -1,5 +1,5 @@
 {
-  "count": 129,
+  "count": 130,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -68,6 +68,7 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
+    "Amazon Bedrock AgentCore",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",
