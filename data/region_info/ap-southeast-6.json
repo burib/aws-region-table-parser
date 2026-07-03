@@ -1,5 +1,5 @@
 {
-  "count": 119,
+  "count": 120,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -15,6 +15,7 @@
     "AWS CloudTrail",
     "AWS CodeBuild",
     "AWS CodeDeploy",
+    "AWS CodePipeline",
     "AWS Config",
     "AWS Control Tower",
     "AWS DataSync",
