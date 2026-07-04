@@ -32,14 +32,14 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 149 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 148 |
 | [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 148 |
+| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 146 |
 | [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 146 |
 | [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 146 |
-| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 146 |
 | [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 141 |
 | [ap-south-2](./data/region_info/ap-south-2.json) | Asia Pacific (Hyderabad) | 140 |
 | [ap-southeast-3](./data/region_info/ap-southeast-3.json) | Asia Pacific (Jakarta) | 138 |
-| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 137 |
 | [eu-central-2](./data/region_info/eu-central-2.json) | Europe (Zurich) | 137 |
+| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 137 |
 | [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 130 |
 | [ca-west-1](./data/region_info/ca-west-1.json) | Canada West (Calgary) | 129 |
 | [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 122 |
@@ -50,7 +50,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-8de032d2-c76e-47e1-8b39-62842823f019'>
+<img src='https://quickchart.io/chart/render/zf-db5fa557-cdf7-47a9-8918-b3d90527733e'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
