@@ -1,5 +1,5 @@
 {
-  "count": 120,
+  "count": 122,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -8,6 +8,7 @@
     "AWS Backup",
     "AWS Batch",
     "AWS Certificate Manager (ACM)",
+    "AWS Client VPN",
     "AWS Cloud Map",
     "AWS Cloud WAN",
     "AWS CloudFormation",
@@ -89,6 +90,7 @@
     "Amazon FSx for OpenZFS",
     "Amazon FSx for Windows File Server",
     "Amazon GuardDuty",
+    "Amazon Inspector",
     "Amazon Kinesis Data Streams",
     "Amazon MQ",
     "Amazon Managed Service for Apache Flink",
