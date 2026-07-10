@@ -966,7 +966,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 183,
+    "count": 184,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -995,6 +995,7 @@
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -1299,7 +1300,7 @@
     ]
   },
   "ap-southeast-1": {
-    "count": 188,
+    "count": 189,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1329,6 +1330,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -2385,7 +2387,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 181,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2413,6 +2415,7 @@
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -3721,7 +3724,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3826,6 +3829,7 @@
       "Amazon Cognito",
       "Amazon Comprehend",
       "Amazon Connect Customer",
+      "Amazon Connect Health",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -4777,7 +4781,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4802,6 +4806,7 @@
       "AWS Control Tower",
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
