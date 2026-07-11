@@ -1,5 +1,5 @@
 {
-  "count": 122,
+  "count": 123,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -94,6 +94,7 @@
     "Amazon Kinesis Data Streams",
     "Amazon MQ",
     "Amazon Managed Service for Apache Flink",
+    "Amazon Managed Service for Prometheus",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon Neptune",

@@ -11,8 +11,8 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | ------ | -------- | -------- | 
 | [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 195 |
 | [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 192 |
-| [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 190 |
 | [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 190 |
+| [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 190 |
 | [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 189 |
 | [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 189 |
 | [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 188 |
@@ -24,33 +24,33 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [eu-west-3](./data/region_info/eu-west-3.json) | Europe (Paris) | 173 |
 | [sa-east-1](./data/region_info/sa-east-1.json) | South America (São Paulo) | 170 |
 | [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 168 |
-| [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 160 |
 | [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 160 |
+| [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 160 |
 | [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 154 |
 | [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 152 |
 | [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 150 |
 | [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 149 |
 | [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 148 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 148 |
+| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 146 |
 | [me-south-1](./data/region_info/me-south-1.json) | Middle East (Bahrain) | 146 |
 | [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 146 |
-| [me-central-1](./data/region_info/me-central-1.json) | Middle East (UAE) | 146 |
 | [il-central-1](./data/region_info/il-central-1.json) | Israel (Tel Aviv) | 141 |
 | [ap-south-2](./data/region_info/ap-south-2.json) | Asia Pacific (Hyderabad) | 140 |
 | [ap-southeast-3](./data/region_info/ap-southeast-3.json) | Asia Pacific (Jakarta) | 138 |
-| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 137 |
 | [eu-central-2](./data/region_info/eu-central-2.json) | Europe (Zurich) | 137 |
+| [ap-southeast-4](./data/region_info/ap-southeast-4.json) | Asia Pacific (Melbourne) | 137 |
 | [ap-southeast-7](./data/region_info/ap-southeast-7.json) | Asia Pacific (Thailand) | 130 |
 | [ca-west-1](./data/region_info/ca-west-1.json) | Canada West (Calgary) | 130 |
 | [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 123 |
-| [ap-southeast-6](./data/region_info/ap-southeast-6.json) | AWS Asia Pacific (New Zealand) | 122 |
+| [ap-southeast-6](./data/region_info/ap-southeast-6.json) | AWS Asia Pacific (New Zealand) | 123 |
 | [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 117 |
 | [eusc-de-east-1](./data/region_info/eusc-de-east-1.json) | AWS European Sovereign Cloud (Germany) | 105 |
 
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-68950726-d8ba-48e6-ab70-0930f050f895'>
+<img src='https://quickchart.io/chart/render/zf-585fb00b-61c7-4929-8db7-719e854d8683'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
@@ -201,7 +201,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | Amazon Managed Blockchain (AMB) | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: |
 | Amazon Managed Grafana | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
 | Amazon Managed Service for Apache Flink | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Amazon Managed Service for Prometheus | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Amazon Managed Service for Prometheus | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Amazon Managed Streaming for Apache Kafka (MSK) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Amazon Managed Workflows for Apache Airflow (MWAA) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: |
 | Amazon MemoryDB | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
