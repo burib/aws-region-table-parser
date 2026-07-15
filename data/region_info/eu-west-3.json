@@ -1,5 +1,5 @@
 {
-  "count": 173,
+  "count": 172,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -81,7 +81,6 @@
     "AWS Transit Gateway",
     "AWS VPN",
     "AWS WAF",
-    "AWS Wickr",
     "AWS X-Ray",
     "Amazon API Gateway",
     "Amazon AppFlow",

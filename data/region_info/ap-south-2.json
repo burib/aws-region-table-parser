@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 136,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -32,7 +32,6 @@
     "AWS Elastic Disaster Recovery",
     "AWS Elemental MediaConnect",
     "AWS Elemental MediaLive",
-    "AWS Elemental MediaPackage",
     "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Firewall Manager",
@@ -45,7 +44,6 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
-    "AWS Managed Services (AMS)",
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Payment Cryptography",
@@ -71,7 +69,6 @@
     "AWS WAF",
     "AWS X-Ray",
     "Amazon API Gateway",
-    "Amazon AppFlow",
     "Amazon Application Recovery Controller",
     "Amazon Athena",
     "Amazon Aurora",
@@ -112,7 +109,6 @@
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
-    "Amazon Personalize",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

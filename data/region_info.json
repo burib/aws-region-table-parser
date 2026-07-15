@@ -159,7 +159,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 150,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -190,8 +190,6 @@
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
-      "AWS Elemental MediaTailor",
-      "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -240,7 +238,6 @@
       "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
-      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -272,7 +269,6 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lightsail",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
@@ -294,7 +290,6 @@
       "Amazon Route 53 Public DNS",
       "Amazon S3 on Outposts",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -314,7 +309,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 117,
+    "count": 111,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -323,7 +318,6 @@
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
-      "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
@@ -347,7 +341,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -380,7 +373,6 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Data Firehose",
-      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
       "Amazon EC2 Image Builder",
@@ -405,8 +397,6 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
-      "Amazon Managed Workflows for Apache Airflow (MWAA)",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
@@ -420,7 +410,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -629,7 +618,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 179,
+    "count": 178,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -757,7 +746,6 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lex",
       "Amazon Lightsail",
       "Amazon MQ",
       "Amazon Managed Blockchain (AMB)",
@@ -813,7 +801,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 148,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -861,7 +849,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -895,12 +882,10 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
-      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
-      "Amazon Connect Customer",
       "Amazon Data Firehose",
       "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
@@ -966,7 +951,7 @@
     ]
   },
   "ap-south-1": {
-    "count": 184,
+    "count": 183,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1069,7 +1054,6 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Comprehend",
-      "Amazon Connect Customer",
       "Amazon Data Firehose",
       "Amazon DataZone",
       "Amazon Detective",
@@ -1155,7 +1139,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 140,
+    "count": 136,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1188,7 +1172,6 @@
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaLive",
-      "AWS Elemental MediaPackage",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -1201,7 +1184,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Payment Cryptography",
@@ -1227,7 +1209,6 @@
       "AWS WAF",
       "AWS X-Ray",
       "Amazon API Gateway",
-      "Amazon AppFlow",
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
@@ -1268,7 +1249,6 @@
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
-      "Amazon Personalize",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -1494,7 +1474,7 @@
     ]
   },
   "ap-southeast-2": {
-    "count": 190,
+    "count": 189,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -1632,7 +1612,6 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lex",
       "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
@@ -1689,7 +1668,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 138,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1719,7 +1698,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -1832,7 +1810,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 137,
+    "count": 133,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1876,10 +1854,8 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
-      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -1932,7 +1908,6 @@
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
-      "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
@@ -1955,7 +1930,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -1974,7 +1948,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 146,
+    "count": 143,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2006,7 +1980,6 @@
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaLive",
       "AWS Elemental MediaTailor",
-      "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
       "AWS Glue",
@@ -2016,7 +1989,6 @@
       "AWS IoT Core",
       "AWS IoT Device Defender",
       "AWS IoT Device Management",
-      "AWS IoT Greengrass",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -2080,7 +2052,6 @@
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
-      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
       "Amazon Lightsail",
@@ -2125,7 +2096,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 123,
+    "count": 116,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2134,7 +2105,6 @@
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
-      "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
@@ -2163,7 +2133,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2197,7 +2166,6 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Data Firehose",
-      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon EC2 Auto Scaling",
       "Amazon EC2 Image Builder",
@@ -2216,14 +2184,11 @@
       "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
       "Amazon GuardDuty",
-      "Amazon Inspector",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
-      "Amazon Managed Workflows for Apache Airflow (MWAA)",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
@@ -2237,7 +2202,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2253,7 +2217,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 130,
+    "count": 123,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2280,20 +2244,16 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
-      "AWS Elemental MediaTailor",
-      "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
       "AWS Glue",
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2350,14 +2310,12 @@
       "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
-      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
@@ -2371,7 +2329,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -2388,7 +2345,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 182,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -2520,7 +2477,6 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lex",
       "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
@@ -2575,7 +2531,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 130,
+    "count": 126,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2585,7 +2541,6 @@
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
-      "AWS Client VPN",
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
@@ -2602,7 +2557,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2610,12 +2564,10 @@
       "AWS IAM Identity Center",
       "AWS Identity and Access Management (IAM)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
-      "AWS IoT Device Management",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Private Certificate Authority",
@@ -2905,7 +2857,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 137,
+    "count": 134,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2934,7 +2886,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -2947,10 +2898,8 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
-      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -3220,7 +3169,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 152,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3252,7 +3201,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -3267,7 +3215,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3340,7 +3287,6 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MemoryDB",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon Quick",
       "Amazon RDS Custom for Oracle",
@@ -3377,7 +3323,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 149,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3406,7 +3352,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -3418,12 +3363,10 @@
       "AWS IoT Core",
       "AWS IoT Device Defender",
       "AWS IoT Device Management",
-      "AWS IoT Greengrass",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -3453,6 +3396,7 @@
       "Amazon Application Recovery Controller",
       "Amazon Athena",
       "Amazon Aurora",
+      "Amazon Aurora DSQL",
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
@@ -3486,7 +3430,6 @@
       "Amazon Inspector",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
@@ -3510,7 +3453,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -3755,6 +3697,7 @@
       "AWS DataSync",
       "AWS Database Migration Service (AWS DMS)",
       "AWS Deadline Cloud",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
@@ -3874,7 +3817,6 @@
       "Amazon MemoryDB",
       "Amazon Neptune",
       "Amazon OpenSearch Service",
-      "Amazon Personalize",
       "Amazon Quick",
       "Amazon RDS Custom for Oracle",
       "Amazon RDS Custom for SQL Server",
@@ -3918,7 +3860,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 173,
+    "count": 172,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4000,7 +3942,6 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
-      "AWS Wickr",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon AppFlow",
@@ -4206,7 +4147,7 @@
     ]
   },
   "il-central-1": {
-    "count": 141,
+    "count": 139,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4236,7 +4177,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -4250,7 +4190,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4352,7 +4291,7 @@
     ]
   },
   "me-central-1": {
-    "count": 146,
+    "count": 142,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4385,7 +4324,6 @@
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaLive",
-      "AWS Elemental MediaPackage",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
@@ -4426,7 +4364,6 @@
       "AWS Transit Gateway",
       "AWS VPN",
       "AWS WAF",
-      "AWS Wickr",
       "AWS X-Ray",
       "Amazon API Gateway",
       "Amazon Application Recovery Controller",
@@ -4458,10 +4395,8 @@
       "Amazon FSx for NetApp ONTAP",
       "Amazon FSx for OpenZFS",
       "Amazon FSx for Windows File Server",
-      "Amazon GameLift Servers",
       "Amazon GuardDuty",
       "Amazon Inspector",
-      "Amazon Interactive Video Service (IVS)",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon MQ",
@@ -4503,7 +4438,7 @@
     ]
   },
   "me-south-1": {
-    "count": 146,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4534,7 +4469,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -4585,7 +4519,6 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
-      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -4654,7 +4587,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 123,
+    "count": 117,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4663,7 +4596,6 @@
       "AWS Backup",
       "AWS Batch",
       "AWS Certificate Manager (ACM)",
-      "AWS Client VPN",
       "AWS Cloud Map",
       "AWS CloudFormation",
       "AWS CloudHSM",
@@ -4676,7 +4608,6 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -4688,7 +4619,6 @@
       "AWS Lake Formation",
       "AWS Lambda",
       "AWS License Manager",
-      "AWS Managed Services (AMS)",
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
@@ -4749,8 +4679,6 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
-      "Amazon Managed Workflows for Apache Airflow (MWAA)",
-      "Amazon Neptune",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
@@ -4764,7 +4692,6 @@
       "Amazon Route 53 Private DNS",
       "Amazon Route 53 Public DNS",
       "Amazon SageMaker AI",
-      "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
@@ -4782,7 +4709,7 @@
     ]
   },
   "sa-east-1": {
-    "count": 170,
+    "count": 169,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4907,7 +4834,6 @@
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Data Streams",
       "Amazon Kinesis Video Streams",
-      "Amazon Lightsail",
       "Amazon Location Service",
       "Amazon MQ",
       "Amazon Managed Service for Apache Flink",
@@ -5347,7 +5273,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 148,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5376,7 +5302,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -5500,7 +5425,7 @@
     ]
   },
   "us-gov-west-1": {
-    "count": 160,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -5530,7 +5455,6 @@
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConvert",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -5665,7 +5589,7 @@
     ]
   },
   "us-west-1": {
-    "count": 160,
+    "count": 158,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5700,7 +5624,6 @@
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaPackage",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -5712,7 +5635,6 @@
       "AWS IoT Core",
       "AWS IoT Device Defender",
       "AWS IoT Device Management",
-      "AWS IoT Greengrass",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",

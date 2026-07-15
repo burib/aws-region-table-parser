@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 133,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -43,10 +43,8 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
-    "AWS Managed Services (AMS)",
     "AWS Network Firewall",
     "AWS Organizations",
-    "AWS Parallel Computing Service (PCS)",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resource Access Manager (RAM)",
@@ -99,7 +97,6 @@
     "Amazon FSx for NetApp ONTAP",
     "Amazon FSx for OpenZFS",
     "Amazon FSx for Windows File Server",
-    "Amazon GameLift Servers",
     "Amazon GuardDuty",
     "Amazon Inspector",
     "Amazon Kinesis Data Streams",
@@ -122,7 +119,6 @@
     "Amazon Route 53 Private DNS",
     "Amazon Route 53 Public DNS",
     "Amazon SageMaker AI",
-    "Amazon Simple Email Service (SES)",
     "Amazon Simple Notification Service (SNS)",
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",

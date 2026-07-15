@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 158,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -34,7 +34,6 @@
     "AWS Elemental MediaConnect",
     "AWS Elemental MediaConvert",
     "AWS Elemental MediaPackage",
-    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Fault Injection Service",
     "AWS Firewall Manager",
@@ -46,7 +45,6 @@
     "AWS IoT Core",
     "AWS IoT Device Defender",
     "AWS IoT Device Management",
-    "AWS IoT Greengrass",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",

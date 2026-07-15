@@ -1,5 +1,5 @@
 {
-  "count": 146,
+  "count": 143,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -31,7 +31,6 @@
     "AWS Elemental MediaConvert",
     "AWS Elemental MediaLive",
     "AWS Elemental MediaTailor",
-    "AWS End User Messaging",
     "AWS Firewall Manager",
     "AWS Global Accelerator",
     "AWS Glue",
@@ -41,7 +40,6 @@
     "AWS IoT Core",
     "AWS IoT Device Defender",
     "AWS IoT Device Management",
-    "AWS IoT Greengrass",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",
@@ -105,7 +103,6 @@
     "Amazon GameLift Servers",
     "Amazon GuardDuty",
     "Amazon Inspector",
-    "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon Kinesis Video Streams",
     "Amazon Lightsail",

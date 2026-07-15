@@ -1,5 +1,5 @@
 {
-  "count": 184,
+  "count": 183,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -102,7 +102,6 @@
     "Amazon CloudWatch Logs",
     "Amazon Cognito",
     "Amazon Comprehend",
-    "Amazon Connect Customer",
     "Amazon Data Firehose",
     "Amazon DataZone",
     "Amazon Detective",

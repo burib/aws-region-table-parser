@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 145,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -47,7 +47,6 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
-    "AWS Managed Services (AMS)",
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
@@ -81,12 +80,10 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
-    "Amazon Chime SDK",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",
     "Amazon Cognito",
-    "Amazon Connect Customer",
     "Amazon Data Firehose",
     "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",

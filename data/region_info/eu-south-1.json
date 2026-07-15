@@ -1,5 +1,5 @@
 {
-  "count": 152,
+  "count": 149,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -31,7 +31,6 @@
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
-    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Fault Injection Service",
     "AWS Firewall Manager",
@@ -46,7 +45,6 @@
     "AWS Lake Formation",
     "AWS Lambda",
     "AWS License Manager",
-    "AWS Managed Services (AMS)",
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
@@ -119,7 +117,6 @@
     "Amazon Managed Streaming for Apache Kafka (MSK)",
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon MemoryDB",
-    "Amazon Neptune",
     "Amazon OpenSearch Service",
     "Amazon Quick",
     "Amazon RDS Custom for Oracle",
