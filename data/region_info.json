@@ -2217,7 +2217,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 123,
+    "count": 124,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2317,6 +2317,7 @@
       "Amazon Managed Streaming for Apache Kafka (MSK)",
       "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon OpenSearch Service",
+      "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
       "Amazon RDS for MySQL",
       "Amazon RDS for Oracle",
