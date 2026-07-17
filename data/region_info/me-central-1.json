@@ -1,5 +1,5 @@
 {
-  "count": 142,
+  "count": 145,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -32,6 +32,7 @@
     "AWS Elemental MediaConnect",
     "AWS Elemental MediaConvert",
     "AWS Elemental MediaLive",
+    "AWS Elemental MediaPackage",
     "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Fault Injection Service",
@@ -103,8 +104,10 @@
     "Amazon FSx for NetApp ONTAP",
     "Amazon FSx for OpenZFS",
     "Amazon FSx for Windows File Server",
+    "Amazon GameLift Servers",
     "Amazon GuardDuty",
     "Amazon Inspector",
+    "Amazon Interactive Video Service (IVS)",
     "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon MQ",

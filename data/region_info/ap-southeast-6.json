@@ -1,5 +1,5 @@
 {
-  "count": 116,
+  "count": 119,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -8,6 +8,7 @@
     "AWS Backup",
     "AWS Batch",
     "AWS Certificate Manager (ACM)",
+    "AWS Client VPN",
     "AWS Cloud Map",
     "AWS Cloud WAN",
     "AWS CloudFormation",
@@ -38,6 +39,7 @@
     "AWS License Manager",
     "AWS Network Firewall",
     "AWS Organizations",
+    "AWS Outposts",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resource Access Manager (RAM)",
@@ -105,6 +107,7 @@
     "Amazon Route 53 Private DNS",
     "Amazon Route 53 Public DNS",
     "Amazon SageMaker AI",
+    "Amazon Simple Email Service (SES)",
     "Amazon Simple Notification Service (SNS)",
     "Amazon Simple Queue Service (SQS)",
     "Amazon Simple Storage Service (S3)",
