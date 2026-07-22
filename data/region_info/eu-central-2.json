@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 137,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -125,7 +125,6 @@
     "Amazon Simple Email Service (SES)",
     "Amazon Simple Notification Service (SNS)",
     "Amazon Simple Queue Service (SQS)",
-    "Amazon Simple Storage Service (S3)",
     "Amazon Simple Workflow Service (SWF)",
     "Amazon Transcribe",
     "Amazon VPC Lattice",

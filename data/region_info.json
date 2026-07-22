@@ -314,7 +314,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 115,
+    "count": 116,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -337,6 +337,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Disaster Recovery",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -1974,7 +1975,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 148,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2002,6 +2003,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaLive",
@@ -2251,7 +2253,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 130,
+    "count": 131,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2278,6 +2280,7 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
+      "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
@@ -2904,7 +2907,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 138,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3030,7 +3033,6 @@
       "Amazon Simple Email Service (SES)",
       "Amazon Simple Notification Service (SNS)",
       "Amazon Simple Queue Service (SQS)",
-      "Amazon Simple Storage Service (S3)",
       "Amazon Simple Workflow Service (SWF)",
       "Amazon Transcribe",
       "Amazon VPC Lattice",
@@ -4654,7 +4656,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 120,
+    "count": 121,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4676,6 +4678,7 @@
       "AWS Direct Connect",
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
+      "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
