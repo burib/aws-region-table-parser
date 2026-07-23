@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 138,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -93,6 +93,7 @@
     "Amazon Elastic Container Service (ECS)",
     "Amazon Elastic File System (EFS)",
     "Amazon Elastic Kubernetes Service (EKS)",
+    "Amazon Elastic VMware Service (EVS)",
     "Amazon EventBridge",
     "Amazon FSx",
     "Amazon FSx for Lustre",
