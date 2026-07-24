@@ -2130,7 +2130,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 119,
+    "count": 120,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2225,6 +2225,7 @@
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Service for Prometheus",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
       "Amazon RDS for MariaDB",
