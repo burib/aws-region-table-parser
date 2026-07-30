@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 138,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -13,7 +13,6 @@
     "AWS Cloud Map",
     "AWS Cloud WAN",
     "AWS CloudFormation",
-    "AWS CloudHSM",
     "AWS CloudShell",
     "AWS CloudTrail",
     "AWS CodeBuild",

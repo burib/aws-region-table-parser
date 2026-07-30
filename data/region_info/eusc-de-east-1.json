@@ -1,5 +1,5 @@
 {
-  "count": 106,
+  "count": 105,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -9,7 +9,6 @@
     "AWS Certificate Manager (ACM)",
     "AWS Cloud Map",
     "AWS CloudFormation",
-    "AWS CloudHSM",
     "AWS CloudTrail",
     "AWS CodeDeploy",
     "AWS Config",

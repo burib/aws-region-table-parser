@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 147,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -81,7 +81,6 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
-    "Amazon Chime SDK",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "Amazon CloudWatch Logs",

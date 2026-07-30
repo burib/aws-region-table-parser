@@ -314,7 +314,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 116,
+    "count": 115,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -327,7 +327,6 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
-      "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS CodeDeploy",
       "AWS Config",
@@ -628,7 +627,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -687,6 +686,7 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
+      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resilience Hub",
@@ -813,7 +813,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 148,
+    "count": 147,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -895,7 +895,6 @@
       "Amazon Aurora MySQL",
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
-      "Amazon Chime SDK",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "Amazon CloudWatch Logs",
@@ -1832,7 +1831,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 139,
+    "count": 138,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1846,7 +1845,6 @@
       "AWS Cloud Map",
       "AWS Cloud WAN",
       "AWS CloudFormation",
-      "AWS CloudHSM",
       "AWS CloudShell",
       "AWS CloudTrail",
       "AWS CodeBuild",
@@ -1976,7 +1974,7 @@
     ]
   },
   "ap-southeast-5": {
-    "count": 149,
+    "count": 150,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2116,6 +2114,7 @@
       "Amazon Simple Queue Service (SQS)",
       "Amazon Simple Storage Service (S3)",
       "Amazon Simple Workflow Service (SWF)",
+      "Amazon VPC Lattice",
       "Amazon Verified Permissions",
       "Amazon Virtual Private Cloud (VPC)",
       "Amazon WorkSpaces",
@@ -4102,7 +4101,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 106,
+    "count": 105,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4112,7 +4111,6 @@
       "AWS Certificate Manager (ACM)",
       "AWS Cloud Map",
       "AWS CloudFormation",
-      "AWS CloudHSM",
       "AWS CloudTrail",
       "AWS CodeDeploy",
       "AWS Config",
