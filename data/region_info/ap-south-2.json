@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 139,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -112,7 +112,6 @@
     "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
-    "Amazon Personalize",
     "Amazon RDS for Db2",
     "Amazon RDS for MariaDB",
     "Amazon RDS for MySQL",

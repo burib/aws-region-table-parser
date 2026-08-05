@@ -1,5 +1,5 @@
 {
-  "count": 189,
+  "count": 188,
   "serviceNames": [
     "AD Connector",
     "AWS Amplify",
@@ -149,7 +149,6 @@
     "Amazon MemoryDB",
     "Amazon Neptune",
     "Amazon OpenSearch Service",
-    "Amazon Personalize",
     "Amazon Quick",
     "Amazon RDS Custom for Oracle",
     "Amazon RDS Custom for SQL Server",

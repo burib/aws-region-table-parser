@@ -1,5 +1,5 @@
 {
-  "count": 145,
+  "count": 144,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -107,7 +107,6 @@
     "Amazon GameLift Servers",
     "Amazon GuardDuty",
     "Amazon Inspector",
-    "Amazon Interactive Video Service (IVS)",
     "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Data Streams",
     "Amazon MQ",
