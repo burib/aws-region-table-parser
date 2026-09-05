@@ -159,7 +159,7 @@
     ]
   },
   "ap-east-1": {
-    "count": 149,
+    "count": 148,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -190,7 +190,6 @@
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
       "AWS Elemental MediaConnect",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -1686,7 +1685,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 138,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1716,7 +1715,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -1829,7 +1827,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 138,
+    "count": 137,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -1877,7 +1875,6 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
-      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -2251,7 +2248,7 @@
     ]
   },
   "ap-southeast-7": {
-    "count": 131,
+    "count": 130,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2279,7 +2276,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2574,7 +2570,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 131,
+    "count": 130,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2601,7 +2597,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -2905,7 +2900,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 138,
+    "count": 136,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -2934,7 +2929,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -2951,7 +2945,6 @@
       "AWS Network Firewall",
       "AWS Organizations",
       "AWS Outposts",
-      "AWS Parallel Computing Service (PCS)",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
       "AWS Resource Access Manager (RAM)",
@@ -3222,7 +3215,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 151,
+    "count": 150,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -3254,7 +3247,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -3378,7 +3370,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 150,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -3407,7 +3399,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -4207,7 +4198,7 @@
     ]
   },
   "il-central-1": {
-    "count": 141,
+    "count": 140,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4237,7 +4228,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -4502,7 +4492,7 @@
     ]
   },
   "me-south-1": {
-    "count": 145,
+    "count": 144,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -4533,7 +4523,6 @@
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Beanstalk",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",
@@ -4652,7 +4641,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 121,
+    "count": 120,
     "serviceNames": [
       "AD Connector",
       "AWS AppConfig",
@@ -4675,7 +4664,6 @@
       "AWS Directory Service",
       "AWS Directory Service for Microsoft Active Directory",
       "AWS Elastic Disaster Recovery",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Firewall Manager",
       "AWS Global Accelerator",
@@ -5659,7 +5647,7 @@
     ]
   },
   "us-west-1": {
-    "count": 160,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "AWS Amplify",
@@ -5694,7 +5682,6 @@
       "AWS Elemental MediaConnect",
       "AWS Elemental MediaConvert",
       "AWS Elemental MediaPackage",
-      "AWS Elemental MediaTailor",
       "AWS End User Messaging",
       "AWS Fault Injection Service",
       "AWS Firewall Manager",

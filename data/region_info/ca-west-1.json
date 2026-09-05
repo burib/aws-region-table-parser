@@ -1,5 +1,5 @@
 {
-  "count": 131,
+  "count": 130,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -26,7 +26,6 @@
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
-    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Firewall Manager",
     "AWS Global Accelerator",

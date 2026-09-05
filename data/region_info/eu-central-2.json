@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 136,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -28,7 +28,6 @@
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
     "AWS Elastic Disaster Recovery",
-    "AWS Elemental MediaTailor",
     "AWS End User Messaging",
     "AWS Fault Injection Service",
     "AWS Firewall Manager",
@@ -45,7 +44,6 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
-    "AWS Parallel Computing Service (PCS)",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
     "AWS Resource Access Manager (RAM)",
