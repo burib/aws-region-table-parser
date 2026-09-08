@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 140,
   "serviceNames": [
     "AD Connector",
     "AWS AppConfig",
@@ -85,6 +85,7 @@
     "Amazon Data Firehose",
     "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
+    "Amazon DynamoDB Accelerator",
     "Amazon EC2 Auto Scaling",
     "Amazon EC2 Image Builder",
     "Amazon EMR",
