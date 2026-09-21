@@ -22,8 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/burib/aws-region-table-parser/issues"
-  },
-  "devDependencies": {
-    "request": "2.88.2"
   }
 }
