@@ -1,5 +1,5 @@
 {
-  "count": 179,
+  "count": 180,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -161,6 +161,7 @@
     "Security Hub CSPM",
     "Service Quotas",
     "Amazon Elastic VMware Service (EVS)",
+    "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Video Streams",
     "Amazon Lightsail",
     "Amazon Location Service",

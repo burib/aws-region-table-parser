@@ -1,5 +1,5 @@
 {
-  "count": 180,
+  "count": 181,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -165,6 +165,7 @@
     "Service Quotas",
     "Amazon Elastic VMware Service (EVS)",
     "Amazon GameLift Servers",
+    "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Managed Service for Prometheus",
     "Amazon S3 on Outposts",
     "Amazon Security Lake",

@@ -1,5 +1,5 @@
 {
-  "count": 166,
+  "count": 167,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -155,6 +155,7 @@
     "Security Hub",
     "Security Hub CSPM",
     "Service Quotas",
+    "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Lightsail",
     "Amazon Managed Service for Prometheus",
     "Amazon S3 on Outposts",

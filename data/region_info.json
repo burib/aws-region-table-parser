@@ -968,7 +968,7 @@
     ]
   },
   "ap-northeast-3": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -1134,6 +1134,7 @@
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon GameLift Servers",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon S3 on Outposts",
       "Amazon Security Lake",
@@ -1372,7 +1373,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 168,
+    "count": 169,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -1530,6 +1531,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Verified Permissions",
       "AWS Application Migration Service",
@@ -2005,7 +2007,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 166,
+    "count": 167,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -2161,6 +2163,7 @@
       "Security Hub",
       "Security Hub CSPM",
       "Service Quotas",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Lightsail",
       "Amazon Managed Service for Prometheus",
       "Amazon S3 on Outposts",
@@ -2176,7 +2179,7 @@
     ]
   },
   "ap-southeast-4": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -2335,6 +2338,7 @@
       "Security Hub",
       "Security Hub CSPM",
       "Service Quotas",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Verified Permissions",
       "AWS Application Migration Service",
@@ -3073,7 +3077,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 160,
+    "count": 161,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3226,6 +3230,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Verified Permissions",
       "AWS Application Migration Service",
@@ -3467,7 +3472,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3627,6 +3632,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Transcribe",
       "Amazon Verified Permissions",
@@ -3848,7 +3854,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4013,6 +4019,7 @@
       "Amazon Detective",
       "Amazon Elastic VMware Service (EVS)",
       "Amazon GameLift Servers",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon MemoryDB",
       "Amazon S3 on Outposts",
@@ -4033,7 +4040,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 179,
+    "count": 180,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4195,6 +4202,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Video Streams",
       "Amazon Lightsail",
       "Amazon Location Service",
@@ -5016,7 +5024,7 @@
     ]
   },
   "il-central-1": {
-    "count": 170,
+    "count": 171,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5171,6 +5179,7 @@
       "Amazon Chime SDK",
       "Amazon Detective",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Video Streams",
       "Amazon Managed Service for Prometheus",
       "Amazon Rekognition",
@@ -5543,7 +5552,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 148,
+    "count": 149,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5688,6 +5697,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Verified Permissions",
       "AWS Application Migration Service",
