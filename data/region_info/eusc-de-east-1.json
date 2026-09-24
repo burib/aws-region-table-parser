@@ -127,7 +127,7 @@
     "Route53 EC2 DNS",
     "Security Hub CSPM",
     "Service Quotas",
-    "AWS Elastic Disaster Recovery",
+    "AWS Elastic Disaster Recovery (DRS)",
     "AWS End User Messaging"
   ]
 }

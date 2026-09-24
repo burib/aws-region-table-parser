@@ -141,8 +141,8 @@
     "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Managed Service for Prometheus",
     "Amazon Verified Permissions",
-    "AWS Application Migration Service",
-    "AWS Elastic Disaster Recovery",
+    "AWS Application Migration Service (MGN)",
+    "AWS Elastic Disaster Recovery (DRS)",
     "AWS End User Messaging"
   ]
 }
