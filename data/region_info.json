@@ -748,7 +748,7 @@
     ]
   },
   "ap-northeast-2": {
-    "count": 215,
+    "count": 216,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -862,6 +862,7 @@
       "AWS Control Tower",
       "AWS Database Migration Service (AWS DMS)",
       "AWS DataSync",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Directory Service",
       "AD Connector",
@@ -3243,7 +3244,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 224,
+    "count": 225,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3468,7 +3469,8 @@
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
       "AWS End User Messaging",
-      "AWS Wickr"
+      "AWS Wickr",
+      "Kiro"
     ]
   },
   "eu-central-2": {
@@ -3647,7 +3649,7 @@
     ]
   },
   "eu-north-1": {
-    "count": 202,
+    "count": 203,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3758,6 +3760,7 @@
       "AWS Control Tower",
       "AWS Database Migration Service (AWS DMS)",
       "AWS DataSync",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Interconnect",
       "AWS Directory Service",
@@ -4682,7 +4685,7 @@
     ]
   },
   "eu-west-3": {
-    "count": 204,
+    "count": 205,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4793,6 +4796,7 @@
       "AWS Control Tower",
       "AWS Database Migration Service (AWS DMS)",
       "AWS DataSync",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Interconnect",
       "AWS Directory Service",
@@ -5914,7 +5918,7 @@
     ]
   },
   "us-east-1": {
-    "count": 232,
+    "count": 233,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6147,7 +6151,8 @@
       "Amazon WorkSpaces Applications",
       "AWS B2B Data Interchange",
       "AWS End User Messaging",
-      "AWS Wickr"
+      "AWS Wickr",
+      "Kiro"
     ]
   },
   "us-east-2": {
@@ -6374,7 +6379,7 @@
     ]
   },
   "us-gov-east-1": {
-    "count": 173,
+    "count": 174,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6548,11 +6553,12 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
-      "AWS End User Messaging"
+      "AWS End User Messaging",
+      "Kiro"
     ]
   },
   "us-gov-west-1": {
-    "count": 187,
+    "count": 188,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6740,7 +6746,8 @@
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
       "AWS End User Messaging",
-      "AWS Wickr"
+      "AWS Wickr",
+      "Kiro"
     ]
   },
   "us-west-1": {

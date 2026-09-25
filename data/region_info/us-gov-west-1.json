@@ -1,5 +1,5 @@
 {
-  "count": 187,
+  "count": 188,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -187,6 +187,7 @@
     "Amazon WorkSpaces",
     "Amazon WorkSpaces Applications",
     "AWS End User Messaging",
-    "AWS Wickr"
+    "AWS Wickr",
+    "Kiro"
   ]
 }

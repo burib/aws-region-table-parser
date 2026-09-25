@@ -1,5 +1,5 @@
 {
-  "count": 215,
+  "count": 216,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -113,6 +113,7 @@
     "AWS Control Tower",
     "AWS Database Migration Service (AWS DMS)",
     "AWS DataSync",
+    "AWS DevOps Agent",
     "AWS Direct Connect",
     "AWS Directory Service",
     "AD Connector",
