@@ -1,5 +1,5 @@
 {
-  "count": 171,
+  "count": 172,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -154,6 +154,7 @@
     "Amazon Chime SDK",
     "Amazon Detective",
     "Amazon Elastic VMware Service (EVS)",
+    "Amazon GameLift Servers",
     "Amazon Keyspaces (for Apache Cassandra)",
     "Amazon Kinesis Video Streams",
     "Amazon Managed Service for Prometheus",

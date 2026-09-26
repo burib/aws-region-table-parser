@@ -1374,7 +1374,7 @@
     ]
   },
   "ap-south-2": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -1532,6 +1532,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon GameLift Servers",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Verified Permissions",
@@ -2008,7 +2009,7 @@
     ]
   },
   "ap-southeast-3": {
-    "count": 167,
+    "count": 168,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -2164,6 +2165,7 @@
       "Security Hub",
       "Security Hub CSPM",
       "Service Quotas",
+      "Amazon GameLift Servers",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Lightsail",
       "Amazon Managed Service for Prometheus",
@@ -4043,7 +4045,7 @@
     ]
   },
   "eu-south-2": {
-    "count": 180,
+    "count": 181,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4205,6 +4207,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon GameLift Servers",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Video Streams",
       "Amazon Lightsail",
@@ -5028,7 +5031,7 @@
     ]
   },
   "il-central-1": {
-    "count": 171,
+    "count": 172,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5183,6 +5186,7 @@
       "Amazon Chime SDK",
       "Amazon Detective",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon GameLift Servers",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Kinesis Video Streams",
       "Amazon Managed Service for Prometheus",
@@ -5556,7 +5560,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 149,
+    "count": 150,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5701,6 +5705,7 @@
       "Security Hub CSPM",
       "Service Quotas",
       "Amazon Elastic VMware Service (EVS)",
+      "Amazon GameLift Servers",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
       "Amazon Verified Permissions",
