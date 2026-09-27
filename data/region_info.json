@@ -6161,7 +6161,7 @@
     ]
   },
   "us-east-2": {
-    "count": 218,
+    "count": 219,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6273,6 +6273,7 @@
       "AWS Control Tower",
       "AWS Database Migration Service (AWS DMS)",
       "AWS DataSync",
+      "AWS DevOps Agent",
       "AWS Direct Connect",
       "AWS Interconnect",
       "AWS Directory Service",
