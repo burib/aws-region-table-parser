@@ -1,5 +1,5 @@
 {
-  "count": 174,
+  "count": 176,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -18,6 +18,8 @@
     "Amazon Data Firehose",
     "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
+    "Amazon DynamoDB Accelerator",
+    "Amazon DynamoDB Accelerator",
     "Amazon EC2 Auto Scaling",
     "Amazon EC2 Image Builder",
     "Amazon Elastic Block Store (EBS)",
@@ -99,6 +101,7 @@
     "AWS Direct Connect",
     "AWS Directory Service",
     "AD Connector",
+    "AWS Directory Service",
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Directory Service for Microsoft Active Directory",
     "AWS Elastic Beanstalk",
@@ -127,7 +130,6 @@
     "AWS Secrets Manager",
     "AWS Security Hub",
     "Security Hub",
-    "Security Hub CSPM",
     "AWS Security Token Service (STS)",
     "AWS Shield",
     "AWS Signer",

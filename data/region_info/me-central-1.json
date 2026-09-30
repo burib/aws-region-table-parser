@@ -1,5 +1,5 @@
 {
-  "count": 171,
+  "count": 170,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -131,7 +131,6 @@
     "AWS Secrets Manager",
     "AWS Security Hub",
     "Security Hub",
-    "Security Hub CSPM",
     "AWS Security Incident Response",
     "AWS Security Token Service (STS)",
     "AWS Shield",
