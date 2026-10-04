@@ -3065,7 +3065,7 @@
     ]
   },
   "ca-west-1": {
-    "count": 160,
+    "count": 159,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3223,7 +3223,6 @@
       "AWS Application Migration Service (MGN)",
       "AWS CloudShell",
       "AWS Elastic Disaster Recovery (DRS)",
-      "AWS IoT Device Management",
       "AWS Service Catalog",
       "Amazon WorkSpaces Applications",
       "AWS End User Messaging"
