@@ -3,20 +3,20 @@ Currently AWS has no public information about the number of services it provides
 This project is intended to provide a [human readable MARKDOWN](https://github.com/burib/aws-region-table-parser/blob/master/README.md) and a [machine readable JSON](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/region_info.json) format about the [service](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/service_info.json) and [per region statistics](https://github.com/burib/aws-region-table-parser/tree/master/data/region_info).
 
 <!--START_SECTION:region_summary-->
-### 198 Services
+### 199 Services
 
 ###  37 Regions 
 ### Summary # 
 | Region Code | Region Name | no. of Supported Services | 
 | ------ | -------- | -------- | 
-| [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 232 |
+| [us-east-1](./data/region_info/us-east-1.json) | US East (N. Virginia) | 233 |
 | [us-west-2](./data/region_info/us-west-2.json) | US West (Oregon) | 228 |
 | [ap-southeast-2](./data/region_info/ap-southeast-2.json) | Asia Pacific (Sydney) | 225 |
 | [eu-central-1](./data/region_info/eu-central-1.json) | Europe (Frankfurt) | 224 |
 | [ap-southeast-1](./data/region_info/ap-southeast-1.json) | Asia Pacific (Singapore) | 223 |
 | [eu-west-1](./data/region_info/eu-west-1.json) | Europe (Ireland) | 223 |
-| [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 222 |
 | [eu-west-2](./data/region_info/eu-west-2.json) | Europe (London) | 222 |
+| [ap-northeast-1](./data/region_info/ap-northeast-1.json) | Asia Pacific (Tokyo) | 222 |
 | [us-east-2](./data/region_info/us-east-2.json) | US East (Ohio) | 218 |
 | [ca-central-1](./data/region_info/ca-central-1.json) | Canada (Central) | 217 |
 | [ap-northeast-2](./data/region_info/ap-northeast-2.json) | Asia Pacific (Seoul) | 215 |
@@ -24,12 +24,12 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | [eu-west-3](./data/region_info/eu-west-3.json) | Europe (Paris) | 204 |
 | [eu-north-1](./data/region_info/eu-north-1.json) | Europe (Stockholm) | 202 |
 | [sa-east-1](./data/region_info/sa-east-1.json) | South America (São Paulo) | 202 |
-| [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 189 |
 | [us-west-1](./data/region_info/us-west-1.json) | US West (N. California) | 189 |
+| [us-gov-west-1](./data/region_info/us-gov-west-1.json) | AWS GovCloud (US-West) | 189 |
 | [af-south-1](./data/region_info/af-south-1.json) | Africa (Cape Town) | 184 |
-| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 180 |
-| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 180 |
 | [ap-northeast-3](./data/region_info/ap-northeast-3.json) | Asia Pacific (Osaka) | 180 |
+| [eu-south-1](./data/region_info/eu-south-1.json) | Europe (Milan) | 180 |
+| [eu-south-2](./data/region_info/eu-south-2.json) | Europe (Spain) | 180 |
 | [ap-southeast-5](./data/region_info/ap-southeast-5.json) | Asia Pacific (Malaysia) | 178 |
 | [us-gov-east-1](./data/region_info/us-gov-east-1.json) | AWS GovCloud (US-East) | 176 |
 | [ap-east-1](./data/region_info/ap-east-1.json) | Asia Pacific (Hong Kong) | 176 |
@@ -50,7 +50,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 
 ### Number of Supported Services Per Region
 
-<img src='https://quickchart.io/chart/render/zf-0b65d536-df17-4ff6-8aa1-4ad6c3c92cbb'>
+<img src='https://quickchart.io/chart/render/zf-4dae4ae7-14ff-4432-8680-cc9e6c9c367b'>
 
 # Region and Service Table # 
 | Service | af-south-1 | ap-east-1 | ap-east-2 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-south-2 | ap-southeast-1 | ap-southeast-2 | ap-southeast-3 | ap-southeast-4 | ap-southeast-5 | ap-southeast-6 | ap-southeast-7 | ca-central-1 | ca-west-1 | eu-central-1 | eu-central-2 | eu-north-1 | eu-south-1 | eu-south-2 | eu-west-1 | eu-west-2 | eu-west-3 | eusc-de-east-1 | il-central-1 | me-central-1 | me-south-1 | mx-central-1 | sa-east-1 | us-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2 |
@@ -116,6 +116,7 @@ This project is intended to provide a [human readable MARKDOWN](https://github.c
 | AWS License Manager | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Managed Services (AMS) | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Network Firewall | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| AWS Network Security Manager | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
 | AWS Organizations | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Outposts | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | AWS Parallel Computing Service (PCS) | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
