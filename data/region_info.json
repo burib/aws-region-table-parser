@@ -4873,7 +4873,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 127,
+    "count": 128,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4976,6 +4976,7 @@
       "AWS Lambda",
       "AWS License Manager",
       "AWS Network Firewall",
+      "AWS Network Security Manager",
       "AWS Organizations",
       "AWS Private Certificate Authority",
       "AWS PrivateLink",
