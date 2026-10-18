@@ -518,7 +518,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 222,
+    "count": 223,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -657,6 +657,7 @@
       "AWS License Manager",
       "AWS Managed Services (AMS)",
       "AWS Network Firewall",
+      "AWS Network Security Manager",
       "AWS Organizations",
       "AWS Outposts",
       "AWS Parallel Computing Service (PCS)",
