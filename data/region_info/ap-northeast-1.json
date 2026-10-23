@@ -1,5 +1,5 @@
 {
-  "count": 223,
+  "count": 224,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -194,6 +194,7 @@
     "Amazon S3 on Outposts",
     "Amazon SageMaker Ground Truth",
     "Amazon Security Lake",
+    "Amazon Textract",
     "Amazon Transcribe",
     "Amazon Translate",
     "Amazon Verified Permissions",

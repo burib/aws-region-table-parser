@@ -518,7 +518,7 @@
     ]
   },
   "ap-northeast-1": {
-    "count": 223,
+    "count": 224,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -713,6 +713,7 @@
       "Amazon S3 on Outposts",
       "Amazon SageMaker Ground Truth",
       "Amazon Security Lake",
+      "Amazon Textract",
       "Amazon Transcribe",
       "Amazon Translate",
       "Amazon Verified Permissions",
@@ -2853,7 +2854,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 217,
+    "count": 219,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -2868,6 +2869,8 @@
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
       "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Registry",
+      "Amazon Bedrock AgentCore Registry",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "AWS X-Ray",
@@ -3239,7 +3242,7 @@
     ]
   },
   "eu-central-1": {
-    "count": 225,
+    "count": 227,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3254,6 +3257,8 @@
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
       "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Registry",
+      "Amazon Bedrock AgentCore Registry",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "AWS X-Ray",
@@ -3469,7 +3474,7 @@
     ]
   },
   "eu-central-2": {
-    "count": 169,
+    "count": 170,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3630,6 +3635,7 @@
       "Amazon Elastic VMware Service (EVS)",
       "Amazon Keyspaces (for Apache Cassandra)",
       "Amazon Managed Service for Prometheus",
+      "Amazon Textract",
       "Amazon Transcribe",
       "Amazon Verified Permissions",
       "AWS Application Migration Service (MGN)",
@@ -4451,7 +4457,7 @@
     ]
   },
   "eu-west-2": {
-    "count": 222,
+    "count": 224,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4466,6 +4472,8 @@
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
       "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Registry",
+      "Amazon Bedrock AgentCore Registry",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "AWS X-Ray",
@@ -5546,7 +5554,7 @@
     ]
   },
   "mx-central-1": {
-    "count": 149,
+    "count": 150,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5595,6 +5603,7 @@
       "Amazon Kinesis Data Streams",
       "Amazon Managed Service for Apache Flink",
       "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "Amazon MQ",
       "Amazon OpenSearch Service",
       "Amazon RDS for Db2",
@@ -6145,7 +6154,7 @@
     ]
   },
   "us-east-2": {
-    "count": 219,
+    "count": 221,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6160,6 +6169,8 @@
       "Amazon Aurora PostgreSQL",
       "Amazon Bedrock",
       "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Registry",
+      "Amazon Bedrock AgentCore Registry",
       "Amazon CloudFront",
       "Amazon CloudWatch",
       "AWS X-Ray",

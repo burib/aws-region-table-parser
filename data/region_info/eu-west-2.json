@@ -1,5 +1,5 @@
 {
-  "count": 222,
+  "count": 224,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -14,6 +14,8 @@
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock",
     "Amazon Bedrock AgentCore",
+    "Amazon Bedrock AgentCore Registry",
+    "Amazon Bedrock AgentCore Registry",
     "Amazon CloudFront",
     "Amazon CloudWatch",
     "AWS X-Ray",

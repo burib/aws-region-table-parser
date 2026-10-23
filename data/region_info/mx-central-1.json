@@ -1,5 +1,5 @@
 {
-  "count": 149,
+  "count": 150,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -48,6 +48,7 @@
     "Amazon Kinesis Data Streams",
     "Amazon Managed Service for Apache Flink",
     "Amazon Managed Streaming for Apache Kafka (MSK)",
+    "Amazon Managed Workflows for Apache Airflow (MWAA)",
     "Amazon MQ",
     "Amazon OpenSearch Service",
     "Amazon RDS for Db2",
