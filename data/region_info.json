@@ -3859,7 +3859,7 @@
     ]
   },
   "eu-south-1": {
-    "count": 180,
+    "count": 182,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3965,6 +3965,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS DataSync",
       "AWS Direct Connect",
+      "AWS Interconnect",
       "AWS Directory Service",
       "AD Connector",
       "AWS Directory Service for Microsoft Active Directory",
@@ -3979,6 +3980,7 @@
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS Security Token Service (STS)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
+      "AWS Interconnect",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
