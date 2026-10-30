@@ -1,5 +1,5 @@
 {
-  "count": 219,
+  "count": 220,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -142,6 +142,7 @@
     "AWS Network Firewall",
     "AWS Organizations",
     "AWS Outposts",
+    "AWS Parallel Computing Service (PCS)",
     "AWS Payment Cryptography",
     "AWS Private Certificate Authority",
     "AWS PrivateLink",
