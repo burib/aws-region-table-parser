@@ -4902,7 +4902,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 128,
+    "count": 129,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4985,6 +4985,7 @@
       "AWS CloudFormation",
       "AWS CloudTrail",
       "AWS CodeDeploy",
+      "AWS CodePipeline",
       "AWS Config",
       "AWS Control Tower",
       "AWS Database Migration Service (AWS DMS)",
