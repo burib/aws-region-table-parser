@@ -2858,7 +2858,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 220,
+    "count": 219,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3077,7 +3077,6 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
-      "AWS B2B Data Interchange",
       "AWS End User Messaging",
       "AWS Wickr"
     ]
@@ -4235,7 +4234,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 224,
+    "count": 223,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4459,7 +4458,6 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
-      "AWS B2B Data Interchange",
       "AWS End User Messaging"
     ]
   },
@@ -5925,7 +5923,7 @@
     ]
   },
   "us-east-1": {
-    "count": 233,
+    "count": 232,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6156,14 +6154,13 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
-      "AWS B2B Data Interchange",
       "AWS End User Messaging",
       "AWS Wickr",
       "Kiro"
     ]
   },
   "us-east-2": {
-    "count": 221,
+    "count": 220,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6384,7 +6381,6 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
-      "AWS B2B Data Interchange",
       "AWS End User Messaging"
     ]
   },
@@ -6958,7 +6954,7 @@
     ]
   },
   "us-west-2": {
-    "count": 229,
+    "count": 228,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -7187,7 +7183,6 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
-      "AWS B2B Data Interchange",
       "AWS End User Messaging"
     ]
   }

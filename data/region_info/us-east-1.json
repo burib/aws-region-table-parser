@@ -1,5 +1,5 @@
 {
-  "count": 233,
+  "count": 232,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -230,7 +230,6 @@
     "Amazon Quick",
     "Amazon WorkSpaces",
     "Amazon WorkSpaces Applications",
-    "AWS B2B Data Interchange",
     "AWS End User Messaging",
     "AWS Wickr",
     "Kiro"
