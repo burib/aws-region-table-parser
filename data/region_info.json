@@ -371,7 +371,7 @@
     ]
   },
   "ap-east-2": {
-    "count": 144,
+    "count": 145,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -389,6 +389,7 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Data Firehose",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon DynamoDB Accelerator",
       "Amazon DynamoDB Accelerator",
@@ -2542,7 +2543,7 @@
     ]
   },
   "ap-southeast-6": {
-    "count": 148,
+    "count": 151,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -2560,6 +2561,7 @@
       "Amazon CloudWatch Logs",
       "Amazon Cognito",
       "Amazon Data Firehose",
+      "Amazon DocumentDB (with MongoDB compatibility)",
       "Amazon DynamoDB",
       "Amazon DynamoDB Accelerator",
       "Amazon DynamoDB Accelerator",
@@ -2638,6 +2640,7 @@
       "AWS Database Migration Service (AWS DMS)",
       "AWS DataSync",
       "AWS Direct Connect",
+      "AWS Interconnect",
       "AWS Directory Service",
       "AD Connector",
       "AWS Directory Service for Microsoft Active Directory",
@@ -2651,6 +2654,7 @@
       "AWS Identity and Access Management (IAM) Access Analyzer",
       "AWS Security Token Service (STS)",
       "AWS Identity and Access Management (IAM) Access Analyzer",
+      "AWS Interconnect",
       "AWS Key Management Service (KMS)",
       "AWS Lake Formation",
       "AWS Lambda",
@@ -2858,7 +2862,7 @@
     ]
   },
   "ca-central-1": {
-    "count": 219,
+    "count": 220,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -3077,6 +3081,7 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
+      "AWS B2B Data Interchange",
       "AWS End User Messaging",
       "AWS Wickr"
     ]
@@ -4234,7 +4239,7 @@
     ]
   },
   "eu-west-1": {
-    "count": 223,
+    "count": 224,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -4458,6 +4463,7 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
+      "AWS B2B Data Interchange",
       "AWS End User Messaging"
     ]
   },
@@ -4900,7 +4906,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 130,
+    "count": 131,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5030,6 +5036,7 @@
       "Route53 EC2 DNS",
       "Security Hub CSPM",
       "Service Quotas",
+      "Amazon Verified Permissions",
       "AWS Elastic Disaster Recovery (DRS)",
       "AWS End User Messaging"
     ]
@@ -5923,7 +5930,7 @@
     ]
   },
   "us-east-1": {
-    "count": 232,
+    "count": 233,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6154,13 +6161,14 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
+      "AWS B2B Data Interchange",
       "AWS End User Messaging",
       "AWS Wickr",
       "Kiro"
     ]
   },
   "us-east-2": {
-    "count": 220,
+    "count": 221,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -6381,6 +6389,7 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
+      "AWS B2B Data Interchange",
       "AWS End User Messaging"
     ]
   },
@@ -6954,7 +6963,7 @@
     ]
   },
   "us-west-2": {
-    "count": 228,
+    "count": 229,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -7183,6 +7192,7 @@
       "Amazon Quick",
       "Amazon WorkSpaces",
       "Amazon WorkSpaces Applications",
+      "AWS B2B Data Interchange",
       "AWS End User Messaging"
     ]
   }

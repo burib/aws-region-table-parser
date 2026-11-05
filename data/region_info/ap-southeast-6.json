@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 151,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -17,6 +17,7 @@
     "Amazon CloudWatch Logs",
     "Amazon Cognito",
     "Amazon Data Firehose",
+    "Amazon DocumentDB (with MongoDB compatibility)",
     "Amazon DynamoDB",
     "Amazon DynamoDB Accelerator",
     "Amazon DynamoDB Accelerator",
@@ -95,6 +96,7 @@
     "AWS Database Migration Service (AWS DMS)",
     "AWS DataSync",
     "AWS Direct Connect",
+    "AWS Interconnect",
     "AWS Directory Service",
     "AD Connector",
     "AWS Directory Service for Microsoft Active Directory",
@@ -108,6 +110,7 @@
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS Security Token Service (STS)",
     "AWS Identity and Access Management (IAM) Access Analyzer",
+    "AWS Interconnect",
     "AWS Key Management Service (KMS)",
     "AWS Lake Formation",
     "AWS Lambda",

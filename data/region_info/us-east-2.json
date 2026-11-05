@@ -1,5 +1,5 @@
 {
-  "count": 220,
+  "count": 221,
   "serviceNames": [
     "AD Connector",
     "Amazon API Gateway",
@@ -220,6 +220,7 @@
     "Amazon Quick",
     "Amazon WorkSpaces",
     "Amazon WorkSpaces Applications",
+    "AWS B2B Data Interchange",
     "AWS End User Messaging"
   ]
 }
