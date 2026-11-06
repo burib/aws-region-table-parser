@@ -4906,7 +4906,7 @@
     ]
   },
   "eusc-de-east-1": {
-    "count": 131,
+    "count": 132,
     "serviceNames": [
       "AD Connector",
       "Amazon API Gateway",
@@ -5036,6 +5036,7 @@
       "Route53 EC2 DNS",
       "Security Hub CSPM",
       "Service Quotas",
+      "Amazon Transcribe",
       "Amazon Verified Permissions",
       "AWS Elastic Disaster Recovery (DRS)",
       "AWS End User Messaging"
