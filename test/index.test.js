@@ -51,3 +51,28 @@ test('an exact name wins over the short form ("Security Hub" vs "AWS Security Hu
   if (!names.includes('Security Hub') || !names.includes('AWS Security Hub')) return; // data changed upstream
   assert.notDeepEqual(await parser.getRegionsForService('security hub'), await parser.getRegionsForService('AWS Security Hub'));
 });
+
+test('AWS China: services in a China region use AWS China names', async () => {
+  const china = await parser.getChina();
+  if (!china.regionCodes.length) return; // no China data
+  const services = await parser.getServicesInRegion('cn-north-1');
+  assert.ok(services.length > 50);
+  assert.ok(services.includes('Amazon API Gateway'));
+});
+
+test('AWS China: availability and regions for a service with the same name', async () => {
+  const china = await parser.getChina();
+  if (!china.services['Amazon API Gateway']) return; // data changed upstream
+  assert.equal(await parser.isServiceAvailable('Amazon API Gateway', 'cn-north-1'), true);
+  assert.ok((await parser.getRegionsForService('Amazon API Gateway')).includes('cn-north-1'));
+  assert.equal(await parser.isServiceAvailable('Not A Real Service', 'cn-north-1'), false);
+});
+
+test('AWS China: a name only AWS China uses still returns its China regions', async () => {
+  const china = await parser.getChina();
+  const globalNames = new Set(await parser.getServiceNames());
+  const chinaOnly = Object.keys(china.services).find((n) => !globalNames.has(n) && !n.includes('('));
+  if (!chinaOnly) return;
+  const regions = await parser.getRegionsForService(chinaOnly);
+  assert.ok(regions.length > 0 && regions.every((r) => r.startsWith('cn-')));
+});

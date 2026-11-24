@@ -12,6 +12,7 @@ const escapeXml = (text) => String(text).replace(/[<>&"']/g, (c) => `&#${c.charC
 const REGION_FLAGS = {
   'us-east-1': 'us', 'us-east-2': 'us', 'us-west-1': 'us', 'us-west-2': 'us', 'us-gov-east-1': 'us', 'us-gov-west-1': 'us',
   'ca-central-1': 'ca', 'ca-west-1': 'ca', 'mx-central-1': 'mx', 'sa-east-1': 'br',
+  'cn-north-1': 'cn', 'cn-northwest-1': 'cn',
   'eu-central-1': 'de', 'eu-central-2': 'ch', 'eu-west-1': 'ie', 'eu-west-2': 'gb', 'eu-west-3': 'fr',
   'eu-north-1': 'se', 'eu-south-1': 'it', 'eu-south-2': 'es', 'eusc-de-east-1': 'eu',
   'af-south-1': 'za', 'il-central-1': 'il', 'me-central-1': 'ae', 'me-south-1': 'bh',

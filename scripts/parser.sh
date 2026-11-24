@@ -14,7 +14,8 @@ function deploy() {
       # release notes: what changed between the last committed data and the new data
       local NOTES VERSION
       NOTES=$(mktemp)
-      node "$DIR/changelog.js" <(git show HEAD:data/service_info.json) "$DATA_DIR/service_info.json" > "$NOTES"
+      node "$DIR/changelog.js" <(git show HEAD:data/service_info.json) "$DATA_DIR/service_info.json" \
+        <(git show HEAD:data/china.json 2>/dev/null || true) "$DATA_DIR/china.json" > "$NOTES"
       cat "$NOTES"
       git config --global user.email "action@github.com"
       git config --global user.name "GitHub Action"
@@ -88,6 +89,8 @@ function update_data() {
 
   echo -e "\033[0;32mDone. region_info/*.json \033[0m"
 
+  # AWS China is not in the global feed; add it from amazonaws.cn (keeps the last copy if that fails)
+  node "$DIR/china.js"
 }
 
 "$@"

@@ -84,12 +84,19 @@ const isSafeUrl = (url) => typeof url === 'string' && /^https?:\/\/[^\s()<>]+$/.
 
 const ASSETS_DIR = path.join(__dirname, 'assets');
 const README_FILE = path.join(__dirname, 'README.md');
+const CHINA_FILE = path.join(__dirname, 'data', 'china.json');
+
+// AWS China (Beijing, Ningxia) comes from amazonaws.cn with its own service names; see scripts/china.js
+const readChina = () => (fs.existsSync(CHINA_FILE) ? JSON.parse(fs.readFileSync(CHINA_FILE, 'utf8')) : null);
 
 // [{ code, name, count }] sorted by count, most services first
-function getRegionSummary(data, regionNames) {
+function getRegionSummary(data, regionNames, china) {
  const counts = {};
  Object.values(data.services).forEach(service => {
    new Set(service.regions).forEach(code => { counts[code] = (counts[code] || 0) + 1; });
+ });
+ Object.values(china ? china.services : {}).forEach(regions => {
+   new Set(regions).forEach(code => { counts[code] = (counts[code] || 0) + 1; });
  });
  return Object.entries(counts)
    .map(([code, count]) => ({ code, name: regionNames[code] || code, count }))
@@ -105,11 +112,12 @@ function describeRegions(regions, allRegions) {
  return regions.join(', ');
 }
 
-function buildReadmeSection(data, regionSummary) {
+function buildReadmeSection(data, regionSummary, china) {
  const allRegions = data.regionCodes;
  const lines = [];
 
- lines.push(`**${data.servicesCount} services** in **${data.regionsCount} regions** · data as of ${new Date().toISOString().slice(0, 10)}`, '');
+ const chinaNote = china ? `, plus [AWS China](#aws-china) with ${china.servicesCount} services in ${china.regionCodes.length} regions` : '';
+ lines.push(`**${data.servicesCount} services** in **${data.regionsCount} regions**${chinaNote} · data as of ${new Date().toISOString().slice(0, 10)}`, '');
 
  lines.push('## Services per region', '');
  lines.push('<p>', '<picture>');
@@ -132,6 +140,16 @@ function buildReadmeSection(data, regionSummary) {
      lines.push(`| ${name} | ${s.regions.length} | ${describeRegions(s.regions, allRegions)} |`);
    });
 
+ if (china) {
+   const [beijing, ningxia] = ['cn-north-1', 'cn-northwest-1'];
+   lines.push('', '## AWS China', '');
+   lines.push(`Beijing (${beijing}) and Ningxia (${ningxia}) are not in AWS's global data. This list comes from [AWS China](${china.source}) and uses its own service names, which often differ from the names above.`, '');
+   lines.push('| Service | Beijing | Ningxia |', '| --- | :---: | :---: |');
+   Object.entries(china.services).forEach(([name, regions]) => {
+     lines.push(`| ${md(name)} | ${regions.includes(beijing) ? '✓' : ''} | ${regions.includes(ningxia) ? '✓' : ''} |`);
+   });
+ }
+
  return lines.join('\n');
 }
 
@@ -141,7 +159,8 @@ async function main() {
    const regionNames = await resolveRegionNames();
 
    const data = await awsRegionTableParser.get();
-   const regionSummary = getRegionSummary(data, regionNames);
+   const china = readChina();
+   const regionSummary = getRegionSummary(data, regionNames, china);
 
    fs.mkdirSync(ASSETS_DIR, { recursive: true });
    THEMES.forEach(theme => {
@@ -149,7 +168,7 @@ async function main() {
    });
    console.log('Charts written');
 
-   const section = buildReadmeSection(data, regionSummary);
+   const section = buildReadmeSection(data, regionSummary, china);
    const readme = fs.readFileSync(README_FILE, 'utf8').replace(
      /(<!--START_SECTION:region_summary-->)([\s\S]*)(<!--END_SECTION:region_summary-->)/,
      // function replacement so `$&`, `$'` etc. in remote data are not treated as patterns
