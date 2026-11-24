@@ -31,7 +31,11 @@ jobs:
         run: bash ./scripts/parser.sh update_data
       - name: "Start project"
         run: npm start
+      - name: "Test the package against the new data"
+        run: npm test
       - name: "Update AWS Region Data and Publish Changes to GitHub if changes are detected"
+        env:
+          GH_TOKEN: ${{ github.token }} # gh release create; the job's token already has contents: write
         run: bash ./scripts/parser.sh deploy
 
   # Separate job: it can publish to npm (OIDC) but cannot write to the repo,

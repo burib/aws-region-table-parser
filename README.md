@@ -21,13 +21,26 @@ npm i aws-region-table-parser
 ```
 
 ```js
-const { get, getRegionCodeToNameMap } = require('aws-region-table-parser');
+const regions = require('aws-region-table-parser');
 
-const data = await get();
-const inZurich = Object.values(data.services)
-  .filter((service) => service.regions.includes('eu-central-2'))
-  .map((service) => service.name);
+await regions.isServiceAvailable('AWS Lambda', 'eu-central-2'); // true
+await regions.getRegionsForService('Lambda');       // ['af-south-1', 'ap-east-1', ...]
+await regions.getServicesInRegion('eu-central-2');  // ['AD Connector', ...]
+await regions.getServiceNames();                    // every service name
+await regions.getRegionCodeToNameMap();             // { 'us-east-1': 'US East (N. Virginia)', ... }
+await regions.get();                                // everything, as in service_info.json
 ```
+
+Service names ignore case, and you can leave out "AWS" or "Amazon" when the name is still unique.
+An unknown service name throws an error that tells you which names exist.
+
+## Stay up to date
+
+Every change in AWS's data gets a [release](https://github.com/burib/aws-region-table-parser/releases) that lists what changed: new regions, new services, and services that reached more regions.
+
+- **GitHub:** at the top of this page, click **Watch** → **Custom** → **Releases** → **Apply**.
+- **RSS:** add `https://github.com/burib/aws-region-table-parser/releases.atom` to your feed reader.
+- **npm:** every release is also a new version of [`aws-region-table-parser`](https://www.npmjs.com/package/aws-region-table-parser).
 
 <!--START_SECTION:region_summary-->
 ### 199 Services
