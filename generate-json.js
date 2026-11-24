@@ -2,20 +2,21 @@ const fs = require('fs');
 const path = require('path');
 const awsRegionTableParser = require('./index.js');
 const { getChartSvg, THEMES } = require('./chart-generator.js');
-const { JSDOM } = require('jsdom');
+// Region code -> name from the AWS SDK's public region list (botocore). It covers the public partitions,
+// including AWS GovCloud (US), China and the AWS European Sovereign Cloud, and needs no AWS account.
+const BOTOCORE_ENDPOINTS = 'https://raw.githubusercontent.com/boto/botocore/develop/botocore/data/endpoints.json';
 
-// Scrape region code -> name from the AWS docs (build time only; jsdom is a dev dependency).
-async function fetchRegionNamesFromDocs() {
- const res = await fetch('https://docs.aws.amazon.com/general/latest/gr/rande.html', { signal: AbortSignal.timeout(30_000) });
- if (!res.ok) throw new Error(`docs.aws.amazon.com returned HTTP ${res.status}`);
- const doc = new JSDOM(await res.text()).window.document;
+async function fetchRegionNamesFromBotocore() {
+ const res = await fetch(BOTOCORE_ENDPOINTS, { signal: AbortSignal.timeout(30_000) });
+ if (!res.ok) throw new Error(`botocore endpoints.json returned HTTP ${res.status}`);
+ const { partitions } = await res.json();
  const map = {};
- doc.querySelectorAll('.table-container tr').forEach(row => {
-   const columns = row.querySelectorAll('td');
-   if (columns.length >= 2) {
-     map[columns[1].textContent.trim()] = columns[0].textContent.trim();
+ for (const partition of partitions || []) {
+   if (/^aws-iso/.test(partition.partition)) continue; // closed government partitions, never in the service data
+   for (const [code, region] of Object.entries(partition.regions || {})) {
+     if (/^[a-z0-9-]+$/.test(code) && typeof region.description === 'string') map[code] = region.description;
    }
- });
+ }
  return map;
 }
 
@@ -50,15 +51,15 @@ async function resolveRegionNames() {
  const localMap = await getLocalRegionMap();
  console.log('Loaded local region map');
 
- // 2. Try to fetch from HTML table
- let htmlMap = {};
+ // 2. Add regions the local map doesn't have yet
+ let remoteMap = {};
  try {
-   htmlMap = await fetchRegionNamesFromDocs();
-   console.log('Fetched region names from HTML');
+   remoteMap = await fetchRegionNamesFromBotocore();
+   console.log('Fetched region names from botocore');
 
    // Check for new regions and update local map
    let hasNewRegions = false;
-   Object.entries(htmlMap).forEach(([code, name]) => {
+   Object.entries(remoteMap).forEach(([code, name]) => {
      if (!localMap[code]) {
        localMap[code] = name;
        hasNewRegions = true;
@@ -71,7 +72,7 @@ async function resolveRegionNames() {
      await saveRegionMap(localMap);
    }
  } catch (error) {
-   console.error('Error fetching HTML region map:', error);
+   console.error('Error fetching region names from botocore:', error);
  }
 
  return localMap;

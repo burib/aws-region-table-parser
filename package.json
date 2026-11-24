@@ -13,11 +13,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "start": "node generate-json.js"
+    "start": "node generate-json.js",
+    "test": "node --test"
   },
   "devDependencies": {
-    "flag-icons": "7.6.0",
-    "jsdom": "31.0.1"
+    "flag-icons": "7.6.0"
   },
   "repository": {
     "type": "git",

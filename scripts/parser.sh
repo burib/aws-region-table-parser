@@ -11,6 +11,11 @@ function deploy() {
     echo "no changes in data directory.";
   else
       echo "changes detected.";
+      # release notes: what changed between the last committed data and the new data
+      local NOTES VERSION
+      NOTES=$(mktemp)
+      node "$DIR/changelog.js" <(git show HEAD:data/service_info.json) "$DATA_DIR/service_info.json" > "$NOTES"
+      cat "$NOTES"
       git config --global user.email "action@github.com"
       git config --global user.name "GitHub Action"
       # only stage the generated files, never anything else lying around in the workspace
@@ -20,6 +25,11 @@ function deploy() {
       npm version patch;
       # credentials come from actions/checkout; no --force, so a bad run can never rewrite history
       git push origin HEAD --follow-tags;
+      # a GitHub release lets people follow changes (Watch -> Releases, or the releases.atom feed);
+      # warn instead of failing so a release problem never blocks the npm publish
+      VERSION=$(node -p "require('$DIR/../package.json').version")
+      gh release create "v$VERSION" --title "v$VERSION" --notes-file "$NOTES" --verify-tag \
+        || echo "::warning::Could not create GitHub release v$VERSION"
   fi
 }
 

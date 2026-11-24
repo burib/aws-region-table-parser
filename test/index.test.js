@@ -1,0 +1,53 @@
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const parser = require('../index.js');
+
+test('get() returns the bundled data', async () => {
+  const data = await parser.get();
+  assert.ok(data.servicesCount > 100);
+  assert.ok(data.regionCodes.includes('us-east-1'));
+});
+
+test('getServiceNames() lists every service, sorted', async () => {
+  const names = await parser.getServiceNames();
+  const data = await parser.get();
+  assert.equal(names.length, Object.keys(data.services).length);
+  assert.deepEqual(names, [...names].sort((a, b) => a.localeCompare(b)));
+});
+
+test('getRegionsForService() finds a service by name, ignoring case', async () => {
+  const regions = await parser.getRegionsForService('aws lambda');
+  assert.ok(regions.includes('us-east-1'));
+  assert.equal(new Set(regions).size, regions.length, 'no duplicates');
+  assert.deepEqual(regions, [...regions].sort());
+});
+
+test('getRegionsForService() accepts the name without "AWS"/"Amazon"', async () => {
+  assert.deepEqual(await parser.getRegionsForService('Lambda'), await parser.getRegionsForService('AWS Lambda'));
+});
+
+test('getRegionsForService() throws a helpful error for an unknown service', async () => {
+  await assert.rejects(parser.getRegionsForService('Lamda'), /Unknown AWS service "Lamda"/);
+});
+
+test('getServicesInRegion() lists services in a region and [] for an unknown one', async () => {
+  const services = await parser.getServicesInRegion('us-east-1');
+  assert.ok(services.includes('AWS Lambda'));
+  assert.deepEqual(await parser.getServicesInRegion('xx-nowhere-1'), []);
+});
+
+test('isServiceAvailable() answers yes/no for a service and region', async () => {
+  assert.equal(await parser.isServiceAvailable('AWS Lambda', 'us-east-1'), true);
+  assert.equal(await parser.isServiceAvailable('AWS Lambda', 'xx-nowhere-1'), false);
+});
+
+test('getRegionCodeToNameMap() maps codes to names', async () => {
+  const map = await parser.getRegionCodeToNameMap();
+  assert.equal(map['us-east-1'], 'US East (N. Virginia)');
+});
+
+test('an exact name wins over the short form ("Security Hub" vs "AWS Security Hub" are separate services)', async () => {
+  const names = await parser.getServiceNames();
+  if (!names.includes('Security Hub') || !names.includes('AWS Security Hub')) return; // data changed upstream
+  assert.notDeepEqual(await parser.getRegionsForService('security hub'), await parser.getRegionsForService('AWS Security Hub'));
+});
