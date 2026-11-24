@@ -34,3 +34,12 @@ test('duplicate regions in old data are not reported as changes', () => {
   );
   assert.match(notes, /No availability changes/);
 });
+
+test('reports AWS China changes in their own sections', () => {
+  const same = data({ 'AWS Lambda': ['us-east-1'] });
+  const notes = changelog(same, same,
+    { services: { 'Amazon S3': ['cn-north-1'] } },
+    { services: { 'Amazon S3': ['cn-north-1', 'cn-northwest-1'], 'Amazon Glacier': ['cn-north-1'] } });
+  assert.match(notes, /### AWS China: New services\n\n- \*\*Amazon Glacier\*\* in 1 region/);
+  assert.match(notes, /### AWS China: Services available in more regions\n\n- \*\*Amazon S3\*\*: cn-northwest-1/);
+});
