@@ -1,6 +1,33 @@
 # aws-region-table-parser
-Currently AWS has no public information about the number of services it provides and service per region availability.
-This project is intended to provide a [human readable MARKDOWN](https://github.com/burib/aws-region-table-parser/blob/master/README.md) and a [machine readable JSON](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/region_info.json) format about the [service](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/service_info.json) and [per region statistics](https://github.com/burib/aws-region-table-parser/tree/master/data/region_info).
+
+Which AWS services are available in which AWS region, as JSON and as tables below.
+Updated daily from the data behind AWS's [services by region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) page.
+
+Includes AWS GovCloud (US) and the AWS European Sovereign Cloud. China regions are not in AWS's data, so they're not here.
+
+## Get the data
+
+| Data | JSON |
+| --- | --- |
+| Every service and the regions it's in | [service_info.json](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/service_info.json) |
+| Every region and the services it offers | [region_info.json](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/region_info.json) |
+| One region | [region_info/&lt;region&gt;.json](./data/region_info) |
+| Region code to name | [region_code_to_name_map.json](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/region_code_to_name_map.json) |
+
+Or from Node.js, with no dependencies:
+
+```sh
+npm i aws-region-table-parser
+```
+
+```js
+const { get, getRegionCodeToNameMap } = require('aws-region-table-parser');
+
+const data = await get();
+const inZurich = Object.values(data.services)
+  .filter((service) => service.regions.includes('eu-central-2'))
+  .map((service) => service.name);
+```
 
 <!--START_SECTION:region_summary-->
 ### 199 Services

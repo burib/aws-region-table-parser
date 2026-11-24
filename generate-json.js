@@ -1,9 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 const awsRegionTableParser = require('./index.js');
-const chartGenerator = require('./chart-generator.js');
+const { getChartSvg, THEMES } = require('./chart-generator.js');
+const { JSDOM } = require('jsdom');
 
-let regionNames = {};
+// Scrape region code -> name from the AWS docs (build time only; jsdom is a dev dependency).
+async function fetchRegionNamesFromDocs() {
+ const res = await fetch('https://docs.aws.amazon.com/general/latest/gr/rande.html', { signal: AbortSignal.timeout(30_000) });
+ if (!res.ok) throw new Error(`docs.aws.amazon.com returned HTTP ${res.status}`);
+ const doc = new JSDOM(await res.text()).window.document;
+ const map = {};
+ doc.querySelectorAll('.table-container tr').forEach(row => {
+   const columns = row.querySelectorAll('td');
+   if (columns.length >= 2) {
+     map[columns[1].textContent.trim()] = columns[0].textContent.trim();
+   }
+ });
+ return map;
+}
+
 const REGION_MAP_FILE = path.join(__dirname, 'region_code_to_name_map.json');
 
 // New function to read the local region map file
@@ -38,7 +53,7 @@ async function resolveRegionNames() {
  // 2. Try to fetch from HTML table
  let htmlMap = {};
  try {
-   htmlMap = await awsRegionTableParser.getRegionCodeToNameMap();
+   htmlMap = await fetchRegionNamesFromDocs();
    console.log('Fetched region names from HTML');
 
    // Check for new regions and update local map
@@ -62,119 +77,84 @@ async function resolveRegionNames() {
  return localMap;
 }
 
-function getRegionSummary(parseddata) {
- let regionSummary = {};
+// Names come from remote data; keep them from breaking the markdown table or injecting HTML.
+const md = (text) => String(text).replace(/[|<>\[\]]/g, (c) => ({ '|': '\\|', '<': '&lt;', '>': '&gt;', '[': '\\[', ']': '\\]' })[c]);
+const isSafeUrl = (url) => typeof url === 'string' && /^https?:\/\/[^\s()<>]+$/.test(url);
 
- Object.values(parseddata.services).forEach(service => {
-   service.regions.forEach(regionCode => {
-     if (!regionSummary[regionCode]) {
-       regionSummary[regionCode] = {
-         code: regionCode,
-         name: regionNames[regionCode] || regionCode,
-         count: 0
-       };
-     }
+const ASSETS_DIR = path.join(__dirname, 'assets');
+const README_FILE = path.join(__dirname, 'README.md');
 
-     regionSummary[regionCode].count += 1;
-   });
+// [{ code, name, count }] sorted by count, most services first
+function getRegionSummary(data, regionNames) {
+ const counts = {};
+ Object.values(data.services).forEach(service => {
+   new Set(service.regions).forEach(code => { counts[code] = (counts[code] || 0) + 1; });
  });
-
- return regionSummary;
+ return Object.entries(counts)
+   .map(([code, count]) => ({ code, name: regionNames[code] || code, count }))
+   .sort((a, b) => b.count - a.count || a.code.localeCompare(b.code));
 }
 
-const sortArrayByProp = (array, prop, asc = true) => {
- return array.sort((a, b) => {
-   return asc ? a[prop] - b[prop] : b[prop] - a[prop];
+// "all", "all except a, b" or "a, b, c", whichever is shortest
+function describeRegions(regions, allRegions) {
+ if (regions.length === allRegions.length) return 'all';
+ if (regions.length > allRegions.length / 2) {
+   return 'all except ' + allRegions.filter(r => !regions.includes(r)).join(', ');
+ }
+ return regions.join(', ');
+}
+
+function buildReadmeSection(data, regionSummary) {
+ const allRegions = data.regionCodes;
+ const lines = [];
+
+ lines.push(`**${data.servicesCount} services** in **${data.regionsCount} regions** · data as of ${new Date().toISOString().slice(0, 10)}`, '');
+
+ lines.push('## Services per region', '');
+ lines.push('<p>', '<picture>');
+ lines.push('  <source media="(prefers-color-scheme: dark)" srcset="./assets/services-per-region-dark.svg">');
+ lines.push('  <img alt="Number of AWS services available in each region" src="./assets/services-per-region-light.svg">');
+ lines.push('</picture>', '</p>', '');
+ lines.push('| Region | Name | Services |', '| --- | --- | ---: |');
+ regionSummary.forEach(r => {
+   lines.push(`| [${md(r.code)}](./data/region_info/${encodeURIComponent(r.code)}.json) | ${md(r.name)} | ${r.count} |`);
  });
-};
+ lines.push('');
 
-async function generateRegionSummaryMarkdown(parseddata) {
- const regionSummary = sortArrayByProp(Object.values(parseddata.regionSummary), 'count', false);
+ lines.push('## Where each service is available', '');
+ lines.push('| Service | Regions | Where |', '| --- | ---: | --- |');
+ Object.values(data.services)
+   .map(s => ({ ...s, regions: [...new Set(s.regions)].sort() }))
+   .sort((a, b) => a.name.localeCompare(b.name))
+   .forEach(s => {
+     const name = isSafeUrl(s.url) ? `[${md(s.name)}](${s.url})` : md(s.name);
+     lines.push(`| ${name} | ${s.regions.length} | ${describeRegions(s.regions, allRegions)} |`);
+   });
 
- const chartConfig = {
-   "type": "bar",
-   "data": {
-     "labels": [],
-     "datasets": [
-       {
-         "label": "Regions",
-         "backgroundColor": ["#7f0000", "#330000", "#ff2200", "#d97b6c", "#d9b1a3", "#a64200", "#331400", "#66381a", "#99754d", "#cc8800", "#33260d", "#ffeabf", "#5f6600", "#a3bf30", "#20331a", "#c8ffbf", "#40ff59", "#1d733f", "#66ccb8", "#39736f", "#80e6ff", "#002233", "#267399", "#80b3ff", "#0044ff", "#405180", "#241966", "#8273e6", "#ad00d9", "#daace6", "#ff80f6", "#661a4d", "#ff80b3", "#ff0044", "#a6294b", "#73565e"],
-         "data": []
-       }
-     ]
-   },
-   "options": {
-     "legend": { "display": false },
-     "title": {
-       "display": true,
-       "text": "No. of supported services per region."
-     }
-   }
- };
-
- let markdownTable = `### Summary # \n`;
- markdownTable += `| Region Code | Region Name | no. of Supported Services | \n`;
- markdownTable += `| ------ | -------- | -------- | \n`;
- regionSummary.forEach(region => {
-   markdownTable += `| [${region.code}](./data/region_info/${region.code}.json) | ${region.name} | ${region.count} |\n`;
-
-   chartConfig.data.labels.push(`${region.code}`);
-   chartConfig.data.datasets[0].data.push(region.count);
- });
-
- markdownTable += `\n\n`;
-
- const chartUrl = await chartGenerator.getChartUrl(chartConfig);
- markdownTable += "### Number of Supported Services Per Region\n\n";
- markdownTable += `<img src='${chartUrl}'>\n\n`;
- return markdownTable;
+ return lines.join('\n');
 }
 
 async function main() {
  try {
-   // Get region names with new resolution strategy
    console.log('Resolving region names...');
-   regionNames = await resolveRegionNames();
-   console.log('Region names resolved');
+   const regionNames = await resolveRegionNames();
 
-   const servicesAndRegions = await awsRegionTableParser.get();
-   console.log('Services and regions data fetched');
+   const data = await awsRegionTableParser.get();
+   const regionSummary = getRegionSummary(data, regionNames);
 
-   servicesAndRegions.regionSummary = getRegionSummary(servicesAndRegions);
-
-   let READMEheader = `### ${servicesAndRegions.servicesCount.toString().padStart(3)} Services\n\n`;
-   READMEheader += `### ${servicesAndRegions.regionsCount.toString().padStart(3)} Regions \n`;
-
-   READMEheader += await generateRegionSummaryMarkdown(servicesAndRegions);
-   READMEheader += `# Region and Service Table # \n`;
-
-   const regionCodes = servicesAndRegions.regionCodes;
-
-   READMEheader += `| Service | ${regionCodes.join(' | ')} |\n`;
-   READMEheader += `| ------------- | ${regionCodes.map(() => '-------------').join(' | ')} |\n`;
-
-   const READMErows = [];
-
-   Object.entries(servicesAndRegions.services).forEach(([serviceCode, serviceData]) => {
-     const serviceName = servicesAndRegions.serviceNames[serviceCode];
-     const regionChecks = regionCodes.map(regionCode =>
-       serviceData.regions.includes(regionCode) ? ':white_check_mark:' : ':x:'
-     );
-
-     const row = `| ${serviceName} | ${regionChecks.join(' | ')} |`;
-     READMErows.push(row);
+   fs.mkdirSync(ASSETS_DIR, { recursive: true });
+   THEMES.forEach(theme => {
+     fs.writeFileSync(path.join(ASSETS_DIR, `services-per-region-${theme}.svg`), getChartSvg(regionSummary, theme), 'utf8');
    });
+   console.log('Charts written');
 
-   const READMEtext = `${READMEheader}${READMErows.join('\n')}`;
-
-   const README_FILE_PATH = path.join(__dirname, 'README.md');
-   let README_FILE_CONTEXT = fs.readFileSync(README_FILE_PATH, 'utf8');
-   README_FILE_CONTEXT = README_FILE_CONTEXT.replace(
+   const section = buildReadmeSection(data, regionSummary);
+   const readme = fs.readFileSync(README_FILE, 'utf8').replace(
      /(<!--START_SECTION:region_summary-->)([\s\S]*)(<!--END_SECTION:region_summary-->)/,
-     `$1\n${READMEtext}\n$3`
+     // function replacement so `$&`, `$'` etc. in remote data are not treated as patterns
+     (_, start, _old, end) => `${start}\n${section}\n${end}`
    );
-
-   fs.writeFileSync(README_FILE_PATH, README_FILE_CONTEXT, 'utf8');
+   fs.writeFileSync(README_FILE, readme, 'utf8');
    console.log('README.md updated successfully');
  } catch (error) {
    console.error('Error:', error);
