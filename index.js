@@ -1,41 +1,43 @@
-const jsdom = require('jsdom');
-const { JSDOM } = jsdom;
-//const fetch = require('node-fetch');  // Make sure to install if not already present
+// Data is regenerated daily from AWS and bundled with the package, so no network or dependencies are needed.
+const data = () => require('./data/service_info.json');
+
+const normalize = (name) => String(name).trim().toLowerCase();
+const withoutVendor = (name) => normalize(name).replace(/^(aws|amazon)\s+/, '');
+
+// Finds a service by its name, ignoring case. "Lambda" also finds "AWS Lambda" when that is unambiguous.
+function findService(serviceName) {
+  const services = Object.values(data().services);
+  const exact = services.find((s) => normalize(s.name) === normalize(serviceName));
+  if (exact) return exact;
+
+  const loose = services.filter((s) => withoutVendor(s.name) === withoutVendor(serviceName));
+  if (loose.length === 1) return loose[0];
+
+  const hint = loose.length > 1 ? ` Did you mean one of: ${loose.map((s) => s.name).join(', ')}?` : '';
+  throw new Error(`Unknown AWS service "${serviceName}".${hint} See getServiceNames() for all names.`);
+}
+
+const regionsOf = (service) => [...new Set(service.regions)].sort();
 
 module.exports = {
-  get: function() {
-    const promise = new Promise(function(resolve, reject) {
-      resolve(require('./data/service_info.json'));
-    });
+  // { servicesCount, services, serviceNames, regionCodes, regionsCount }
+  get: () => Promise.resolve(data()),
 
-    return promise;
-  },
+  // { "us-east-1": "US East (N. Virginia)", ... }
+  getRegionCodeToNameMap: () => Promise.resolve(require('./region_code_to_name_map.json')),
 
-  getRegionCodeToNameMap: function() {
-    return new Promise(async function(resolve, reject) {
-        const regionCodeToNameMap = {};
-        try {
-            const htmlContent = await fetch('https://docs.aws.amazon.com/general/latest/gr/rande.html').then(res => res.text());
-            const dom = new JSDOM(htmlContent);
-            const doc = dom.window.document;
-            const table = doc.querySelector('.table-container');
+  // ["AD Connector", "AWS Lambda", ...]
+  getServiceNames: async () => Object.values(data().services).map((s) => s.name).sort((a, b) => a.localeCompare(b)),
 
-            if (table) {
-                const rows = table.querySelectorAll('tr');
-                rows.forEach(row => {
-                    const columns = row.querySelectorAll('td');
-                    if (columns.length >= 2) {
-                        const regionName = columns[0].textContent.trim();
-                        const regionCode = columns[1].textContent.trim();
-                        regionCodeToNameMap[regionCode] = regionName;
-                    }
-                });
-            }
+  // getRegionsForService('AWS Lambda') -> ["af-south-1", "ap-east-1", ...]
+  getRegionsForService: async (serviceName) => regionsOf(findService(serviceName)),
 
-            resolve(regionCodeToNameMap);
-        } catch (error) {
-            reject(error);
-        }
-    });
-  }
+  // getServicesInRegion('eu-central-2') -> ["AD Connector", ...]; [] for an unknown region
+  getServicesInRegion: async (regionCode) => Object.values(data().services)
+    .filter((s) => s.regions.includes(regionCode))
+    .map((s) => s.name)
+    .sort((a, b) => a.localeCompare(b)),
+
+  // isServiceAvailable('AWS Lambda', 'eu-central-2') -> true
+  isServiceAvailable: async (serviceName, regionCode) => findService(serviceName).regions.includes(regionCode),
 };

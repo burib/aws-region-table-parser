@@ -1,34 +1,68 @@
 name: "Parse Regions Data"
 
 permissions:
-  id-token: write # Setting the permissions to write is required in order to request an OpenID Connect JWT Token as described in the docs.
-  contents: write # This is required for actions/checkout
-  pull-requests: write # This is required for actions/checkout
+  contents: read
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '7 5 * * *' # 05:07 Zurich time; off the full hour, which GitHub often delays
+      timezone: 'Europe/Zurich'
+
+concurrency:
+  group: parse-regions-data
+  cancel-in-progress: false
 
 jobs:
   parse_data:
     name: "Parse Data File For Changes"
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # commit and push updated data + version tag
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
+          node-version: 24
           cache: 'npm'
-      - name: "set env variables"
-        id: set_env_vars
-        uses: buricloud/github-workflows/.github/actions/github_tools/set_env_vars@main
       - name: "Install dependencies"
-        run: npm ci
+        run: npm ci --ignore-scripts
       - name: "Run parser script"
         run: bash ./scripts/parser.sh update_data
       - name: "Start project"
         run: npm start
+      - name: "Test the package against the new data"
+        run: npm test
       - name: "Update AWS Region Data and Publish Changes to GitHub if changes are detected"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }} # gh release create; the job's token already has contents: write
         run: bash ./scripts/parser.sh deploy
+
+  # Separate job: it can publish to npm (OIDC) but cannot write to the repo,
+  # and it never runs the scraping code. Tags pushed with GITHUB_TOKEN don't
+  # trigger other workflows, so publishing has to live here.
+  publish_npm:
+    name: "Publish to npm if npm is behind"
+    needs: parse_data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # npm trusted publishing + provenance, no long-lived token
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref }} # branch head, including the version bump just pushed
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - name: "Publish"
+        run: |
+          LOCAL=$(node -p 'require("./package.json").version')
+          PUBLISHED=$(npm view aws-region-table-parser version)
+          if [ "$LOCAL" = "$PUBLISHED" ]; then
+            echo "npm already has $LOCAL"
+            exit 0
+          fi
+          echo "publishing $LOCAL (npm has $PUBLISHED)"
+          npm publish --provenance --access public --ignore-scripts

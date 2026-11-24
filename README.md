@@ -1,6 +1,46 @@
 # aws-region-table-parser
-Currently AWS has no public information about the number of services it provides and service per region availability.
-This project is intended to provide a [human readable MARKDOWN](https://github.com/burib/aws-region-table-parser/blob/master/README.md) and a [machine readable JSON](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/region_info.json) format about the [service](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/service_info.json) and [per region statistics](https://github.com/burib/aws-region-table-parser/tree/master/data/region_info).
+
+Which AWS services are available in which AWS region, as JSON and as tables below.
+Updated daily from the data behind AWS's [services by region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) page.
+
+Includes AWS GovCloud (US) and the AWS European Sovereign Cloud. China regions are not in AWS's data, so they're not here.
+
+## Get the data
+
+| Data | JSON |
+| --- | --- |
+| Every service and the regions it's in | [service_info.json](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/service_info.json) |
+| Every region and the services it offers | [region_info.json](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/data/region_info.json) |
+| One region | [region_info/&lt;region&gt;.json](./data/region_info) |
+| Region code to name | [region_code_to_name_map.json](https://raw.githubusercontent.com/burib/aws-region-table-parser/master/region_code_to_name_map.json) |
+
+Or from Node.js, with no dependencies:
+
+```sh
+npm i aws-region-table-parser
+```
+
+```js
+const regions = require('aws-region-table-parser');
+
+await regions.isServiceAvailable('AWS Lambda', 'eu-central-2'); // true
+await regions.getRegionsForService('Lambda');       // ['af-south-1', 'ap-east-1', ...]
+await regions.getServicesInRegion('eu-central-2');  // ['AD Connector', ...]
+await regions.getServiceNames();                    // every service name
+await regions.getRegionCodeToNameMap();             // { 'us-east-1': 'US East (N. Virginia)', ... }
+await regions.get();                                // everything, as in service_info.json
+```
+
+Service names ignore case, and you can leave out "AWS" or "Amazon" when the name is still unique.
+An unknown service name throws an error that tells you which names exist.
+
+## Stay up to date
+
+Every change in AWS's data gets a [release](https://github.com/burib/aws-region-table-parser/releases) that lists what changed: new regions, new services, and services that reached more regions.
+
+- **GitHub:** at the top of this page, click **Watch** → **Custom** → **Releases** → **Apply**.
+- **RSS:** add `https://github.com/burib/aws-region-table-parser/releases.atom` to your feed reader.
+- **npm:** every release is also a new version of [`aws-region-table-parser`](https://www.npmjs.com/package/aws-region-table-parser).
 
 <!--START_SECTION:region_summary-->
 ### 199 Services
