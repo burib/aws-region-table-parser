@@ -44,7 +44,7 @@ Every change in AWS's data gets a [release](https://github.com/burib/aws-region-
 - **npm:** every release is also a new version of [`aws-region-table-parser`](https://www.npmjs.com/package/aws-region-table-parser).
 
 <!--START_SECTION:region_summary-->
-**200 services** in **37 regions** · data as of 2026-11-24
+**200 services** in **37 regions**, plus [AWS China](#aws-china) with 121 services in 2 regions · data as of 2026-11-25
 
 ## Services per region
 
@@ -94,6 +94,8 @@ Every change in AWS's data gets a [release](https://github.com/burib/aws-region-
 | [mx-central-1](./data/region_info/mx-central-1.json) | Mexico (Central) | 126 |
 | [ap-east-2](./data/region_info/ap-east-2.json) | Asia Pacific (Taipei) | 121 |
 | [eusc-de-east-1](./data/region_info/eusc-de-east-1.json) | AWS European Sovereign Cloud (Germany) | 113 |
+| [cn-north-1](./data/region_info/cn-north-1.json) | China (Beijing) | 112 |
+| [cn-northwest-1](./data/region_info/cn-northwest-1.json) | China (Ningxia) | 112 |
 
 ## Where each service is available
 
@@ -299,4 +301,132 @@ Every change in AWS's data gets a [release](https://github.com/burib/aws-region-
 | [Security Hub](https://aws.amazon.com/security-hub/) | 34 | all except ap-east-2, ap-southeast-6, eusc-de-east-1 |
 | [Security Hub CSPM](https://aws.amazon.com/security-hub/) | 37 | all |
 | [Service Quotas](https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html) | 37 | all |
+
+## AWS China
+
+Beijing (cn-north-1) and Ningxia (cn-northwest-1) are not in AWS's global data. This list comes from [AWS China](https://www.amazonaws.cn/en/about-aws/regional-product-services/) and uses its own service names, which often differ from the names above.
+
+| Service | Beijing | Ningxia |
+| --- | :---: | :---: |
+| Amazon API Gateway | ✓ | ✓ |
+| Amazon App Mesh | ✓ | ✓ |
+| Amazon AppSync | ✓ | ✓ |
+| Amazon Athena | ✓ | ✓ |
+| Amazon Aurora - MySQL-compatible | ✓ | ✓ |
+| Amazon Aurora - PostgreSQL-compatible | ✓ | ✓ |
+| Amazon Backup | ✓ | ✓ |
+| Amazon Batch | ✓ | ✓ |
+| Amazon Budgets |  | ✓ |
+| Amazon Certificate Manager | ✓ | ✓ |
+| Amazon Cloud Control API | ✓ | ✓ |
+| Amazon Cloud Map | ✓ | ✓ |
+| Amazon CloudFormation | ✓ | ✓ |
+| Amazon CloudFront (Discontinuing May 31, 2027) |  | ✓ |
+| Amazon CloudTrail | ✓ | ✓ |
+| Amazon CloudWatch | ✓ | ✓ |
+| Amazon CloudWatch Events | ✓ | ✓ |
+| Amazon CloudWatch Logs | ✓ | ✓ |
+| Amazon CodeBuild | ✓ | ✓ |
+| Amazon CodeCommit | ✓ | ✓ |
+| Amazon CodeDeploy | ✓ | ✓ |
+| Amazon CodePipeline | ✓ | ✓ |
+| Amazon Cognito | ✓ |  |
+| Amazon Compute Optimizer | ✓ | ✓ |
+| Amazon Config | ✓ | ✓ |
+| Amazon Cost & Usage Report |  | ✓ |
+| Amazon Cost Explorer |  | ✓ |
+| Amazon Data Firehose | ✓ | ✓ |
+| Amazon Database Migration Service | ✓ | ✓ |
+| Amazon DataSync | ✓ | ✓ |
+| Amazon Deep Learning AMis | ✓ |  |
+| Amazon Direct Connect | ✓ | ✓ |
+| Amazon Directory Service | ✓ | ✓ |
+| Amazon DocumentDB (with MongoDB compatibility) | ✓ | ✓ |
+| Amazon DynamoDB | ✓ | ✓ |
+| Amazon EC2 Auto Scaling | ✓ | ✓ |
+| Amazon Elastic Beanstalk | ✓ | ✓ |
+| Amazon Elastic Block Store (EBS) | ✓ | ✓ |
+| Amazon Elastic Compute Cloud (EC2) | ✓ | ✓ |
+| Amazon Elastic Container Registry (ECR) | ✓ | ✓ |
+| Amazon Elastic Container Service (ECS) | ✓ | ✓ |
+| Amazon Elastic File System(EFS) | ✓ | ✓ |
+| Amazon Elastic Kubernetes Service (EKS) | ✓ | ✓ |
+| Amazon Elastic MapReduce (EMR) | ✓ | ✓ |
+| Amazon ElastiCache | ✓ | ✓ |
+| Amazon EventBridge | ✓ | ✓ |
+| Amazon Fargate | ✓ | ✓ |
+| Amazon Firewall Manager | ✓ | ✓ |
+| Amazon FreeRTOS | ✓ | ✓ |
+| Amazon FSx for Lustre | ✓ | ✓ |
+| Amazon FSx for NetApp ONTAP | ✓ | ✓ |
+| Amazon FSx for OpenZFS | ✓ | ✓ |
+| Amazon FSx for Windows File Server | ✓ | ✓ |
+| Amazon GameLift | ✓ | ✓ |
+| Amazon Glacier | ✓ | ✓ |
+| Amazon Glue | ✓ | ✓ |
+| Amazon GuardDuty | ✓ | ✓ |
+| Amazon Health Dashboard | ✓ | ✓ |
+| Amazon IAM Identity Center | ✓ | ✓ |
+| Amazon Identity and Access Management (IAM) | ✓ | ✓ |
+| Amazon Inspector | ✓ | ✓ |
+| Amazon IoT Core | ✓ | ✓ |
+| Amazon IoT Device Defender | ✓ | ✓ |
+| Amazon IoT Device Management | ✓ | ✓ |
+| Amazon IoT Events | ✓ |  |
+| Amazon IoT Greengrass | ✓ |  |
+| Amazon IoT Sitewise | ✓ |  |
+| Amazon IoT TwinMaker | ✓ |  |
+| Amazon Key Management Service(KMS) | ✓ | ✓ |
+| Amazon Keyspaces | ✓ | ✓ |
+| Amazon Kinesis Streams | ✓ | ✓ |
+| Amazon Kinesis Video Streams | ✓ |  |
+| Amazon Lake Formation | ✓ | ✓ |
+| Amazon Lambda | ✓ | ✓ |
+| Amazon Launch Wizard | ✓ | ✓ |
+| Amazon License Manager | ✓ | ✓ |
+| Amazon Managed Service for Apache Flink | ✓ | ✓ |
+| Amazon Managed Streaming for Apache Kafka (Amazon MSK) | ✓ | ✓ |
+| Amazon Managed Workflows for Apache Airflow (Amazon MWAA) | ✓ | ✓ |
+| Amazon MemoryDB | ✓ | ✓ |
+| Amazon MQ | ✓ | ✓ |
+| Amazon Neptune | ✓ | ✓ |
+| Amazon Network Firewall | ✓ | ✓ |
+| Amazon OpenSearch Service (successor to Amazon Elasticsearch Service) | ✓ | ✓ |
+| Amazon Organizations | ✓ | ✓ |
+| Amazon Personalize | ✓ |  |
+| Amazon Polly |  | ✓ |
+| Amazon Private Certificate Authority | ✓ | ✓ |
+| Amazon PrivateLink | ✓ | ✓ |
+| Amazon QuickSight | ✓ |  |
+| Amazon Redshift | ✓ | ✓ |
+| Amazon Relational Database Service (RDS) | ✓ | ✓ |
+| Amazon Resource Access Manager | ✓ | ✓ |
+| Amazon Resource Explorer | ✓ | ✓ |
+| Amazon Route 53 |  | ✓ |
+| Amazon SageMaker | ✓ | ✓ |
+| Amazon Secrets Manager | ✓ | ✓ |
+| Amazon Security Hub | ✓ | ✓ |
+| Amazon Serverless Application Repository | ✓ | ✓ |
+| Amazon Service Catalog | ✓ | ✓ |
+| Amazon Simple Notification Service (SNS) | ✓ | ✓ |
+| Amazon Simple Queue Service (SQS) | ✓ | ✓ |
+| Amazon Simple Storage Service (S3) | ✓ | ✓ |
+| Amazon Simple Workflow Service (SWF) | ✓ | ✓ |
+| Amazon Step Functions | ✓ | ✓ |
+| Amazon Storage Gateway | ✓ | ✓ |
+| Amazon Systems Manager | ✓ | ✓ |
+| Amazon Timestream | ✓ | ✓ |
+| Amazon Transcribe | ✓ | ✓ |
+| Amazon Transfer Family | ✓ | ✓ |
+| Amazon Transit Gateway | ✓ | ✓ |
+| Amazon Trusted Advisor | ✓ | ✓ |
+| Amazon Verified Permissions | ✓ | ✓ |
+| Amazon Virtual Private Cloud (VPC) | ✓ | ✓ |
+| Amazon WAF | ✓ | ✓ |
+| Amazon Web Services Marketplace |  | ✓ |
+| Amazon Web Services Support | ✓ | ✓ |
+| Amazon Workspaces |  | ✓ |
+| Amazon X-Ray | ✓ | ✓ |
+| AWS Elemental MediaConvert |  | ✓ |
+| Elastic Load Balancing (ELB) | ✓ | ✓ |
 <!--END_SECTION:region_summary-->

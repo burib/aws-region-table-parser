@@ -1,0 +1,476 @@
+{
+  "source": "https://www.amazonaws.cn/en/about-aws/regional-product-services/",
+  "regionCodes": [
+    "cn-north-1",
+    "cn-northwest-1"
+  ],
+  "servicesCount": 121,
+  "services": {
+    "Amazon API Gateway": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon App Mesh": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon AppSync": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Athena": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Aurora - MySQL-compatible": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Aurora - PostgreSQL-compatible": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Backup": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Batch": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Budgets": [
+      "cn-northwest-1"
+    ],
+    "Amazon Certificate Manager": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Cloud Control API": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Cloud Map": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CloudFormation": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CloudFront (Discontinuing May 31, 2027)": [
+      "cn-northwest-1"
+    ],
+    "Amazon CloudTrail": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CloudWatch": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CloudWatch Events": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CloudWatch Logs": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CodeBuild": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CodeCommit": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CodeDeploy": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon CodePipeline": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Cognito": [
+      "cn-north-1"
+    ],
+    "Amazon Compute Optimizer": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Config": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Cost & Usage Report": [
+      "cn-northwest-1"
+    ],
+    "Amazon Cost Explorer": [
+      "cn-northwest-1"
+    ],
+    "Amazon Data Firehose": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Database Migration Service": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon DataSync": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Deep Learning AMis": [
+      "cn-north-1"
+    ],
+    "Amazon Direct Connect": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Directory Service": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon DocumentDB (with MongoDB compatibility)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon DynamoDB": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon EC2 Auto Scaling": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic Beanstalk": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic Block Store (EBS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic Compute Cloud (EC2)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic Container Registry (ECR)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic Container Service (ECS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic File System(EFS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic Kubernetes Service (EKS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Elastic MapReduce (EMR)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon ElastiCache": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon EventBridge": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Fargate": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Firewall Manager": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon FreeRTOS": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon FSx for Lustre": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon FSx for NetApp ONTAP": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon FSx for OpenZFS": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon FSx for Windows File Server": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon GameLift": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Glacier": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Glue": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon GuardDuty": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Health Dashboard": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon IAM Identity Center": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Identity and Access Management (IAM)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Inspector": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon IoT Core": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon IoT Device Defender": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon IoT Device Management": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon IoT Events": [
+      "cn-north-1"
+    ],
+    "Amazon IoT Greengrass": [
+      "cn-north-1"
+    ],
+    "Amazon IoT Sitewise": [
+      "cn-north-1"
+    ],
+    "Amazon IoT TwinMaker": [
+      "cn-north-1"
+    ],
+    "Amazon Key Management Service(KMS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Keyspaces": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Kinesis Streams": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Kinesis Video Streams": [
+      "cn-north-1"
+    ],
+    "Amazon Lake Formation": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Lambda": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Launch Wizard": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon License Manager": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Managed Service for Apache Flink": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Managed Streaming for Apache Kafka (Amazon MSK)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Managed Workflows for Apache Airflow (Amazon MWAA)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon MemoryDB": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon MQ": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Neptune": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Network Firewall": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Organizations": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Personalize": [
+      "cn-north-1"
+    ],
+    "Amazon Polly": [
+      "cn-northwest-1"
+    ],
+    "Amazon Private Certificate Authority": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon PrivateLink": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon QuickSight": [
+      "cn-north-1"
+    ],
+    "Amazon Redshift": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Relational Database Service (RDS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Resource Access Manager": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Resource Explorer": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Route 53": [
+      "cn-northwest-1"
+    ],
+    "Amazon SageMaker": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Secrets Manager": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Security Hub": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Serverless Application Repository": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Service Catalog": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Simple Notification Service (SNS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Simple Queue Service (SQS)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Simple Storage Service (S3)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Simple Workflow Service (SWF)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Step Functions": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Storage Gateway": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Systems Manager": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Timestream": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Transcribe": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Transfer Family": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Transit Gateway": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Trusted Advisor": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Verified Permissions": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Virtual Private Cloud (VPC)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon WAF": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Web Services Marketplace": [
+      "cn-northwest-1"
+    ],
+    "Amazon Web Services Support": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "Amazon Workspaces": [
+      "cn-northwest-1"
+    ],
+    "Amazon X-Ray": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ],
+    "AWS Elemental MediaConvert": [
+      "cn-northwest-1"
+    ],
+    "Elastic Load Balancing (ELB)": [
+      "cn-north-1",
+      "cn-northwest-1"
+    ]
+  }
+}
