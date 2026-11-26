@@ -1,6 +1,6 @@
 {
   "name": "aws-region-table-parser",
-  "version": "2.0.526",
+  "version": "2.0.527",
   "description": "AWS services and their availability in every AWS region, as JSON. Updated daily from AWS.",
   "main": "index.js",
   "author": "Balazs Buri",
