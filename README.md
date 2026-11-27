@@ -44,7 +44,7 @@ Every change in AWS's data gets a [release](https://github.com/burib/aws-region-
 - **npm:** every release is also a new version of [`aws-region-table-parser`](https://www.npmjs.com/package/aws-region-table-parser).
 
 <!--START_SECTION:region_summary-->
-**200 services** in **37 regions**, plus [AWS China](#aws-china) with 121 services in 2 regions · data as of 2026-11-26
+**200 services** in **37 regions**, plus [AWS China](#aws-china) with 121 services in 2 regions · data as of 2026-11-27
 
 ## Services per region
 
